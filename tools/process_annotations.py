@@ -11,10 +11,16 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from brainlib import ROOT, today, slugify
 
 REACT = {"⭐": "important", "🙂": "more_like_this", "❌": "not_useful"}
-DEEP_RE = re.compile(r">>\s*(research (this )?(deeper|more)|go deep)", re.I)
-STOP_RE = re.compile(r">>\s*(stop covering|don'?t show|do not show)", re.I)
-WRONG_RE = re.compile(r">>\s*(wrong|incorrect|this was wrong)", re.I)
-WATCH_RE = re.compile(r">>\s*(make|create).*(watch)", re.I)
+# keyword annotations may appear bare on a line or after `>>` (docs: READING_AND_ANNOTATING)
+KW = r"(?:>>\s*)?"
+DEEP_RE = re.compile(KW + r"(DEEPER\b|research (this )?(deeper|more)|go deep)", re.I)
+STOP_RE = re.compile(KW + r"(STOP COVERING|stop covering|don'?t show|do not show)")
+WRONG_RE = re.compile(KW + r"(INCORRECT\b|CORRECTION\b|wrong|this was wrong)")
+WATCH_RE = re.compile(KW + r"(WATCH\b|(make|create).*watch)", re.I)
+QUESTION_RE = re.compile(KW + r"QUESTION[:\s]")
+REMEMBER_RE = re.compile(KW + r"REMEMBER THIS[:\s]?")
+FORGET_RE = re.compile(KW + r"FORGET THIS[:\s]?")
+CHANGEPREF_RE = re.compile(KW + r"CHANGE PREFERENCE[:\s]?")
 
 
 def current_section_item(lines, i):
@@ -47,16 +53,27 @@ def main():
             if mark in line:
                 item = item or current_section_item(lines, i)
                 actions.append(("evidence", kind, item, line.strip()[:160]))
-        if line.strip().startswith(">>"):
+        s = line.strip()
+        kw_hit = any(r.match(s) for r in (STOP_RE, DEEP_RE, WATCH_RE, WRONG_RE,
+                                          QUESTION_RE, REMEMBER_RE, FORGET_RE, CHANGEPREF_RE))
+        if s.startswith(">>") or kw_hit:
             item = current_section_item(lines, i)
-            note = line.strip()[2:].strip()
-            if STOP_RE.match(line.strip()):
+            note = s[2:].strip() if s.startswith(">>") else s
+            if STOP_RE.match(s):
                 actions.append(("stop_covering", "explicit", item, note))
-            elif DEEP_RE.match(line.strip()):
+            elif FORGET_RE.match(s):
+                actions.append(("forget_request", "explicit", item, note))
+            elif REMEMBER_RE.match(s):
+                actions.append(("remember", "explicit", item, note))
+            elif CHANGEPREF_RE.match(s):
+                actions.append(("change_preference", "explicit", item, note))
+            elif QUESTION_RE.match(s):
+                actions.append(("brendan_question", "explicit", item, note))
+            elif DEEP_RE.match(s):
                 actions.append(("followup_task", "deep", item, note))
-            elif WATCH_RE.match(line.strip()):
+            elif WATCH_RE.match(s):
                 actions.append(("create_watch", "explicit", item, note))
-            elif WRONG_RE.match(line.strip()):
+            elif WRONG_RE.match(s):
                 actions.append(("correction", "flag", item, note))
             else:
                 actions.append(("evidence", "comment", item, note))
@@ -72,7 +89,7 @@ def main():
     ev = open(ev_path, encoding="utf-8").read()
     new_ev = ""
     for kind, sub, item, note in actions:
-        if kind in ("evidence", "correction", "stop_covering"):
+        if kind in ("evidence", "correction", "stop_covering", "remember", "change_preference"):
             new_ev += f"- {a.date} | {sub} | {item} | edition-{a.date} | {note}\n"
         if kind == "correction":
             subprocess.run([sys.executable, os.path.join(ROOT, "tools", "new_task.py"),
@@ -91,6 +108,35 @@ def main():
                             "--title", f"Watch: {item}", "--domain", "general",
                             "--request", f"Brendan asked for a watch ({a.date}): '{note}'.",
                             "--recurrence", "watch", "--publish", "newspaper"], check=True)
+        if kind == "brendan_question":
+            subprocess.run([sys.executable, os.path.join(ROOT, "tools", "new_task.py"),
+                            "--title", f"Answer Brendan's question: {item}", "--domain", "general",
+                            "--request", f"Brendan asked in edition {a.date}: '{note}'. Answer "
+                            f"from the Brain where possible; research if needed; publish the "
+                            f"answer in the next edition.", "--urgency", "high",
+                            "--publish", "newspaper"], check=True)
+        if kind == "remember":
+            subprocess.run([sys.executable, os.path.join(ROOT, "tools", "new_task.py"),
+                            "--title", f"Capture durable knowledge: {item}", "--domain", "general",
+                            "--request", f"Brendan marked REMEMBER THIS in edition {a.date}: "
+                            f"'{note}'. Write a knowledge artifact (SCHEMAS.md) with "
+                            f"derived_from pointing at the edition item; correct domain + "
+                            f"sensitivity.", "--urgency", "high"], check=True)
+        if kind == "forget_request":
+            subprocess.run([sys.executable, os.path.join(ROOT, "tools", "new_task.py"),
+                            "--title", f"Forgetting request: {item}", "--domain", "general",
+                            "--request", f"Brendan marked FORGET THIS in edition {a.date}: "
+                            f"'{note}'. Run the brain-forget PLAN phase and present it to "
+                            f"Brendan. NEVER execute deletion without his confirmation.",
+                            "--urgency", "urgent"], check=True)
+        if kind == "change_preference":
+            ip = os.path.join(ROOT, "preferences", "PROPOSED_RULES.md")
+            t = open(ip, encoding="utf-8").read()
+            marker = "## Proposals awaiting evidence or approval"
+            prop = (f"- PROPOSAL ({a.date}, explicit CHANGE PREFERENCE on '{item}'): {note} "
+                    f"— awaiting Brendan's confirmation wording in the next edition.\n")
+            t = t.replace(marker, marker + "\n" + prop) if marker in t else t + prop
+            open(ip, "w", encoding="utf-8").write(t)
         if kind == "stop_covering":
             ip = os.path.join(ROOT, "preferences", "INTEREST_PROFILE.md")
             t = open(ip, encoding="utf-8").read().replace(

@@ -123,9 +123,29 @@ checklist_notes: ""
     if empty:
         lines.append("\n---\n_Nothing meaningful today in: " +
                      ", ".join(e.replace('_', ' ') for e in empty) + "._\n")
+    # system panel: active watches, unfinished ops, fresh preference evidence
+    sysex = []
+    for rel, fm, _ in iter_artifacts():
+        if fm.get("artifact_type") == "watch" or str(fm.get("status")) == "watching":
+            sysex.append(f"- Watch `{fm.get('id')}` — next run {fm.get('next_run') or 'due now'}")
+    ops = os.path.join(ROOT, "system", "operations")
+    if os.path.isdir(ops):
+        import subprocess
+        r = subprocess.run([sys.executable, os.path.join(ROOT, "tools", "oplog.py"), "status"],
+                           capture_output=True, text=True)
+        if "0 unfinished" not in r.stdout:
+            sysex.append("- ⚠️ Unfinished cross-repo operations: " + r.stdout.strip().replace("\n", "; "))
+    if sysex:
+        lines.append("\n## Watches & System\n" + "\n".join(sysex) + "\n")
+    lines.append("\n---\n_**Labels**: [FACT] confirmed · [CONC] research conclusion · [OBS] "
+                 "uncertain observation · [ASSUME] assumption · [PRED] prediction · [PREF] "
+                 "preference · [RULE?] proposed rule · [RULE] confirmed rule · [Q] question · "
+                 "[FAIL] failed/incomplete. Evidence tiers S/A/B/C from the robots ride along._\n")
     lines.append("\n---\n_Annotate inline: ⭐ important · 🙂 more like this · ❌ not useful · "
-                 "lines starting with `>>` are freeform notes. Then run the brain-annotations "
-                 "skill (or `python3 tools/process_annotations.py`)._\n")
+                 "or keywords on their own line: INCORRECT · CORRECTION · QUESTION: … · DEEPER "
+                 "· WATCH · STOP COVERING · REMEMBER THIS: … · FORGET THIS: … · CHANGE "
+                 "PREFERENCE: … · freeform after `>>`. Then run the brain-newspaper skill's "
+                 "annotation flow (or `python3 tools/process_annotations.py --apply`)._\n")
     os.makedirs(os.path.dirname(draft), exist_ok=True)
     open(draft, "w", encoding="utf-8").write("\n".join(lines))
     n = sum(len(v) for v in items.values())

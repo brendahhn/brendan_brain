@@ -27,3 +27,11 @@ awaiting approval, system failures. Every item links its source artifact id.
 4. Repeat check against coverage_ledger.md — no re-running yesterday's story without change.
 5. Questions for Brendan and unprocessed annotations surfaced.
 6. Failures reported honestly (a robot that didn't run is news, not silence).
+
+## Epistemic labels (mandatory on every item, rollout 2026-07-10)
+`[FACT]` confirmed fact · `[CONC]` research conclusion · `[OBS]` uncertain observation ·
+`[ASSUME]` assumption in force · `[PRED]` prediction (with horizon + confidence) · `[PREF]`
+personal preference · `[RULE?]` proposed rule awaiting approval · `[RULE]` confirmed rule ·
+`[Q]` question for Brendan · `[FAIL]` failed or incomplete research (reported, never hidden).
+Robot evidence tiers (S/A/B/C/Speculative) ride along inside items. Never dress an [OBS] as
+a [FACT]; never publish a [CONC] without its source link.
