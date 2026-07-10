@@ -31,6 +31,10 @@ with evidence / record as limitation):
 | 14 | BRAIN_INTEGRATION.md missing in 3 repos | **Rejected with evidence.** All four repos have it; pushed before the review concluded (operator-notebook 05a050a, FootyBot 80f88bf, trading-notebook 1412be5, health-notebook 33d1d48 — verified via ls-remote). The review snapshot predated those pushes. |
 | 15 | "Universal capture" overclaimed | **Accepted.** docs/LIMITATIONS.md words capture scope honestly: capture happens in Brain-enabled sessions/routines that invoke the skills; there is no platform-wide conversation tap. |
 
-Verification: full suite rerun after repairs — 8/8 PASS (tests/results/). The reviewer's
+Verification: full suite rerun after repairs — 8/8 PASS at the time of that run
+(tests/results/run-20260710-034458.md). CORRECTION (Chief Skeptic, later on 2026-07-10):
+that run predated committing tests/test_forgetting.sh, which contained a self-referential
+marker and failed 7/8 once committed. Repaired (runtime-built marker + tests/ excluded from
+sweeps + positive fixture assertion); suite green again on committed HEAD. The reviewer's
 concurrent-session collision with this build (its finding #4 narrative) was itself a live
 demonstration of the recovery path: mixed commit unwound, files recovered, history intact.

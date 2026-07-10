@@ -2,7 +2,7 @@
 # Stress Test Matrix
 
 48 required scenarios → prevention / detection / recovery / audit / remaining limitation.
-Status: **T** = covered by automated suite (tests/run_all.sh, 8/8 passing 2026-07-10),
+Status: **T** = covered by automated suite (tests/run_all.sh — 8/8 on committed HEAD after the Chief Skeptic's test_forgetting self-reference catch was repaired, 2026-07-10; latest run in tests/results/),
 **E** = exercised live during the build (evidence linked), **D** = design-covered (policy +
 mechanism exist; no automated test yet), **L** = known limitation.
 
