@@ -11,3 +11,12 @@
 - Incidents this session: (0) Chief Skeptic disproved the 8/8 claim on HEAD — test_forgetting matched its own source in the sandbox clone; fixed, rerun green, docs corrected; (1) push-target error (commits on wrong local branch) — caught by
   ls-remote verify, repaired, lesson: always verify exact ref; (2) concurrent-session file
   collision during arch review — recovered, no loss; both documented in audits.
+
+## 2026-07-10 — independent review round (Chief Skeptic + QA) complete
+- Skeptic verdict: completion disproven on ONE item (self-referential forgetting test →
+  suite was 7/8 on HEAD, recorded 8/8 predated the commit). Repaired + docs corrected;
+  13 other probed claims independently HELD.
+- QA: 10 defects (2 serious: edition overwrite on republish; watches could never fire).
+  All 10 repaired; watch scheduler now real (tools/run_watches.py) and exercised.
+- Final state: suite 8/8 on committed HEAD; skills v1 re-synced to all robots (op verified);
+  1 active watch (tacoma, next_run 2026-07-17); 2 open questions for Brendan.

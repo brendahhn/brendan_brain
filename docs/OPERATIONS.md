@@ -8,10 +8,15 @@
 4. `python3 tools/validate_frontmatter.py --all` — repair before adding
 
 ## Daily Brendan OS run (scheduled or manual), in order
-1. Bootstrap (above). 2. Triage `queue/inbox/` (Chief of Staff role: convert outbox blocks
-→ tasks/knowledge/questions; assign desk/model/urgency per MODEL_ROUTING_POLICY).
+1. Bootstrap (above). 2. Triage `queue/inbox/` (Chief of Staff role). Scope: only the
+`predictions`, `proposed_durable_knowledge`, and `questions_for_brendan` sub-fields of each
+outbox block become artifacts (predictions/ per the template in predictions/README.md,
+domain knowledge/, newspaper/questions/) — `newspaper_ready` content is ingested directly
+by build_newspaper, do NOT duplicate it. IDEMPOTENCY: after triaging a block, append
+`<!-- triaged YYYY-MM-DD -->` to its heading line; skip any block already marked. Assign
+desk/model/urgency per MODEL_ROUTING_POLICY.
 3. Advance active tasks within capacity (CAPACITY_LEDGER policy; record staffing verdicts).
-4. Run watches that are due (`queue/watches/`, check `next_run`). 5. Score any predictions
+4. Run watches: `python3 tools/run_watches.py due`, research each due watch per its task body, publish per its publish_policy, then `run_watches.py mark <id>`. 5. Score any predictions
 whose horizon passed → `outcomes/`. 6. Build + edit + publish the newspaper
 (brain-newspaper skill). 7. Process yesterday's annotations if unprocessed. 8. Regenerate
 indexes, validate, commit (area-prefixed), push, VERIFY ls-remote. 9. Update

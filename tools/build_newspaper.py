@@ -19,7 +19,10 @@ def collect(date):
     for rel, fm, body in iter_artifacts():
         at, dom, st = fm.get("artifact_type"), fm.get("domain", ""), str(fm.get("status", ""))
         sens = fm.get("sensitivity", "personal")
-        if at in ("task", "watch") and st == "ready_for_publication":
+        # publication_destination gates collection (QA finding #6): file_only/none tasks
+        # complete without a newspaper appearance
+        if at in ("task", "watch") and st == "ready_for_publication" \
+                and fm.get("publication_destination", "none") == "newspaper":
             m = re.search(r"## Findings\n(.*?)(\n## |\Z)", body, re.S)
             summary = (m.group(1).strip() if m else "(findings section missing)")
             if sens in SENSITIVE:
@@ -28,8 +31,11 @@ def collect(date):
             sec = dom if dom in items else "open_research"
             items[sec].append((fm.get("id"), fm.get("title"), summary[:2000], rel))
         if at == "question" and st == "open":
+            q = body.strip()
+            if len(q) > 500:
+                q = q[:500].rsplit(" ", 1)[0] + " […]"  # word boundary (QA finding #7)
             items["questions_and_system"].append(
-                (fm.get("id"), fm.get("title", "(question)"), body.strip()[:500], rel))
+                (fm.get("id"), fm.get("title", "(question)"), q, rel))
     # robot outboxes from the last 2 days
     inbox = os.path.join(ROOT, "queue", "inbox")
     if os.path.isdir(inbox):
@@ -65,18 +71,26 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", default=today())
     ap.add_argument("--publish", action="store_true")
+    ap.add_argument("--force", action="store_true")
     a = ap.parse_args()
     draft = os.path.join(ROOT, "newspaper", "drafts", f"{a.date}.md")
     edition = os.path.join(ROOT, "newspaper", "editions", f"{a.date}.md")
     if a.publish:
         if not os.path.exists(draft):
             sys.exit(f"no draft for {a.date}")
+        if os.path.exists(edition) and not a.force:
+            sys.exit(f"REFUSED: newspaper/editions/{a.date}.md already exists — a published "
+                     f"edition is part of the audit trail (QA finding #1). Use --force only "
+                     f"if you truly mean to supersede it, after committing the original.")
         text = open(draft, encoding="utf-8").read()
         if "publisher_verdict: approved" not in text:
             sys.exit("draft not approved: set `publisher_verdict: approved` in frontmatter "
                      "after completing the Publisher checklist (PUBLICATION_POLICY.md)")
+        text = text.replace("status: draft", "status: published", 1)
+        text = text.replace(" (DRAFT)", "", 1)
         os.makedirs(os.path.dirname(edition), exist_ok=True)
-        shutil.move(draft, edition)
+        open(edition, "w", encoding="utf-8").write(text)
+        os.remove(draft)
         print(f"published newspaper/editions/{a.date}.md")
         return
     items = collect(a.date)

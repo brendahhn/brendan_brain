@@ -13,6 +13,8 @@ recurrence: watch
 requires_brendan_answer: false
 origin_repository: brendan_brain
 dedupe_key: general/watch-vehicles-tacoma-search-90w
+last_run: 2026-07-10
+next_run: 2026-07-17
 ---
 
 ## Request

@@ -21,9 +21,14 @@ sources, don't trust your own draft) on the checklist. If any item is consequent
    `newspaper/coverage_ledger.md` — no repeats without meaningful change; update the ledger
    for every item you keep. Re-verify time-sensitive claims (listings, prices) or mark
    "as of <date>". Sensitive items: generic conclusions only + repo link.
+2b. STRUCTURE RULE: keep one `### ` heading per item when editing — annotation
+   processing attributes reactions to the nearest `### ` heading; collapsing items under a
+   bare `## ` section silently mis-attributes every reaction to the whole section.
 3. Publisher checklist (PUBLICATION_POLICY): record answers in `checklist_notes`
    frontmatter; set `publisher_verdict: approved`.
-4. `python3 tools/build_newspaper.py --publish` → moves to editions/. Commit, push, verify.
+4. `python3 tools/build_newspaper.py --publish` → moves to editions/ and sets
+   `status: published`. It REFUSES to overwrite an existing edition (use --force only
+   deliberately, after committing the original). Commit, push, verify.
 5. Notify Brendan: 3-5 headlines max.
 
 ## Annotation flow

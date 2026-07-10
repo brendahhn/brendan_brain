@@ -3,6 +3,7 @@ id	path	artifact_type	domain	status	sensitivity	topics	entities	title	created_at
 ann-20260711	newspaper/annotations/ann-2026-07-11.md	annotation		processed	personal				2026-07-11
 audit-20260710-arch-response	system/audits/2026-07-10-arch-review-response.md	report	general		personal				2026-07-10
 audit-20260710-initial	system/audits/2026-07-10-initial-audit.md	report	general		personal				2026-07-10
+audit-20260710-qa-skeptic-response	system/audits/2026-07-10-qa-and-skeptic-response.md	report	general		personal				2026-07-10
 communication-preferences	COMMUNICATION_PREFERENCES.md	knowledge	general		personal				2026-07-10
 current-priorities	CURRENT_PRIORITIES.md	knowledge	general		personal				2026-07-10
 current-world	CURRENT_WORLD.md	knowledge	general		personal				2026-07-10
@@ -15,6 +16,7 @@ domain-surfing	domains/surfing/DOMAIN_PROFILE.md	domain_profile	surfing	active	p
 domain-vehicles	domains/vehicles/DOMAIN_PROFILE.md	domain_profile	vehicles	active	personal				2026-07-10
 edition-20260711	newspaper/editions/2026-07-11.md	edition		published	personal				2026-07-11
 op-20260710-roundtrip-health	system/operations/op-20260710-roundtrip-health.md	operation			personal				
+op-20260710-skill-sync-v1-qa-fixes	system/operations/op-20260710-skill-sync-v1-qa-fixes.md	operation			personal				
 profile-brendan	BRENDAN_PROFILE.md	knowledge	general		personal				2026-07-10
 q-20260710-tacoma-budget	newspaper/questions/q-20260710-tacoma-budget.md	question	vehicles	answered	personal			Tacoma search: budget ceiling and transmission preference?	2026-07-10
 q-20260710-trading-dup	newspaper/questions/q-20260710-trading-dup.md	question	investing	open	personal			Retire the frozen trading/ copy inside health-notebook?	2026-07-10

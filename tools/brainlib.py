@@ -97,7 +97,10 @@ def today():
 
 def slugify(s, maxlen=40):
     s = re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
-    return s[:maxlen].rstrip("-")
+    if len(s) <= maxlen:
+        return s
+    cut = s[:maxlen]
+    return cut[:cut.rfind("-")] if "-" in cut else cut  # never end mid-word
 
 
 def die(msg, code=1):

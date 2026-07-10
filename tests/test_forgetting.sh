@@ -21,14 +21,19 @@ EOF
 # fixture contains it before deletion — guards against this assertion going vacuous
 sed -i "s/SYNTHETIC-\${MARK}/SYNTHETIC-$MARK/" timeline/2026/07/2026-07-05-synthetic-forget-me.md
 grep -q "$MARK" timeline/2026/07/2026-07-05-synthetic-forget-me.md || { echo "fixture missing marker"; exit 1; }
+# derived copy in a robot outbox block (QA finding #3: derived copies must be redacted)
+printf '## 2026-07-05 — health-robot run summary\n- headline: noted SYNTHETIC-%s in run\n' "$MARK" >> queue/inbox/from-health-robot.md
 python3 tools/build_index.py >/dev/null
 git add -A && git commit -qm "fixture: forgettable" && git push -q origin main
 # PLAN: locate every copy (artifact + index)
 HITS=$(grep -ril "forgetme" --exclude-dir=.git --exclude-dir=tests . | sort)
 echo "$HITS" | grep -q "timeline/2026/07" || { echo "plan missed artifact"; exit 1; }
 echo "$HITS" | grep -q "INDEX.tsv" || { echo "plan missed generated index"; exit 1; }
+echo "$HITS" | grep -q "from-health-robot" || { echo "plan missed derived outbox copy"; exit 1; }
 # EXECUTE (simulating Brendan's confirmation)
 git rm -q timeline/2026/07/2026-07-05-synthetic-forget-me.md
+# redact the derived copy per brain-forget Phase 2 step 2
+sed -i "s/SYNTHETIC-$MARK/[forgotten 2026-07-10, op-20260710-forget-synthetic]/" queue/inbox/from-health-robot.md
 python3 tools/build_index.py >/dev/null && python3 tools/build_queue_dashboard.py >/dev/null || true
 grep -riq "$MARK" --exclude-dir=.git --exclude-dir=tests . && { echo "content survived deletion"; exit 1; }
 # tombstone: records THAT, not WHAT

@@ -68,6 +68,8 @@ requires_brendan_answer: false
 origin_repository: {a.origin}
 dedupe_key: {dk}
 """
+    if a.recurrence == "watch" or a.recurrence in ("daily", "weekly"):
+        fm += "next_run: \nlast_run: \npublish_policy: on_change\n"  # due immediately; tools/run_watches.py maintains
     if a.deadline:
         fm += f"deadline: {a.deadline}\n"
     if a.word_budget:
