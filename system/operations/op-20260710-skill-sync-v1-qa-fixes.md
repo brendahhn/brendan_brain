@@ -3,7 +3,7 @@ id: op-20260710-skill-sync-v1-qa-fixes
 artifact_type: operation
 started_at: 2026-07-10T14:57:29
 repos:
-  brendan_brain: committed
+  brendan_brain: verified
   operator-notebook: verified
   FootyBot: verified
   health-notebook: verified
@@ -18,3 +18,4 @@ repos:
 - 2026-07-10T14:57:36 health-notebook -> verified
 - 2026-07-10T14:57:39 trading-notebook -> verified
 - 2026-07-10T14:57:39 brendan_brain -> committed
+- 2026-07-10T14:58:17 brendan_brain -> verified
