@@ -16,10 +16,10 @@ inferred from repo evidence and may drift — verify against the routine UI when
 
 | Routine | Reads Brain | Writes Brain | Mechanism | Status |
 |---|---|---|---|---|
-| Health Robot | implemented | implemented | BRAIN_INTEGRATION.md + brain-sync (claude/practical-heisenberg-akjb28, 33d1d48) | round-trip PROVEN in-session (op-20260710-roundtrip-health); live in scheduled runs only after Brendan merges + adds brendan_brain to routine repos + applies prompt diff |
-| Jobs Robot | implemented | implemented | same pattern (claude/friendly-brahmagupta-akjb28, 05a050a) | same activation steps pending |
-| FootyBot | implemented | implemented | same pattern (claude/intelligent-gates-akjb28, 80f88bf) | same activation steps pending |
-| Trading Robot | implemented | implemented | same pattern (claude/beautiful-heisenberg-akjb28, 1412be5) | same activation steps pending |
+| Health Robot | implemented | implemented | BRAIN_INTEGRATION.md + brain-sync (claude/practical-heisenberg-akjb28, 33d1d48) | MERGED to main (32f35f7, PR #4) + prompt steps applied + post-merge round-trip verified (op-20260710-postmerge-roundtrips). Live once Brendan adds brendan_brain to the routine's repo selection |
+| Jobs Robot | merged | merged | PR #2 → main 4ec80ed; prompt steps applied | pending only routine repo selection |
+| FootyBot | merged | merged | PR #1 → main 506eabc; prompt steps applied | pending only routine repo selection |
+| Trading Robot | merged | merged | PR #1 → main 0fe104e; prompt steps applied | pending only routine repo selection |
 
 Each specialist repo gets: `BRAIN_INTEGRATION.md` (the read/write procedure),
 `.claude/skills/brain-sync/` (synced canonical skill), and

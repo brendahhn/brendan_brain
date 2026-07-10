@@ -2,11 +2,11 @@
 # Limitations — stated honestly
 
 ## Requires Brendan before it's live end-to-end
-1. **Robot integration is dark until activated.** The integration lives on four `claude/*`
-   branches; scheduled robots run `main` and their routine configs don't yet include
-   `brendan_brain`. Until Brendan merges + updates repo selections + applies the two-line
-   prompt diffs, robots neither read nor write the Brain. The exchange protocol was proven
-   in-session (op-20260710-roundtrip-health), not in a scheduled run.
+1. **UPDATE 2026-07-10 (activation):** integration is MERGED to every robot's `main` and
+   prompt steps are applied; post-merge round-trips verified from the merged mains
+   (op-20260710-postmerge-roundtrips). The single remaining activation step is adding
+   `brendan_brain` to each routine's repository selection — only possible in the claude.ai
+   routines UI (docs/START_HERE.md). Until then the guarded steps no-op harmlessly.
 2. **First scheduled-run validation outstanding** (stress scenario 45): local/session
    behavior is tested; the first real cloud robot run with the Brain attached should be
    watched and its CHANGELOG checked.

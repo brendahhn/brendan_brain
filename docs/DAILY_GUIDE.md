@@ -34,11 +34,13 @@ feeds the newspaper. Their own notebooks and prompts are untouched and still the
 - Skim `preferences/PROPOSED_RULES.md` — approve/reject proposals (move to CONFIRMED/REJECTED).
 - `CURRENT_PRIORITIES.md` is yours — edit it and triage follows.
 
-## TO ACTIVATE the robot integrations (one-time, ~10 min)
-1. Merge the four `claude/*-akjb28` integration branches (each adds 4 files, touches nothing else).
-2. Add `brendan_brain` to each routine's repository selection.
-3. Apply each repo's `proposed-prompt-change.md` (two lines) via a safe-bot-edits session.
-4. Answer the two open questions in today's edition.
+## ACTIVATION STATUS (updated 2026-07-10)
+Done for you: all four integration PRs merged to main; prompt changes applied; round-trips
+verified; first real edition published. Remaining (only you can, ~4 min total):
+1. Add `brendan_brain` to each robot routine's repository selection (claude.ai routines
+   screen — exact steps in docs/START_HERE.md "Flip the switch").
+2. Create the daily Brendan OS routine (same screen; paste system/DAILY_ROUTINE_PROMPT.md).
+3. Answer the open question in the 2026-07-11 edition (trading/ duplicate).
 
 ## If something looks broken
 `python3 tools/oplog.py status` (unfinished cross-repo ops), `tests/run_all.sh` (8 suites),

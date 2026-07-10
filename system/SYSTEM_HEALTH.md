@@ -20,3 +20,16 @@
   All 10 repaired; watch scheduler now real (tools/run_watches.py) and exercised.
 - Final state: suite 8/8 on committed HEAD; skills v1 re-synced to all robots (op verified);
   1 active watch (tacoma, next_run 2026-07-17); 2 open questions for Brendan.
+
+## 2026-07-10 — ACTIVATION session (Fable, Brendan-authorized)
+- 4 PRs created, fresh-reviewed (4/4 APPROVE), merged to main: FootyBot#1 506eabc,
+  health#4 32f35f7, trading#1 0fe104e, operator#2 4ec80ed. Prompt steps applied per
+  Brendan's written authorization. Robot memory/logic untouched (verified: 0 diff lines).
+- Post-merge round-trips from merged mains: all four robots READ+WRITE verified, one
+  dated outbox block each, no duplicates (op-20260710-postmerge-roundtrips: all verified).
+- Annotation vocabulary extended (9 keywords) + epistemic labels; synthetic set processed
+  through the REAL system: 10/10 actions, 8/8 checks; artifacts archived as cancelled.
+- FIRST REAL EDITION published: newspaper/editions/2026-07-11.md (demo archived as
+  2026-07-11-demo). Suite 8/8 on HEAD.
+- Remaining human steps (platform-gated): routine repo selections + daily routine creation
+  (claude.ai UI only — see docs/START_HERE.md).
