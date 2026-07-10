@@ -14,4 +14,4 @@
 | San Diego local | 2 | assumed | location |
 
 serendipity_slot: 1 item/edition outside these topics (News Scout picks; reactions tune it).
-Rejected topics (never resurface without instruction): (none yet)
+Rejected topics (never resurface without instruction): (none yet — a SYNTHETIC-TEST rejection was exercised and removed 2026-07-10)
