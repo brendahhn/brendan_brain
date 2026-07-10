@@ -16,6 +16,7 @@ urgency: normal
 depth: quick
 sensitivity: health
 dedupe_key: health/synthetic-sensitive
+publication_destination: newspaper
 ---
 ## Request
 synthetic

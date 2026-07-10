@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Brendan OS test suite. Test WRITES happen in sandboxed clones under $SCRATCH; the only
 # real-repo artifact is the intentional tests/results/run-*.md record. Never touches real
-# remotes/GitHub. Usage: tests/run_all.sh [test-name]
+# remotes/GitHub. NOTE: sandboxes clone committed HEAD — commit your changes before
+# trusting a run; uncommitted edits are NOT tested. Usage: tests/run_all.sh [test-name]
 set -uo pipefail
 BRAIN="$(cd "$(dirname "$0")/.." && pwd)"
 SCRATCH="${BRAIN_TEST_SCRATCH:-$(mktemp -d)}"
