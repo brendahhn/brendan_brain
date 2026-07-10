@@ -1,7 +1,7 @@
 ## 2026-07-10 — health-robot run summary
-- headline: SYNTHETIC ROUND-TRIP TEST — picked up Brain task task-20260710-generic-hydration-electrolyte-evidence-s; generic electrolyte evidence summary drafted (no personal data).
-- newspaper_ready: [B] Generic conclusion: for endurance sessions >60-90min, evidence supports sodium-focused electrolyte intake; hyponatremia risk from overhydration is the better-documented danger. (Generic, applies to anyone; details in health-notebook when researched for real.)
+- headline: Integration round-trip proven (synthetic electrolyte fixture, published in edition 2026-07-11-demo) AND post-merge activation smoke from merged main 32f35f7: brain-sync READ+WRITE both exercised. No real chapter research this run — next scheduled run (Ch17) will be the first live one.
+- newspaper_ready: nothing meaningful (activation smoke only; real health content arrives with the next scheduled chapter run)
 - questions_for_brendan: none
 - proposed_durable_knowledge: none
 - predictions: none
-- run_status: success
+- run_status: success (activation smoke)
