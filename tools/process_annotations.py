@@ -99,10 +99,14 @@ def main():
             if item not in t:
                 t += f"\n- rejected: {item} ({a.date}, explicit)\n"
             open(ip, "w", encoding="utf-8").write(t)
-    open(ev_path, "w", encoding="utf-8").write(
-        ev.replace("(empty — populated by annotation processing)",
-                   "(populated by annotation processing)") .rstrip() +
-        ("\n" + new_ev if new_ev else "\n"))
+    ev = ev.replace("(empty — populated by annotation processing)",
+                    "(populated by annotation processing)")
+    marker = "## Proposals awaiting evidence or approval"
+    if new_ev and marker in ev:  # insert under the Evidence log, not at file end
+        ev = ev.replace(marker, new_ev + "\n" + marker)
+    elif new_ev:
+        ev = ev.rstrip() + "\n" + new_ev
+    open(ev_path, "w", encoding="utf-8").write(ev)
     ann_dir = os.path.join(ROOT, "newspaper", "annotations")
     os.makedirs(ann_dir, exist_ok=True)
     ann = os.path.join(ann_dir, f"ann-{a.date}.md")

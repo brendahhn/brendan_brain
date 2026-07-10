@@ -3,7 +3,7 @@ id: task-20260710-find-2002-2004-toyota-tacoma-2-4l-extra
 title: Find 2002-2004 Toyota Tacoma 2.4L extra cab candidates
 artifact_type: task
 domain: vehicles
-status: ready_for_publication
+status: published
 created_at: 2026-07-10
 urgency: normal
 depth: standard
@@ -27,8 +27,8 @@ Find a 2002-2004 Toyota Tacoma with the 2.4L engine and extra cab. Put results i
 
 ## Assumptions
 
-- Budget ≤$15k (asked, non-blocking: q-20260710-tacoma-budget)
-- Either transmission accepted until answered
+- ~~Budget ≤$15k~~ ANSWERED 2026-07-11: budget ≤$12k (q-20260710-tacoma-budget)
+- ~~Either transmission~~ ANSWERED 2026-07-11: manual only
 - <150k miles preferred; condition outranks odometer
 
 ## Questions
@@ -53,3 +53,4 @@ Find a 2002-2004 Toyota Tacoma with the 2.4L engine and extra cab. Put results i
 ## Verification
 
 Pre-publication freshness pass 2026-07-10 (simulated): #1 active, #2 inactive→dropped, #3 active. Sources would be recorded in sources/SOURCE_REGISTRY.md for real runs.
+- 2026-07-11 [sonnet] Brendan answered q-20260710-tacoma-budget via edition annotation: $12k / manual / condition-first. Synthetic candidate #3 (auto) would now be excluded; candidate #1 (5-spd, $11.9k) fits. Recurring coverage moves to the watch task; this task -> published.
