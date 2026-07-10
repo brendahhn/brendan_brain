@@ -3,7 +3,7 @@ id: task-20260710-generic-hydration-electrolyte-evidence-s
 title: Generic hydration-electrolyte evidence summary
 artifact_type: task
 domain: health
-status: inbox
+status: active
 created_at: 2026-07-10
 urgency: low
 depth: standard
