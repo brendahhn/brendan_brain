@@ -16,10 +16,10 @@ inferred from repo evidence and may drift — verify against the routine UI when
 
 | Routine | Reads Brain | Writes Brain | Mechanism | Status |
 |---|---|---|---|---|
-| Health Robot | planned | planned | BRAIN_INTEGRATION.md + brain-sync skill (branch claude/practical-heisenberg-akjb28) | building 2026-07-10 — status updated when round-trip test passes |
-| Jobs Robot | planned | planned | same pattern (claude/friendly-brahmagupta-akjb28) | building 2026-07-10 |
-| FootyBot | planned | planned | same pattern (claude/intelligent-gates-akjb28) | building 2026-07-10 |
-| Trading Robot | planned | planned | same pattern (claude/beautiful-heisenberg-akjb28) | building 2026-07-10 |
+| Health Robot | implemented | implemented | BRAIN_INTEGRATION.md + brain-sync (claude/practical-heisenberg-akjb28, 33d1d48) | round-trip PROVEN in-session (op-20260710-roundtrip-health); live in scheduled runs only after Brendan merges + adds brendan_brain to routine repos + applies prompt diff |
+| Jobs Robot | implemented | implemented | same pattern (claude/friendly-brahmagupta-akjb28, 05a050a) | same activation steps pending |
+| FootyBot | implemented | implemented | same pattern (claude/intelligent-gates-akjb28, 80f88bf) | same activation steps pending |
+| Trading Robot | implemented | implemented | same pattern (claude/beautiful-heisenberg-akjb28, 1412be5) | same activation steps pending |
 
 Each specialist repo gets: `BRAIN_INTEGRATION.md` (the read/write procedure),
 `.claude/skills/brain-sync/` (synced canonical skill), and
