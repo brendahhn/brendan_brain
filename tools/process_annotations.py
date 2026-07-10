@@ -86,7 +86,6 @@ def main():
         print("\n(run with --apply to execute; one reaction becomes EVIDENCE, never a rule)")
         return
     ev_path = os.path.join(ROOT, "preferences", "PROPOSED_RULES.md")
-    ev = open(ev_path, encoding="utf-8").read()
     new_ev = ""
     for kind, sub, item, note in actions:
         if kind in ("evidence", "correction", "stop_covering", "remember", "change_preference"):
@@ -145,6 +144,8 @@ def main():
             if item not in t:
                 t += f"\n- rejected: {item} ({a.date}, explicit)\n"
             open(ip, "w", encoding="utf-8").write(t)
+    # read AFTER the action loop — change_preference writes this file during the loop
+    ev = open(ev_path, encoding="utf-8").read()
     ev = ev.replace("(empty — populated by annotation processing)",
                     "(populated by annotation processing)")
     marker = "## Proposals awaiting evidence or approval"
