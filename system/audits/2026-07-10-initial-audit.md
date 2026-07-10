@@ -5,6 +5,7 @@ domain: general
 created_at: 2026-07-10
 created_by: systems_architect
 confidence: high
+sensitivity: personal
 ---
 # Initial Ecosystem Audit — 2026-07-10
 

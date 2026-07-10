@@ -4,9 +4,22 @@ Usage:
   oplog.py start <slug> --repos repo1,repo2         -> creates op record, prints id
   oplog.py set <op-id> <repo> <state>               -> planned|committed|pushed|verified|failed
   oplog.py status [<op-id>]                         -> show one/all unfinished ops"""
-import os, re, sys, datetime
+import os, re, subprocess, sys, datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from brainlib import ROOT, today, slugify, die
+
+
+def _autocommit(path, msg):
+    """Op records must persist even when the operation itself fails mid-flight
+    (arch review finding #10). Commit is local-only; pushing follows the caller's flow."""
+    try:
+        subprocess.run(["git", "-C", ROOT, "add", os.path.relpath(path, ROOT)],
+                       check=True, capture_output=True)
+        subprocess.run(["git", "-C", ROOT, "commit", "-q", "-m", msg, "--only",
+                        os.path.relpath(path, ROOT)], check=True, capture_output=True)
+    except subprocess.CalledProcessError as e:
+        print(f"note: oplog autocommit skipped ({e.stderr.decode().strip()[:80]})",
+              file=sys.stderr)
 
 OPS = os.path.join(ROOT, "system", "operations")
 STATES = {"planned", "committed", "pushed", "verified", "failed"}
@@ -36,6 +49,7 @@ repos:
 ## Log
 - {datetime.datetime.now().isoformat(timespec='seconds')} created
 """)
+    _autocommit(p, f"op: start {opid}")
     print(opid)
 
 
@@ -51,6 +65,7 @@ def set_state(opid, repo, state):
         die(f"repo '{repo}' not in op {opid}")
     new += f"- {datetime.datetime.now().isoformat(timespec='seconds')} {repo} -> {state}\n"
     open(p, "w", encoding="utf-8").write(new)
+    _autocommit(p, f"op: {opid} {repo}={state}")
     print(f"{opid}: {repo} -> {state}")
 
 

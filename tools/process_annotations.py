@@ -38,6 +38,10 @@ def main():
     lines = open(p, encoding="utf-8").read().splitlines()
     actions = []
     for i, line in enumerate(lines):
+        # skip the annotation legend / instruction footer (arch review finding #5:
+        # the legend contains all three marks and was generating phantom evidence)
+        if "Annotate inline" in line or sum(m in line for m in REACT) >= 2:
+            continue
         item = None
         for mark, kind in REACT.items():
             if mark in line:

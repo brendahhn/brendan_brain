@@ -28,8 +28,10 @@ report, and the next session in that repo checks `system/operations/` for unfini
 ## Idempotency
 - Task creation dedupes on `dedupe_key` (tools/new_task.py) — a retry finds the existing file
   and updates it instead of duplicating.
-- Robot outbox writes use dated filenames (`brain-sync/<domain>-YYYY-MM-DD.md`); a retry
-  overwrites the same day's file rather than appending a duplicate.
+- Robot outbox writes append dated blocks (`## YYYY-MM-DD — <robot> run summary`) to
+  `queue/inbox/from-<robot>.md`. A retry REPLACES the same-day block (the robot checks for
+  an existing heading first) rather than appending a duplicate. This single-file contract
+  is THE outbox mechanism; build_newspaper.py reads all blocks from the last 2 days.
 - Timeline files are date+slug keyed; identical retries collide on filename and are no-ops.
 
 ## Interface versioning
@@ -42,4 +44,4 @@ outbox instead of guessing at the new format.
 `git pull --rebase` before writing. If rebase conflicts: artifact files → keep both/yours
 (one file per artifact makes true conflicts rare); generated files (QUEUE.md, BRAIN_MAP.md)
 → take either side, regenerate, commit; append-only inbox/outbox files → merge keeping both
-sides. Never force-push. Tested in tests/test_git_conflicts.sh.
+sides. Never force-push. Tested in tests/test_concurrent_writes.sh.

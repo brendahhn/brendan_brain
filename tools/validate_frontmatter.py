@@ -8,17 +8,26 @@ from brainlib import (ROOT, ARTIFACT_TYPES, SENSITIVITIES, TASK_STATUSES, FOLDER
 
 REQUIRED_BASE = ["id", "artifact_type", "created_at"]
 REQUIRED_BY_TYPE = {
-    "task": ["title", "domain", "status", "urgency", "depth", "dedupe_key"],
-    "timeline": ["sensitivity"],
-    "knowledge": ["domain", "confidence"],
+    "task": ["title", "domain", "status", "urgency", "depth", "dedupe_key",
+             "origin_repository"],
+    "timeline": ["sensitivity", "domain"],
+    "knowledge": ["domain", "confidence", "derived_from", "sensitivity"],
+    "report": ["domain", "sensitivity"],
     "prediction": ["domain", "confidence", "horizon"],
     "outcome": ["result"],
+    "decision": ["status"],
     "watch": ["title", "domain", "status", "recurrence"],
     "question": ["kind", "status"],
     "annotation": ["edition_id", "status"],
+    "edition": ["status"],
     "operation": ["repos", "started_at"],
     "domain_profile": ["domain", "status"],
 }
+# dirs whose .md files MUST be artifacts (arch review finding #9: malformed frontmatter
+# was silently skipped). READMEs are exempt.
+ARTIFACT_DIRS = ("queue", "timeline", "predictions", "outcomes", "decisions",
+                 "newspaper/questions", "newspaper/annotations", "newspaper/editions",
+                 "system/operations")
 MANIFEST_REPOS = {"brendan_brain", "operator-notebook", "FootyBot", "footybot",
                   "health-notebook", "trading-notebook"}
 
@@ -52,9 +61,19 @@ def check(rel, fm):
 
 def main():
     args = sys.argv[1:]
-    targets = []
+    targets, orphans = [], []
     if not args or args == ["--all"]:
         targets = [(rel, fm) for rel, fm, _ in iter_artifacts()]
+        indexed = {rel for rel, _ in targets}
+        for d in ARTIFACT_DIRS:
+            full = os.path.join(ROOT, d)
+            for dirpath, _, files in os.walk(full) if os.path.isdir(full) else []:
+                for fn in files:
+                    rel = os.path.relpath(os.path.join(dirpath, fn), ROOT)
+                    if fn.endswith(".md") and not fn.startswith("README") \
+                            and not fn.startswith("from-") and rel not in indexed \
+                            and fn != "QUEUE.md":
+                        orphans.append(rel)
     else:
         for a in args:
             p = a if os.path.isabs(a) else os.path.join(ROOT, a)
@@ -63,16 +82,28 @@ def main():
                 print(f"{a}: no frontmatter/id found", file=sys.stderr)
                 sys.exit(1)
             targets.append((os.path.relpath(p, ROOT), fm))
-    seen, bad = {}, 0
+    seen, seen_dk, bad = {}, {}, 0
     for rel, fm in targets:
         errs = check(rel, fm)
         i = fm.get("id")
         if i in seen:
             errs.append(f"duplicate id (also in {seen[i]})")
         seen[i] = rel
+        # cross-clone duplicate detection (arch review finding #4): two open tasks
+        # with the same dedupe_key indicate a race that merge let through
+        dk = fm.get("dedupe_key")
+        if dk and fm.get("artifact_type") in ("task", "watch") \
+                and str(fm.get("status")) not in ("completed", "failed", "cancelled", "published"):
+            if dk in seen_dk:
+                errs.append(f"OPEN DUPLICATE dedupe_key '{dk}' (also {seen_dk[dk]}) — "
+                            f"merge the two tasks, keep both histories")
+            seen_dk[dk] = rel
         for e in errs:
             print(f"{rel}: {e}", file=sys.stderr)
             bad += 1
+    for o in orphans:
+        print(f"{o}: no valid frontmatter/id in an artifact directory", file=sys.stderr)
+        bad += 1
     print(f"validated {len(targets)} artifacts, {bad} errors")
     sys.exit(1 if bad else 0)
 

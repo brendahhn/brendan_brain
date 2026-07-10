@@ -20,13 +20,21 @@ def main():
     ap.add_argument("-n", type=int, default=10)
     a = ap.parse_args()
     terms = [t.lower() for t in re.findall(r"\w+", a.query) if len(t) > 1]
+    # light stemming for recall: also match singular forms (arch review finding #8)
+    terms = list({t[:-1] if len(t) > 3 and t.endswith("s") else t for t in terms})
     if a.allow:
         print(f"SENSITIVE ACCESS GRANTED — reason: {a.allow} (log this in your task/artifact)",
               file=sys.stderr)
     results, blocked = [], 0
     for rel, fm, body in iter_artifacts():
-        sens = fm.get("sensitivity", "personal") or "personal"
         dom = fm.get("domain", "")
+        sens = fm.get("sensitivity", "personal") or "personal"
+        # FAIL CLOSED: health/financial DOMAINS are sensitive regardless of the field
+        # (arch review 2026-07-10 finding #3 — a missing sensitivity line must not leak)
+        if dom == "health" and sens not in ("health", "private"):
+            sens = "health"
+        if dom == "investing" and sens == "personal":
+            sens = "financial"
         if a.atype and fm.get("artifact_type") != a.atype:
             continue
         if a.domain and dom != a.domain:
@@ -47,8 +55,8 @@ def main():
         score += 1 if (a.domain and dom == a.domain) else 0
         results.append((score, str(fm.get("created_at", "")), fm.get("id"), rel,
                         str(fm.get("title", ""))[:70], sens))
-    results.sort(key=lambda r: (-r[0], r[1]), reverse=False)
-    results.sort(key=lambda r: -r[0])
+    # score desc, then recency desc (arch review finding #8: old double-sort left ties oldest-first)
+    results.sort(key=lambda r: (r[0], r[1]), reverse=True)
     for score, dt, aid, rel, title, sens in results[:a.n]:
         print(f"{score:>3}  {aid:<38} {rel:<55} [{sens}] {title}")
     if blocked:

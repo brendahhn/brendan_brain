@@ -20,7 +20,7 @@ sensitive artifacts out of context.
    cross-domain only via non-sensitive artifacts.
 
 A SQLite/vector layer is NOT included: with <1000 files, grep+index passes the retrieval
-tests (tests/test_retrieval.py). Revisit when the index exceeds ~5k rows or tests show
+tests (tests/test_retrieval.sh). Revisit when the index exceeds ~5k rows or tests show
 recall failures — record the evidence first (nonnegotiable principle 6).
 
 ## Required behaviors (tested)

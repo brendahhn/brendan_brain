@@ -75,7 +75,7 @@ verbatim: true    # true if close to Brendan's words
 Brendan mentioned X. (No diagnosis, no causal claim.)
 ```
 
-## knowledge (domains/<d>/knowledge/*.md) — required: id, artifact_type, domain, confidence, derived_from
+## knowledge (domains/<d>/knowledge/*.md) — required: id, artifact_type, domain, confidence, derived_from, sensitivity
 
 Durable facts/conclusions. `confidence: confirmed` requires Brendan confirmation or strong
 multi-source evidence recorded in `source_references`. Corrections: new file with
@@ -93,7 +93,7 @@ multi-source evidence recorded in `source_references`. Corrections: new file wit
 
 ## Sensitivity rules (enforced by tools/brain_search.py and PUBLICATION_POLICY)
 
-- `health`/`private`/`financial` artifacts are excluded from retrieval unless the query
+- Artifacts in the health domain (and `health`/`private`/`financial`-tagged artifacts anywhere) are excluded from retrieval unless the query
   declares a matching `--domain` or `--allow-sensitive` with justification.
 - Newspaper content drawn from sensitive artifacts must pass the Publisher checklist
   (system/PUBLICATION_POLICY.md) and appears only in its own domain section.

@@ -41,12 +41,23 @@ def collect(date):
                 dom = {"jobs-robot": "jobs", "footybot": "fantasy_football",
                        "health-robot": "health", "trading-robot": "investing"}.get(dom, dom)
                 sec = dom if dom in items else "news"
-                # last block only (append-only file): take content after final '## ' heading
-                blocks = re.split(r"\n(?=## \d{4}-)", text)
-                last = blocks[-1].strip()
-                if date[:10] in last or (datetime.date.fromisoformat(date) -
-                                         datetime.timedelta(days=1)).isoformat() in last:
-                    items[sec].append((fn, f"{dom} robot report", last[:2500], f"queue/inbox/{fn}"))
+                # include every dated block from today or yesterday (arch review finding #6:
+                # last-block-only dropped robots that ran yesterday but not today)
+                yday = (datetime.date.fromisoformat(date) - datetime.timedelta(days=1)).isoformat()
+                for block in re.split(r"\n(?=## \d{4}-)", text):
+                    b = block.strip()
+                    m = re.match(r"## (\d{4}-\d{2}-\d{2})", b)
+                    if not m or m.group(1) not in (date[:10], yday):
+                        continue
+                    # health outbox scrub (arch review finding #12): flag numeric medical
+                    # values that the sanitization rules say must never be exported
+                    if "health" in fn and re.search(
+                            r"\d+\s?(mg|mcg|kg|lb|bpm|mmol|mg/dl|iu)\b", b, re.I):
+                        b = ("⚠️ SANITIZATION FLAG: this health export contains numeric "
+                             f"dose/biometric-like values and was withheld from the draft. "
+                             f"Review `queue/inbox/{fn}` directly and fix the robot's export.")
+                    items[sec].append((fn, f"{dom} robot report {m.group(1)}", b[:2500],
+                                       f"queue/inbox/{fn}"))
     return items
 
 

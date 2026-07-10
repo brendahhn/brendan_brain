@@ -4,6 +4,7 @@ artifact_type: knowledge
 domain: general
 sensitivity: personal
 confidence: medium
+derived_from: [audit-20260710-initial]
 created_at: 2026-07-10
 updated_at: 2026-07-10
 created_by: systems_architect
