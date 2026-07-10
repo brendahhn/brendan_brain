@@ -11,5 +11,7 @@ domain-jobs	domains/jobs/DOMAIN_PROFILE.md	domain_profile	jobs	active	personal		
 domain-news	domains/news/DOMAIN_PROFILE.md	domain_profile	news	active	personal				2026-07-10
 domain-surfing	domains/surfing/DOMAIN_PROFILE.md	domain_profile	surfing	active	personal				2026-07-10
 domain-vehicles	domains/vehicles/DOMAIN_PROFILE.md	domain_profile	vehicles	active	personal				2026-07-10
+op-20260710-roundtrip-health	system/operations/op-20260710-roundtrip-health.md	operation			personal				
 profile-brendan	BRENDAN_PROFILE.md	knowledge	general		personal				2026-07-10
 q-20260710-trading-dup	newspaper/questions/q-20260710-trading-dup.md	question	investing	open	personal			Retire the frozen trading/ copy inside health-notebook?	2026-07-10
+task-20260710-generic-hydration-electrolyte-evidence-s	queue/active/task-20260710-generic-hydration-electrolyte-evidence-s.md	task	health	ready_for_publication	personal			Generic hydration-electrolyte evidence summary	2026-07-10

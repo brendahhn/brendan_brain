@@ -3,7 +3,7 @@ id: task-20260710-generic-hydration-electrolyte-evidence-s
 title: Generic hydration-electrolyte evidence summary
 artifact_type: task
 domain: health
-status: active
+status: ready_for_publication
 created_at: 2026-07-10
 urgency: low
 depth: standard
@@ -28,3 +28,8 @@ SYNTHETIC ROUND-TRIP FIXTURE: summarize generic (non-personal) evidence tiers fo
 (none yet)
 
 ## Research Log
+- 2026-07-10 [sonnet, simulated health-robot run] Picked up via brain-sync READ; sanitized findings exported to queue/inbox/from-health-robot.md. Status -> ready_for_publication.
+
+## Findings
+
+[B] Generic (non-personal): sodium-focused electrolyte intake supported for endurance efforts >60-90 min; overhydration/hyponatremia is the better-documented risk. SYNTHETIC fixture for integration proof — not real research.
