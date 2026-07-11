@@ -70,46 +70,40 @@ double duty for fitness and skill.
 
 ### (b) Why each alternative was cut
 
-- **Boxing** -- [CONC-inferred] shares the injury-avoidance appeal (no kicks/knees), but
-  sources describe boxing's volume of repetitive overhead punching as a recognized driver of
-  rotator-cuff strain, impingement, and tendinitis from cumulative load, not just acute trauma
-  (mixedosteo.com.au, accessed 2026-07-11) -- a worse match given surfing already loads the
-  shoulder (see (d)). Also narrower: no clinch, no legs, less all-around development.
-- **BJJ** -- [CONC-inferred] has the best hard injury-rate numbers of the group (9.2
-  injuries/1000 exposures vs. wrestling's 29.6-30.7/1000), no strikes at all (rlondo.substack.com,
-  bjjee.com, accessed 2026-07-11). But live rolling is functionally how BJJ is trained -- a
-  no-live-contact version isn't really BJJ, and the same research shows joint-concentrated
-  injury (elbow hyperextension from armbars; 78% of injuries orthopedic in a 1,140-athlete
-  survey), a worse trade when paddling already loads shoulders and spine (PMC8721390, accessed
-  2026-07-11).
-- **Wrestling** -- [CONC-inferred] highest reported injury rate of the group (29.6-30.7/1000)
-  and, like BJJ, inseparable from live resistance -- no meaningful no-sparring wrestling
-  (rlondo.substack.com, accessed 2026-07-11). Cut on both injury-rate and format-fit grounds.
+- **Boxing** -- [CONC-inferred] shares the injury-avoidance appeal, but sources describe its
+  volume of repetitive overhead punching as a recognized driver of rotator-cuff strain,
+  impingement, and tendinitis from cumulative load (mixedosteo.com.au, accessed 2026-07-11) --
+  a worse match given surfing already loads the shoulder (see (d)). Also narrower: no clinch,
+  no legs.
+- **BJJ** -- [CONC-inferred] has the best injury-rate numbers of the group (9.2 injuries/1000
+  exposures vs. wrestling's 29.6-30.7/1000), no strikes (rlondo.substack.com, bjjee.com,
+  accessed 2026-07-11). But live rolling is functionally how BJJ is trained -- no-live-contact
+  isn't really BJJ -- and the same research shows joint-concentrated injury (elbow
+  hyperextension from armbars; 78% orthopedic in a 1,140-athlete survey), a worse trade when
+  paddling already loads shoulders and spine (PMC8721390, accessed 2026-07-11).
+- **Wrestling** -- [CONC-inferred] highest injury rate of the group (29.6-30.7/1000) and, like
+  BJJ, inseparable from live resistance (rlondo.substack.com, accessed 2026-07-11). Cut on
+  injury-rate and format-fit.
 - **MMA** -- [CONC-inferred] combines striking injuries (head/facial trauma) with grappling
-  injuries (27% fractures in one dataset, highest share compared) and structurally requires
-  live striking and live grappling to be MMA at all (PMC5315252, sportsmed.org, accessed
-  2026-07-11). Worst fit for a no-live-contact requirement.
+  injuries (27% fractures, highest share compared) and structurally requires live striking and
+  grappling to be MMA at all (PMC5315252, sportsmed.org, accessed 2026-07-11). Worst fit.
 - **Kickboxing** -- [CONC-inferred] the closest cousin and a reasonable fallback, but most
-  rulesets drop clinch work and knee/elbow strikes -- specifically what Brendan wants. Sources
-  frame Muay Thai as the more complete skill set because of the added clinch and limb range
-  (nowmuaythai.com, x3sports.com, accessed 2026-07-11). Kept as backup if no suitable gym
-  turns up.
+  rulesets drop clinch work and knee/elbow strikes -- what Brendan specifically wants. Sources
+  frame Muay Thai as more complete because of the added clinch and limb range (nowmuaythai.com,
+  x3sports.com, accessed 2026-07-11). Kept as backup if no suitable gym turns up.
 
 ### (c) Risks and mitigations
 
-[CONC-inferred] Cutting sparring removes the largest injury vector but not all of them.
-Recurring risks in pad/bag/no-spar training: (1) shin bruising/periosteal irritation from
-kicking pads and bags -- mitigated by building shin conditioning through controlled repetition
-and technique, not chasing intensity (sweetscienceoffighting.com, accessed 2026-07-11); (2)
-shin splints (medial tibial stress syndrome) from kicking volume outpacing recovery -- a
-load-management issue, not a contact issue (roegkuijpers.com, accessed 2026-07-11); (3)
-hip/groin strain from high kicks and rapid directional changes, tied by sources to
-insufficient hip mobility rather than to kicking itself (ubudmuaythai.com, accessed
-2026-07-11); (4) general overuse from stacking a new modality on existing load -- the same
-shoulder-overuse mechanism flagged for boxing applies proportionally less here (fewer punches
-per session than a boxing-focused class) but isn't zero. [ASSUME] None of this reads as
-catastrophic risk; it's standard new-modality ramp-up risk, manageable with the entry plan
-in (f).
+[CONC-inferred] Cutting sparring removes the largest injury vector but not all of them: (1)
+shin bruising/periosteal irritation from pads and bags -- mitigated by building shin
+conditioning through controlled repetition, not intensity (sweetscienceoffighting.com,
+accessed 2026-07-11); (2) shin splints (medial tibial stress syndrome) from kicking volume
+outpacing recovery -- a load-management issue, not a contact one (roegkuijpers.com, accessed
+2026-07-11); (3) hip/groin strain from high kicks and directional changes, tied by sources to
+insufficient hip mobility rather than kicking itself (ubudmuaythai.com, accessed 2026-07-11);
+(4) general overuse from stacking a new modality on existing load -- the shoulder-overuse
+mechanism flagged for boxing applies less here (fewer punches per session) but isn't zero.
+[ASSUME] None of this is catastrophic; it's standard ramp-up risk, manageable via (f).
 
 ### (d) Fit with the existing weekly routine, including surfing
 
@@ -126,15 +120,15 @@ where cumulative shoulder/hip fatigue is most likely to show up -- that's the pa
 
 [OBS] (gym-review/marketing sentiment, not verified fact) Sparring should be optional and
 beginner-paced, not compulsory from day one -- a gym pushing sparring immediately is a mismatch
-(evolve-mma.com, accessed 2026-07-11). Positive signals: clean/organized space, coaches who
-split attention across skill levels and walk new students through fundamentals first, visible
+(evolve-mma.com, accessed 2026-07-11). Positive signals: organized space, coaches who split
+attention across skill levels and walk new students through fundamentals first, visible
 protective-gear culture (instinctmuaythai.com, accessed 2026-07-11). Red flags: "no prisoners"
 sparring culture bleeding into regular classes, intimidation-style coaching, unverifiable
 instructor credentials, worn-out equipment (xmartial.com, instinctmuaythai.com, accessed
-2026-07-11). One source argues a gym that refuses to spar at all, ever, sacrifices real skill
-development (evolve-mma.com, accessed 2026-07-11) -- worth knowing, but it doesn't change
-Brendan's preference; the target is a gym offering optional light sparring he can decline, not
-one structurally incapable of it.
+2026-07-11). One source argues a gym refusing to spar at all, ever, sacrifices real skill
+development (evolve-mma.com, accessed 2026-07-11) -- doesn't change Brendan's preference; the
+target is a gym offering optional light sparring he can decline, not one structurally
+incapable of it.
 
 ### (f) Safe entry plan (first 8-12 weeks)
 
