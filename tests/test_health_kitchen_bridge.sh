@@ -54,7 +54,9 @@ grep -qi "synthetic-lentils" "$DRAFT" && { echo "FAIL: guidance row leaked into 
 # and the label survives where it belongs — the kitchen artifact
 grep -q "health_alignment: generally_aligned" queue/active/task-20270114-synthetic-menu.md \
   || { echo "FAIL: label lost from kitchen artifact"; exit 1; }
-# the bridge source must never carry medical content markers (spot check the contract)
-grep -qiE "\b(diagnos|mg\b|mcg\b|dose|symptom|lab result)" domains/health/FOOD_GUIDANCE.md \
-  && { echo "FAIL: medical content in FOOD_GUIDANCE"; exit 1; }
+# the bridge source's CONTENT rows must never carry medical markers (the contract prose
+# above the table legitimately names the forbidden words — check table rows only)
+grep "^|" domains/health/FOOD_GUIDANCE.md | grep -viE "^\| *#|^\|---| guidance .generic" \
+  | grep -qiE "\b(diagnos|[0-9]+ ?(mg|mcg)\b|dose|symptom|lab result)" \
+  && { echo "FAIL: medical content in FOOD_GUIDANCE rows"; exit 1; }
 echo OK

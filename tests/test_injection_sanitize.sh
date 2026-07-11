@@ -22,10 +22,10 @@ grep -q "source: https://example-blog.test/potpie" "$OUT" || { echo "FAIL: sourc
 grep -qE "accessed: [0-9]{4}-[0-9]{2}-[0-9]{2}" "$OUT" || { echo "FAIL: access date missing"; exit 1; }
 grep -q "UNTRUSTED EXTERNAL CONTENT" "$OUT" || { echo "FAIL: untrusted fence missing"; exit 1; }
 
-# hostile email (Gmail connector path): flags fire
+# hostile email (Gmail connector path): flags fire (stderr = flags, stdout = fenced content)
 set +e
 python3 tools/sanitize_external.py --in tests/fixtures/injection/hostile_email.txt \
-  --source "gmail:msg-synthetic" > "$SCRATCH/email.txt" 2>&1
+  --source "gmail:msg-synthetic" > "$SCRATCH/email.txt" 2>"$SCRATCH/email_flags.txt"
 RC=$?
 set -e
 [ "$RC" = "2" ] || { echo "FAIL: hostile email should exit 2"; exit 1; }
