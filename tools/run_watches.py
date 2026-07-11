@@ -62,7 +62,10 @@ def mark(wid):
 if __name__ == "__main__":
     if len(sys.argv) < 2 or sys.argv[1] not in ("due", "mark"):
         die(__doc__)
-    if sys.argv[1] == "due":
-        due()
-    else:
-        mark(sys.argv[2])
+    try:
+        if sys.argv[1] == "due":
+            due()
+        else:
+            mark(sys.argv[2])
+    except BrokenPipeError:   # e.g. `| grep -q` closing the pipe early is not an error
+        os._exit(0)
