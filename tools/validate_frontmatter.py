@@ -22,6 +22,7 @@ REQUIRED_BY_TYPE = {
     "edition": ["status"],
     "operation": ["repos", "started_at"],
     "domain_profile": ["domain", "status"],
+    "live_state": ["domain", "updated_at", "sensitivity"],
 }
 # dirs whose .md files MUST be artifacts (arch review finding #9: malformed frontmatter
 # was silently skipped). READMEs are exempt.

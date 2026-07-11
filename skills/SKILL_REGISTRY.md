@@ -11,8 +11,11 @@ synced copy — the header comment in each SKILL.md says where the canonical liv
 | brain-ops | Brain + any enabled repo | yes | capture, remember, recall, enqueue, status, answer questions |
 | brain-sync | specialist repos | yes | robot run-start read / run-end export protocol |
 | brain-newspaper | Brain | no | build/edit/publish editions; process annotations |
-| brain-domain | Brain | no | domain creation ladder |
+| brain-domain | Brain | no | domain creation ladder (+ tools/propose_domains.py, V2) |
 | brain-forget | Brain | no | forgetting workflow (plan → confirm → execute) |
+| brain-intake | Brain + any enabled repo | no | V2: route requests (6 modes → answer/task/watch + capture/expand switches) |
+| brain-kitchen | Brain | no | V2: kitchen desk ops — pantry, receipts, recipe research, menu/timing plans, post-cook feedback |
+| cowork-handoff | Cowork sessions (canonical here) | no (Brendan pastes the prompt into Cowork) | V2: end-of-session handoff → from-cowork.md outbox block |
 | safe-bot-edits | robots (pre-existing, Brendan-authored) | already present | governs robot prompt edits — NOT owned by the Brain; left untouched |
 
 ## Distribution strategy & platform limitations (documented honestly)

@@ -7,7 +7,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 ARTIFACT_TYPES = {"task", "timeline", "knowledge", "report", "prediction", "outcome",
                   "decision", "watch", "question", "annotation", "edition", "operation",
-                  "domain_profile"}
+                  "domain_profile", "live_state"}
 SENSITIVITIES = {"public", "personal", "private", "health", "financial"}
 TASK_STATUSES = {"inbox", "triaged", "active", "waiting_for_brendan",
                  "continuing_with_assumption", "scheduled", "verification",

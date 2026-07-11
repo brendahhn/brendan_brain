@@ -1,4 +1,4 @@
-<!-- version: 1.0.0 (2026-07-10) -->
+<!-- version: 1.1.0 (2026-07-11) — V2: detection signals, provisional domains, propose_domains.py -->
 # Domain Policy
 
 Domains are folders under `domains/` created by the brain-domain skill
@@ -18,6 +18,21 @@ Domains are folders under `domains/` created by the brain-domain skill
 `knowledge/ research/ observations/ predictions/ tasks/ preferences.md ACTIVE_QUESTIONS.md`.
 Only DOMAIN_PROFILE.md is mandatory — no empty scaffolding clutter.
 
+## Detection & proposal (V2)
+`python3 tools/propose_domains.py` scans REAL signals only — per-topic artifact counts,
+task/question accumulation, preference-evidence mentions (≥3 distinct, no existing home) —
+and drafts a proposal in `system/proposals/` covering: name · why · what moves/links ·
+initial structure · routine? · skill? · agent? · maintenance cost · provisional/permanent.
+A session refines the draft and surfaces it via the newspaper questions section. One casual
+question NEVER becomes a domain; "engagement telemetry"/"saved docs" signals don't exist
+here and are not pretended (arch-challenge response #14).
+
+## Provisional domains (V2)
+`domain_status: provisional` + review date. Created freely under the autonomy ladder for
+sustained activity; reviewed at ~30 days: promote to permanent (evidence in the profile) or
+dissolve — files move back to `general`/tasks with an operations note; nothing is deleted.
+
 ## Seeded active domains (evidence: existing robots + Brendan's requests)
 health (robot) · fantasy_football (robot) · investing (robot) · jobs (robot) ·
-news (News Scout) · vehicles (Tacoma interest) · surfing (WSL/data interest).
+news (News Scout) · vehicles (Tacoma interest) · surfing (WSL/data interest) ·
+concierge (V2, provisional — practical life ops).

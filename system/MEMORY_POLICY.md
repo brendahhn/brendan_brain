@@ -13,6 +13,7 @@
 | Confirmed rules | `preferences/CONFIRMED_RULES.md` | Changes behavior immediately |
 | Rejected rules | `preferences/REJECTED_RULES.md` | Never re-propose without new evidence |
 | Sensitive memory | in-domain, `sensitivity:` tagged | PRIVACY_POLICY governs |
+| Live operational state (V2) | `live_state` artifacts (e.g. kitchen PANTRY.md) | The one mutable class: in-place last-write-wins edits, git-audited, exempt from supersede chains; physical-state facts only, never conclusions |
 
 ## Capture triage (what a session should write down)
 - Explicit "remember this / add to Brain / queue this" → capture immediately, verbatim intent.

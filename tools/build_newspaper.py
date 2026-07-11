@@ -11,7 +11,11 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from brainlib import ROOT, iter_artifacts, today, SENSITIVE
 
 BUDGETS = {"most_important": 150, "investing": 1000, "fantasy_football": 500, "health": 500,
-           "jobs": 300, "news": 400, "open_research": 500, "questions_and_system": 200}
+           "jobs": 300, "news": 400, "concierge": 300, "open_research": 500,
+           "questions_and_system": 200}
+# robots whose missing output is NEWS (SCHEDULE_PLAN gate): section ← expected outbox
+GATED_INPUTS = {"trading-robot": "investing", "jobs-robot": "jobs",
+                "footybot": "fantasy_football", "health-robot": "health"}
 
 
 def collect(date):
@@ -64,6 +68,16 @@ def collect(date):
                              f"Review `queue/inbox/{fn}` directly and fix the robot's export.")
                     items[sec].append((fn, f"{dom} robot report {m.group(1)}", b[:2500],
                                        f"queue/inbox/{fn}"))
+    # input gate (SCHEDULE_PLAN): a robot with no fresh block is NEWS, not silence
+    from check_inputs import input_status
+    for name, fresh, last in input_status(date):
+        if not fresh and name in GATED_INPUTS:
+            items[GATED_INPUTS[name]].append(
+                (f"gate-{name}", f"[FAIL] {name}: no output for this edition",
+                 f"[FAIL] {name} produced no fresh block (last: {last or 'never'}) as of "
+                 f"this draft. Reported honestly per SCHEDULE_PLAN — nothing fabricated. "
+                 f"If it lands before the Publisher pass, the editor may pull it in.",
+                 "system/SCHEDULE_PLAN.md"))
     return items
 
 
@@ -108,7 +122,7 @@ checklist_notes: ""
 > re-verify time-sensitive claims, then complete the Publisher checklist.
 """]
     order = ["most_important", "health", "fantasy_football", "investing", "jobs", "news",
-             "open_research", "questions_and_system"]
+             "concierge", "open_research", "questions_and_system"]
     empty = []
     for sec in order:
         got = items.get(sec, [])
