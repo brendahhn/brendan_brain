@@ -14,7 +14,7 @@ MODES = {1: "immediate", 2: "immediate_plus_memory", 3: "immediate_plus_overnigh
 # lowercase substrings/regex over Brendan's words — examples, deliberately generous.
 OVERRIDES = [
     (r"\b(do ?n[o']?t save|don't remember|no need to (remember|save)|off the record)\b", ("capture", "n")),
-    (r"\b(remember this|save this|add (this )?to (the )?brain)\b", ("capture", "y")),
+    (r"\b(remember this|(?<!n't )(?<!not )save this|add (this )?to (the )?brain)\b", ("capture", "y")),
     (r"\b(answer (this |me )?now|just answer|just the answer|quick answer only)\b", ("mode", 1)),
     (r"\bjust a one[- ]?off\b|\bone[- ]?off question\b|\bone time question\b", ("mode", 1)),
     (r"\b(research (it|this) overnight|overnight (pass|research|expansion)|more (depth|detail) tomorrow|quick answer (and|then) research)\b", ("mode", 3)),

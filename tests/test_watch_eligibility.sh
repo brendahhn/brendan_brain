@@ -24,8 +24,8 @@ recurrence: watch
 requires_brendan_answer: false
 origin_repository: brendan_brain
 dedupe_key: general/$1
-next_run: 2027-04-25
-last_run: 2027-04-18
+next_run: 2026-01-05
+last_run: 2026-01-01
 publish_policy: on_change
 ---
 
