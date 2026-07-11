@@ -8,6 +8,7 @@ audit-20260710-qa-skeptic-response	system/audits/2026-07-10-qa-and-skeptic-respo
 audit-20260711-arch-challenge-opus	system/audits/2026-07-11-arch-challenge-opus.md	report	general		personal	audit,v2,architecture,review		Fresh Opus architecture challenge of the V2 spec (verbatim)	2026-07-11
 audit-20260711-arch-challenge-response	system/audits/2026-07-11-arch-challenge-response.md	report	general		personal	audit,v2,architecture,review		Fable responses to the fresh Opus V2 architecture challenge	2026-07-11
 audit-20260711-v2-finding-disposition	system/audits/2026-07-11-v2-finding-disposition.md	report	general		personal	audit,v2,repairs,disposition		V2 reviewer finding disposition — every finding, repair, test, and rollback	2026-07-11
+audit-20260711-v2-postmerge	system/audits/2026-07-11-v2-postmerge-verification.md	report	general		personal	audit,v2,release,postmerge		V2 post-merge verification on main	2026-07-11
 audit-20260711-v2-preimplementation	system/audits/2026-07-11-v2-preimplementation-audit.md	report	general		personal	audit,v2,architecture		V2 pre-implementation audit (15-point checklist)	2026-07-11
 audit-20260711-v2-qa-sonnet	system/audits/2026-07-11-v2-qa-report-sonnet.md	report	general		personal	audit,v2,qa		Fresh Sonnet QA operator report on V2 (verbatim)	2026-07-11
 audit-20260711-v2-skeptic-opus	system/audits/2026-07-11-v2-skeptic-report-opus.md	report	general		personal	audit,v2,skeptic,privacy,security		Fresh Opus Chief Skeptic attack report on V2 (verbatim summary of findings + verdict)	2026-07-11
