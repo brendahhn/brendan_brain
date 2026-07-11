@@ -22,6 +22,7 @@ REQUIRED_BY_TYPE = {
     "edition": ["status"],
     "operation": ["repos", "started_at"],
     "domain_profile": ["domain", "status"],
+    "live_state": ["domain", "updated_at", "sensitivity"],
 }
 # dirs whose .md files MUST be artifacts (arch review finding #9: malformed frontmatter
 # was silently skipped). READMEs are exempt.
@@ -56,6 +57,31 @@ def check(rel, fm):
         if len(parts) >= 2 and parts[0] == "queue" and parts[1] in FOLDER_STATUS:
             if st not in FOLDER_STATUS[parts[1]]:
                 errs.append(f"status '{st}' inconsistent with folder queue/{parts[1]}/")
+    return errs
+
+
+MEDICAL_ROW = __import__("re").compile(
+    r"\b(diagnos|dose|dosage|symptom|lab result|blood test|ldl|hdl|a1c|cholesterol|"
+    r"triglyceride|blood pressure|hypertension|diabet|prescri|medication|cardiolog|"
+    r"[0-9]+ ?(mg|mcg|mmol|bpm)\b)", __import__("re").I)
+
+
+def check_food_guidance():
+    """Write-time wall for the kitchen bridge source (Chief Skeptic M3): guidance rows
+    must stay generic food-level — no conditions, meds, doses, or biometrics. Runs on
+    every --all validation, so the daily run catches a bad export the day it lands."""
+    p = os.path.join(ROOT, "domains", "health", "FOOD_GUIDANCE.md")
+    if not os.path.exists(p):
+        return []
+    errs = []
+    for n, line in enumerate(open(p, encoding="utf-8"), 1):
+        if not line.startswith("|") or line.startswith("|---") or "| guidance " in line:
+            continue
+        m = MEDICAL_ROW.search(line)
+        if m:
+            errs.append(f"domains/health/FOOD_GUIDANCE.md:{n}: medical content "
+                        f"('{m.group(0)}') in a guidance row — sanitization contract "
+                        f"violated; remove it and fix the exporter")
     return errs
 
 
@@ -104,6 +130,10 @@ def main():
     for o in orphans:
         print(f"{o}: no valid frontmatter/id in an artifact directory", file=sys.stderr)
         bad += 1
+    if not args or args == ["--all"]:
+        for e in check_food_guidance():
+            print(e, file=sys.stderr)
+            bad += 1
     print(f"validated {len(targets)} artifacts, {bad} errors")
     sys.exit(1 if bad else 0)
 

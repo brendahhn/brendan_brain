@@ -8,10 +8,54 @@ Writes newspaper/drafts/<date>.md; --publish moves it to editions/ after the Pub
 checklist fields are filled in the draft frontmatter."""
 import argparse, os, re, shutil, sys, datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from brainlib import ROOT, iter_artifacts, today, SENSITIVE
+from brainlib import ROOT, iter_artifacts, today, SENSITIVE, is_active_watch
 
 BUDGETS = {"most_important": 150, "investing": 1000, "fantasy_football": 500, "health": 500,
-           "jobs": 300, "news": 400, "open_research": 500, "questions_and_system": 200}
+           "jobs": 300, "news": 400, "concierge": 300, "open_research": 500,
+           "questions_and_system": 200}
+# robots whose missing output is NEWS (SCHEDULE_PLAN gate): section ← expected outbox
+GATED_INPUTS = {"trading-robot": "investing", "jobs-robot": "jobs",
+                "footybot": "fantasy_football", "health-robot": "health"}
+
+# CONTENT-level medical/health scrub for ANY prose about to enter the paper (Chief Skeptic
+# C1/M3, 2026-07-11): the sensitivity FIELD is not enough — a personal-tagged concierge task
+# can carry health inference in its Findings prose or a health_alignment reason. This scans
+# the actual text. Order matters: this is a leak wall, so it errs toward redaction.
+MEDICAL = re.compile(
+    r"health_alignment|strongly[_ ]aligned|generally[_ ]aligned|potentially[_ ]conflicting"
+    # dose/biometric units only — NOT lb/kg, which are grocery weights in kitchen prose
+    # (final merge-gate review D1: '2 lb chuck roast' redacted the whole cooking article;
+    # body-weight in HEALTH exports is still caught by the robot-outbox scrub below)
+    r"|\b\d+\s?(mg|mcg|bpm|mmol|mg/dl|iu)\b"
+    r"|\b(ldl|hdl|a1c|hba1c|cholesterol|triglyceride|lipid panel|blood pressure|glucose"
+    r"|hypertension|diabetes|diagnos(is|ed|e)|prescrib(ed|ption)|cardiologist|symptom"
+    r"|dose|dosage|biometric|lab result|blood test)\b", re.I)
+
+
+def trim(text, n):
+    """Word-boundary truncation with a visible marker (QA defect #1, 2026-07-11 — raw
+    slices cut mid-word with no indication content was dropped)."""
+    if len(text) <= n:
+        return text
+    cut = text[:n]
+    if " " in cut:
+        cut = cut.rsplit(" ", 1)[0]
+    return cut + " […]"
+
+
+def scrub_medical(summary, rel, section, sens):
+    """Redact prose that reveals health state before it reaches the paper. Returns the
+    (possibly redacted) summary. Health-section generic conclusions are allowed; every
+    other section is scrubbed if medical content appears."""
+    if sens in SENSITIVE:
+        return (f"(sensitive {sens} content — see `{rel}` directly; only generic "
+                f"conclusions may be quoted here by the editor)")
+    if section != "health" and MEDICAL.search(summary):
+        return (f"⚠️ HEALTH-LEAK REDACTION: `{rel}`'s findings contain health-derived "
+                f"content that must not appear outside the health section (KITCHEN_PROFILE "
+                f"bridge rule 3 / PUBLICATION_POLICY). Editor: write a generic, non-medical "
+                f"line by hand if this belongs in the paper, or drop it. Nothing auto-quoted.")
+    return summary
 
 
 def collect(date):
@@ -25,11 +69,9 @@ def collect(date):
                 and fm.get("publication_destination", "none") == "newspaper":
             m = re.search(r"## Findings\n(.*?)(\n## |\Z)", body, re.S)
             summary = (m.group(1).strip() if m else "(findings section missing)")
-            if sens in SENSITIVE:
-                summary = f"(sensitive {sens} content — see `{rel}` directly; only generic " \
-                          f"conclusions may be quoted here by the editor)"
             sec = dom if dom in items else "open_research"
-            items[sec].append((fm.get("id"), fm.get("title"), summary[:2000], rel))
+            summary = scrub_medical(summary, rel, sec, sens)
+            items[sec].append((fm.get("id"), fm.get("title"), trim(summary, 2000), rel))
         if at == "question" and st == "open":
             q = body.strip()
             if len(q) > 500:
@@ -62,8 +104,28 @@ def collect(date):
                         b = ("⚠️ SANITIZATION FLAG: this health export contains numeric "
                              f"dose/biometric-like values and was withheld from the draft. "
                              f"Review `queue/inbox/{fn}` directly and fix the robot's export.")
-                    items[sec].append((fn, f"{dom} robot report {m.group(1)}", b[:2500],
+                    items[sec].append((fn, f"{dom} robot report {m.group(1)}", trim(b, 2500),
                                        f"queue/inbox/{fn}"))
+    # input gate (SCHEDULE_PLAN): a robot with no fresh block is NEWS, not silence; a robot
+    # whose only block is yesterday's is STALE, not current (Chief Skeptic M4)
+    from check_inputs import input_status
+    for name, fresh, last, state in input_status(date):
+        if name not in GATED_INPUTS:
+            continue
+        if state == "missing":
+            items[GATED_INPUTS[name]].append(
+                (f"gate-{name}", f"[FAIL] {name}: no output for this edition",
+                 f"[FAIL] {name} produced no fresh block (last: {last or 'never'}) as of "
+                 f"this draft. Reported honestly per SCHEDULE_PLAN — nothing fabricated. "
+                 f"If it lands before the Publisher pass, the editor may pull it in.",
+                 "system/SCHEDULE_PLAN.md"))
+        elif state == "stale":
+            items[GATED_INPUTS[name]].append(
+                (f"stale-{name}", f"[STALE] {name}: today's run has not landed",
+                 f"[STALE] The {name} content above is from {last} (yesterday); today's run "
+                 f"had not produced a block as of this draft. Treat as [STALE], not current "
+                 f"— re-verify before relying on it (SCHEDULE_PLAN, Chief Skeptic M4).",
+                 "system/SCHEDULE_PLAN.md"))
     return items
 
 
@@ -108,7 +170,7 @@ checklist_notes: ""
 > re-verify time-sensitive claims, then complete the Publisher checklist.
 """]
     order = ["most_important", "health", "fantasy_football", "investing", "jobs", "news",
-             "open_research", "questions_and_system"]
+             "concierge", "open_research", "questions_and_system"]
     empty = []
     for sec in order:
         got = items.get(sec, [])
@@ -123,10 +185,12 @@ checklist_notes: ""
     if empty:
         lines.append("\n---\n_Nothing meaningful today in: " +
                      ", ".join(e.replace('_', ' ') for e in empty) + "._\n")
-    # system panel: active watches, unfinished ops, fresh preference evidence
+    # system panel: LIVE watches only — shared eligibility with the watch runner
+    # (brainlib.is_active_watch, production bug B: a cancelled synthetic watch once
+    # surfaced here because this loop had its own weaker filter)
     sysex = []
     for rel, fm, _ in iter_artifacts():
-        if fm.get("artifact_type") == "watch" or str(fm.get("status")) == "watching":
+        if is_active_watch(fm, rel):
             sysex.append(f"- Watch `{fm.get('id')}` — next run {fm.get('next_run') or 'due now'}")
     ops = os.path.join(ROOT, "system", "operations")
     if os.path.isdir(ops):

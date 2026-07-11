@@ -10,8 +10,18 @@ importance → confidence → urgency → personal relevance → novelty (covera
 
 ## Section defaults (words; overridable per edition via queue or annotation)
 most_important 150 · investing 1000 · fantasy_football 500 · health 500 · jobs 300 ·
-news 400 · open_research 500 · questions_and_system 200. Empty sections are omitted with
-one line ("Nothing meaningful in <section> today.") or dropped entirely.
+news 400 · concierge 300 (V2 — appears ONLY when a concierge task explicitly published;
+kitchen default is file_only) · open_research 500 · questions_and_system 200. Empty
+sections are omitted with one line ("Nothing meaningful in <section> today.") or dropped
+entirely.
+
+## Time-awareness & input gate (V2, SCHEDULE_PLAN)
+The editorial run executes `tools/check_inputs.py` first; build_newspaper.py auto-inserts a
+`[FAIL]` item into the section of any gated robot with no fresh block (trading→investing,
+jobs, footybot, health). Missing runs are reported, never fabricated, never silently
+skipped, and never block publication. A late trading block may be pulled in before the
+Publisher pass; after publication it waits for tomorrow. Kitchen `health_alignment` labels
+NEVER appear in any section (KITCHEN_PROFILE bridge rule 3 — leak-gated).
 
 ## Sourcing
 Sections draw from: tasks in `ready_for_publication`, robot outbox files

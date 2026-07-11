@@ -4,6 +4,12 @@
 # divergence check.
 set -euo pipefail
 cd "$BRAIN"
+# Sibling repos are only present in sessions that checked them out. Absent ≠ broken:
+# report SKIP loudly so a green run can't be mistaken for cross-repo verification.
+if [ ! -d ../health-notebook/.claude ]; then
+  echo "SKIP: ../health-notebook not checked out in this session — cross-repo drift check not exercised"
+  exit 0
+fi
 # all synced copies currently match canonical
 ./tools/sync_skills.sh --check | grep -q DIVERGED && { echo "unexpected divergence"; exit 1; }
 # simulate divergence in a temp copy of one repo

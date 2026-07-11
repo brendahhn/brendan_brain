@@ -1,4 +1,4 @@
-<!-- version: 1.0.0 (2026-07-10) -->
+<!-- version: 1.1.0 (2026-07-11) — added live_state type (V2 kitchen); see audits/2026-07-11-arch-challenge-response.md #5 -->
 # Markdown Frontmatter Schemas
 
 All artifacts use YAML frontmatter between `---` fences. Validate:
@@ -11,7 +11,7 @@ All artifacts use YAML frontmatter between `---` fences. Validate:
 | `id` | string | `<type>-<YYYYMMDD>-<slug>`, stable forever |
 | `title` | string | human title |
 | `created_at` / `updated_at` | ISO date or datetime | |
-| `artifact_type` | enum | `task`, `timeline`, `knowledge`, `report`, `prediction`, `outcome`, `decision`, `watch`, `question`, `annotation`, `edition`, `operation`, `domain_profile` |
+| `artifact_type` | enum | `task`, `timeline`, `knowledge`, `report`, `prediction`, `outcome`, `decision`, `watch`, `question`, `annotation`, `edition`, `operation`, `domain_profile`, `live_state` |
 | `domain` | string | folder name under `domains/`, or `general` |
 | `status` | enum | per-type, below |
 | `sensitivity` | enum | `public`, `personal` (default), `private`, `health`, `financial` |
@@ -90,6 +90,13 @@ multi-source evidence recorded in `source_references`. Corrections: new file wit
 ## edition (newspaper/editions/YYYY-MM-DD.md) — required: id, artifact_type: edition, created_at
 ## operation (system/operations/op-*.md) — required: id, artifact_type: operation, repos (map repo→status: planned|committed|pushed|failed), started_at
 ## domain_profile (domains/<d>/DOMAIN_PROFILE.md) — required: id, artifact_type: domain_profile, domain, status (active|dormant)
+Optional `domain_status: provisional|permanent` (V2): provisional domains carry a review
+date in system/V2_LEDGER.md and may be dissolved back to tasks without a forgetting workflow.
+
+## live_state (e.g. domains/concierge/kitchen/PANTRY.md) — required: id, artifact_type, domain, updated_at, sensitivity
+The ONE mutable memory class (MEMORY_POLICY): live operational inventory/state. Last-write-
+wins edits IN PLACE are allowed and expected; git history is the audit trail; supersede
+chains do NOT apply. Never store conclusions here — facts about current physical state only.
 
 ## Sensitivity rules (enforced by tools/brain_search.py and PUBLICATION_POLICY)
 

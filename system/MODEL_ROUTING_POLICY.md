@@ -28,5 +28,8 @@ to haiku instead of burning lead-model context.
 
 ## Recording
 Every task's `## Research Log` entries name the model used (e.g. `2026-07-10 [sonnet] ...`).
-Escalations record the trigger. The Chief of Staff reviews `system/CAPACITY_LEDGER.md`
-periodically to retire staffing that isn't earning its cost.
+Escalations record the trigger. Substantive tasks additionally log a row via
+`python3 tools/log_usage.py` (V2 — observable fields only; usefulness starts `pending` and
+is filled from Brendan's reactions, never self-graded). The weekly review summarizes rows
+(≥8 rows → routing/schedule recommendations; 3-strike retirement per STAFFING_POLICY).
+No token numbers exist on this platform; none are recorded (LIMITATIONS #4).

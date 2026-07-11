@@ -2,12 +2,38 @@
 deliberately small YAML subset — scalars, [inline, lists], and simple nested maps one level
 deep for `repos:`/question entries)."""
 import os, re, sys, datetime
+from zoneinfo import ZoneInfo
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# ── Time policy (V2, 2026-07-11): containers run UTC, Brendan lives in Pacific.
+# ALL user-facing dates (edition names, task dates, freshness windows, watch dueness)
+# are America/Los_Angeles. Machine timestamps that need wall-clock precision should be
+# stored as ISO datetimes WITH offset. See system/SCHEDULE_PLAN.md.
+PACIFIC = ZoneInfo("America/Los_Angeles")
+
+
+def now_pt():
+    return datetime.datetime.now(tz=PACIFIC)
+
+
+def editorial_date(dt=None, cutoff_hour=20):
+    """Which morning edition a result belongs to: content produced at/after 20:00 PT
+    belongs to TOMORROW's paper (a 11pm result is for the morning reader), unless the
+    caller explicitly dates it otherwise. Pass an aware datetime to evaluate a specific
+    instant."""
+    dt = dt or now_pt()
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=PACIFIC)
+    dt = dt.astimezone(PACIFIC)
+    d = dt.date()
+    if dt.hour >= cutoff_hour:
+        d += datetime.timedelta(days=1)
+    return d.isoformat()
+
 ARTIFACT_TYPES = {"task", "timeline", "knowledge", "report", "prediction", "outcome",
                   "decision", "watch", "question", "annotation", "edition", "operation",
-                  "domain_profile"}
+                  "domain_profile", "live_state"}
 SENSITIVITIES = {"public", "personal", "private", "health", "financial"}
 TASK_STATUSES = {"inbox", "triaged", "active", "waiting_for_brendan",
                  "continuing_with_assumption", "scheduled", "verification",
@@ -25,6 +51,39 @@ FOLDER_STATUS = {
     "failed": {"failed", "cancelled"},
 }
 SENSITIVE = {"health", "private", "financial"}
+
+# ── Watch eligibility (production bug B, 2026-07-11): the watch runner and the newspaper
+# builder MUST share one definition of "a watch that exists for real purposes right now".
+# A cancelled synthetic test watch once reached a real edition because each tool had its
+# own filter.
+WATCH_EXCLUDED_STATUSES = {"cancelled", "completed", "failed", "archived", "expired",
+                           "published"}
+SYNTHETIC_MARKERS = ("synthetic", "fixture", "test-only")
+
+
+def is_active_watch(fm, rel=""):
+    """True only for a live, real watch: watch-typed, not in a terminal status, not a
+    synthetic/fixture artifact, not living under tests/."""
+    if fm.get("artifact_type") != "watch" and str(fm.get("status")) != "watching":
+        return False
+    if str(fm.get("status")) in WATCH_EXCLUDED_STATUSES:
+        return False
+    hay = f"{fm.get('id', '')} {fm.get('title', '')} {fm.get('dedupe_key', '')}".lower()
+    if any(m in hay for m in SYNTHETIC_MARKERS):
+        return False
+    if rel.startswith("tests" + os.sep) or "fixture" in rel.lower():
+        return False
+    return True
+
+
+def watch_is_due(fm, on_date):
+    """Dueness for an ELIGIBLE watch. Empty next_run means due ONLY for a never-run watch
+    (first run); an empty next_run on a watch that HAS run is malformed, not due
+    (production bug B requirement 3)."""
+    nr, lr = str(fm.get("next_run", "") or ""), str(fm.get("last_run", "") or "")
+    if not nr:
+        return not lr
+    return nr <= on_date
 
 
 def parse_frontmatter(text):
@@ -92,7 +151,8 @@ def iter_artifacts():
 
 
 def today():
-    return datetime.date.today().isoformat()
+    """PACIFIC calendar date (time policy above) — the user-facing 'today' everywhere."""
+    return now_pt().date().isoformat()
 
 
 def slugify(s, maxlen=40):
