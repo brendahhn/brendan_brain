@@ -37,7 +37,10 @@ run_test() {
 
 FILTER="${1:-}"
 for t in test_queue_dedup test_concurrent_writes test_partial_failure test_retrieval \
-         test_annotations test_newspaper_sensitivity test_forgetting test_skill_sync; do
+         test_annotations test_newspaper_sensitivity test_forgetting test_skill_sync \
+         test_intake_routing test_receipt_pantry test_health_kitchen_bridge \
+         test_injection_sanitize test_domain_proposal test_usage_learning \
+         test_cowork_handoff test_schedule_gate test_skill_quality; do
   run_test "$t" $FILTER
 done
 echo "" >> "$RESULTS"; echo "PASS=$PASS FAIL=$FAIL" | tee -a "$RESULTS"
