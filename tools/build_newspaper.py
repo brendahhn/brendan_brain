@@ -23,7 +23,10 @@ GATED_INPUTS = {"trading-robot": "investing", "jobs-robot": "jobs",
 # the actual text. Order matters: this is a leak wall, so it errs toward redaction.
 MEDICAL = re.compile(
     r"health_alignment|strongly[_ ]aligned|generally[_ ]aligned|potentially[_ ]conflicting"
-    r"|\b\d+\s?(mg|mcg|kg|lb|bpm|mmol|mg/dl|iu)\b"
+    # dose/biometric units only — NOT lb/kg, which are grocery weights in kitchen prose
+    # (final merge-gate review D1: '2 lb chuck roast' redacted the whole cooking article;
+    # body-weight in HEALTH exports is still caught by the robot-outbox scrub below)
+    r"|\b\d+\s?(mg|mcg|bpm|mmol|mg/dl|iu)\b"
     r"|\b(ldl|hdl|a1c|hba1c|cholesterol|triglyceride|lipid panel|blood pressure|glucose"
     r"|hypertension|diabetes|diagnos(is|ed|e)|prescrib(ed|ption)|cardiologist|symptom"
     r"|dose|dosage|biometric|lab result|blood test)\b", re.I)

@@ -38,7 +38,8 @@ SYNTHETIC-TEST menu request.
 
 ## Findings
 
-A synthetic-lentil stew plan with crusty bread. Fun dessert follows the profile rule.
+A hearty stew plan with crusty bread — brown 2 lb chuck, braise, rest overnight.
+Fun dessert follows the profile rule.
 EOF
 
 # SEPARATE leak vector (Chief Skeptic C1): medical inference in the Findings PROSE of a
@@ -71,6 +72,9 @@ python3 tools/build_newspaper.py --date $D >/dev/null
 DRAFT=newspaper/drafts/$D.md
 # the menu item may appear (it asked for publication)...
 grep -q "SYNTHETIC-TEST kitchen menu plan" "$DRAFT" || { echo "FAIL: kitchen item missing from draft"; exit 1; }
+# ...WITH its grocery-weight prose intact — food weights are not medical values
+# (merge-gate D1 regression: '2 lb' must not trigger the health scrub)
+grep -q "brown 2 lb chuck" "$DRAFT" || { echo "FAIL: grocery weight over-redacted (D1)"; exit 1; }
 # ...but alignment labels and reasons must not (KITCHEN_PROFILE bridge rule 3), whether in
 # frontmatter OR copied from the Findings prose
 grep -qiE "health_alignment|generally_aligned|strongly_aligned|potentially_conflicting" "$DRAFT" \
