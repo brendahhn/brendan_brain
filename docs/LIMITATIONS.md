@@ -1,4 +1,4 @@
-<!-- version: 1.0.0 (2026-07-10) -->
+<!-- version: 1.1.0 (2026-07-11) — V2 additions at bottom -->
 # Limitations — stated honestly
 
 ## Requires Brendan before it's live end-to-end
@@ -46,3 +46,24 @@
 ## Mocked / synthetic (never presented as real)
 - Tacoma listings in the demo edition; the electrolyte "finding"; all test fixtures.
   Every one is labeled SYNTHETIC in place.
+
+## V2 additions (2026-07-11, all live-verified)
+14. **Web egress in this environment is WebSearch-only.** Arbitrary-host fetches (curl,
+    Playwright, WebFetch) get CONNECT 403 from the org egress policy. Browser workflows
+    are written tier-adaptive (BROWSER_RESEARCH_POLICY); tier 2/3 need a permissive
+    environment network policy or a local session. Chromium + playwright-core themselves
+    work (verified) — only the network gate blocks them here.
+15. **Gmail connector surface in this session is read-by-id + trash/spam labels only**;
+    its own tool docs reference search/list tools that aren't exposed here. Calendar/Drive
+    expose zero tools until enabled. No Google Sheets connector exists.
+16. **Shopify/QuickBooks are connected but BLOCKED by policy** pending Brendan's ownership
+    answer (q-20260711-shopify-ownership) — work-boundary rule.
+17. **Receipt ingestion is manual-paste** (no OCR/receipt connector). Photo → session
+    transcription → paste format works today.
+18. **Cross-routine timing is best-effort**: the 06:30-trading→07:05-editorial order is
+    recommended times + a mechanical [FAIL]-and-publish gate, not a scheduler guarantee.
+19. **Usage instrumentation has no token data** (no platform API) — observable fields only;
+    usefulness is filled from Brendan's reactions, so fresh rows say "pending".
+20. **The kitchen acceptance scenario ran at search tier**: methods synthesized from
+    search-result content, labeled [CONC-inferred]; no direct page verification was
+    possible in this environment.

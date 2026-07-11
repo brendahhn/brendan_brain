@@ -26,3 +26,13 @@ not zeroed.
 ## Shopping needs
 
 *(gap analysis appends here: `- [ ] item — for <plan/task id>`)*
+- [ ] chuck roast ~2 lb — for task-20260711-menu-research-beef-pot-pie-strawberry
+- [ ] puff pastry (1-2 sheets) — same
+- [ ] beef stock — same
+- [ ] onion, carrot, celery — same
+- [ ] flour, butter, sugar, vanilla — same (baking basics; skip any you have)
+- [ ] eggs (1 dozen) — same
+- [ ] milk + heavy cream — same
+- [ ] strawberries 2 lb — same (drink + puffs)
+- [ ] limes 6-8 — same
+- [ ] sweetened condensed milk (1 can) — same

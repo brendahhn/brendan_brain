@@ -15,3 +15,4 @@ CURRENT_PRIORITIES.md. Don't mechanically cap tasks-per-window; size by effort e
 | date | task | model | agents | start–end | type | effort | escalated | cheaper-ok? | reviewer-changes | useful? | verdict |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-07-11 | v2-build-session | fable | 2 | 05:20–06:07 | architecture | L | yes:major-capability | no | none | pending | V2 build; opus challenge subagent materially reshaped the plan |
+| 2026-07-11 | potpie-menu-research | fable | 1 | –06:19 | kitchen-research | M | no | unsure | none | pending | 3 dishes, tier-1 only; night-before insight held across sources |
