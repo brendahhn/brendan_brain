@@ -30,7 +30,7 @@ One-off tech questions (iPhone storage etc.) are answered and deliberately NOT r
 ## Newspaper changes
 - New optional **Concierge** section (~300w) — only appears when something asked for it.
 - **Time-aware mornings**: recommended routine times are Trading 06:30 PT → Brendan OS
-  editorial 07:05 PT (set these in the routines UI — SCHEDULE_PLAN). If a robot didn't
+  editorial 07:10 PT (paper ~07:25) (set these in the routines UI — SCHEDULE_PLAN). If a robot didn't
   produce output, the paper says so with a [FAIL] line and publishes anyway — no waiting,
   no fabrication. A market-close trading pass can update the archive later without
   touching the morning edition.

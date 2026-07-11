@@ -12,11 +12,18 @@ observes; it does not change behavior by itself.
 | # | Level | What gets recorded | Where | May propose changes? |
 |---|---|---|---|---|
 | 1 | Output | preferred length/structure/tone/format; repeated edits to drafts; rejected formats | evidence log + PRESENTATION_PREFERENCES | YES (proposal-only) |
-| 2 | Preference | likes/dislikes/constraints/interest shifts | evidence log + INTEREST_PROFILE weights (weights may move ±1 on repeated evidence; topic ADD/REMOVE needs approval) | YES (proposal-only) |
+| 2 | Preference | likes/dislikes/constraints/interest shifts | evidence log + INTEREST_PROFILE weights (weight moves are PROPOSALS like everything else — no session adjusts a weight directly; topic ADD/REMOVE needs approval) | YES (proposal-only) |
 | 3 | Research | which sources/methods/depths produced useful findings (usefulness = Brendan's reaction or task outcome) | task Research Logs + SOURCE_RELIABILITY.md | observations only |
 | 4 | Workflow | schedule fit, question strategies (blocking-vs-assume outcomes), depth calibration | weekly report + CAPACITY_LEDGER | observations only |
 | 5 | Prediction | calibration from predictions/ vs outcomes/; recurring error types | outcomes/ scoring + weekly report | observations only |
 | 6 | Meta | whether departments/prompts/skills/models/system should change | weekly report → CONTINUOUS_IMPROVEMENT proposals | via OCI proposals to Brendan ONLY |
+
+### The one documented exception (asymmetry, deliberate)
+`process_annotations.py` writes a rejected-topic line to INTEREST_PROFILE immediately on an
+explicit **STOP COVERING** annotation. That is Brendan's explicit instruction (MEMORY_POLICY
+explicit-instruction path), not inference — and it is the ONLY preference file a tool edits
+without a proposal step. Everything else, including CHANGE PREFERENCE annotations, files a
+proposal.
 
 ## Learned-change record (mandatory fields — no silent learning)
 Any change proposed (levels 1–2) or executed (after approval) is recorded as a `decision`

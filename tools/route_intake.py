@@ -31,10 +31,20 @@ PREFERENCE_SIGNAL = r"\b(i (love|hate|prefer|always|never|can'?t stand)|my favor
 def route(text):
     t = " " + text.lower().strip() + " "
     d = {"mode": None, "capture": None, "publish": None, "depth": None}
+    conflict = False
+    # LAST-stated intent wins on conflicting overrides (QA defect #5): rank matches by
+    # position in Brendan's text, not by position in the pattern list.
+    matches = []
     for pat, (key, val) in OVERRIDES:
-        if re.search(pat, t):
-            if d[key] is None:
-                d[key] = val
+        m = None
+        for m in re.finditer(pat, t):
+            pass                       # keep the LAST occurrence of this pattern
+        if m:
+            matches.append((m.start(), key, val))
+    for _, key, val in sorted(matches):
+        if d[key] is not None and d[key] != val:
+            conflict = True
+        d[key] = val                   # later text position overwrites earlier
     mode = d["mode"]
     if mode is None:
         if re.search(r"\?\s*$", text) and len(text) < 200 and not re.search(r"\b(research|compare|find|look into)\b", t):
@@ -61,6 +71,9 @@ def route(text):
             flags += ["--depth deep"]
         flags += [f"--publish {d['publish'] or 'file_only'}"]
     hints = []
+    if conflict:
+        hints.append("CONFLICT: contradictory overrides — later wording was used; "
+                     "confirm the mode with Brendan before acting")
     if re.search(TIME_SENSITIVE, t):
         hints.append("time_sensitive: verify near use / consider watch")
     if re.search(PREFERENCE_SIGNAL, t):

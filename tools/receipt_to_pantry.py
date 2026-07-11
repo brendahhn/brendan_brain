@@ -15,7 +15,7 @@ Idempotent per --source: re-running the same source replaces that source's rows 
 of duplicating them. Rows are last-write-wins (live_state class, MEMORY_POLICY)."""
 import argparse, os, re, sys, datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from brainlib import ROOT, today
+from brainlib import ROOT, today, now_pt
 
 PANTRY = os.path.join(ROOT, "domains", "concierge", "kitchen", "PANTRY.md")
 UNITS = {"lb", "lbs", "oz", "g", "kg", "ml", "l", "cup", "cups", "dozen", "count", "ct",
@@ -36,6 +36,8 @@ def parse_line(line, receipt_mode):
     s = line.strip()
     if not s or s.startswith("#") or s.startswith("|"):
         return None
+    if re.match(r"^-\s*\d", s):   # negative quantity is malformed, not an item (QA #4)
+        return ("SKIP", s, "", "")
     if receipt_mode:
         if NOISE.match(s) or FULLNOISE.search(s):
             return None
@@ -61,9 +63,15 @@ def parse_line(line, receipt_mode):
     if not expires:
         for key, days in DEFAULT_EXPIRY_DAYS.items():
             if key in item:
-                expires = (datetime.date.today() + datetime.timedelta(days=days)).isoformat()
+                expires = (now_pt().date() + datetime.timedelta(days=days)).isoformat()
                 break
     return item, qty, unit, expires
+
+
+def cell(x):
+    """Make a value safe for a markdown table cell (QA defect #2): pipes and newlines
+    break the column structure and corrupt every downstream parse."""
+    return str(x).replace("|", "/").replace("\n", " ").strip()
 
 
 def load():
@@ -87,7 +95,7 @@ def save(text, rows):
     rows.sort(key=lambda r: r[0])
     table = ["| item | qty | unit | confidence | expires | source | updated |",
              "|---|---|---|---|---|---|---|"] + \
-            ["| " + " | ".join(r) + " |" for r in rows]
+            ["| " + " | ".join(cell(c) for c in r) + " |" for r in rows]
     body = "\n".join(table) if rows else "\n".join(table) + \
         "\n\n*(empty until Brendan's first paste — plans must treat pantry as unknown and say so)*"
     new = re.sub(r"(## Inventory\n\n).*?(\n\n## Shopping)",
@@ -117,17 +125,24 @@ def main():
         print(f"removed {len(rows) - len(keep)} row(s) matching '{a.remove}'")
         save(text, keep)
         return
-    new_items = []
+    new_items, skipped = [], []
     if a.add:
         p = parse_line(a.add, False)
-        if not p:
+        if not p or p[0] == "SKIP":
             sys.exit(f"could not parse: {a.add}")
         item, qty, unit, exp = p
         new_items.append((item, qty, unit, a.expires or exp))
     elif a.paste_file:
-        for line in open(a.paste_file, encoding="utf-8"):
+        try:  # clean error on binary/mangled pastes (QA #3), not a traceback
+            lines = open(a.paste_file, encoding="utf-8").read().splitlines()
+        except UnicodeDecodeError:
+            sys.exit("ERROR: paste file is not readable text (binary or mangled encoding). "
+                     "Re-paste as plain text; nothing was written.")
+        for line in lines:
             p = parse_line(line, a.receipt)
-            if p:
+            if p and p[0] == "SKIP":
+                skipped.append(p[1])
+            elif p:
                 new_items.append(p)
     else:
         ap.print_help()
@@ -141,6 +156,8 @@ def main():
             rows.remove(existing[item])
         rows.append([item, qty, unit, conf, exp, a.source, today()])
     save(text, rows)
+    for s in skipped:
+        print(f"SKIPPED malformed line (negative quantity?): {s!r}")
     print(f"pantry updated: +{len(new_items)} item(s) from source '{a.source}' "
           f"({len(rows)} total). Review expiries — defaults are guesses.")
 

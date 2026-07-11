@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
-# V2 scenario 17: skill proposal & creation quality. Every V2 skill satisfies the
-# SKILL_FOUNDRY anatomy's mechanical parts; the foundry tracker + graduation criteria exist.
+# V2 scenario 17: skill proposal & creation quality — the MECHANICAL subset only
+# (version header, canonical pointer, trigger description, registry row, and that every
+# tools/*.py referenced actually exists). The remaining anatomy points (purpose, steps,
+# validation, failure behavior…) are prose judged in review, not grep-testable — stated
+# honestly per Chief Skeptic m1.
 set -euo pipefail
 C1="$SCRATCH/clone1"; cd "$C1"
 
@@ -11,6 +14,10 @@ for s in brain-intake brain-kitchen cowork-handoff; do
   grep -q "canonical source: brendan_brain" "$F" || { echo "FAIL: $s canonical pointer"; exit 1; }
   grep -q "^description:" "$F" || { echo "FAIL: $s trigger description"; exit 1; }
   grep -q "$s" skills/SKILL_REGISTRY.md || { echo "FAIL: $s not in registry"; exit 1; }
+  # every tool the skill tells a session to run must exist
+  for tool in $(grep -oE "tools/[a-z_]+\.(py|sh)" "$F" | sort -u); do
+    [ -f "$tool" ] || { echo "FAIL: $s references missing $tool"; exit 1; }
+  done
 done
 # foundry: graduation criteria + candidate tracker + honest statuses
 grep -q "Graduation criteria" skills/SKILL_FOUNDRY.md || { echo "FAIL: criteria missing"; exit 1; }

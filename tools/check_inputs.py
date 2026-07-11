@@ -27,7 +27,11 @@ def input_status(date):
         dates = re.findall(r"^## (\d{4}-\d{2}-\d{2})", open(p, encoding="utf-8").read(),
                            re.M) if os.path.exists(p) else []
         last = max(dates) if dates else ""
-        out.append((name, last in (date, yday), last))
+        # freshness has THREE states (Chief Skeptic M4): today = current; yesterday only =
+        # STALE (a daily robot that ran yesterday but not today republishes old content);
+        # older/never = missing.
+        state = "today" if last == date else ("stale" if last == yday else "missing")
+        out.append((name, last in (date, yday), last, state))
     return out
 
 
@@ -38,10 +42,13 @@ def main():
     a = ap.parse_args()
     required = {r.strip() for r in a.require.split(",") if r.strip()}
     missing_required = False
-    for name, fresh, last in input_status(a.date):
+    for name, fresh, last, state in input_status(a.date):
         tag = "REQUIRED " if name in required else ""
-        if fresh:
+        if state == "today":
             print(f"INPUT {name}: fresh ({last})")
+        elif state == "stale":
+            print(f"INPUT {name}: STALE — only yesterday's block ({last}); today's run has "
+                  f"not landed. Republished content must be marked [STALE], not [FACT].")
         elif name in EXPECTED or name in required:
             print(f"INPUT {name}: {tag}MISSING (last block: {last or 'never'}) — report as "
                   f"[FAIL] item, do not fabricate, do not block publication")
@@ -49,6 +56,11 @@ def main():
                 missing_required = True
         else:
             print(f"INPUT {name}: no fresh block (optional inbox — nothing to report)")
+    # --require means "must be fresh TODAY" (a stale yesterday block is not a passing gate)
+    for r in required:
+        st = next((s for n, _, _, s in input_status(a.date) if n == r), "missing")
+        if st != "today":
+            missing_required = True
     sys.exit(1 if missing_required else 0)
 
 

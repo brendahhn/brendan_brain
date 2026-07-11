@@ -6,7 +6,7 @@ Usage:
   oplog.py status [<op-id>]                         -> show one/all unfinished ops"""
 import os, re, subprocess, sys, datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from brainlib import ROOT, today, slugify, die
+from brainlib import ROOT, today, slugify, die, now_pt
 
 
 def _autocommit(path, msg):
@@ -40,14 +40,14 @@ def start(slug, repos):
     open(p, "w", encoding="utf-8").write(f"""---
 id: {opid}
 artifact_type: operation
-started_at: {datetime.datetime.now().isoformat(timespec='seconds')}
+started_at: {now_pt().isoformat(timespec='seconds')}
 repos:
 {rl}
 ---
 # Operation {opid}
 
 ## Log
-- {datetime.datetime.now().isoformat(timespec='seconds')} created
+- {now_pt().isoformat(timespec='seconds')} created
 """)
     _autocommit(p, f"op: start {opid}")
     print(opid)
@@ -63,7 +63,7 @@ def set_state(opid, repo, state):
     new, n = re.subn(rf"^(  {re.escape(repo)}): \w+$", rf"\1: {state}", text, flags=re.M)
     if n == 0:
         die(f"repo '{repo}' not in op {opid}")
-    new += f"- {datetime.datetime.now().isoformat(timespec='seconds')} {repo} -> {state}\n"
+    new += f"- {now_pt().isoformat(timespec='seconds')} {repo} -> {state}\n"
     open(p, "w", encoding="utf-8").write(new)
     _autocommit(p, f"op: {opid} {repo}={state}")
     print(f"{opid}: {repo} -> {state}")

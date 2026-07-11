@@ -9,8 +9,10 @@ C1="$SCRATCH/clone1"; cd "$C1"
 python3 tools/log_usage.py --task synthetic-task --model sonnet --type research \
   --start 06:00 --end 06:20 --verdict "single lead sufficient" >/dev/null
 grep -q "| synthetic-task | sonnet |" system/CAPACITY_LEDGER.md || { echo "FAIL: usage row missing"; exit 1; }
-grep -qi "token" system/CAPACITY_LEDGER.md | grep -v "no token" && true
-grep -qE "\| *[0-9]+ tokens" system/CAPACITY_LEDGER.md && { echo "FAIL: fabricated token numbers"; exit 1; }
+# no token column exists and no numeric token values appear (Chief Skeptic m5: the previous
+# version of this check was a dead no-op)
+grep -qiE "^\|[^|]*\btokens?\b[^|]*\|" system/CAPACITY_LEDGER.md && { echo "FAIL: token column present"; exit 1; }
+grep -qE "[0-9]+ ?tokens" system/CAPACITY_LEDGER.md && { echo "FAIL: fabricated token numbers"; exit 1; }
 python3 tools/log_usage.py --task synthetic-task-2 --model haiku --type extraction >/dev/null
 [ "$(grep -c "^| 2" system/CAPACITY_LEDGER.md)" -ge 2 ] || { echo "FAIL: second row"; exit 1; }
 # usefulness defaults to pending — never self-graded

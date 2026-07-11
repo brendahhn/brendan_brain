@@ -7,23 +7,25 @@ Intervals from `recurrence`: daily=1d, weekly=7d, watch=7d (default weekly).
 A watch with no next_run is treated as DUE (never run yet)."""
 import datetime, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from brainlib import ROOT, iter_artifacts, today, die
+from brainlib import ROOT, iter_artifacts, today, die, is_active_watch, watch_is_due, now_pt
 
 INTERVALS = {"daily": 1, "weekly": 7, "watch": 7}
 
 
-def watches():
+def watches(include_ineligible=False):
+    # shared eligibility with the newspaper builder (brainlib.is_active_watch — bug B fix)
     for rel, fm, body in iter_artifacts():
-        if fm.get("artifact_type") == "watch" or str(fm.get("status")) == "watching":
+        if is_active_watch(fm, rel) or \
+                (include_ineligible and fm.get("artifact_type") == "watch"):
             yield rel, fm
 
 
 def due():
     t, n = today(), 0
     for rel, fm in watches():
-        nr = str(fm.get("next_run", ""))
-        if not nr or nr <= t:
+        if watch_is_due(fm, t):
             n += 1
+            nr = str(fm.get("next_run", ""))
             print(f"DUE  {fm.get('id'):<50} {rel}  (next_run={nr or 'never ran'}, "
                   f"recurrence={fm.get('recurrence', 'watch')}, "
                   f"publish={fm.get('publish_policy', 'on_change')})")
@@ -37,7 +39,7 @@ def mark(wid):
             p = os.path.join(ROOT, rel)
             text = open(p, encoding="utf-8").read()
             interval = INTERVALS.get(str(fm.get("recurrence", "watch")), 7)
-            nxt = (datetime.date.today() + datetime.timedelta(days=interval)).isoformat()
+            nxt = (now_pt().date() + datetime.timedelta(days=interval)).isoformat()
             lines = text.split("\n")
             fences = [i for i, l in enumerate(lines) if l.strip() == "---"]
             if len(fences) < 2:

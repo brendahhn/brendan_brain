@@ -79,8 +79,10 @@ double duty for fitness and skill.
   exposures vs. wrestling's 29.6-30.7/1000), no strikes (rlondo.substack.com, bjjee.com,
   accessed 2026-07-11). But live rolling is functionally how BJJ is trained -- no-live-contact
   isn't really BJJ -- and the same research shows joint-concentrated injury (elbow
-  hyperextension from armbars; 78% orthopedic in a 1,140-athlete survey), a worse trade when
-  paddling already loads shoulders and spine (PMC8721390, accessed 2026-07-11).
+  hyperextension from armbars — Hawaii tournament study, PMC4555620; 78% orthopedic in a
+  separate 1,140-athlete survey, PMC8721390; both accessed 2026-07-11), a worse trade when
+  paddling already loads shoulders and spine.
+  <!-- citation split fixed 2026-07-11 (Chief Skeptic m4): two stats were conflated under one PMC id -->
 - **Wrestling** -- [CONC-inferred] highest injury rate of the group (29.6-30.7/1000) and, like
   BJJ, inseparable from live resistance (rlondo.substack.com, accessed 2026-07-11). Cut on
   injury-rate and format-fit.

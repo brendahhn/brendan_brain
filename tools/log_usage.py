@@ -13,7 +13,7 @@ annotation processing (process_annotations) or a session he reacts in — never 
 at write time. Monthly routing recommendations ride the weekly review when rows ≥ 8."""
 import argparse, os, re, sys, datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from brainlib import ROOT, today
+from brainlib import ROOT, today, now_pt
 
 LEDGER = os.path.join(ROOT, "system", "CAPACITY_LEDGER.md")
 HEADER = ("| date | task | model | agents | start–end | type | effort | escalated | "
@@ -27,7 +27,7 @@ def main():
     ap.add_argument("--type", required=True)
     ap.add_argument("--agents", default="1")
     ap.add_argument("--start", default="")
-    ap.add_argument("--end", default=datetime.datetime.now().strftime("%H:%M"))
+    ap.add_argument("--end", default=now_pt().strftime("%H:%M"))
     ap.add_argument("--effort", default="M", choices=["S", "M", "L"])
     ap.add_argument("--escalated", default="no")
     ap.add_argument("--cheaper-ok", dest="cheaper", default="unsure",
@@ -45,9 +45,12 @@ def main():
 {HEADER}
 |---|---|---|---|---|---|---|---|---|---|---|---|
 """
-    row = (f"| {today()} | {a.task[:48]} | {a.model} | {a.agents} | {a.start}–{a.end} | "
-           f"{a.type} | {a.effort} | {a.escalated} | {a.cheaper} | {a.rev} | {a.useful} | "
-           f"{a.verdict[:80]} |")
+    def cell(x):  # pipes/newlines corrupt markdown tables (QA defect #2)
+        return str(x).replace("|", "/").replace("\n", " ").strip()
+    row = (f"| {today()} | {cell(a.task[:48])} | {a.model} | {cell(a.agents)} | "
+           f"{cell(a.start)}–{cell(a.end)} | {cell(a.type)} | {a.effort} | "
+           f"{cell(a.escalated)} | {a.cheaper} | {a.rev} | {a.useful} | "
+           f"{cell(a.verdict[:80])} |")
     text = text.rstrip("\n") + "\n" + row + "\n"
     open(LEDGER, "w", encoding="utf-8").write(text)
     print(f"logged: {row}")

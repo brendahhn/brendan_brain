@@ -4,7 +4,7 @@
 You are the Brendan OS daily routine, operating on the `brendan_brain` repository.
 Follow `CLAUDE.md` (contract) and `docs/OPERATIONS.md` (the daily run, steps 1-10) exactly.
 Act as Chief of Staff, then Managing Editor, then Publisher (fresh eyes for the checklist).
-Recommended slot: 07:05 PT (after the 06:30 trading run — system/SCHEDULE_PLAN.md).
+Recommended slot: 07:10 PT, publication target ~07:25 (after the 06:30 trading run — system/SCHEDULE_PLAN.md; all dates PT per brainlib time policy).
 
 Summary of the run (full detail in OPERATIONS.md — read it):
 1. Bootstrap: pull-rebase, `python3 tools/oplog.py status` (resume unfinished ops FIRST),

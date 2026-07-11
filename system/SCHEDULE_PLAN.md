@@ -15,9 +15,35 @@ are UNKNOWN until the usage log accumulates rows — revisit the buffers after t
 | ~23:30 | FootyBot (existing) | unchanged |
 | 02:00–05:00 | Jobs, Health, overnight concierge/kitchen deep passes | any order; finish before 06:00 |
 | ~05:45 | (optional) Trading premarket prep | must complete before 06:30 |
-| 06:30 | Trading opening analysis | market open 06:30 PT; exports its block to `queue/inbox/from-trading-robot.md` at run END |
-| **07:05** | **Brendan OS editorial run** | 35-min buffer after trading start; runs the gate below |
+| 06:30 | Trading opening analysis | market open 06:30 PT; target output ~06:55; exports its block to `queue/inbox/from-trading-robot.md` at run END |
+| **07:10** | **Brendan OS editorial run** | 40-min buffer after trading start; runs the gate below; target publication ~07:25 |
 | ~13:15 | (optional) Trading market-close review | updates the trading archive + a dated inbox block; NEVER delays or rewrites the morning paper — tomorrow's edition picks it up |
+
+These times are INITIAL targets, not proven optima — `tools/log_usage.py` rows accumulate
+actual durations; revisit after ~2 weeks of evidence (do not hardcode as permanent).
+
+## Time policy (binding; implemented in tools/brainlib.py)
+- ALL user-facing dates are **America/Los_Angeles**: edition names, task dates, watch
+  dueness, freshness windows (`brainlib.today()` is PT; containers run UTC underneath).
+- Machine timestamps (op ledger) carry explicit offsets (`now_pt().isoformat()`).
+- **Editorial date**: content produced at/after 20:00 PT belongs to the NEXT morning's
+  edition (`brainlib.editorial_date()`); a 23:00 PT result on Jul 11 is for the Jul 12
+  paper unless it explicitly concerns Jul 11. Overnight robots stamp their block with their
+  run's PT date; the editorial freshness window (today+yesterday PT) absorbs it.
+- Market session date = the PT calendar date of the 06:30 open. Tested: midnight PT, UTC
+  rollover, DST spring/fall (tests/test_timezone.sh).
+
+## Source freshness states (the gate's full vocabulary)
+| State | Detected by | Editorial behavior |
+|---|---|---|
+| Fresh & complete | today-dated block, run_status success | include useful results |
+| Fresh but empty | today-dated block, "nothing meaningful" | one line at most, only if useful |
+| Failed | today-dated block, run_status failed/partial | report the failure honestly |
+| Missing | no block today or yesterday | auto [FAIL] item (build_newspaper) |
+| Still running | routine started but no block yet — indistinguishable from Missing mechanically | editor may re-run `check_inputs` once before the Publisher pass; otherwise label "pending as of HH:MM PT" |
+| Stale | only yesterday's block | auto [STALE] notice; never presented as current |
+| Not scheduled today | robot's schedule skips today (e.g. Sunday-only digest) | not a failure; no item |
+Never pad any section to fill space (PUBLICATION_POLICY).
 
 ## The editorial gate (mechanical, in the 07:05 run)
 1. `python3 tools/check_inputs.py --date <today>` — per-robot freshness.

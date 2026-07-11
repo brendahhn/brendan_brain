@@ -11,7 +11,7 @@ topics in evidence (candidate rules) · interest-change hints (topics with oppos
 reactions). Output: system/reviews/<week>-review.md (refuses overwrite unless --force)."""
 import argparse, os, re, sys, datetime, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from brainlib import ROOT, iter_artifacts, today
+from brainlib import ROOT, iter_artifacts, today, now_pt
 
 NEG = {"not_useful", "flag", "stop"}
 POS = {"important", "more_like_this", "explicit"}
@@ -19,7 +19,7 @@ POS = {"important", "more_like_this", "explicit"}
 
 def main():
     ap = argparse.ArgumentParser()
-    now = datetime.date.today()
+    now = now_pt().date()
     ap.add_argument("--week", default=f"{now.isocalendar()[0]}-W{now.isocalendar()[1]:02d}")
     ap.add_argument("--min-signals", type=int, default=5)
     ap.add_argument("--days", type=int, default=7)

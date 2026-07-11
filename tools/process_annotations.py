@@ -1,14 +1,42 @@
 #!/usr/bin/env python3
 """Process Brendan's annotations on a published edition (annotations schema + MEMORY_POLICY).
-Usage: process_annotations.py [--date YYYY-MM-DD] [--apply]
-Scans newspaper/editions/<date>.md for reaction marks and `>>` lines. Without --apply:
-prints the interpretation plan. With --apply: writes preference evidence to
-preferences/PROPOSED_RULES.md, creates follow-up tasks via new_task.py mechanics, updates
-INTEREST_PROFILE rejected topics ONLY on explicit 'stop covering' phrasing, and records an
-annotation artifact. NEVER writes CONFIRMED_RULES.md (that requires Brendan/approval)."""
+Usage: process_annotations.py [--date YYYY-MM-DD] [--apply] [--force]
+
+PARSING CONTRACT (production bug A, 2026-07-11 — article prose and tutorial examples were
+being parsed as real reactions): annotations are ONLY the lines Brendan ADDED after
+publication. The published baseline is the edition file's content at its first commit;
+any line not in that baseline is his. Article prose, the legend, and any keyword/emoji
+examples inside published text are baseline and therefore NEVER parsed. If no git baseline
+exists (uncommitted edition — test sandboxes), all lines are candidates (legacy behavior)
+because there is no published prose to protect.
+
+IDEMPOTENCY: --apply refuses to run twice for the same date (the ann-<date>.md artifact
+with status: processed is the guard); rerun with --force only to deliberately supersede.
+
+Without --apply: prints the interpretation plan. With --apply: writes preference evidence,
+creates follow-up tasks (new_task.py dedupe applies), updates INTEREST_PROFILE rejected
+topics ONLY on explicit 'stop covering', records the annotation artifact. NEVER writes
+CONFIRMED_RULES.md (that requires Brendan/approval)."""
 import argparse, os, re, subprocess, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from brainlib import ROOT, today, slugify
+
+
+def published_baseline(path):
+    """Lines of the edition as first committed (the published text), or None if the file
+    has no committed history in this clone."""
+    rel = os.path.relpath(path, ROOT)
+    try:
+        r = subprocess.run(["git", "-C", ROOT, "log", "--diff-filter=A", "--format=%H",
+                            "--follow", "--", rel], capture_output=True, text=True)
+        commits = r.stdout.split()
+        if not commits:
+            return None
+        r = subprocess.run(["git", "-C", ROOT, "show", f"{commits[-1]}:{rel}"],
+                           capture_output=True, text=True)
+        return r.stdout.splitlines() if r.returncode == 0 else None
+    except OSError:
+        return None
 
 REACT = {"⭐": "important", "🙂": "more_like_this", "❌": "not_useful"}
 # keyword annotations may appear bare on a line or after `>>` (docs: READING_AND_ANNOTATING)
@@ -37,15 +65,33 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", default=today())
     ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--force", action="store_true")
     a = ap.parse_args()
     p = os.path.join(ROOT, "newspaper", "editions", f"{a.date}.md")
     if not os.path.exists(p):
         sys.exit(f"no edition for {a.date}")
+    # idempotency guard (bug A #4): a processed date never reprocesses silently
+    ann_path = os.path.join(ROOT, "newspaper", "annotations", f"ann-{a.date}.md")
+    if a.apply and os.path.exists(ann_path) and not a.force:
+        with open(ann_path, encoding="utf-8") as f:
+            if "status: processed" in f.read():
+                print(f"ALREADY PROCESSED: {os.path.relpath(ann_path, ROOT)} exists — "
+                      f"zero actions taken. Use --force only to deliberately supersede "
+                      f"(e.g. Brendan added NEW annotations after the first pass).")
+                return
     lines = open(p, encoding="utf-8").read().splitlines()
+    baseline = published_baseline(p)
+    baseline_set = set(baseline) if baseline is not None else None
+    if baseline_set is None:
+        print("NOTE: no committed baseline for this edition (uncommitted file) — every "
+              "line is a candidate. In production, editions are committed at publication.")
     actions = []
     for i, line in enumerate(lines):
-        # skip the annotation legend / instruction footer (arch review finding #5:
-        # the legend contains all three marks and was generating phantom evidence)
+        # bug A core rule: published text is NEVER an annotation — only lines Brendan
+        # added after the publication commit are candidates
+        if baseline_set is not None and line in baseline_set:
+            continue
+        # legacy guards for the no-baseline path (legend/footer contain example marks)
         if "Annotate inline" in line or sum(m in line for m in REACT) >= 2:
             continue
         item = None

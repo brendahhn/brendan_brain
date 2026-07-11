@@ -7,9 +7,12 @@ set -uo pipefail
 BRAIN="$(cd "$(dirname "$0")/.." && pwd)"
 SCRATCH="${BRAIN_TEST_SCRATCH:-$(mktemp -d)}"
 export BRAIN SCRATCH
-PASS=0; FAIL=0; RESULTS="$BRAIN/tests/results/run-$(date +%Y%m%d-%H%M%S).md"
+PASS=0; FAIL=0; SKIP=0; RESULTS="$BRAIN/tests/results/run-$(date +%Y%m%d-%H%M%S).md"
 mkdir -p "$BRAIN/tests/results"
-echo "# Test run $(date -Iseconds)" > "$RESULTS"
+{ echo "# Test run $(date -Iseconds)"
+  echo "tested commit: $(git -C "$BRAIN" rev-parse HEAD) (branch: $(git -C "$BRAIN" branch --show-current))"
+  git -C "$BRAIN" status --porcelain | grep -q . && echo "⚠️ working tree had uncommitted changes — they were NOT tested (sandboxes clone HEAD)"
+} > "$RESULTS"
 
 fresh_sandbox() {  # bare "origin" + working clone, mirrors GitHub topology
   rm -rf "$SCRATCH/origin.git" "$SCRATCH/clone1" "$SCRATCH/clone2"
@@ -30,6 +33,12 @@ run_test() {
   if [ $# -gt 1 ] && [ "$2" != "$name" ]; then return; fi
   fresh_sandbox
   if bash "$BRAIN/tests/$name.sh" >"$SCRATCH/$name.log" 2>&1; then
+    # a skip is NOT a pass — tests that can't exercise their subject say "SKIP:" loudly
+    if grep -q "^SKIP:" "$SCRATCH/$name.log"; then
+      echo "SKIP $name ($(grep -m1 '^SKIP:' "$SCRATCH/$name.log" | cut -c6-80))"
+      echo "- SKIP $name — $(grep -m1 '^SKIP:' "$SCRATCH/$name.log")" >> "$RESULTS"; SKIP=$((SKIP+1))
+      return
+    fi
     echo "PASS $name"; echo "- PASS $name" >> "$RESULTS"; PASS=$((PASS+1))
   else
     echo "FAIL $name (log follows)"; sed 's/^/    /' "$SCRATCH/$name.log" | tail -20
@@ -43,8 +52,9 @@ for t in test_queue_dedup test_concurrent_writes test_partial_failure test_retri
          test_annotations test_newspaper_sensitivity test_forgetting test_skill_sync \
          test_intake_routing test_receipt_pantry test_health_kitchen_bridge \
          test_injection_sanitize test_domain_proposal test_usage_learning \
-         test_cowork_handoff test_schedule_gate test_skill_quality; do
+         test_cowork_handoff test_schedule_gate test_skill_quality \
+         test_annotation_regression test_watch_eligibility test_timezone; do
   run_test "$t" $FILTER
 done
-echo "" >> "$RESULTS"; echo "PASS=$PASS FAIL=$FAIL" | tee -a "$RESULTS"
+echo "" >> "$RESULTS"; echo "PASS=$PASS FAIL=$FAIL SKIP=$SKIP" | tee -a "$RESULTS"
 [ $FAIL -eq 0 ]

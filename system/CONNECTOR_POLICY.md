@@ -58,6 +58,17 @@ Banking access would expose real financial account data; before it is EVER appro
 6. Never: payment initiation, transfers, credential storage. Fictitious-forever rule for
    trading (CONFIRMED_RULES #1) is untouched by any of this.
 
+## Enforcement honesty (Chief Skeptic M2 — read this before trusting "BLOCKED")
+"Fail-closed" and "BLOCKED" in this file are **policy, not a mechanical gate**: the
+connector tools remain loadable in any session that has them, and nothing in `tools/`
+intercepts a call. A misconfigured or non-compliant session could call Shopify/QuickBooks
+despite this file. Mitigations available today: (1) this policy is loaded by CLAUDE.md's
+read-first list via the audits; (2) Brendan can add permission DENY rules for
+`mcp__Shopify__*` / `mcp__Intuit_QuickBooks__*` in `.claude/settings.json` (the update-config
+skill does this), which IS mechanical — recommended until the ownership question resolves;
+(3) the weekly review greps new artifacts for shopify/quickbooks provenance. Anything
+stronger needs platform-level connector scoping.
+
 ## Operating rules (all connectors)
 1. Context binding enforced by the session doing the work: check this file BEFORE calling
    a connector for a task; mismatch → refuse + record in the task log.
