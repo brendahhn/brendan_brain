@@ -1,5 +1,10 @@
-<!-- version: 1.0.0 (2026-07-10) -->
+<!-- version: 1.1.0 (2026-07-11) — V2 -->
 # START HERE
+
+> **V2 (2026-07-11)**: Brendan OS now also runs practical daily life — just talk to it
+> ("plan this menu", "research overnight", "keep an eye on…", "don't save this"). New-user
+> tour: `docs/CONCIERGE_AND_V2_GUIDE.md`. Your one-time setup steps:
+> `docs/ROUTINE_SETUP_GUIDE.md`. Git rules: `docs/GIT_WORKFLOW.md`.
 
 ## The short version
 

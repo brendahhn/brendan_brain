@@ -7,10 +7,14 @@ audit-20260710-initial	system/audits/2026-07-10-initial-audit.md	report	general	
 audit-20260710-qa-skeptic-response	system/audits/2026-07-10-qa-and-skeptic-response.md	report	general		personal				2026-07-10
 audit-20260711-arch-challenge-opus	system/audits/2026-07-11-arch-challenge-opus.md	report	general		personal	audit,v2,architecture,review		Fresh Opus architecture challenge of the V2 spec (verbatim)	2026-07-11
 audit-20260711-arch-challenge-response	system/audits/2026-07-11-arch-challenge-response.md	report	general		personal	audit,v2,architecture,review		Fable responses to the fresh Opus V2 architecture challenge	2026-07-11
+audit-20260711-v2-finding-disposition	system/audits/2026-07-11-v2-finding-disposition.md	report	general		personal	audit,v2,repairs,disposition		V2 reviewer finding disposition — every finding, repair, test, and rollback	2026-07-11
 audit-20260711-v2-preimplementation	system/audits/2026-07-11-v2-preimplementation-audit.md	report	general		personal	audit,v2,architecture		V2 pre-implementation audit (15-point checklist)	2026-07-11
+audit-20260711-v2-qa-sonnet	system/audits/2026-07-11-v2-qa-report-sonnet.md	report	general		personal	audit,v2,qa		Fresh Sonnet QA operator report on V2 (verbatim)	2026-07-11
+audit-20260711-v2-skeptic-opus	system/audits/2026-07-11-v2-skeptic-report-opus.md	report	general		personal	audit,v2,skeptic,privacy,security		Fresh Opus Chief Skeptic attack report on V2 (verbatim summary of findings + verdict)	2026-07-11
 communication-preferences	COMMUNICATION_PREFERENCES.md	knowledge	general		personal				2026-07-10
 current-priorities	CURRENT_PRIORITIES.md	knowledge	general		personal				2026-07-10
 current-world	CURRENT_WORLD.md	knowledge	general		personal				2026-07-10
+dec-20260711-trading-canonical	decisions/dec-20260711-trading-canonical.md	decision	investing	made	personal	trading,duplicate,canonical		Canonical trading system is trading-notebook; health-notebook copy is noncanonical	2026-07-11
 domain-concierge	domains/concierge/DOMAIN_PROFILE.md	domain_profile	concierge	active	personal	concierge,kitchen,food,purchases,fitness,travel,home,weekend,technology		Personal Concierge — practical life operations	2026-07-11
 domain-fantasy_football	domains/fantasy_football/DOMAIN_PROFILE.md	domain_profile	fantasy_football	active	personal				2026-07-10
 domain-health	domains/health/DOMAIN_PROFILE.md	domain_profile	health	active	health				2026-07-10
@@ -31,7 +35,7 @@ op-20260710-skill-sync-v1-qa-fixes	system/operations/op-20260710-skill-sync-v1-q
 pantry-live	domains/concierge/kitchen/PANTRY.md	live_state	concierge		personal	kitchen,pantry,shopping,ingredients		Pantry & shopping — live state	2026-07-11
 profile-brendan	BRENDAN_PROFILE.md	knowledge	general		personal				2026-07-10
 q-20260710-tacoma-budget	newspaper/questions/q-20260710-tacoma-budget.md	question	vehicles	answered	personal			Tacoma search: budget ceiling and transmission preference?	2026-07-10
-q-20260710-trading-dup	newspaper/questions/q-20260710-trading-dup.md	question	investing	open	personal			Retire the frozen trading/ copy inside health-notebook?	2026-07-10
+q-20260710-trading-dup	newspaper/questions/q-20260710-trading-dup.md	question	investing	answered	personal			Retire the frozen trading/ copy inside health-notebook?	2026-07-10
 q-20260711-shopify-ownership	newspaper/questions/q-20260711-shopify-ownership.md	question	general	open	personal	connectors,shopify,quickbooks,work-boundary		Shopify/QuickBooks — whose store and books are these?	2026-07-11
 task-20260710-answer-brendan-s-question-obs-synthetic	queue/failed/task-20260710-answer-brendan-s-question-obs-synthetic.md	task	general	cancelled	personal			Answer Brendan's question: [OBS] SYNTHETIC-TEST story F (tide pool hours)	2026-07-10
 task-20260710-capture-durable-knowledge-obs-synthetic	queue/failed/task-20260710-capture-durable-knowledge-obs-synthetic.md	task	general	cancelled	personal			Capture durable knowledge: [OBS] SYNTHETIC-TEST story F (tide pool hours)	2026-07-10
