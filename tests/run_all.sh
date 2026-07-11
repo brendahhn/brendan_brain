@@ -14,6 +14,9 @@ echo "# Test run $(date -Iseconds)" > "$RESULTS"
 fresh_sandbox() {  # bare "origin" + working clone, mirrors GitHub topology
   rm -rf "$SCRATCH/origin.git" "$SCRATCH/clone1" "$SCRATCH/clone2"
   git clone -q --bare "$BRAIN" "$SCRATCH/origin.git"
+  # sandbox "main" = the CURRENT committed HEAD, whatever branch it's on — otherwise a
+  # feature-branch session silently tests stale main (V2 fix, 2026-07-11)
+  git -C "$SCRATCH/origin.git" update-ref refs/heads/main "$(git -C "$BRAIN" rev-parse HEAD)"
   git -C "$SCRATCH/origin.git" symbolic-ref HEAD refs/heads/main
   git clone -q -b main "$SCRATCH/origin.git" "$SCRATCH/clone1"
   git clone -q -b main "$SCRATCH/origin.git" "$SCRATCH/clone2"
