@@ -21,6 +21,27 @@
 - Final state: suite 8/8 on committed HEAD; skills v1 re-synced to all robots (op verified);
   1 active watch (tacoma, next_run 2026-07-17); 2 open questions for Brendan.
 
+## 2026-07-12 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 50 artifacts validate 0 errors,
+  QUEUE 0 warnings. Ran on branch `claude/keen-ritchie-wl6i80` (even with origin/main).
+- Triage: 4 robot inbox blocks (07-10 activation smoke) marked triaged — none/none/none for
+  predictions/knowledge/questions, no artifacts filed. Cowork inbox empty (header only).
+- **[FAIL] ROBOT SILENCE — all four robots stale since 2026-07-10.** No fresh Health/FootyBot/
+  Trading/Jobs block for the third edition running. Most likely cause: the activation step
+  (add `brendan_brain` to each routine's repo selection) is still pending — platform-gated,
+  needs Brendan. Reported in edition, not fabricated. Watching for the first live run.
+- Published edition 2026-07-13: 2 concierge research articles (martial-arts selection, menu
+  cooking plan) both moved ready_for_publication → published, filed to queue/completed/.
+  Robot sections carry honest [FAIL] one-liners. 1 blocking question surfaced (Shopify/QB
+  ownership → CONNECTOR_POLICY still blocks those reads).
+- Annotations: process_annotations --date 2026-07-11 dry-run matched 2 items, but they are
+  FALSE POSITIVES — the tool pattern-matched the edition's own descriptive prose
+  (`[PREF→evidence] ⭐ on the Tacoma item`, the watch-section header), not fresh Brendan
+  marks. The real 07-11 reactions were on the demo edition and already processed
+  (ann-2026-07-11.md, status: processed). Did NOT --apply: would have created a duplicate
+  Tacoma watch + duplicate evidence. No rule promotions (thresholds not met; none proposed).
+- Watches: 0 due (Tacoma next_run 2026-07-17). Predictions: none to score (none open).
+
 ## 2026-07-10 — ACTIVATION session (Fable, Brendan-authorized)
 - 4 PRs created, fresh-reviewed (4/4 APPROVE), merged to main: FootyBot#1 506eabc,
   health#4 32f35f7, trading#1 0fe104e, operator#2 4ec80ed. Prompt steps applied per

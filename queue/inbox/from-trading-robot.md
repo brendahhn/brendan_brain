@@ -1,4 +1,4 @@
-## 2026-07-10 — trading-robot run summary
+## 2026-07-10 — trading-robot run summary <!-- triaged 2026-07-12 -->
 - headline: ACTIVATION SMOKE (not a research run): Brain integration merged to main (0fe104e); brain-sync READ+WRITE exercised from the merged main checkout. Normal research resumes on the next scheduled run, which will be the first live Brain-integrated one.
 - newspaper_ready: nothing meaningful (activation smoke only)
 - questions_for_brendan: none
