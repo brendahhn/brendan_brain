@@ -1,0 +1,1 @@
+date,routine,scheduled,actual_start,actual_finish,runtime_min,session_start,expected_reset,window_model,in_tok,out_tok,total_tok,out_chars,tool_calls,web_searches,files_read,errors,allowance_remaining,notes
