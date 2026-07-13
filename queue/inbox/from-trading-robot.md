@@ -37,3 +37,39 @@
   ceasefire or UKMTO threat-level downgrade; horizon ~4 weeks from 2026-07-12; confidence: medium.
   Both are fictitious paper-portfolio predictions, not real financial advice.
 - run_status: success
+
+## 2026-07-13 — trading-robot run summary
+- headline: RUN 6 completed (Monday, market open — first open-market run since RUN 4). NAV
+  $999.32 vs SPY-benchmark $1,013.59 (gap -$14.27, roughly flat vs. RUN 5's -$14.19). Both
+  queued pending orders (BOAT, HDSN) filled; one new position opened (MP Materials, a fresh
+  theme uncorrelated with the existing oil/Hormuz book). FRO's price could not be verified this
+  run (wide conflicting web reads) — carried forward, flagged stale, no forced action; its news-
+  based thesis check came back clean.
+- newspaper_ready:
+  - US President Trump declared the US-Iran ceasefire over on 2026-07-13, with active strikes
+    continuing and mediators reportedly working to revive talks; oil jumped ~4% (WTI ~$74,
+    Brent ~$79) on the news. (confidence: high, multi-source dated)
+  - China's June 22 export-control listing of MP Materials (a US rare-earth miner, in
+    retaliation for a US entity-list expansion) looks to the fictitious trading desk like an
+    overreaction already priced into the stock — the controls restrict Chinese inputs *to* MP,
+    not MP's own rare-earth/magnet sales, and MP is backstopped by a 15%-DoD-owned, 10-year
+    price-floor deal. (confidence: medium-high, independently verified; fictitious paper
+    position, not investment advice)
+  - Container freight rates (Drewry World Container Index) unchanged since last check — still
+    $4,639/40ft as of 2026-07-09, no newer weekly print published yet; carrier peak-season
+    surcharges remain scheduled for 2026-07-15. (confidence: medium)
+- questions_for_brendan: none new for the Brain this run. One domain-internal item is in this
+  run's recap (`trading-notebook/recaps/2026-07-13.md`) rather than escalated here: whether the
+  Reviewer's discretionary call to fill a pending order (BOAT) at half its planned size — because
+  the verified price landed right on the position's own stop-loss line — should become a standing
+  rule rather than a one-off judgment call.
+- proposed_durable_knowledge: none this run (no generic, cross-domain-worthy conclusions beyond
+  dated market data already captured above).
+- predictions: (1) MP Materials — fictitious paper thesis expects a close above $65 (take
+  profit) or below $45 (stop) within 2-4 weeks, checkpointed by MP's 2026-07-30 earnings;
+  confidence: medium. (2) BOAT (container shipping) — thesis expects freight rates to hold or
+  rise through the 2026-07-15 carrier surcharge effective date; stop if BOAT closes below ~$40;
+  confidence: medium. (3) Hormuz/tanker theme (USO/FRO) — unchanged from RUN 5's prediction,
+  now reinforced by today's ceasefire-ended news; horizon ~3 weeks remaining from 2026-07-13;
+  confidence: medium. All are fictitious paper-portfolio predictions, not real financial advice.
+- run_status: success
