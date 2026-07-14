@@ -9,3 +9,12 @@
 | concierge/martial-arts-muay-thai-selection | 2026-07-13 | 1 | [CONC-inferred] Muay Thai no-sparring fits; alts cut; planning only |
 | concierge/menu-potpie-lemonade-creampuff | 2026-07-13 | 1 | [CONC] make-ahead cooking plan + shopping gaps; post-cook feedback pending |
 | system/robot-silence-since-0710 | 2026-07-13 | 1 | all 4 robots [FAIL] no fresh block; activation step still pending |
+| investing/iran-hormuz-oil | 2026-07-15 | 1 | ceasefire declared over 07-13, oil +4%; USO/FRO paper thesis |
+| investing/mp-materials | 2026-07-15 | 1 | new paper position; [PRED] $65/$45 by ~08-10 |
+| investing/hdsn-refrigerant | 2026-07-15 | 1 | insider buying; [PRED] >$8.50 or +15% on 07-29 print |
+| investing/container-freight-boat | 2026-07-15 | 1 | WCI flat $4,639; [PRED] hold/rise through 07-15 surcharge |
+| health/neuroprotection-base-vs-supplements | 2026-07-15 | 1 | [CONC-A] base beats supplements; hearing loss top modifiable lever |
+| health/digital-environment-focus | 2026-07-15 | 1 | [CONC-A] environment design beats willpower |
+| concierge/muay-thai-no-sparring | 2026-07-15 | 1 | no-spar path fits; alternatives cut |
+| concierge/menu-potpie-lemonade-creampuffs | 2026-07-15 | 1 | night-before prep plan + shopping gaps |
+| system/robot-cadence-gap | 2026-07-15 | 1 | footybot+jobs no real run since 07-10 activation |

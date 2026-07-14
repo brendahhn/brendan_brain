@@ -1,12 +1,20 @@
-## 2026-07-10 — health-robot run summary <!-- triaged 2026-07-10 -->
-- headline: Integration round-trip proven (synthetic electrolyte fixture, published in edition 2026-07-11-demo) AND post-merge activation smoke from merged main 32f35f7: brain-sync READ+WRITE both exercised. No real chapter research this run — next scheduled run (Ch17) will be the first live one.
-- newspaper_ready: nothing meaningful (activation smoke only; real health content arrives with the next scheduled chapter run)
-- questions_for_brendan: none
-- proposed_durable_knowledge: none
-- predictions: none
-- run_status: success (activation smoke)
 
-## 2026-07-12 — health-robot run summary
+
+## 2026-07-13 — health-robot run summary <!-- triaged 2026-07-14 -->
+- headline: Completed a chapter on long-term brain health — neuroprotection, Alzheimer's/Parkinson's prevention, and cognitive aging (Run 19). No blocking issues; egress still WebSearch-only; no digest (not Sunday).
+- newspaper_ready:
+  - [A] Most "brain-health" wins are the ordinary base, not supplements: lifelong cardiorespiratory fitness, protected sleep (deep-sleep quality clears brain amyloid; chronic short sleep in midlife raises dementia risk), midlife blood-pressure and LDL/ApoB control, not smoking, and building "cognitive reserve" via sustained novel/complex learning. The Lancet Commission puts ~45% of dementia in the potentially-modifiable column.
+  - [A] Hearing loss is the single largest modifiable midlife dementia risk factor, and treating it slowed cognitive decline in a randomized trial — so preserving hearing (e.g., earplugs for loud or cold-water exposure) is a real neuroprotective move worth starting decades early.
+  - [A] Homocysteine is the biomarker that GATES whether B-vitamins help the brain: high-dose B-vitamins slow brain atrophy only when homocysteine is elevated. Measure before supplementing.
+  - [A] Several hyped brain interventions don't hold up: the "gum bacteria cause Alzheimer's" (P. gingivalis) drug trial failed; the MIND diet was null in a randomized trial; cocoa flavanols were null for well-nourished people; urolithin-A / NMN / lion's mane are unproven for a healthy young brain.
+  - [B] Chronic gut inflammation (IBD) is associated with a modest rise in later dementia and Parkinson's risk (~20-35%), so controlling inflammation is plausibly brain-protective — but it's a modest effect, not the scary single-cohort headline.
+  - [A] Do BOTH cardio and resistance training for cognition; "brain-training" apps transfer only narrowly to the trained task.
+- questions_for_brendan: none (chapter-internal, provider-gated items — a homocysteine test and a hearing/earplug baseline — are tracked in the health notebook, not cross-domain)
+- proposed_durable_knowledge: "Measure the gating biomarker before you supplement" and "the base (fitness / sleep / vascular / hearing) outperforms specialty brain supplements" are recurring cross-domain principles worth general memory.
+- predictions: none
+- run_status: success
+
+## 2026-07-12 — health-robot run summary <!-- triaged 2026-07-14 -->
 - headline: Completed a chapter on acute brain/cognition, focus, and the digital environment (Run 18). Sunday all-time digest drafted to Gmail (draft only). No blocking issues; egress still WebSearch-only.
 - newspaper_ready:
   - [A] For breaking a phone/scroll habit, the evidence favors ENVIRONMENT DESIGN over willpower: hard access-blocking (source-level app/internet blockers) + permanent grayscale beat time-limits, tracking, and notification-toggling (which alone can backfire). Social feeds are variable-ratio reward schedules — engineered to defeat self-control.
@@ -20,16 +28,10 @@
 - predictions: none
 - run_status: success
 
-## 2026-07-13 — health-robot run summary
-- headline: Completed a chapter on long-term brain health — neuroprotection, Alzheimer's/Parkinson's prevention, and cognitive aging (Run 19). No blocking issues; egress still WebSearch-only; no digest (not Sunday).
-- newspaper_ready:
-  - [A] Most "brain-health" wins are the ordinary base, not supplements: lifelong cardiorespiratory fitness, protected sleep (deep-sleep quality clears brain amyloid; chronic short sleep in midlife raises dementia risk), midlife blood-pressure and LDL/ApoB control, not smoking, and building "cognitive reserve" via sustained novel/complex learning. The Lancet Commission puts ~45% of dementia in the potentially-modifiable column.
-  - [A] Hearing loss is the single largest modifiable midlife dementia risk factor, and treating it slowed cognitive decline in a randomized trial — so preserving hearing (e.g., earplugs for loud or cold-water exposure) is a real neuroprotective move worth starting decades early.
-  - [A] Homocysteine is the biomarker that GATES whether B-vitamins help the brain: high-dose B-vitamins slow brain atrophy only when homocysteine is elevated. Measure before supplementing.
-  - [A] Several hyped brain interventions don't hold up: the "gum bacteria cause Alzheimer's" (P. gingivalis) drug trial failed; the MIND diet was null in a randomized trial; cocoa flavanols were null for well-nourished people; urolithin-A / NMN / lion's mane are unproven for a healthy young brain.
-  - [B] Chronic gut inflammation (IBD) is associated with a modest rise in later dementia and Parkinson's risk (~20-35%), so controlling inflammation is plausibly brain-protective — but it's a modest effect, not the scary single-cohort headline.
-  - [A] Do BOTH cardio and resistance training for cognition; "brain-training" apps transfer only narrowly to the trained task.
-- questions_for_brendan: none (chapter-internal, provider-gated items — a homocysteine test and a hearing/earplug baseline — are tracked in the health notebook, not cross-domain)
-- proposed_durable_knowledge: "Measure the gating biomarker before you supplement" and "the base (fitness / sleep / vascular / hearing) outperforms specialty brain supplements" are recurring cross-domain principles worth general memory.
+## 2026-07-10 — health-robot run summary <!-- triaged 2026-07-10 -->
+- headline: Integration round-trip proven (synthetic electrolyte fixture, published in edition 2026-07-11-demo) AND post-merge activation smoke from merged main 32f35f7: brain-sync READ+WRITE both exercised. No real chapter research this run — next scheduled run (Ch17) will be the first live one.
+- newspaper_ready: nothing meaningful (activation smoke only; real health content arrives with the next scheduled chapter run)
+- questions_for_brendan: none
+- proposed_durable_knowledge: none
 - predictions: none
-- run_status: success
+- run_status: success (activation smoke)

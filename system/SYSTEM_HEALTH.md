@@ -61,6 +61,23 @@
   (ann-2026-07-11.md, status: processed). Did NOT --apply: would have created a duplicate
   Tacoma watch + duplicate evidence. No rule promotions (thresholds not met; none proposed).
 - Watches: 0 due (Tacoma next_run 2026-07-17). Predictions: none to score (none open).
+## 2026-07-14 — daily routine (first live scheduled-cadence run since activation)
+- Bootstrap clean: 0 unfinished ops, 58 artifacts validate 0 errors, 0 watches due.
+- Triaged 6 real robot blocks (trading 07-12/07-13, health 07-12/07-13) + 2 activation
+  smokes (footybot/jobs 07-10). Filed 4 predictions (HDSN, Hormuz/tanker, MP Materials,
+  BOAT) and 4 health knowledge candidates (confidence: medium, not self-confirmed). All
+  blocks marked `<!-- triaged 2026-07-14 -->`.
+- Published edition 2026-07-15 (first since 07-11; 07-12→07-14 had no editions). Freshest
+  unpublished robot content (07-13) surfaced, dated "as of 2026-07-13"; budgets respected;
+  Publisher checklist passed.
+- FAILURES (news): FootyBot and Jobs robots have done NO real research run since the
+  2026-07-10 activation smoke — 4 days. Jobs is Brendan's #1 priority; flagged prominently
+  in-edition. Trading + Health last ran 07-13; no 07-14 run synced. Cause not diagnosable
+  from the Brain (robots run in their own repos) — reported, not fabricated.
+- No predictions scoreable yet (all horizons 07-15→08-10, none passed). No unprocessed
+  annotations (07-08, 07-11 both status:processed). 1 open blocking question (Shopify/QB
+  ownership) still unanswered since 07-11.
+- Ran on branch `claude/keen-ritchie-xj24ht` per session harness directive (not `main`).
 
 ## 2026-07-10 — ACTIVATION session (Fable, Brendan-authorized)
 - 4 PRs created, fresh-reviewed (4/4 APPROVE), merged to main: FootyBot#1 506eabc,
