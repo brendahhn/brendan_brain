@@ -12,6 +12,7 @@ audit-20260711-v2-postmerge	system/audits/2026-07-11-v2-postmerge-verification.m
 audit-20260711-v2-preimplementation	system/audits/2026-07-11-v2-preimplementation-audit.md	report	general		personal	audit,v2,architecture		V2 pre-implementation audit (15-point checklist)	2026-07-11
 audit-20260711-v2-qa-sonnet	system/audits/2026-07-11-v2-qa-report-sonnet.md	report	general		personal	audit,v2,qa		Fresh Sonnet QA operator report on V2 (verbatim)	2026-07-11
 audit-20260711-v2-skeptic-opus	system/audits/2026-07-11-v2-skeptic-report-opus.md	report	general		personal	audit,v2,skeptic,privacy,security		Fresh Opus Chief Skeptic attack report on V2 (verbatim summary of findings + verdict)	2026-07-11
+audit-20260714-stranded-run-branches	system/audits/audit-20260714-stranded-run-branches.md	report	general		personal				2026-07-14
 communication-preferences	COMMUNICATION_PREFERENCES.md	knowledge	general		personal				2026-07-10
 current-priorities	CURRENT_PRIORITIES.md	knowledge	general		personal				2026-07-10
 current-world	CURRENT_WORLD.md	knowledge	general		personal				2026-07-10
@@ -27,13 +28,25 @@ domain-vehicles	domains/vehicles/DOMAIN_PROFILE.md	domain_profile	vehicles	activ
 edition-20260708	newspaper/editions/2026-07-08.md	edition		published	personal				2026-07-08
 edition-20260711	newspaper/editions/2026-07-11.md	edition		published	personal				2026-07-11
 edition-20260711-demo	newspaper/editions/2026-07-11-demo.md	edition		published	personal				2026-07-11
+edition-20260712	newspaper/editions/2026-07-12.md	edition		published	personal				2026-07-12
+edition-20260713	newspaper/editions/2026-07-13.md	edition		published	personal				2026-07-13
+edition-20260715	newspaper/editions/2026-07-15.md	edition		published	personal				2026-07-15
 health-food-guidance	domains/health/FOOD_GUIDANCE.md	knowledge	health		personal	health,food,guidance,kitchen-bridge		Sanitized food guidance for the Kitchen desk (bridge source)	2026-07-11
 kitchen-equipment	domains/concierge/kitchen/EQUIPMENT.md	live_state	concierge		personal	kitchen,equipment		Kitchen equipment — live state	2026-07-11
 kitchen-profile	domains/concierge/kitchen/KITCHEN_PROFILE.md	knowledge	concierge		personal	kitchen,food,cooking,recipes,meals,pantry		Kitchen & Food desk — profile and knowledge	2026-07-11
+knowledge-20260712-environment-design-beats-willpower	domains/health/knowledge/knowledge-20260712-environment-design-beats-willpower.md	knowledge	health		public	behavior-change,habits,digital-wellbeing		Environment design beats willpower for habit change	2026-07-12
+knowledge-20260712-provider-gating-supplement-changes	domains/health/knowledge/knowledge-20260712-provider-gating-supplement-changes.md	knowledge	health		public	supplements,medication,safety		Provider-gate any supplement or medication change	2026-07-12
+knowledge-20260713-base-beats-specialty-brain-supplements	domains/health/knowledge/knowledge-20260713-base-beats-specialty-brain-supplements.md	knowledge	health		public	brain-health,neuroprotection,cognitive-aging		The base (fitness/sleep/vascular/hearing) outperforms specialty brain supplements	2026-07-13
+knowledge-20260713-measure-gating-biomarker-before-supplementing	domains/health/knowledge/knowledge-20260713-measure-gating-biomarker-before-supplementing.md	knowledge	health		public	supplements,biomarkers,brain-health		Measure the gating biomarker before supplementing	2026-07-13
 op-20260710-postmerge-roundtrips	system/operations/op-20260710-postmerge-roundtrips.md	operation			personal				
 op-20260710-roundtrip-health	system/operations/op-20260710-roundtrip-health.md	operation			personal				
 op-20260710-skill-sync-v1-qa-fixes	system/operations/op-20260710-skill-sync-v1-qa-fixes.md	operation			personal				
+op-20260714-stranded-branch-recovery	system/operations/op-20260714-stranded-branch-recovery.md	operation			personal				
 pantry-live	domains/concierge/kitchen/PANTRY.md	live_state	concierge		personal	kitchen,pantry,shopping,ingredients		Pantry & shopping — live state	2026-07-11
+prediction-20260712-hdsn-earnings	predictions/prediction-20260712-hdsn-earnings.md	prediction	investing		financial				2026-07-12
+prediction-20260712-hormuz-tanker-oil	predictions/prediction-20260712-hormuz-tanker-oil.md	prediction	investing		financial				2026-07-12
+prediction-20260713-boat-freight	predictions/prediction-20260713-boat-freight.md	prediction	investing		financial				2026-07-13
+prediction-20260713-mp-materials	predictions/prediction-20260713-mp-materials.md	prediction	investing		financial				2026-07-13
 profile-brendan	BRENDAN_PROFILE.md	knowledge	general		personal				2026-07-10
 q-20260710-tacoma-budget	newspaper/questions/q-20260710-tacoma-budget.md	question	vehicles	answered	personal			Tacoma search: budget ceiling and transmission preference?	2026-07-10
 q-20260710-trading-dup	newspaper/questions/q-20260710-trading-dup.md	question	investing	answered	personal			Retire the frozen trading/ copy inside health-notebook?	2026-07-10
@@ -47,5 +60,5 @@ task-20260710-forgetting-request-obs-synthetic-test	queue/failed/task-20260710-f
 task-20260710-generic-hydration-electrolyte-evidence-s	queue/completed/task-20260710-generic-hydration-electrolyte-evidence-s.md	task	health	published	personal			Generic hydration-electrolyte evidence summary	2026-07-10
 task-20260710-watch-obs-synthetic-test-story-d-van	queue/failed/task-20260710-watch-obs-synthetic-test-story-d-van.md	watch	general	cancelled	personal			Watch: [OBS] SYNTHETIC-TEST story D (van conversions)	2026-07-10
 task-20260710-watch-vehicles-tacoma-search-90w	queue/watches/task-20260710-watch-vehicles-tacoma-search-90w.md	watch	general	watching	personal			Watch: Vehicles — Tacoma search  (~90w)	2026-07-10
-task-20260711-martial-arts-selection-muay-thai-pads	queue/active/task-20260711-martial-arts-selection-muay-thai-pads.md	task	concierge	ready_for_publication	personal			Martial arts selection: Muay Thai (pads/bag/footwork/clinch, no sparring) vs alternatives	2026-07-11
-task-20260711-menu-research-beef-pot-pie-strawberry	queue/active/task-20260711-menu-research-beef-pot-pie-strawberry.md	task	concierge	ready_for_publication	personal			Menu research: beef pot pie, strawberry Brazilian lemonade, strawberry cream puffs	2026-07-11
+task-20260711-martial-arts-selection-muay-thai-pads	queue/completed/task-20260711-martial-arts-selection-muay-thai-pads.md	task	concierge	published	personal			Martial arts selection: Muay Thai (pads/bag/footwork/clinch, no sparring) vs alternatives	2026-07-11
+task-20260711-menu-research-beef-pot-pie-strawberry	queue/completed/task-20260711-menu-research-beef-pot-pie-strawberry.md	task	concierge	published	personal			Menu research: beef pot pie, strawberry Brazilian lemonade, strawberry cream puffs	2026-07-11

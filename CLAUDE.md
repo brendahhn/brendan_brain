@@ -49,6 +49,16 @@ Every Claude session or routine that touches this repo MUST follow this contract
 ## Git protocol for this repo
 
 - Work on `main` (this repo is Brain-owned; routines commit directly).
+- **Platform-pinned session branches (standing rule, Brendan-authorized 2026-07-14):**
+  scheduled/cloud sessions are often pinned to an auto-generated `claude/*` branch. Routine
+  operational commits (inbox blocks, triage, editions, health logs, index rebuilds) MUST
+  still land on `main`: after committing, run
+  `git pull --rebase origin main && git push origin HEAD:main`
+  (also push the pinned branch if the harness requires it), then verify with
+  `git ls-remote origin main`. This rule is the explicit permission those sessions need.
+  It exists because 2026-07-02→07-14 runs stranded output on 26 session branches
+  (system/audits/audit-20260714-stranded-run-branches.md). Architecture/discovery work is
+  exempt — it stays branch-gated until approved.
 - Pull with rebase before writing: `git pull --rebase origin main`.
 - Commit scope: one logical change per commit; prefix with the area, e.g.
   `queue: add task-20260710-tacoma-4cyl` or `timeline: 2026-07-10 surf note`.
