@@ -74,3 +74,24 @@
   2026-07-11-demo). Suite 8/8 on HEAD.
 - Remaining human steps (platform-gated): routine repo selections + daily routine creation
   (claude.ai UI only — see docs/START_HERE.md).
+
+## 2026-07-11 — daily routine run (Opus)
+- Bootstrap clean: pull-rebase up-to-date, oplog 0 unfinished, 33 artifacts validate 0 errors.
+- Triaged all 4 robot inbox blocks (still 2026-07-10 activation smoke; nothing to extract —
+  no predictions/knowledge/questions). Marked `<!-- triaged 2026-07-11 -->`.
+- **News / degradation carried:** no live robot run has synced yet — inbox has NO 2026-07-11
+  block from any of the 4 robots, a full day post-activation. Likely gated on the pending
+  repo-selection step (docs/START_HERE.md), not a robot crash. Reported honestly in edition
+  2026-07-12; no successful run fabricated.
+- Watches: 0 due (tacoma next_run 2026-07-17). Predictions: none pending scoring.
+- Annotations: none genuinely unprocessed. `process_annotations --date 2026-07-11` reports
+  false-positive PLAN items (create_watch + evidence) re-parsed from the published edition's
+  own ⭐/WATCH prose — NOT applied (would have created a duplicate tacoma watch).
+- Edition 2026-07-12 built, edited to budget (~210w), Publisher-approved, published, validated.
+- **Tooling nit:** `build_newspaper.py` surfaces the cancelled synthetic van watch
+  (`queue/failed/task-20260710-watch-obs-synthetic-test-story-d-van`, status: cancelled,
+  empty next_run) as a due watch, though `run_watches.py due` correctly excludes it. Editor
+  dropped it from the edition; candidate fix: build_newspaper should skip cancelled/failed
+  watches. Not blocking.
+- Known degradations unchanged: Gmail drafts intermittent (3 robots); routine-sandbox egress
+  WebSearch-only.
