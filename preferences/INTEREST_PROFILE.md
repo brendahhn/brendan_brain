@@ -15,3 +15,4 @@
 
 serendipity_slot: 1 item/edition outside these topics (News Scout picks; reactions tune it).
 Rejected topics (never resurface without instruction): (none yet — a SYNTHETIC-TEST rejection was exercised and removed 2026-07-10)
+| travel | 2 | new domain 2026-07-14 (booked Euro trip); weight provisional until evidence |
