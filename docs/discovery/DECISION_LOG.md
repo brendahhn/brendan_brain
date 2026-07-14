@@ -93,3 +93,36 @@ didn't override; he can reverse any of these by saying so.
   self-flagged as getting ahead. Current confirmed rule: trading is fictitious forever.
   Needs an explicit decision — see Round 3 Q. NO real-money action regardless; at most
   recommendations Brendan executes himself. (flagged)
+
+## Round 3 — Intake and routing (2026-07-14)
+
+- **D21 · Scrub-everything + all-caps delete rule**: The router scrubs EVERY note.
+  Deletion is authorized ONLY by a literal all-caps "FOR CLAUDE" (category or in-text).
+  Lowercase "for Claude" = route it, never delete. (Brendan, R3, explicit)
+- **D22 · Tag→robot routing**: Note categories map to destinations: `footybot` → FootyBot,
+  `health` → HealthBot, `tea` → tea business desk, etc. Brendan will add `finances`
+  eventually. Taxonomy stays editable; he re-tags to correct routing and will guide the
+  exact system over time. Feedback box remains the other correction channel. (Brendan, R3)
+- **D23 · Autonomous domain creation**: Auto-create domains when a topic accumulates —
+  "massive file cabinet it autonomously uses." Supersedes propose-first (DOMAIN_POLICY
+  ladder still applies: don't create clutter for one-offs; announce creations in the paper).
+  (Brendan, R3, explicit)
+- **D24 · Website Builder cadence**: Option B — no standing routine. Daily paper flags
+  pending site tasks; Brendan launches a Builder session manually. (Brendan, R3)
+- **D25 · Travel domain**: created on main (23e7cf6) — Europe trip is BOOKED, confirmations
+  in Gmail (~May–June 2026). Details need Gmail search or Brendan paste (R4). (Brendan, R3)
+- **D26 · Trading stays paper; alpha mandate noted**: Paper-only stands. Brendan expects
+  the paper book to target meaningful alpha, not index-hugging ("should be netting a lot
+  more than barely beating the S&P"). Any mandate change to the Trading Robot goes through
+  its proposed-prompt-change channel (safe-bot-edits), not silently. Real-money execution
+  remains permanently out of scope for the system. (Brendan, R3)
+- **D27 · Shopify → Tea Finance auto-append**: Yes — paid orders append income entries
+  (amount/product/date, no customer PII) once Shopify integration ships. (Brendan, R3)
+- **D28 · Nudges + same-day path**: Unanswered questions may nudge ("don't be afraid of
+  me"). Same-day/urgent work happens only when Brendan manually runs a session. (Brendan, R3)
+- **D29 · .claude-folder article**: Brendan shared a guide wanting "this system." Verdict:
+  ~80% already implemented (CLAUDE.md contracts, .claude/skills, agent registry, permission
+  policies). Worth adopting: settings.json deny rules (QuickBooks lockout, rm -rf, .env),
+  possibly a data-safety PreToolUse hook for the personal-os repo. Not worth it now:
+  rules/ split (contracts are already modular per-file), CLAUDE.local.md, heavy hook
+  suites in routine sandboxes. (Fable assessment, R3)
