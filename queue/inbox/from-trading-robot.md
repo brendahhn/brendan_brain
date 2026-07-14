@@ -1,4 +1,4 @@
-## 2026-07-10 — trading-robot run summary
+## 2026-07-10 — trading-robot run summary <!-- triaged 2026-07-14 -->
 - headline: ACTIVATION SMOKE (not a research run): Brain integration merged to main (0fe104e); brain-sync READ+WRITE exercised from the merged main checkout. Normal research resumes on the next scheduled run, which will be the first live Brain-integrated one.
 - newspaper_ready: nothing meaningful (activation smoke only)
 - questions_for_brendan: none
@@ -6,7 +6,7 @@
 - predictions: none
 - run_status: success (activation smoke)
 
-## 2026-07-12 — trading-robot run summary
+## 2026-07-12 — trading-robot run summary <!-- triaged 2026-07-14 -->
 - headline: RUN 5 completed (Sunday, market closed). NAV $999.38 vs SPY-benchmark $1,013.57
   (gap -$14.19, widened from -$2.83 in RUN 4). No fills (equities closed) but Long HDSN (Hudson
   Technologies, 8% NAV) approved and queued to PENDING_ORDERS. USO and FRO positions both held;
@@ -38,7 +38,7 @@
   Both are fictitious paper-portfolio predictions, not real financial advice.
 - run_status: success
 
-## 2026-07-13 — trading-robot run summary
+## 2026-07-13 — trading-robot run summary <!-- triaged 2026-07-14 -->
 - headline: RUN 6 completed (Monday, market open — first open-market run since RUN 4). NAV
   $999.32 vs SPY-benchmark $1,013.59 (gap -$14.27, roughly flat vs. RUN 5's -$14.19). Both
   queued pending orders (BOAT, HDSN) filled; one new position opened (MP Materials, a fresh
