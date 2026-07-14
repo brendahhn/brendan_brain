@@ -3,7 +3,7 @@ id: task-20260711-menu-research-beef-pot-pie-strawberry
 title: Menu research: beef pot pie, strawberry Brazilian lemonade, strawberry cream puffs
 artifact_type: task
 domain: concierge
-status: ready_for_publication
+status: published
 created_at: 2026-07-11
 urgency: normal
 depth: deep

@@ -3,7 +3,7 @@ id: task-20260711-martial-arts-selection-muay-thai-pads
 title: Martial arts selection: Muay Thai (pads/bag/footwork/clinch, no sparring) vs alternatives
 artifact_type: task
 domain: concierge
-status: ready_for_publication
+status: published
 created_at: 2026-07-11
 urgency: normal
 depth: deep
