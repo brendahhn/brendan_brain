@@ -38,6 +38,55 @@
   Both are fictitious paper-portfolio predictions, not real financial advice.
 - run_status: success
 
+## 2026-07-14 — trading-robot run summary
+- headline: RUN 7 completed (Tuesday, market open). NAV $1,002.74 vs. SPY-benchmark $1,005.64
+  (gap -$2.90, sharply narrower than RUN 6's -$14.27). USO hit its own written take-profit
+  (>$115) amid a sharp US-Iran re-escalation and was force-closed for a +$10.11 realized GAIN —
+  the bot's first-ever clean take-profit hit and largest single realized gain to date. All four
+  desk agents (GEO, RWD, MAC, FUN) returned an explicit NO TRADE — a fully quiet desk day by
+  design, not omission. FRO's price is now unverifiable for a 2nd consecutive run (carried
+  stale); BOAT's fresh quote was also unobtainable this run and sits right at its own stop.
+- newspaper_ready:
+  - US-Iran conflict sharply re-escalated: the US bombed Iran for a 3rd consecutive day, IRGC
+    attacked tankers in the Strait of Hormuz (one mariner reported killed), and Trump announced
+    a 20% fee on cargo transiting the Strait; oil (WTI) surged to roughly $78-80.55/bbl.
+    (confidence: high, multi-source dated: CNBC, Al Jazeera, NBC News, all 2026-07-14)
+  - June CPI came in much cooler than expected the same day (headline 3.5% y/y vs. 3.8%
+    expected; core 2.6% y/y vs. 2.8% expected) — but the equity/rates market reaction was
+    dominated by the oil-shock inflation-risk story, not the disinflationary print: Fed
+    hike-odds markets moved higher (Kalshi to 36%, CME to ~46.5%) even as Polymarket held near
+    19.4%, a genuine cross-venue disagreement. (confidence: high, multi-source dated)
+  - Fictitious trading desk's oil/Hormuz-reinforced position (USO) hit its own pre-written
+    take-profit level today and was mechanically closed for a real, verified gain — a clean
+    example of the "geopolitics + real-world data can predict markets" hypothesis this desk
+    exists to test playing out as designed. (confidence: high; fictitious paper position only,
+    not investment advice)
+- questions_for_brendan: a real, non-domain-internal issue surfaced this run worth the Brain's
+  attention: this session's git environment is scoped to a session branch
+  (`claude/tender-brahmagupta-fl327o` in trading-notebook), while the trading-robot-prompt.md
+  is non-negotiable that every run commit to `main`. RUN 5 and RUN 6 appear to have hit the same
+  wall already — their commits landed on that session branch, not `main` — so
+  `trading-notebook`'s `origin/main` has been stuck at a RUN-4-era commit with no PR ever opened
+  to reconcile ~2 runs' worth of drift. This run did not force a push to `main` against an
+  explicit platform instruction, and continued on the same session branch rather than worsen the
+  divergence, but this needs Brendan's decision (open/merge a PR, or reconfigure how the routine
+  is invoked) — full detail in `trading-notebook/recaps/2026-07-14.md` under DECISIONS NEEDED.
+  Two domain-internal items also remain in this run's recap rather than escalated here: (1)
+  FRO's price now unverifiable 2 runs running, and BOAT's quote also unobtainable this run while
+  sitting at its own stop; (2) the standing MAC minimum-sample-before-bench question, still
+  unresolved from RUN 5/6.
+- proposed_durable_knowledge: none this run beyond the dated market data captured above.
+- predictions: (1) MP Materials — unchanged from RUN 6's prediction (close above $65 or below
+  $45 within the original 2-4 week window, checkpointed by the 2026-07-30 earnings print);
+  confidence: medium, slightly softened by this run's ~5% decline. (2) BOAT (container shipping)
+  — unchanged from RUN 6, thesis expects freight rates to hold through the 2026-07-15 carrier
+  surcharge date; confidence: medium, though the position's own unverified proximity to its $40
+  stop is a live risk. (3) FRO — thesis expects continued elevated VLCC/tanker economics absent
+  a verified ceasefire or UKMTO downgrade, reinforced rather than undercut by today's
+  re-escalation; confidence: medium. All are fictitious paper-portfolio predictions, not real
+  financial advice. (sensitivity: financial — paper/fictitious only, no real trade ever implied.)
+- run_status: success
+
 ## 2026-07-13 — trading-robot run summary
 - headline: RUN 6 completed (Monday, market open — first open-market run since RUN 4). NAV
   $999.32 vs SPY-benchmark $1,013.59 (gap -$14.27, roughly flat vs. RUN 5's -$14.19). Both
