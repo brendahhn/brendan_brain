@@ -1,6 +1,26 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-07-10 — first scheduled daily routine run (Opus)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 33 artifacts validate 0 errors.
+- Inbox: all four robot outboxes carried a fresh dated block (footybot, health, jobs,
+  trading) — none missing, so no robot-didn't-run failure. All four are ACTIVATION SMOKES,
+  not research: no predictions/knowledge/questions to extract. Blocks marked triaged.
+- No active tasks to advance; 0 watches due (tacoma next 2026-07-17); no predictions past
+  horizon to score.
+- Newspaper: tomorrow's edition (2026-07-11, first real edition) was already built +
+  published during today's activation session — no new substantive content exists this run,
+  so NOT republished (padding/fabrication would violate PUBLICATION_POLICY). Annotations for
+  2026-07-08 and 2026-07-11-demo already processed; not re-applied (idempotency).
+- Expected pre-live state: robots await their first live Brain-integrated scheduled runs
+  (repo-selection step is the remaining human gate). No new research today is EXPECTED here,
+  not a failure.
+- Open item unchanged: 1 material question awaiting Brendan (q-20260710-trading-dup —
+  retire frozen trading/ copy in health-notebook). Already surfaced in the 2026-07-11 edition.
+- This run's mutations: 4 inbox triage markers, index refresh (BRAIN_MAP was stale at 23→33
+  artifacts), this health entry. Committed to branch claude/exciting-ritchie-nci1c5 per this
+  session's git scope (main left untouched).
+
 ## 2026-07-10 — build session (Fable)
 - Brain live on GitHub main; 21 artifacts validate clean; test suite 8/8 PASS (after Chief Skeptic caught a self-referential forgetting test that failed 7/8 on HEAD; repaired same session).
 - Integration branches pushed + verified on all 4 specialist repos. NOT yet active in
