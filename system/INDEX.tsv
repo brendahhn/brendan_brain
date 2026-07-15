@@ -33,6 +33,7 @@ edition-20260711-demo	newspaper/editions/2026-07-11-demo.md	edition		published	p
 edition-20260712	newspaper/editions/2026-07-12.md	edition		published	personal				2026-07-12
 edition-20260713	newspaper/editions/2026-07-13.md	edition		published	personal				2026-07-13
 edition-20260715	newspaper/editions/2026-07-15.md	edition		published	personal				2026-07-15
+edition-20260716	newspaper/editions/2026-07-16.md	edition		published	personal				2026-07-16
 health-food-guidance	domains/health/FOOD_GUIDANCE.md	knowledge	health		personal	health,food,guidance,kitchen-bridge		Sanitized food guidance for the Kitchen desk (bridge source)	2026-07-11
 kitchen-equipment	domains/concierge/kitchen/EQUIPMENT.md	live_state	concierge		personal	kitchen,equipment		Kitchen equipment — live state	2026-07-11
 kitchen-profile	domains/concierge/kitchen/KITCHEN_PROFILE.md	knowledge	concierge		personal	kitchen,food,cooking,recipes,meals,pantry		Kitchen & Food desk — profile and knowledge	2026-07-11
@@ -42,10 +43,12 @@ knowledge-20260712-environment-design-beats-willpower	domains/health/knowledge/k
 knowledge-20260712-provider-gating-supplement-changes	domains/health/knowledge/knowledge-20260712-provider-gating-supplement-changes.md	knowledge	health		public	supplements,medication,safety		Provider-gate any supplement or medication change	2026-07-12
 knowledge-20260713-base-beats-specialty-brain-supplements	domains/health/knowledge/knowledge-20260713-base-beats-specialty-brain-supplements.md	knowledge	health		public	brain-health,neuroprotection,cognitive-aging		The base (fitness/sleep/vascular/hearing) outperforms specialty brain supplements	2026-07-13
 knowledge-20260713-measure-gating-biomarker-before-supplementing	domains/health/knowledge/knowledge-20260713-measure-gating-biomarker-before-supplementing.md	knowledge	health		public	supplements,biomarkers,brain-health		Measure the gating biomarker before supplementing	2026-07-13
+knowledge-20260715-correct-deficiency-not-megadose	domains/health/knowledge/knowledge-20260715-correct-deficiency-not-megadose.md	knowledge	health		public	supplements,hormones,testosterone,vitamin-d,zinc,deficiency		Correct a deficiency, don't mega-dose	2026-07-15
 op-20260710-postmerge-roundtrips	system/operations/op-20260710-postmerge-roundtrips.md	operation			personal				
 op-20260710-roundtrip-health	system/operations/op-20260710-roundtrip-health.md	operation			personal				
 op-20260710-skill-sync-v1-qa-fixes	system/operations/op-20260710-skill-sync-v1-qa-fixes.md	operation			personal				
 op-20260714-stranded-branch-recovery	system/operations/op-20260714-stranded-branch-recovery.md	operation			personal				
+outcome-20260715-boat-freight	outcomes/outcome-20260715-boat-freight.md	outcome	investing		financial				2026-07-15
 pantry-live	domains/concierge/kitchen/PANTRY.md	live_state	concierge		personal	kitchen,pantry,shopping,ingredients		Pantry & shopping — live state	2026-07-11
 prediction-20260712-hdsn-earnings	predictions/prediction-20260712-hdsn-earnings.md	prediction	investing		financial				2026-07-12
 prediction-20260712-hormuz-tanker-oil	predictions/prediction-20260712-hormuz-tanker-oil.md	prediction	investing		financial				2026-07-12
@@ -55,6 +58,8 @@ profile-brendan	BRENDAN_PROFILE.md	knowledge	general		personal				2026-07-10
 q-20260710-tacoma-budget	newspaper/questions/q-20260710-tacoma-budget.md	question	vehicles	answered	personal			Tacoma search: budget ceiling and transmission preference?	2026-07-10
 q-20260710-trading-dup	newspaper/questions/q-20260710-trading-dup.md	question	investing	answered	personal			Retire the frozen trading/ copy inside health-notebook?	2026-07-10
 q-20260711-shopify-ownership	newspaper/questions/q-20260711-shopify-ownership.md	question	general	answered	personal	connectors,shopify,quickbooks,work-boundary		Shopify/QuickBooks — whose store and books are these?	2026-07-11
+q-20260715-footybot-data-inputs	newspaper/questions/q-20260715-footybot-data-inputs.md	question	fantasy_football	open	personal	fantasy,adp,sleeper,draft-prep		FootyBot's three standing data asks — can you paste them?	2026-07-15
+q-20260715-trading-branch-history	newspaper/questions/q-20260715-trading-branch-history.md	question	investing	open	financial	git,branch-policy,trading-notebook,audit		Trading-notebook git history reconciled itself — confirm nothing was lost?	2026-07-15
 task-20260710-answer-brendan-s-question-obs-synthetic	queue/failed/task-20260710-answer-brendan-s-question-obs-synthetic.md	task	general	cancelled	personal			Answer Brendan's question: [OBS] SYNTHETIC-TEST story F (tide pool hours)	2026-07-10
 task-20260710-capture-durable-knowledge-obs-synthetic	queue/failed/task-20260710-capture-durable-knowledge-obs-synthetic.md	task	general	cancelled	personal			Capture durable knowledge: [OBS] SYNTHETIC-TEST story F (tide pool hours)	2026-07-10
 task-20260710-correction-check-conc-synthetic-test	queue/failed/task-20260710-correction-check-conc-synthetic-test.md	task	general	cancelled	personal			Correction check: [CONC] SYNTHETIC-TEST story C (ferry schedule)	2026-07-10
@@ -66,5 +71,5 @@ task-20260710-watch-obs-synthetic-test-story-d-van	queue/failed/task-20260710-wa
 task-20260710-watch-vehicles-tacoma-search-90w	queue/watches/task-20260710-watch-vehicles-tacoma-search-90w.md	watch	general	watching	personal			Watch: Vehicles — Tacoma search  (~90w)	2026-07-10
 task-20260711-martial-arts-selection-muay-thai-pads	queue/completed/task-20260711-martial-arts-selection-muay-thai-pads.md	task	concierge	published	personal			Martial arts selection: Muay Thai (pads/bag/footwork/clinch, no sparring) vs alternatives	2026-07-11
 task-20260711-menu-research-beef-pot-pie-strawberry	queue/completed/task-20260711-menu-research-beef-pot-pie-strawberry.md	task	concierge	published	personal			Menu research: beef pot pie, strawberry Brazilian lemonade, strawberry cream puffs	2026-07-11
-task-20260714-replace-shopify-before-25-mo-billing	queue/inbox/task-20260714-replace-shopify-before-25-mo-billing.md	task	tea-business	inbox	personal			Replace Shopify before ~$25/mo billing starts in August	2026-07-14
-task-20260714-tea-input-sourcing-scan-better-cheaper	queue/inbox/task-20260714-tea-input-sourcing-scan-better-cheaper.md	task	tea-business	inbox	personal			Tea input sourcing scan — better/cheaper suppliers for all components	2026-07-14
+task-20260714-replace-shopify-before-25-mo-billing	queue/completed/task-20260714-replace-shopify-before-25-mo-billing.md	task	tea-business	published	personal			Replace Shopify before ~$25/mo billing starts in August	2026-07-14
+task-20260714-tea-input-sourcing-scan-better-cheaper	queue/waiting_for_brendan/task-20260714-tea-input-sourcing-scan-better-cheaper.md	task	tea-business	waiting_for_brendan	personal			Tea input sourcing scan — better/cheaper suppliers for all components	2026-07-14

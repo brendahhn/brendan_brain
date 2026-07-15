@@ -41,3 +41,17 @@ Shopify #1013 (1 item, paid 2026-07-09) and #1014 (2 items, paid 2026-07-14) are
 fulfilled; all other orders (#1001–#1012) fulfilled per Brendan. NOTE: Shopify's own
 fulfillment field is unmaintained (all 14 show UNFULFILLED) — Brendan's word + future
 Personal OS "mark fulfilled" button are the truth, never Shopify status.
+
+## AMENDMENT 2026-07-14 (Brendan): count was AFTER #1013 was packed; #1014 (2 tea-bag
+orders) was packed after the count → subtract 2 tea-bag orders from every number above.
+Current effective stock and orders-left:
+| Item | Now | Orders left |
+|---|---|---|
+| Tea bags | ~14 | **0** 🔴 cannot fulfill another tea-bag order |
+| L-Theanine | ~6 g | **1** 🔴 (and it's the shared personal jar: ~2.4 weeks of nightly
+use OR one order — not both) |
+| Taurine | ~81 g | **1** 🔴 |
+| Muslin bags | ~6 | 6 |
+| Chamomile ~670 g · Lemon balm ~180 g · Glycine ~728 g | | 14 / 6 / 8 |
+No fulfillment backlog remains (#1013, #1014 both packed).
+**Reorder NOW list: tea bags, L-theanine, taurine** — sourcing task bumped to urgent.
