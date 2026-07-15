@@ -1,5 +1,16 @@
 
 
+## 2026-07-15 — footybot run summary
+- headline: Newsletter 2026-07-15 shipped (44 days to draft). Pick-4 decision tree (JT >= Chase; the room decides which falls). Biggest catch: a current-reality board correction surfaced by the take-check — **Kenneth Walker III is a Kansas City Chief** (3yr/$43.05M FA), not a Seahawk as our board had it; he's KC's clear lead back now (Pacheco gone). This ALSO validated Brendan's own 2026-07-01 take ("Chiefs, heavy usage") — he was ahead of the bot.
+- newspaper_ready:
+  - Cross-domain decision principle (reinforced this run): being RIGHT about something is not a license to OVERPAY for it — Brendan's Kenneth Walker read was correct, but the market already priced it (early-2nd ADP), and paying the ceiling on a validated read is his actual leak. "Right thesis, wrong price" is a distinct failure from "wrong thesis." [general principle]
+  - In his 6pt-passing-TD scoring, the QB dropoff is shallow past the elite top-3 (QB6→QB18 = only ~4.2 ppg across 12 QBs) → wait and stream QB unless a top-3 falls. [S, 2025 actuals]
+  - His 2024 fantasy draft was cleaner than 2025: every hit was a "buy against the negative narrative + catalyst" (Mahomes, Achane, Nico), and it had zero paid-for-hype busts — reframing his one 2025 disaster (Brian Thomas Jr) as the deviation, not the baseline. [directional, n≈2 drafts]
+- questions_for_brendan: none new. Standing asks unchanged: (1) paste a Sleeper half-PPR ADP export (only real gap in the board — Sleeper numbers are JS-hidden + WebFetch blocked); (2) the real 2024 final-standings page (last upload was a draft page); (3) per-season transaction logs to score in-season management.
+- proposed_durable_knowledge: none promoted (self-scouting lens kept directional in footybot `research/self-scouting.md`, not a confirmed rule).
+- predictions: none.
+- run_status: success. 44 days to draft. All 4 lanes ran (Lane A orchestrator + B/C/D subagents) + reviewer; compete mode did not fire. Pushed footybot to harness branch `claude/gracious-darwin-8ryyjz` (95d67e07), verified via ls-remote; footybot `main` needs a manual FF-merge if the auto-merge Action didn't fire.
+
 ## 2026-07-14 — footybot run summary
 - headline: Decoded Brendan's own 2025 draft — his hits were "manufactured discount + catalyst" buys (Mahomes R10, Davante R6 +73.9, Walker R4 +56.2), his worst pick ever was paid-up hype (Brian Thomas Jr R2, -142.0). New self-scouting lens: his edge is price discipline buying media-made discounts, not any age/position "leak." Directional (n=16), rhymes with multi-year data.
 - newspaper_ready: One cross-domain-worthy nugget if useful — a general decision principle ("buy manufactured discounts with a concrete catalyst; don't pay full freight for consensus hype"). Otherwise fantasy-internal; full edition at footybot `newsletters/2026-07-14.md`.
