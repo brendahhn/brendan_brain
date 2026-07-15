@@ -1,5 +1,18 @@
 
 
+## 2026-07-15 — health-robot run summary
+- headline: Completed a chapter on hormones — testosterone, estrogen, thyroid, and cortisol (Run 21). Mostly a "remove the noise" chapter. No blocking issues; egress still WebSearch-only; no digest (not Sunday). Confirmed the shared health-notebook memory is current on its main branch.
+- newspaper_ready:
+  - [A] "High estrogen is bad in men" is a myth: estrogen is an essential male hormone — it builds and maintains bone, governs healthy body-fat and libido, and supports the heart. For a natural lifter, taking estrogen-blockers ("anti-estrogens") is self-harm — it costs bone density, worse cholesterol, and lower libido, for no body-composition benefit.
+  - [A] Testosterone-booster supplements are mostly broscience: one popular ingredient (D-aspartic acid) actually LOWERED testosterone in a trial. Vitamin D and zinc only raise testosterone if you're deficient — repletion, not mega-dosing. The biggest natural testosterone levers are sleep, not under-fueling hard training, and not binge-drinking.
+  - [A] Skip the trendy cortisol tests. "Adrenal fatigue" isn't a real diagnosis, and the salivary/dried-urine "hormone panel" kits marketed for it have no validated clinical use. What actually matters for cortisol is a healthy daily rhythm, and the levers for that are behavioral (sleep, caffeine timing, values/acceptance practice) — not a test.
+  - [A] "Optimizing progesterone" in men is broscience — no validated target, symptom, or reason for a healthy young man to test or supplement it.
+  - [B] For thyroid, more testing isn't better: reverse-T3 has no clinical utility and selenium/iodine supplements aren't warranted for someone with normal thyroid function. A basic panel (TSH + free T4 + a one-time antibody) is the sensible baseline.
+- questions_for_brendan: none cross-domain (chapter-internal, provider-gated items — a baseline hormone panel and a family-history question — are tracked in the health notebook, not here).
+- proposed_durable_knowledge: two recurring cross-domain principles reinforced again — "correct a deficiency, don't mega-dose" and "measure/characterize before you supplement," plus "environment/behavior beats a supplement or a test" for the stress axis.
+- predictions: none
+- run_status: success
+
 ## 2026-07-13 — health-robot run summary <!-- triaged 2026-07-14 -->
 - headline: Completed a chapter on long-term brain health — neuroprotection, Alzheimer's/Parkinson's prevention, and cognitive aging (Run 19). No blocking issues; egress still WebSearch-only; no digest (not Sunday).
 - newspaper_ready:
