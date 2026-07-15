@@ -207,3 +207,24 @@ didn't override; he can reverse any of these by saying so.
   the only standing deterministic rule; others enter via home-batch reports. (Brendan, R6)
 - **D49 · BOM final**: loose = herb tin + powder tin (two tins); site recipe correct.
   Storefront = Lovable site + Shopify checkout, confirmed. (Brendan, R6)
+
+## Round 7 — Router, Cowork, skills, newspaper (2026-07-14)
+
+- **D50 · Jobs robot PAUSED** by Brendan intentionally ("I'm not running rn") — registry +
+  priorities updated on main; editions report "paused", never [FAIL]. Job search remains a
+  priority; only the robot is off. (Brendan, R7)
+- **D51 · Ops Router runs inside the existing daily Brendan OS routine** — new scan steps
+  (Personal OS notes/todos, Shopify orders, inboxes) before triage; no new routine, same
+  once-daily budget, fast empty exit. (Brendan, R7)
+- **D52 · Brendan-assigned tasks become agent-created todos in Personal OS.** (Brendan, R7)
+- **D53 · Cowork + multi-AI**: Brendan doesn't use Cowork yet but WANTS to; sometimes uses
+  ChatGPT; wants flexibility → ship the model-neutral handoff format (lightweight): one
+  paste-able prompt block that ends any external-AI/Cowork session with an outbox block
+  the Brain's normal triage absorbs. (Brendan, R7)
+- **D54 · Skills**: Scout pitches only, never installs; quarantine pilots; full audit first.
+  Claude Mem: SKIP for now. PLUS a standing "never stagnant" mandate: a recurring AI-growth
+  scan (Skill Scout duty, ~monthly in the paper) pitching new skills/tools/capabilities so
+  Brendan's AI setup keeps advancing. (Brendan, R7, explicit)
+- **D55 · FOR CLAUDE as a real note category** (site redesign adds it) — better than
+  in-header text; all-caps in-text remains the fallback trigger. Newspaper gains Tea
+  Business + Gym/Oura sections; suggestions welcomed. (Brendan, R7)
