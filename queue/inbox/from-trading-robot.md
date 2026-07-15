@@ -1,5 +1,50 @@
 
 
+## 2026-07-15 — trading-robot run summary
+- headline: RUN 8 completed (Wednesday, market open). NAV $1,005.23 vs. SPY-benchmark $1,009.47
+  (gap -$4.24 / -0.42%, widened modestly from RUN 7's -$2.90). No trades — all four desk agents
+  (GEO, RWD, MAC, FUN) returned an explicit NO TRADE, the bot's 2nd fully quiet desk day. FRO's
+  price verified fresh for the first time in 3 runs; MP, BOAT, and HDSN all carried stale after
+  the Reviewer discarded unreliable/inconsistent reads for each (an internally-inconsistent MP
+  figure, a stale BOAT cluster, an unsupported HDSN outlier) rather than trade on unverified data.
+- newspaper_ready:
+  - US struck Iran for a 5th consecutive day and re-imposed a naval blockade; UKMTO's Hormuz
+    threat level remains "severe" with no de-escalation found; ceasefire talks are scheduled for
+    Saturday in Oman but haven't happened yet. (confidence: high, multi-source dated 2026-07-15)
+  - A soft June PPI print (core +0.2% vs. +0.3% expected) confirmed the cool CPI read from
+    2026-07-14, and cross-venue Fed rate-hike odds converged cleanly dovish (CME fell from ~46%
+    to ~17%) — but the fictitious desk's macro lens (MAC) found the move had already happened in
+    markets (BTC +3.6-4%, S&P +0.39%) before it could act, and judged the live catalyst that
+    actually matters now (Hormuz escalation vs. de-escalation) still an unhedgeable coinflip.
+    (confidence: high, multi-source dated; fictitious paper-desk reasoning, not investment advice)
+  - Container freight rates (Drewry World Container Index) still unchanged at $4,639/40ft as of
+    2026-07-09 — a full week now with no fresher weekly print — while CMA CGM's FAK surcharges
+    took effect exactly as scheduled on 2026-07-15, not rescinded. (confidence: medium-high)
+- questions_for_brendan: the branch-policy conflict escalated in RUN 7's export (git environment
+  scoped to a session branch vs. the prompt's non-negotiable main-branch rule) appears RESOLVED
+  as of this run — `origin/main` in `trading-notebook` now shows a clean linear history through
+  RUN 5/6/7's commits, and this run committed and pushed directly to `main` successfully,
+  verified via `git ls-remote` (commit `c149a54`). The desk does not know the mechanism that
+  reconciled it and is not asserting history was rewritten — just reporting the observable
+  current state and recommending Brendan confirm nothing was lost in whatever happened between
+  RUN 7 and RUN 8. Two domain-internal items remain in this run's recap
+  (`trading-notebook/recaps/2026-07-15.md`) rather than escalated here: (1) BOAT's price now
+  unverifiable 3 consecutive runs while sitting at its own stop-loss line; (2) the standing MAC
+  minimum-sample-before-bench question, still unresolved from RUN 5/6/7.
+- proposed_durable_knowledge: none this run beyond the dated market data captured above.
+- predictions: (1) MP Materials — unchanged from RUN 7's prediction (close above $65 or below
+  $45, checkpointed by the 2026-07-30 earnings print); confidence: medium, price unverified this
+  run so unchanged from last confirmed read. (2) BOAT (container shipping) — unchanged from
+  RUN 6/7, thesis expects freight rates to hold following the 2026-07-15 carrier surcharge
+  effective date (now confirmed took effect as scheduled); confidence: medium, though the
+  position's own unverified proximity to its $40 stop remains a live, unresolved risk for a 3rd
+  consecutive run. (3) FRO — thesis expects continued elevated VLCC/tanker economics absent a
+  verified ceasefire or UKMTO downgrade, reinforced by today's fresh verified quote ($38.04,
+  comfortably above its $34 stop) and continued escalation; confidence: medium-high (freshly
+  re-verified). All are fictitious paper-portfolio predictions, not real financial advice.
+  (sensitivity: financial — paper/fictitious only, no real trade ever implied.)
+- run_status: success
+
 ## 2026-07-14 — trading-robot run summary
 - headline: RUN 7 completed (Tuesday, market open). NAV $1,002.74 vs. SPY-benchmark $1,005.64
   (gap -$2.90, sharply narrower than RUN 6's -$14.27). USO hit its own written take-profit
