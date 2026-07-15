@@ -37,6 +37,13 @@ lead and reviewer now: use FRESH sessions for review, never review your own cont
 release gates per docs/IMPLEMENTATION_PLAN preamble. Haiku for scans/classification.
 Don't force delegation on serial debugging.
 
+## State at handoff (updated 2026-07-15 — FINAL Fable session)
+Brendan paused the project 2026-07-15 → 2026-07-20 (job case study; conserving weekly
+limit). Fable access ends 07-18, so **Opus leads the build from Monday 2026-07-20**.
+If Brendan has said "Approved, build it" by then: start Phase 1 exactly per
+IMPLEMENTATION_PLAN (check Phase 0 prerequisites first — network policy!). If not,
+ask him once, plainly, then wait.
+
 ## State at handoff (2026-07-14 late)
 - Interview COMPLETE (7 rounds, D1–D55). Pre-build docs written (this package).
 - Brendan has NOT yet said "Approved, build it." Do not start Phase 1 until he does.

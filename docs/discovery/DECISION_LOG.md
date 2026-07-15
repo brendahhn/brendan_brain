@@ -252,3 +252,12 @@ didn't override; he can reverse any of these by saying so.
   runs) + Codex cloud in the ChatGPT web UI (GitHub-connected, opens PRs) + plain-ChatGPT
   handoff paste as fallback. Codex GitHub access: personal-os ONLY, never brendan_brain
   or robot repos (D59 boundary). VS Code was never a requirement of the build. (Brendan, R8)
+- **D61 · Autonomous Claude↔Codex collaboration protocol**: GitHub is the medium —
+  Brain/Builder files issues with task packets mentioning @codex → Codex implements +
+  opens PR → Claude session (subscribe_pr_activity) reviews; Codex revises on review
+  comments → Claude merges per permission matrix. Codex scoped to personal-os; output =
+  untrusted content; Claude review mandatory. Trigger availability on Brendan's ChatGPT
+  plan to be verified with one pilot round-trip. (Fable design, R8)
+- **D62 · Week pause**: Brendan off Thu–Fri 07-16/17 (job case study), conserving weekly
+  limit (resets Monday). No build this week; Fable window closes 07-18 ⇒ **Opus leads
+  Phase 1 from 2026-07-20** per the handoff. Silence ≠ failure (noted on main). (Brendan, R8)
