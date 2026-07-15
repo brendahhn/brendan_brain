@@ -24,6 +24,7 @@ domain-investing	domains/investing/DOMAIN_PROFILE.md	domain_profile	investing	ac
 domain-jobs	domains/jobs/DOMAIN_PROFILE.md	domain_profile	jobs	active	personal				2026-07-10
 domain-news	domains/news/DOMAIN_PROFILE.md	domain_profile	news	active	personal				2026-07-10
 domain-surfing	domains/surfing/DOMAIN_PROFILE.md	domain_profile	surfing	active	personal				2026-07-10
+domain-tea-business	domains/tea-business/DOMAIN_PROFILE.md	domain_profile	tea-business	active	personal				2026-07-14
 domain-travel	domains/travel/DOMAIN_PROFILE.md	domain_profile	travel	active	personal				2026-07-14
 domain-vehicles	domains/vehicles/DOMAIN_PROFILE.md	domain_profile	vehicles	active	personal				2026-07-10
 edition-20260708	newspaper/editions/2026-07-08.md	edition		published	personal				2026-07-08
@@ -35,6 +36,8 @@ edition-20260715	newspaper/editions/2026-07-15.md	edition		published	personal			
 health-food-guidance	domains/health/FOOD_GUIDANCE.md	knowledge	health		personal	health,food,guidance,kitchen-bridge		Sanitized food guidance for the Kitchen desk (bridge source)	2026-07-11
 kitchen-equipment	domains/concierge/kitchen/EQUIPMENT.md	live_state	concierge		personal	kitchen,equipment		Kitchen equipment — live state	2026-07-11
 kitchen-profile	domains/concierge/kitchen/KITCHEN_PROFILE.md	knowledge	concierge		personal	kitchen,food,cooking,recipes,meals,pantry		Kitchen & Food desk — profile and knowledge	2026-07-11
+know-20260713-tea-physical-inventory	domains/tea-business/inventory-20260713-physical-count.md	knowledge	tea-business		personal				2026-07-14
+know-20260714-tea-bom	domains/tea-business/bom-20260714.md	knowledge	tea-business		personal				2026-07-14
 knowledge-20260712-environment-design-beats-willpower	domains/health/knowledge/knowledge-20260712-environment-design-beats-willpower.md	knowledge	health		public	behavior-change,habits,digital-wellbeing		Environment design beats willpower for habit change	2026-07-12
 knowledge-20260712-provider-gating-supplement-changes	domains/health/knowledge/knowledge-20260712-provider-gating-supplement-changes.md	knowledge	health		public	supplements,medication,safety		Provider-gate any supplement or medication change	2026-07-12
 knowledge-20260713-base-beats-specialty-brain-supplements	domains/health/knowledge/knowledge-20260713-base-beats-specialty-brain-supplements.md	knowledge	health		public	brain-health,neuroprotection,cognitive-aging		The base (fitness/sleep/vascular/hearing) outperforms specialty brain supplements	2026-07-13
@@ -51,7 +54,7 @@ prediction-20260713-mp-materials	predictions/prediction-20260713-mp-materials.md
 profile-brendan	BRENDAN_PROFILE.md	knowledge	general		personal				2026-07-10
 q-20260710-tacoma-budget	newspaper/questions/q-20260710-tacoma-budget.md	question	vehicles	answered	personal			Tacoma search: budget ceiling and transmission preference?	2026-07-10
 q-20260710-trading-dup	newspaper/questions/q-20260710-trading-dup.md	question	investing	answered	personal			Retire the frozen trading/ copy inside health-notebook?	2026-07-10
-q-20260711-shopify-ownership	newspaper/questions/q-20260711-shopify-ownership.md	question	general	open	personal	connectors,shopify,quickbooks,work-boundary		Shopify/QuickBooks — whose store and books are these?	2026-07-11
+q-20260711-shopify-ownership	newspaper/questions/q-20260711-shopify-ownership.md	question	general	answered	personal	connectors,shopify,quickbooks,work-boundary		Shopify/QuickBooks — whose store and books are these?	2026-07-11
 task-20260710-answer-brendan-s-question-obs-synthetic	queue/failed/task-20260710-answer-brendan-s-question-obs-synthetic.md	task	general	cancelled	personal			Answer Brendan's question: [OBS] SYNTHETIC-TEST story F (tide pool hours)	2026-07-10
 task-20260710-capture-durable-knowledge-obs-synthetic	queue/failed/task-20260710-capture-durable-knowledge-obs-synthetic.md	task	general	cancelled	personal			Capture durable knowledge: [OBS] SYNTHETIC-TEST story F (tide pool hours)	2026-07-10
 task-20260710-correction-check-conc-synthetic-test	queue/failed/task-20260710-correction-check-conc-synthetic-test.md	task	general	cancelled	personal			Correction check: [CONC] SYNTHETIC-TEST story C (ferry schedule)	2026-07-10
@@ -63,3 +66,5 @@ task-20260710-watch-obs-synthetic-test-story-d-van	queue/failed/task-20260710-wa
 task-20260710-watch-vehicles-tacoma-search-90w	queue/watches/task-20260710-watch-vehicles-tacoma-search-90w.md	watch	general	watching	personal			Watch: Vehicles — Tacoma search  (~90w)	2026-07-10
 task-20260711-martial-arts-selection-muay-thai-pads	queue/completed/task-20260711-martial-arts-selection-muay-thai-pads.md	task	concierge	published	personal			Martial arts selection: Muay Thai (pads/bag/footwork/clinch, no sparring) vs alternatives	2026-07-11
 task-20260711-menu-research-beef-pot-pie-strawberry	queue/completed/task-20260711-menu-research-beef-pot-pie-strawberry.md	task	concierge	published	personal			Menu research: beef pot pie, strawberry Brazilian lemonade, strawberry cream puffs	2026-07-11
+task-20260714-replace-shopify-before-25-mo-billing	queue/inbox/task-20260714-replace-shopify-before-25-mo-billing.md	task	tea-business	inbox	personal			Replace Shopify before ~$25/mo billing starts in August	2026-07-14
+task-20260714-tea-input-sourcing-scan-better-cheaper	queue/inbox/task-20260714-tea-input-sourcing-scan-better-cheaper.md	task	tea-business	inbox	personal			Tea input sourcing scan — better/cheaper suppliers for all components	2026-07-14
