@@ -3,7 +3,7 @@ id: task-20260714-replace-shopify-before-25-mo-billing
 title: Replace Shopify before ~$25/mo billing starts in August
 artifact_type: task
 domain: tea-business
-status: inbox
+status: active
 created_at: 2026-07-14
 urgency: high
 depth: deep

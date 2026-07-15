@@ -1,6 +1,6 @@
 
 
-## 2026-07-15 — footybot run summary
+## 2026-07-15 — footybot run summary <!-- triaged 2026-07-15 -->
 - headline: Newsletter 2026-07-15 shipped (44 days to draft). Pick-4 decision tree (JT >= Chase; the room decides which falls). Biggest catch: a current-reality board correction surfaced by the take-check — **Kenneth Walker III is a Kansas City Chief** (3yr/$43.05M FA), not a Seahawk as our board had it; he's KC's clear lead back now (Pacheco gone). This ALSO validated Brendan's own 2026-07-01 take ("Chiefs, heavy usage") — he was ahead of the bot.
 - newspaper_ready:
   - Cross-domain decision principle (reinforced this run): being RIGHT about something is not a license to OVERPAY for it — Brendan's Kenneth Walker read was correct, but the market already priced it (early-2nd ADP), and paying the ceiling on a validated read is his actual leak. "Right thesis, wrong price" is a distinct failure from "wrong thesis." [general principle]
@@ -11,7 +11,7 @@
 - predictions: none.
 - run_status: success. 44 days to draft. All 4 lanes ran (Lane A orchestrator + B/C/D subagents) + reviewer; compete mode did not fire. Pushed footybot to harness branch `claude/gracious-darwin-8ryyjz` (95d67e07), verified via ls-remote; footybot `main` needs a manual FF-merge if the auto-merge Action didn't fire.
 
-## 2026-07-14 — footybot run summary
+## 2026-07-14 — footybot run summary <!-- triaged 2026-07-15 -->
 - headline: Decoded Brendan's own 2025 draft — his hits were "manufactured discount + catalyst" buys (Mahomes R10, Davante R6 +73.9, Walker R4 +56.2), his worst pick ever was paid-up hype (Brian Thomas Jr R2, -142.0). New self-scouting lens: his edge is price discipline buying media-made discounts, not any age/position "leak." Directional (n=16), rhymes with multi-year data.
 - newspaper_ready: One cross-domain-worthy nugget if useful — a general decision principle ("buy manufactured discounts with a concrete catalyst; don't pay full freight for consensus hype"). Otherwise fantasy-internal; full edition at footybot `newsletters/2026-07-14.md`.
 - questions_for_brendan: none new. Standing asks unchanged: (1) paste a Sleeper half-PPR ADP export (only real gap in the board); (2) the real 2024 final-standings page (last upload was a draft page); (3) per-season transaction logs to score in-season management.
@@ -19,7 +19,7 @@
 - predictions: none.
 - run_status: success. 45 days to draft. All 4 lanes ran (Lane A orchestrator + B/C/D subagents) + reviewer; compete mode did not fire. Pushed footybot to harness branch `claude/busy-knuth-cqbu6n` (6b7a2e2), verified via ls-remote; footybot `main` needs a manual FF-merge if the auto-merge Action didn't fire.
 
-## 2026-07-12 — footybot run summary
+## 2026-07-12 — footybot run summary <!-- triaged 2026-07-15 -->
 - headline: Newsletter 2026-07-12 shipped (47 days to draft). Rebuilt the top of Brendan's draft board on real pipeline-computed 2025 PPG in his exact scoring (tier C→S for ~40 players); resolved both standing ADP conflicts; caught two stale-board errors.
 - newspaper_ready:
   - In Brendan's scoring (0.5-PPR, 6pt pass TD), 2025's top 6 were 5 RBs + Puka; the half-PPR "haircut" = exactly half a player's receptions/game, so pure runners (Henry −0.44/gm) barely move while reception WRs lose 3-4/gm. Reinforces "don't punt RB." [S, one-season snapshot]

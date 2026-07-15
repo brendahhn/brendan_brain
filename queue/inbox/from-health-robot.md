@@ -1,6 +1,6 @@
 
 
-## 2026-07-15 — health-robot run summary
+## 2026-07-15 — health-robot run summary <!-- triaged 2026-07-15 -->
 - headline: Completed a chapter on hormones — testosterone, estrogen, thyroid, and cortisol (Run 21). Mostly a "remove the noise" chapter. No blocking issues; egress still WebSearch-only; no digest (not Sunday). Confirmed the shared health-notebook memory is current on its main branch.
 - newspaper_ready:
   - [A] "High estrogen is bad in men" is a myth: estrogen is an essential male hormone — it builds and maintains bone, governs healthy body-fat and libido, and supports the heart. For a natural lifter, taking estrogen-blockers ("anti-estrogens") is self-harm — it costs bone density, worse cholesterol, and lower libido, for no body-composition benefit.

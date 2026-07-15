@@ -1,6 +1,6 @@
 
 
-## 2026-07-15 — trading-robot run summary
+## 2026-07-15 — trading-robot run summary <!-- triaged 2026-07-15 -->
 - headline: RUN 8 completed (Wednesday, market open). NAV $1,005.23 vs. SPY-benchmark $1,009.47
   (gap -$4.24 / -0.42%, widened modestly from RUN 7's -$2.90). No trades — all four desk agents
   (GEO, RWD, MAC, FUN) returned an explicit NO TRADE, the bot's 2nd fully quiet desk day. FRO's
@@ -45,7 +45,7 @@
   (sensitivity: financial — paper/fictitious only, no real trade ever implied.)
 - run_status: success
 
-## 2026-07-14 — trading-robot run summary
+## 2026-07-14 — trading-robot run summary <!-- triaged 2026-07-15 -->
 - headline: RUN 7 completed (Tuesday, market open). NAV $1,002.74 vs. SPY-benchmark $1,005.64
   (gap -$2.90, sharply narrower than RUN 6's -$14.27). USO hit its own written take-profit
   (>$115) amid a sharp US-Iran re-escalation and was force-closed for a +$10.11 realized GAIN —

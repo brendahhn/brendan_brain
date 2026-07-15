@@ -3,7 +3,7 @@ id: task-20260714-tea-input-sourcing-scan-better-cheaper
 title: Tea input sourcing scan — better/cheaper suppliers for all components
 artifact_type: task
 domain: tea-business
-status: inbox
+status: active
 created_at: 2026-07-14
 urgency: normal
 depth: deep
