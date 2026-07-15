@@ -247,3 +247,8 @@ didn't override; he can reverse any of these by saying so.
   (external-ai-handoff). Division: Codex = personal-os mechanical code tasks (Claude
   reviews PRs); Claude-only = brendan_brain + robot repos (policy adherence). Handoff
   skill PULLED FORWARD to Phase 1. (Brendan, R8)
+- **D60 · No-VS-Code constraint (work computer)**: Brendan can't install anything for a few
+  weeks. Multi-AI plan runs browser-only: Claude Code on web (already how everything here
+  runs) + Codex cloud in the ChatGPT web UI (GitHub-connected, opens PRs) + plain-ChatGPT
+  handoff paste as fallback. Codex GitHub access: personal-os ONLY, never brendan_brain
+  or robot repos (D59 boundary). VS Code was never a requirement of the build. (Brendan, R8)
