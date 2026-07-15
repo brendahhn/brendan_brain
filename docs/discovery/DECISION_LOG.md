@@ -126,3 +126,34 @@ didn't override; he can reverse any of these by saying so.
   possibly a data-safety PreToolUse hook for the personal-os repo. Not worth it now:
   rules/ split (contracts are already modular per-file), CLAUDE.local.md, heavy hook
   suites in routine sandboxes. (Fable assessment, R3)
+
+## Round 4 — Gmail and Calendar (2026-07-14)
+
+- **D30 · Gmail scope**: brendanhamor@gmail.com only; connector is connected at org level.
+  Important mail: job interviews, travel; low precision bar ("whateva"). (Brendan, R4)
+- **D31 · Missed-reply detection**: IN — the paper flags people awaiting his reply.
+  Blocked until the connector exposes search/list tools (see D33). (Brendan, R4)
+- **D32 · Gmail drafts**: worked ~3 weeks ago, broken since. Verified cause: the connector
+  surface changed platform-side — current sessions expose only get_message + trash/spam
+  labels; no compose/draft, no search (tool descriptions reference search_threads/get_thread
+  existing in the connector but unexposed). Not fixable in our code. Mitigation: newspaper
+  delivery moves to Personal OS Home (D15), making Gmail-draft briefings redundant; robots'
+  Gmail-draft steps get a graceful fallback (save to digests/, already health-robot
+  behavior). Brendan may try disconnecting/reconnecting Gmail in claude.ai settings to
+  refresh scopes; re-probe each session. (Brendan + audit, R4)
+- **D33 · Gmail scanning**: design lands in Phase 3 but stays dormant until search tools
+  appear in sessions. Nothing else blocks on it. (audit, R4)
+- **D34 · Calendar = Personal OS only**: Brendan uses ONLY the site's Calendar tab. No
+  Google Calendar connector needed — calendar prep runs entirely through the bridge.
+  Major simplification: R4's Google Calendar questions are moot. (Brendan, R4, explicit)
+- **D35 · Prep lead times**: trips 14 days, everything else 7. (Brendan, R4)
+- **D36 · Euro trip**: "Euro logistics" = the booked Europe trip. Details still needed
+  (dates/cities) — via paste or future Gmail search; travel domain waits on them. (Brendan, R4)
+
+## Round 5 pre-work — Shopify probe (2026-07-14, read-only, no customer data)
+
+- **D37 · Store facts**: "Drink Siesta", Basic plan, USD, PDT. TWO products, one variant
+  each: Loose Leaf (SKU SIESTA-LL-30, $44.99, inventory 5) and Tea Bags (SKU
+  SIESTA-TB-30, $44.99, **inventory -5 — negative**, i.e. Shopify counts are not being
+  maintained). Products map 1:1 to the App.jsx BOM's loose/bag order types. Ownership
+  question closed on main. (probe, R5 pre-work)
