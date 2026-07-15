@@ -190,3 +190,20 @@ didn't override; he can reverse any of these by saying so.
   Shopify aggregates approved ("sure go for it"); ships with the bridge. (probe + Brendan, R5)
 - **D45 · Fulfillment backlog surfaced**: #1013 (paid 07-09) and #1014 (paid 07-14, 2 items)
   unfulfilled per Brendan. Names stay out of git. (Brendan, R5)
+
+## Round 6 — Personal inventory / L-theanine (2026-07-14)
+
+- **D46 · Count baseline**: 07-13 photo count was post-#1013; #1014 (2 tea-bag orders)
+  packed after → effective stock = photo − 2 tea-bag orders. Current: tea bags ~14 (0
+  orders 🔴), L-theanine ~6g 🔴, taurine ~81g (1 order) 🔴. No fulfillment backlog.
+  Sourcing task bumped URGENT, leads with those three. (Brendan, R6)
+- **D47 · Shared L-theanine jar**: personal (0.5 g/weekday, none weekends) and business
+  (6 g/order) draw from ONE jar "for better or worse" — one projected stream, two
+  deduction rules. Missed personal days (Encinitas weekends → skipped Mondays): NO
+  correction UI; drift reconciles via recounts and Brendan's messages. (Brendan, R6)
+- **D48 · Display + home batches**: actual vs projected side by side. Home batches
+  (~20-day supply for Brendan + his mom, order-scale ingredients, no packaging) are
+  manually reported and deduct ingredients only — manual entry in Tea tab. L-theanine is
+  the only standing deterministic rule; others enter via home-batch reports. (Brendan, R6)
+- **D49 · BOM final**: loose = herb tin + powder tin (two tins); site recipe correct.
+  Storefront = Lovable site + Shopify checkout, confirmed. (Brendan, R6)
