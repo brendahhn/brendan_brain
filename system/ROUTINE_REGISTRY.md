@@ -6,7 +6,7 @@ inferred from repo evidence and may drift — verify against the routine UI when
 
 | Routine | Repo | Cadence (inferred) | V2 recommended time (PT, SCHEDULE_PLAN) | Memory file | Output | Brain domain |
 |---|---|---|---|---|---|---|
-| Jobs Robot | operator-notebook | daily, morning | 02:00–05:00 window | jobs-notebook.md | Gmail draft briefing + notebook commit | jobs |
+| Jobs Robot **[PAUSED by Brendan 2026-07-14 — report as "paused", never [FAIL]]** | operator-notebook | paused (was daily, morning) | 02:00–05:00 window | jobs-notebook.md | Gmail draft briefing + notebook commit | jobs |
 | FootyBot | FootyBot | nightly ~23:30 PT | ~23:30 (unchanged) | footybot-notebook.md | newsletters/YYYY-MM-DD.md + push notification | fantasy_football |
 | Health Robot | health-notebook | ~daily; Sunday digest | 02:00–05:00 window | health-notebook.md | chapter file + Sunday Gmail draft | health |
 | Trading Robot | trading-notebook | ~daily pre-market | 06:30 opening analysis, output target ~06:55 (optional 05:45 premarket; optional ~13:15 close review, never delays the paper) | trading-notebook.md | recaps/YYYY-MM-DD.md + Gmail draft | investing |
