@@ -157,3 +157,36 @@ didn't override; he can reverse any of these by saying so.
   SIESTA-TB-30, $44.99, **inventory -5 — negative**, i.e. Shopify counts are not being
   maintained). Products map 1:1 to the App.jsx BOM's loose/bag order types. Ownership
   question closed on main. (probe, R5 pre-work)
+
+## Round 5 — Tea business (2026-07-14)
+
+- **D38 · Shopify role + exit**: Shopify is ONLY order notification + checkout behind
+  Brendan's Lovable storefront; its inventory numbers are ignored ("I will give u my
+  inventory"). Shopify starts charging ~$25/mo in August → NOT worth it. Research task
+  queued (deadline 2026-07-31, newspaper) to pick a cheaper checkout that hooks into the
+  Lovable site. (Brendan, R5, explicit)
+- **D39 · Inventory truth**: Brendan's physical counts (07-13 snapshot filed:
+  know-20260713-tea-physical-inventory) + Personal OS Tea Stock after the save-fix.
+  Deduction fires when BRENDAN marks an order fulfilled (Personal OS button; Shopify's
+  fulfillment field is unmaintained — verified: all 14 orders show UNFULFILLED there).
+  Commentary/nudges about low stock welcome. (Brendan, R5)
+- **D40 · BOM confirmed** with corrections (know-20260714-tea-bom): bags = −1 sticker,
+  +large muslin, +30 tea bags; loose = "one big jar" + extra sticker, no tea bags.
+  OPEN: loose = herb tin + powder tin (site recipe) or single big jar? (Brendan, R5)
+- **D41 · Low-stock rule**: flag any component at ≤4 orders remaining, in the paper.
+  At the 07-13 count: tea bags (2), L-theanine (3), taurine (3) already flag. (Brendan, R5)
+- **D42 · Sourcing constraints**: unit cost matters but no big MOQs (~500-unit buys out);
+  chamomile/lemon balm organic + clean; unbleached cotton tea bags; boxes/tins keep
+  dimensions (powder tins may shrink slightly, herb tins cannot). **Ingredients: NEVER
+  order, never even add to cart — attention-only.** Stricter than the generic Amazon
+  cart-prep default; encoded in the sourcing task. (Brendan, R5, explicit)
+- **D43 · Verified-links mandate**: Brendan has been given nonexistent links and wrong
+  prices by past Claude sessions. All sourcing/pricing output must be live-verified at
+  research time (BROWSER_RESEARCH_POLICY + source-verification); unverifiable → say so,
+  never present. Routine-sandbox egress (WebSearch-only) is the constraint to respect.
+  (Brendan, R5, explicit)
+- **D44 · Sales aggregate**: $669.86 gross, 14 orders since 2026-06-02, 13:1 tea-bags:loose
+  — tea-bag ceiling is the binding inventory constraint. Backfill of Tea Finance from
+  Shopify aggregates approved ("sure go for it"); ships with the bridge. (probe + Brendan, R5)
+- **D45 · Fulfillment backlog surfaced**: #1013 (paid 07-09) and #1014 (paid 07-14, 2 items)
+  unfulfilled per Brendan. Names stay out of git. (Brendan, R5)
