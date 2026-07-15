@@ -18,3 +18,11 @@
 | concierge/muay-thai-no-sparring | 2026-07-15 | 1 | no-spar path fits; alternatives cut |
 | concierge/menu-potpie-lemonade-creampuffs | 2026-07-15 | 1 | night-before prep plan + shopping gaps |
 | system/robot-cadence-gap | 2026-07-15 | 1 | footybot+jobs no real run since 07-10 activation |
+| tea-business/shopify-to-stripe | 2026-07-16 | 1 | [CONC] switch to Stripe Payment Links before 07-31; fee math robust; prices search-corroborated |
+| investing/iran-hormuz-oil | 2026-07-16 | 2 | UPDATE: 5th-day strikes + naval blockade; Oman talks Sat; still severe |
+| investing/ppi-fed-dovish | 2026-07-16 | 1 | soft PPI, CME hike-odds 46%→17%; desk judged move already priced in |
+| investing/container-freight-boat | 2026-07-16 | 2 | BOAT prediction scored PARTIAL (macro held, price unverifiable 3 runs) |
+| health/hormones-remove-the-noise | 2026-07-16 | 1 | [A] estrogen-in-men myth, test-booster broscience, skip cortisol/thyroid over-testing |
+| fantasy/kenneth-walker-kc-correction | 2026-07-16 | 1 | [FACT] Walker is a Chief; validated Brendan's 07-01 take; "right thesis wrong price" |
+| system/jobs-robot-silence | 2026-07-16 | 1 | [FAIL] no real run since 07-10 (6 days) on priority #1 |
+| system/commerce-egress-blocked | 2026-07-16 | 1 | [FAIL] tea sourcing scan blocked — all commerce sites 403 at network level |

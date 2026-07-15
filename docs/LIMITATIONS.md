@@ -77,3 +77,14 @@
 22. **Connector "fail-closed" is policy, not mechanism** — see CONNECTOR_POLICY
     "Enforcement honesty": a session CAN physically call Shopify/QuickBooks tools; the
     mechanical option is a permission deny-rule in .claude/settings.json (recommended).
+23. **Commerce/shopping site egress is blocked in the scheduled-run environment** (observed
+    2026-07-15, tea input-sourcing scan). Direct WebFetch/curl to retail & supplier domains
+    (mountainroseherbs.com, bulksupplements.com, uline.com, stickermule.com, amazon.com,
+    etsy.com, and vendor pricing roots like stripe.com/pricing, squareup.com) return HTTP 403
+    at the destination-host level — a network-policy block for this session, not per-site
+    bot-protection and not a proxy fault (proxy status showed no relay failures). WebSearch
+    still works, and some *docs* subdomains (docs.stripe.com, developer.squareup.com) are
+    reachable via search. CONSEQUENCE: any research needing live prices/stock/listings from
+    commerce sites will be search-corroborated at best and often [FAIL] outright — it cannot
+    do primary-page verification. Sourcing/price-scrape tasks should be run from an
+    environment with commerce egress, or handed to Brendan for click-through.

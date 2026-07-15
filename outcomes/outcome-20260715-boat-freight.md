@@ -5,6 +5,7 @@ prediction_id: prediction-20260713-boat-freight
 domain: investing
 result: partial
 scored_at: 2026-07-15
+created_at: 2026-07-15
 created_by: brain-daily-run
 sensitivity: financial
 derived_from: [inbox-trading-robot-20260715]

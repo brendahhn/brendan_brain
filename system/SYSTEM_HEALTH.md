@@ -79,6 +79,40 @@
   ownership) still unanswered since 07-11.
 - Ran on branch `claude/keen-ritchie-xj24ht` per session harness directive (not `main`).
 
+## 2026-07-15 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 68 artifacts validate 0 errors.
+- Triaged 6 fresh robot blocks (footybot 07-12/14/15, health 07-15, trading 07-14/15). Filed:
+  knowledge-20260715-correct-deficiency-not-megadose (health, cross-domain, from Run 21
+  hormones), q-20260715-footybot-data-inputs (Sleeper ADP + standings + tx-log standing asks),
+  q-20260715-trading-branch-history (confirm trading-notebook main history reconciled cleanly).
+- Scored prediction-20260713-boat-freight at its 07-15 horizon → outcome PARTIAL: macro leg
+  held (WCI flat $4,639, CMA CGM surcharge took effect on schedule) but BOAT's own price is
+  unverifiable 3 runs running (sits on its ~$40 stop), so the stop can't be confirmed/ruled out.
+- Advanced 2 tea-business tasks (deep research, sonnet subagents, live-verify mandate):
+  - task-20260714-replace-shopify → PUBLISHED. Recommend Stripe Payment Links ($0/mo, ~$22 fees
+    over the window vs ~$54 on Shopify Starter) before the 07-31 deadline. Vendor pricing pages
+    all 403'd bots this run; figures search-corroborated (medium-high). Recommendation robust
+    regardless of exact figures.
+  - task-20260714-tea-input-sourcing → **[FAIL], parked in waiting_for_brendan.** ALL commerce
+    sites (Mountain Rose, BulkSupplements, Uline, Sticker Mule, Amazon, Etsy) returned HTTP 403
+    at the network/destination-host level for this environment — NOT a per-site bot-block, NOT a
+    proxy fault (proxy status clean). Agent correctly refused to fabricate prices. Also: the tea
+    BOM (bom-20260714.md) has no existing unit costs, so no "cheaper than current" baseline
+    exists. NEEDS: commerce-egress access (env/network-policy) or Brendan click-through.
+- **[FAIL] Jobs robot silent 6 days** — no real run since 07-10 activation smoke, on priority #1.
+  Longest silence of any robot; flagged in Most Important + Jobs sections of edition 2026-07-16.
+- Trading/Health/FootyBot all posted real 07-15 runs (the [FAIL] robot-silence story is over for
+  those three; edition 07-15 had wrongly shown footybot [FAIL] on stale sync — now corrected).
+- Published edition 2026-07-16 (freshest content dated "as of 07-15 run"; dropped build tool's
+  blanket [STALE] tags — they fire on every item and add no signal). Budgets respected, Publisher
+  checklist passed. Shopify OWNERSHIP question (answered 07-14) NOT re-surfaced as blocking.
+- No unprocessed annotations (07-08, 07-11 both processed). No rule promotions (thresholds not
+  met; the reinforced health principle filed as knowledge, not a confirmed rule).
+- NEW STANDING CONSTRAINT to track: commerce-site egress is blocked in this environment (see
+  LIMITATIONS #). Any sourcing/shopping/price-scrape research will [FAIL] until changed.
+- Ran on branch `claude/keen-ritchie-hhnoog`; operational commits landed on `main` per CLAUDE.md
+  standing rule (pull-rebase + push HEAD:main, verified ls-remote), pinned branch also pushed.
+
 ## 2026-07-10 — ACTIVATION session (Fable, Brendan-authorized)
 - 4 PRs created, fresh-reviewed (4/4 APPROVE), merged to main: FootyBot#1 506eabc,
   health#4 32f35f7, trading#1 0fe104e, operator#2 4ec80ed. Prompt steps applied per
