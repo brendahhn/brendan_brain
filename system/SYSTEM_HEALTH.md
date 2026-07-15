@@ -146,3 +146,10 @@
   watches. Not blocking.
 - Known degradations unchanged: Gmail drafts intermittent (3 robots); routine-sandbox egress
   WebSearch-only.
+
+## 2026-07-15 — Brendan availability + usage note (discovery session, Fable)
+- Brendan is OFF Thursday–Friday 2026-07-16/17 (job case study; saving weekly limit).
+  He may pause some/all routines until the Monday 2026-07-20 reset. **Robot/edition
+  silence through 07-20 is EXPECTED — report as "paused by Brendan", never [FAIL].**
+- Usage plan: docs on discovery branch (USAGE_REDUCTION_PLAN). FootyBot pause recommended;
+  routines to Sonnet; jobs robot already paused (D50).
