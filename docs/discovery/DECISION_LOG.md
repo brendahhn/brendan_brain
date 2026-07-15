@@ -228,3 +228,22 @@ didn't override; he can reverse any of these by saying so.
 - **D55 · FOR CLAUDE as a real note category** (site redesign adds it) — better than
   in-header text; all-caps in-text remains the fallback trigger. Newspaper gains Tea
   Business + Gym/Oura sections; suggestions welcomed. (Brendan, R7)
+
+## Round 8 — Usage & multi-AI (2026-07-15, Wednesday; Brendan at ~50% weekly limit)
+
+- **D56 · Usage pressure is a design constraint**: ~50% of weekly limit consumed by
+  Wednesday. docs/USAGE_REDUCTION_PLAN.md M1–M8 adopted as recommendations; Brendan
+  decides M1 (FootyBot pause). "Not super greedy" = default posture. (Brendan, R8)
+- **D57 · FootyBot verdict pending**: Brendan leaning to drop ("honestly dumb, gets so
+  much stuff wrong"). Fable recommendation: PAUSE now, resume ~08-11 single-lane WITH the
+  missing data inputs (ADP export etc.) — accuracy problem is input starvation; repo and
+  memory kept. Deletion is his call, not taken unilaterally. (Brendan + Fable, R8)
+- **D58 · StockBot ROI mandate**: make daily trading run "worth my while" — sharpen
+  mandate (D26 alpha) via proposed-prompt-change (safe-bot-edits), not more runs. (Brendan, R8)
+- **D59 · Claude Code + Codex/GPT side-by-side**: Brendan has accounts for both and wants
+  them cooperating ("I need something like this"). Confirmed feasible: both run in VS Code
+  /CLI on the same repo; separate providers = separate limits, so Codex implementation
+  passes cost zero Claude tokens; coordination via git + the model-neutral handoff
+  (external-ai-handoff). Division: Codex = personal-os mechanical code tasks (Claude
+  reviews PRs); Claude-only = brendan_brain + robot repos (policy adherence). Handoff
+  skill PULLED FORWARD to Phase 1. (Brendan, R8)
