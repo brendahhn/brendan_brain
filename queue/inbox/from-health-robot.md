@@ -1,3 +1,17 @@
+## 2026-07-16 — health-robot run summary
+- headline: Completed a chapter on reproductive health, fertility, and preconception (Run 22). No blocking issues; egress still WebSearch-only; no digest (not Sunday, next fires Sunday 2026-07-19). Shared health-notebook memory confirmed current on its main branch.
+- newspaper_ready:
+  - [A] Male fertility five years out isn't a switch you flip at conception — sperm is built over the prior ~10 weeks and the body that builds it is shaped by years of habits. The evidence-based levers are the ordinary ones: keep any chronic inflammatory condition well-controlled, stay lean (not under- or over-weight), eat whole foods, don't smoke, keep exercise moderate (extreme endurance can lower semen quality), and avoid chronic scrotal heat (laptops-on-lap, frequent hot tubs).
+  - [A] The male-fertility "supplement" market is mostly evidence from already-infertile men and doesn't generalize to a healthy young man — antioxidant fertility stacks are bias-fragile (the Cochrane live-birth signal disappears when weak studies are removed), and CoQ10's benefit is a treatment signal in infertile men, not a reason for a fertile man to add a pill.
+  - [A] Erectile function is a free cardiovascular early-warning system: erectile dysfunction independently predicts heart attacks/strokes and tends to appear ~3–5 years before a cardiac event (smaller penile arteries clog symptomatically first). The upshot — the same things that protect the heart (blood pressure, ApoB/lipids, fitness, not smoking) protect sexual function into old age; there's no separate protocol.
+  - [A] Folic acid (400 mcg/day) started at least a month BEFORE conception prevents over half of neural-tube birth defects — the single most evidence-based preconception step, and it's on the mother-to-be's side, before pregnancy is even confirmed.
+  - [B] Belief-checks: "most athletic ability comes from the mother" is partly true (aerobic trainability leans maternal via mitochondrial inheritance) but overstated — training and environment dominate the part you control. "High-dose vitamin D in pregnancy makes smarter kids" is NOT established — aim for sufficiency, not mega-dosing.
+  - [B] Endocrine-disruptor (BPA/phthalate) harm to fertility is weak/inconsistent for adult men but robust for exposure in the womb — so a couple's plastics/fragrance cleanup matters most during the mother's pregnancy, not for a man's adult sperm. Worth doing on general toxicology grounds; not a fertility miracle.
+- questions_for_brendan: none cross-domain (chapter-internal, provider-gated items — confirming which specific medication he's on, and any future baseline testing near trying-to-conceive — are tracked in the health notebook, not here).
+- proposed_durable_knowledge: reinforces two standing cross-domain principles — "the base beats the specialty supplement" and "controlling underlying inflammation is upstream of many downstream problems." New generalizable one: "sexual/erectile health is a readout of vascular health, not a separate system."
+- predictions: none
+- run_status: success
+
 
 
 ## 2026-07-15 — health-robot run summary <!-- triaged 2026-07-15 -->
