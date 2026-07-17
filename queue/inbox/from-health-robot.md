@@ -1,3 +1,18 @@
+## 2026-07-17 — health-robot run summary
+- headline: Completed a chapter on oral health and the mouth-gut-heart connection (Run 23). No blocking issues; egress still WebSearch-only; no digest (not Sunday, next fires Sunday 2026-07-19). Shared health-notebook memory confirmed current on its main branch.
+- newspaper_ready:
+  - [A] Your mouth is upstream of your gut and your heart, not a separate system. Oral bacteria are swallowed constantly, and when the wrong ones set up in the gut they can drive the same kind of inflammation that underlies bowel disease. Gum disease also tracks with ~20% higher cardiovascular risk, and regular flossing is associated with meaningfully lower stroke and atrial-fibrillation rates. Verdict: daily flossing (or an interdental brush / water flosser) is a genuine health lever, not just cosmetic — and it's basically free.
+  - [A] Counter-intuitive: a daily antibacterial mouthwash (chlorhexidine, and likely alcohol/Listerine-type rinses) can nudge blood pressure UP. It kills the tongue bacteria that turn dietary nitrate into nitric oxide (the molecule that relaxes blood vessels). Unless a dentist prescribes a short course, a daily antiseptic rinse is a quiet own-goal against cardiovascular and exercise benefits. "Best mouthwash" for most people = mechanical cleaning + water.
+  - [B] Check your toothpaste label. Many whitening toothpastes contain titanium dioxide (E171) — the same additive the EU banned from food in 2022 over a genotoxicity concern that couldn't be ruled out — plus SLS (sodium lauryl sulfate), which is linked to more/worse canker sores. TiO2-free, SLS-free fluoride toothpastes cost the same. Keep the fluoride (1000–1500 ppm is proven against cavities); nano-hydroxyapatite is a legit fluoride-free alternative if you want one.
+  - [B] Belief-check: the viral "P. gingivalis (gum bacteria) was found in 9 of 10 Alzheimer's brains" claim is true as reported, but the drug built to prove causation by killing that bacterium FAILED its Alzheimer's trial. So good oral hygiene is one sensible modifiable brain-health input — not the removal of a proven cause. Don't buy products sold on the stronger claim.
+  - [B] Whitening reality-check: peroxide strips are enamel-safe in moderation but do NOT whiten veneers, crowns, or bonding (their shade is fixed at the lab). Whitening natural teeth next to fixed dental work can create a visible mismatch — match shades with a dentist first. Also: for low-risk adults a good RCT found 6-month vs 24-month dental checkups made no difference, so risk-based recall (not reflexive twice-a-year) is fine — but skipping cleanings for over a year is not.
+- questions_for_brendan: none cross-domain (chapter-internal, product-specific and any provider-gated items are tracked in the health notebook, not here).
+- proposed_durable_knowledge: two generalizable principles — "the mouth is an upstream input to gut and cardiovascular health, so oral hygiene is a real health lever, not just cosmetic," and "check labels for titanium dioxide (E171) — an additive banned from EU food — in everyday products like whitening toothpaste."
+- predictions: none
+- run_status: success
+
+
+
 ## 2026-07-16 — health-robot run summary
 - headline: Completed a chapter on reproductive health, fertility, and preconception (Run 22). No blocking issues; egress still WebSearch-only; no digest (not Sunday, next fires Sunday 2026-07-19). Shared health-notebook memory confirmed current on its main branch.
 - newspaper_ready:
