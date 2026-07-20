@@ -1,5 +1,53 @@
 
 
+## 2026-07-20 — trading-robot run summary
+- headline: RUN 9 completed (Monday, market open, first run in 5 calendar days). NAV $994.17
+  vs. SPY-benchmark $996.92 (gap -$2.75 / -0.28%, narrowed from RUN 8's -$4.24). One fill: Long
+  IMAX (5% NAV) on a record Christopher Nolan "The Odyssey" IMAX box-office weekend. A different
+  position (BOAT, shipping ETF) had its own written thesis-break exit condition trip this run,
+  but the trade could not be executed because the position's price has been unverifiable via
+  web search for 4 consecutive runs — flagged as a genuine conflict between two of the robot's
+  own operating rules (verify-before-trading vs. mandatory-close-on-broken-thesis), not resolved
+  unilaterally; see questions_for_brendan.
+- newspaper_ready:
+  - The Iran/Hormuz war sharply re-escalated: the ceasefire fully collapsed, a full US naval
+    blockade of Iranian ports has been in effect since 2026-07-14, and oil shipments through the
+    Strait are reported "effectively halted." Brent crude jumped ~16% week-on-week to ~$88/bbl.
+    (confidence: high, multi-source dated, UKMTO/JMIC official advisories)
+  - Global container freight rates (Drewry World Container Index) posted their first
+    week-over-week decline in 10 weeks (-2% to $4,547/40ft on 2026-07-16), a signal that
+    peak-shipping-season momentum may be cresting even as the separate tanker/oil-shipping
+    market stays disrupted by the Hormuz crisis — two distinct shipping stories moving in
+    opposite directions right now. (confidence: high, 5+ independent trade-press sources)
+  - Christopher Nolan's "The Odyssey" had the biggest opening weekend of his career this
+    weekend ($124.5M domestic / ~$260M global) and the biggest-ever opening weekend for IMAX's
+    premium format specifically ($51.8M globally) — a real box-office data point the fictitious
+    trading desk used to front-run an earnings-relevant catalyst. (confidence: high,
+    independently verified across 5 entertainment-trade outlets; this is a fictitious paper
+    position, not investment advice)
+- questions_for_brendan: **One material item, carried from the trading-notebook recap, worth
+  Brendan's attention rather than silent resolution:** the robot's operating prompt has two
+  rules that just collided for the first time — "a tripped exit condition forces a mandatory
+  close" versus "never trade a ticker whose price can't be verified this run." A shipping-ETF
+  position (BOAT) hit a real, well-confirmed thesis-break this run, but its price has been
+  unverifiable via web search for 4 straight runs, so the close sits unexecuted rather than
+  built on a fabricated price. The robot recommends Brendan either hand-edit BOAT's real current
+  price into trading-notebook.md (authoritative, will be honored next run), or explicitly
+  authorize mandatory-close-only execution at the last verified price in cases like this. Full
+  detail in `trading-notebook/recaps/2026-07-20.md` and the trading-notebook itself — this is a
+  domain-internal trading decision, not something the Brain should resolve, just surfacing it
+  since it's now sitting open pending Brendan's call.
+- proposed_durable_knowledge: none this run (no generic, cross-domain-worthy conclusions beyond
+  the dated market/geopolitical data already captured above).
+- predictions: (1) IMAX — fictitious paper thesis expects the "Odyssey" box-office catalyst to
+  hold up (no guidance cut, film doesn't fall below $450M global by day 17) over a 3-6 week
+  horizon from 2026-07-20; confidence: medium. (2) MP Materials — fictitious paper position is
+  now sitting only ~0.6% above its own stop-loss level after a month-long decline; if the
+  decline continues at all next session the position likely stops out; horizon: days; confidence:
+  medium-high (mechanical, not a directional call). Both are fictitious paper-portfolio
+  predictions, not real financial advice.
+- run_status: success
+
 ## 2026-07-15 — trading-robot run summary <!-- triaged 2026-07-15 -->
 - headline: RUN 8 completed (Wednesday, market open). NAV $1,005.23 vs. SPY-benchmark $1,009.47
   (gap -$4.24 / -0.42%, widened modestly from RUN 7's -$2.90). No trades — all four desk agents
