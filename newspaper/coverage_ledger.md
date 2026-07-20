@@ -26,3 +26,10 @@
 | fantasy/kenneth-walker-kc-correction | 2026-07-16 | 1 | [FACT] Walker is a Chief; validated Brendan's 07-01 take; "right thesis wrong price" |
 | system/jobs-robot-silence | 2026-07-16 | 1 | [FAIL] no real run since 07-10 (6 days) on priority #1 |
 | system/commerce-egress-blocked | 2026-07-16 | 1 | [FAIL] tea sourcing scan blocked — all commerce sites 403 at network level |
+| investing/iran-hormuz-oil | 2026-07-21 | 3 | UPDATE: full US naval blockade since 07-14, Strait oil "effectively halted", Brent +16% w/w ~$88 |
+| investing/container-freight-boat | 2026-07-21 | 3 | UPDATE: first WoW WCI decline in 10 wks -2% $4,547; BOAT rule-collision [Q] surfaced |
+| investing/imax-odyssey-boxoffice | 2026-07-21 | 1 | [FACT] Nolan record opening ($124.5M dom); IMAX 5% paper fill; [PRED] catalyst holds 3-6wk |
+| investing/mp-materials | 2026-07-21 | 2 | [PRED] ~0.6% above stop, likely stops out (supersedes 07-13 $65/$45 band) |
+| health/microplastics-pfas-detox | 2026-07-21 | 1 | [CONC] proportion is everything; don't heat food in plastic; PFAS>microplastics; detox=theater |
+| fantasy/footybot-silence | 2026-07-21 | 1 | [FAIL] no run 07-16→07-20 (5 days) on priority #2; 3 standing data asks still open |
+| system/jobs-robot-paused | 2026-07-21 | 1 | [PAUSED] intentional since 07-14 (not [FAIL]); last block 07-10 activation smoke |
