@@ -147,6 +147,34 @@
 - Known degradations unchanged: Gmail drafts intermittent (3 robots); routine-sandbox egress
   WebSearch-only.
 
+## 2026-07-20 — daily routine (Opus, autonomous; first run since 07-15)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 73→85 artifacts validate 0 errors,
+  QUEUE 0 warnings. Ran on pinned branch `claude/adoring-mendel-kxm6mv`; operational commits
+  landed on `main` per the CLAUDE.md standing rule (pull-rebase + push HEAD:main, ls-remote verified).
+- **Backlog:** last daily run was 07-15, so triaged a 5-day pile — trading 07-20 (RUN 9) and
+  health 07-16→07-20 (Runs 22-29, one chapter/day). Filed 2 investing predictions (IMAX/Odyssey
+  catalyst; MP Materials stop-out, supersedes 07-13), 1 material question (q-20260720 BOAT
+  rule-collision), and 8 health knowledge proposals (confidence medium, NOT self-confirmed).
+  All blocks marked `<!-- triaged 2026-07-20 -->`.
+- Watch: tacoma search ran (was due 07-17) → **no change**; live per-listing inventory is
+  JS-hidden from scheduled WebSearch runs, no verifiable listing surfaced. next_run 07-27.
+- Predictions: none past horizon to score (boat already scored 07-15; hdsn/hormuz/mp all future).
+- Published edition 2026-07-21 (first since 07-16; 07-17→07-20 had no editions — run was down).
+  Robot content dated "as of 2026-07-20". Dropped build tool's blanket [STALE] gates (fire on
+  every item, no signal).
+- **Pauses reported honestly, NOT [FAIL]:** Jobs [PAUSED] (intentional since 07-14, priority #1
+  parked). FootyBot [PAUSED] — silent 07-16→07-20, which MATCHES the 07-15 availability/usage-
+  reduction note (Brendan off 07-16/17, FootyBot pause recommended through the 07-20 reset).
+  Publisher pass CAUGHT the build tool labeling FootyBot [FAIL] and corrected it to [PAUSED] per
+  that note; flagged that FootyBot has not yet resumed post-reset (worth a check it's unpaused).
+  Trading + Health both posted real runs this cycle.
+- Operational flags carried from health-robot: (1) health-notebook `main` was stale again on
+  entry (chapters on session branches only) — reconciled to main this week (stranded-branch class,
+  2026-07-14 audit); (2) concurrent same-day health runs collided on a chapter. Standing rec:
+  serialize scheduled runs, always land memory on `main`.
+- No unprocessed annotations (process_annotations found none for 07-15/07-16). No rule promotions
+  (no signals cross the ≥3/≥2-day threshold; nothing proposed).
+
 ## 2026-07-15 — Brendan availability + usage note (discovery session, Fable)
 - Brendan is OFF Thursday–Friday 2026-07-16/17 (job case study; saving weekly limit).
   He may pause some/all routines until the Monday 2026-07-20 reset. **Robot/edition

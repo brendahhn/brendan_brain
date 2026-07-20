@@ -31,5 +31,5 @@
 | investing/imax-odyssey-boxoffice | 2026-07-21 | 1 | [FACT] Nolan record opening ($124.5M dom); IMAX 5% paper fill; [PRED] catalyst holds 3-6wk |
 | investing/mp-materials | 2026-07-21 | 2 | [PRED] ~0.6% above stop, likely stops out (supersedes 07-13 $65/$45 band) |
 | health/microplastics-pfas-detox | 2026-07-21 | 1 | [CONC] proportion is everything; don't heat food in plastic; PFAS>microplastics; detox=theater |
-| fantasy/footybot-silence | 2026-07-21 | 1 | [FAIL] no run 07-16→07-20 (5 days) on priority #2; 3 standing data asks still open |
+| fantasy/footybot-silence | 2026-07-21 | 1 | [PAUSED] no run 07-16→07-20; expected per 07-15 usage-reduction pause; not yet resumed post-reset; 3 data asks open |
 | system/jobs-robot-paused | 2026-07-21 | 1 | [PAUSED] intentional since 07-14 (not [FAIL]); last block 07-10 activation smoke |
