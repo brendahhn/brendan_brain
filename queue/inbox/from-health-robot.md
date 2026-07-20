@@ -1,4 +1,4 @@
-## 2026-07-20 — health-robot run summary (Run 29, microplastics, PFAS & forever chemicals)
+## 2026-07-20 — health-robot run summary (Run 29, microplastics, PFAS & forever chemicals) <!-- triaged 2026-07-20 -->
 - headline: Completed a chapter on microplastics, PFAS ("forever chemicals"), and the whole "detox" question (Run 29). No blocking issues; egress still WebSearch-only. Monday, so no weekly digest (the brief only fires on Sundays; next one 2026-07-26). Shared health-notebook memory is current on its main branch (commit 59e13d1). ⚠️ One operational note below (memory recovery).
 - newspaper_ready:
   - [B] Microplastics are a real concern that's over-hyped in magnitude — NOT "the new lead." Lead has proven, no-safe-level, dose-dependent brain harm; microplastics so far have a strong biological mechanism plus a few scary human *associations* (they've been found in artery plaque and in brain tissue) but no proven cause-and-effect in people. And a 2026 study found that ordinary lab gloves shed residue that gets miscounted as microplastics — so many of the alarming "billions of particles" headlines are partly measurement artifact. Do the cheap swaps; skip the anxiety.
@@ -12,7 +12,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-07-19 — health-robot run summary (Run 28, products: personal care & household clean-up)
+## 2026-07-19 — health-robot run summary (Run 28, products: personal care & household clean-up) <!-- triaged 2026-07-20 -->
 - headline: Completed a third chapter today (product clean-up: personal care + household). No blocking issues; egress still WebSearch-only. No digest this run (the weekly all-time brief already went out earlier today as Run 26's Gmail draft; re-firing would just duplicate it). Shared health-notebook memory confirmed current on its main branch (commit 1822701). ⚠️ One operational flag below.
 - newspaper_ready:
   - [A] The single highest-yield product habit beats buying any premium "clean" brand: choose products *labeled* "fragrance-free / free of parabens & phthalates." A real human study found that just 3 days of switching to such products cut urinary levels of those chemicals by 27–45%. The label does the work; the price tag doesn't.
@@ -26,7 +26,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-07-19 — health-robot run summary (Run 27b, environmental: water/air/cookware)
+## 2026-07-19 — health-robot run summary (Run 27b, environmental: water/air/cookware) <!-- triaged 2026-07-20 -->
 - headline: Completed a second chapter today (Brendan asked for an extra run), on environmental health — home water, indoor air, and cookware (Run 27b). No blocking issues; egress still WebSearch-only. No digest this run (the weekly all-time brief already went out earlier today as Run 26's Gmail draft; re-firing would just duplicate it). Shared health-notebook memory confirmed current on its main branch (commit c9246e9).
 - newspaper_ready:
   - [B] Priority inversion worth knowing: for home water, the SHOWER is a bigger disinfection-byproduct exposure than the drinking glass — the chlorination byproducts (trihalomethanes) evaporate in hot water, so you inhale and absorb them, and that route can equal or beat what you drink. A ~$30 carbon shower filter, shorter/cooler showers, and running the bathroom fan are higher-leverage than upgrading an already-decent drinking filter. It's a modest lifetime risk, not an emergency.
@@ -40,7 +40,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-07-19 — health-robot run summary (Run 26, eyes/ears/bones)
+## 2026-07-19 — health-robot run summary (Run 26, eyes/ears/bones) <!-- triaged 2026-07-20 -->
 - headline: Completed a chapter on eyes, ears, and bones — vision preservation, hearing protection, and bone density (Run 26). No blocking issues; egress still WebSearch-only. It's Sunday, so the weekly all-time health brief was drafted (Gmail draft only, never sent). Shared health-notebook memory confirmed current on its main branch (commit bd832ad).
 - newspaper_ready:
   - [A] For lifelong surfers, "surfer's ear" (bony growths in the ear canal from cold water + wind) is close to a 70–80% certainty over a surfing life if no ear protection is worn — and it's irreversible once it forms, eventually needing surgery. The good news: it's almost entirely preventable. In a prospective study, wearing earplugs prevented it but a surf hood alone did not. Vented surf earplugs (~$30) block water while preserving water awareness; a one-time ENT ear check gives a baseline. Cheap gear now vs. an ear operation in 20 years.
@@ -54,7 +54,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-07-18 — health-robot run summary (Run 25, appearance)
+## 2026-07-18 — health-robot run summary (Run 25, appearance) <!-- triaged 2026-07-20 -->
 - headline: Completed a chapter on grooming & appearance science — shaving, hair care, "looksmaxxing," and personal-care exposure (Run 25). No blocking issues; egress still WebSearch-only; no digest (not Sunday — next fires Sunday 2026-07-19). Shared health-notebook memory confirmed current on its main branch (commit 13d3e6e).
 - newspaper_ready:
   - [B] Posture is the single most evidence-based, genuinely-fixable "appearance" lever — and it's free. Forward-head/rounded-shoulder posture is very common (smartphone-driven) and a few weeks of simple postural-education + stretch/strengthen measurably straightens neck alignment in a randomized trial. Standing tall improves how the jaw and neck read immediately, no gimmicks — and it doubles as neck-health and mobility work.
@@ -67,7 +67,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-07-17 — health-robot run summary (Run 24, skin)
+## 2026-07-17 — health-robot run summary (Run 24, skin) <!-- triaged 2026-07-20 -->
 - headline: Completed a chapter on skin — daily routine, sunscreen science, and medical skin concerns (Run 24). No blocking issues; egress still WebSearch-only; no digest (not Sunday, next fires Sunday 2026-07-19). Shared health-notebook memory confirmed current on its main branch.
 - newspaper_ready:
   - [A] The biggest skin takeaway isn't cosmetic: some IBD medications (the S1P-modulator class) come with a label recommendation for periodic dermatologist skin-cancer exams, because the class modestly raises skin-cancer risk — and that stacks with fair skin and heavy sun exposure (e.g. a surfer's). If you're on one, a baseline full-skin check and daily broad-spectrum sunscreen are medicine, not vanity. (Provider-gated — a conversation for your GI/dermatologist.)
@@ -83,7 +83,7 @@
 
 
 
-## 2026-07-17 — health-robot run summary
+## 2026-07-17 — health-robot run summary <!-- triaged 2026-07-20 -->
 - headline: Completed a chapter on oral health and the mouth-gut-heart connection (Run 23). No blocking issues; egress still WebSearch-only; no digest (not Sunday, next fires Sunday 2026-07-19). Shared health-notebook memory confirmed current on its main branch.
 - newspaper_ready:
   - [A] Your mouth is upstream of your gut and your heart, not a separate system. Oral bacteria are swallowed constantly, and when the wrong ones set up in the gut they can drive the same kind of inflammation that underlies bowel disease. Gum disease also tracks with ~20% higher cardiovascular risk, and regular flossing is associated with meaningfully lower stroke and atrial-fibrillation rates. Verdict: daily flossing (or an interdental brush / water flosser) is a genuine health lever, not just cosmetic — and it's basically free.
@@ -98,7 +98,7 @@
 
 
 
-## 2026-07-16 — health-robot run summary
+## 2026-07-16 — health-robot run summary <!-- triaged 2026-07-20 -->
 - headline: Completed a chapter on reproductive health, fertility, and preconception (Run 22). No blocking issues; egress still WebSearch-only; no digest (not Sunday, next fires Sunday 2026-07-19). Shared health-notebook memory confirmed current on its main branch.
 - newspaper_ready:
   - [A] Male fertility five years out isn't a switch you flip at conception — sperm is built over the prior ~10 weeks and the body that builds it is shaped by years of habits. The evidence-based levers are the ordinary ones: keep any chronic inflammatory condition well-controlled, stay lean (not under- or over-weight), eat whole foods, don't smoke, keep exercise moderate (extreme endurance can lower semen quality), and avoid chronic scrotal heat (laptops-on-lap, frequent hot tubs).

@@ -1,6 +1,6 @@
 
 
-## 2026-07-20 — trading-robot run summary
+## 2026-07-20 — trading-robot run summary <!-- triaged 2026-07-20 -->
 - headline: RUN 9 completed (Monday, market open, first run in 5 calendar days). NAV $994.17
   vs. SPY-benchmark $996.92 (gap -$2.75 / -0.28%, narrowed from RUN 8's -$4.24). One fill: Long
   IMAX (5% NAV) on a record Christopher Nolan "The Odyssey" IMAX box-office weekend. A different
