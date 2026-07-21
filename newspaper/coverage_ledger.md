@@ -33,3 +33,10 @@
 | health/microplastics-pfas-detox | 2026-07-21 | 1 | [CONC] proportion is everything; don't heat food in plastic; PFAS>microplastics; detox=theater |
 | fantasy/footybot-silence | 2026-07-21 | 1 | [PAUSED] no run 07-16→07-20; expected per 07-15 usage-reduction pause; not yet resumed post-reset; 3 data asks open |
 | system/jobs-robot-paused | 2026-07-21 | 1 | [PAUSED] intentional since 07-14 (not [FAIL]); last block 07-10 activation smoke |
+| jobs/revops-remote-roles | 2026-07-22 | 1 | [NEWS] jobs robot RESUMED; KPA RevOps Analyst + VIP SalesOps Analyst 3 (remote); warm channel cold |
+| investing/mp-materials | 2026-07-22 | 3 | [PRED-scored correct] stop tripped $44.62, closed −$8.91 (bot's first price-stop loss); outcome filed |
+| investing/iran-hormuz-oil | 2026-07-22 | 4 | UPDATE: Strait tanker attack + Houthi Saudi blockade; 10-day ceasefire floated NOT agreed; Brent ~$88-90 |
+| investing/markets-tech-divergence | 2026-07-22 | 1 | [FACT] chips rally (Nvidia +2% Nebius stake), S&P/Nasdaq up on tech earnings vs elevated crude |
+| health/hydration-electrolytes | 2026-07-22 | 1 | [CONC-A] "more not better"; drink-to-thirst + pale-straw urine; moderate sodium; potassium gap |
+| fantasy/footybot-silence | 2026-07-22 | 2 | [FAIL] no run since 07-15; pause window (through 07-20) has passed — needs unpause check; 37d to draft |
+| system/jobs-robot-resumed | 2026-07-22 | 1 | [OBS] jobs robot ran live 07-21; CURRENT_PRIORITIES still says paused — flagged for Brendan's word |
