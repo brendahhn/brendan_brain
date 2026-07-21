@@ -1,6 +1,31 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-07-21 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 85→93 artifacts validate 0 errors,
+  QUEUE 0 warnings. Ran on pinned branch `claude/adoring-mendel-oee4lq`; operational commits
+  landed on `main` per the CLAUDE.md standing rule (push HEAD:main, ls-remote verified = 81b6a67).
+- Triaged 3 fresh 07-21 blocks (jobs, health Run 30, trading RUN 10). Filed: 2 investing
+  predictions (HDSN stop-test, FRO Hormuz freight), 1 outcome (MP Materials stop-out scored
+  **correct** — resolved early, pre-07-24-horizon, first-ever price-stop loss −$8.91), 2 knowledge
+  proposals (remote-unlocks-revops [jobs], hydration-more-not-better [health]; medium, NOT
+  self-confirmed), 2 material questions (Gmail reconnect, WSL follow-up). Blocks marked triaged.
+- **State change — Jobs Robot RESUMED.** Was intentionally paused since 07-14 (priority #1 parked);
+  posted its first live research run 07-21 (2 remote RevOps roles, best trajectory-fit run in its
+  history). CURRENT_PRIORITIES still says "paused" — flagged in edition for Brendan's word, NOT
+  self-edited.
+- **FootyBot [FAIL]/stall.** No run since 07-15. The 07-15 usage-note pause was recommended
+  *through the 07-20 reset* — that window has now passed and it still hasn't resumed (7 days, 37 to
+  draft). Reported honestly as needing an unpause check; nothing fabricated. Corrected build tool's
+  auto-[FAIL] framing to reflect the passed-window nuance.
+- No active tasks to advance; 0 watches due (tacoma next 07-27); MP Materials the only prediction
+  resolvable (scored). No unprocessed annotations (none exist for 07-21).
+- Known degradations carried: Gmail connector degraded 4 consecutive Jobs Robot runs (blocks
+  status-scan + draft delivery — question filed for manual re-auth); routine-sandbox egress
+  WebSearch-only. No rule promotions (nothing crosses the ≥3-signal/≥2-day threshold).
+- Published edition 2026-07-22; QUEUE + BRAIN_MAP regenerated; 3 area-prefixed commits pushed to
+  main + pinned branch, verified.
+
 ## 2026-07-10 — first scheduled daily routine run (Opus)
 - Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 33 artifacts validate 0 errors.
 - Inbox: all four robot outboxes carried a fresh dated block (footybot, health, jobs,
