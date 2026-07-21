@@ -9,7 +9,7 @@
 - run_status: success (activation smoke)
 
 
-## 2026-07-21 — jobs-robot run summary
+## 2026-07-21 — jobs-robot run summary <!-- triaged 2026-07-21 -->
 - headline: Best trajectory-fit run in the notebook's history — 2 genuine remote RevOps/Sales-Ops IC roles surfaced (KPA Revenue Operations Analyst $70-75K+10%, remote MT/PT; VIP Sales Operations Analyst 3 $81.6-96K, remote), both Salesforce/HubSpot-reporting roles matching Brendan's Salesforce-automation background. Also verified: ProdAnalytics entry-level BA (remote, SQL-build unlock) and Pacific Rim Mechanical BSA (SD, in-person). 5 verified total. Run-19's Axos "BA Tech & Ops" headline is now GONE from the board (~20d, filled/closed, never applied to). Gmail connector degraded a 4th consecutive run.
 - newspaper_ready:
   - [high] KPA — Revenue Operations Analyst (remote, $70-75K+10%, posted Jul 9): cleanest RevOps-titled trajectory role the Jobs Robot has ever surfaced; Salesforce/Deal Desk/reporting bullseye. Apply first this week.

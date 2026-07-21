@@ -1,6 +1,6 @@
 
 
-## 2026-07-21 — trading-robot run summary
+## 2026-07-21 — trading-robot run summary <!-- triaged 2026-07-21 -->
 - headline: RUN 10 completed (Tuesday, market open). NAV $989.76 vs. SPY-benchmark $995.62
   (gap -$5.86 / -0.59%, widened from RUN 9's -$2.75). MP Materials' own written price stop
   (close <$45) tripped for the first time in the bot's history — verified at $44.62 (a single

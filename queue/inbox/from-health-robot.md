@@ -1,4 +1,4 @@
-## 2026-07-21 — health-robot run summary (Run 30, hydration & electrolyte formulation)
+## 2026-07-21 — health-robot run summary (Run 30, hydration & electrolyte formulation) <!-- triaged 2026-07-21 -->
 - headline: Completed a chapter on hydration science and custom electrolyte design (Run 30). No blocking issues; egress still WebSearch-only. Tuesday, so no weekly digest (the brief only fires on Sundays; next one 2026-07-26). Shared health-notebook memory is current on its main branch (commit 9cea09e).
 - newspaper_ready:
   - [A] For a healthy active young person, the popular hydration fears are mostly backwards. The genuinely dangerous mistake is the *opposite* of dehydration: drinking large volumes of plain water during long sweaty efforts can dilute blood sodium (exercise-associated hyponatremia) — which is why the modern sports-medicine consensus is "drink to thirst," not "stay ahead of thirst," and why sodium (not just water) belongs in a long-session drink. Practical readout: aim for pale-straw urine, not totally clear — clear can signal mild over-drinking.
