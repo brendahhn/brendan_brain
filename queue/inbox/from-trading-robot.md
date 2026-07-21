@@ -1,5 +1,49 @@
 
 
+## 2026-07-21 — trading-robot run summary
+- headline: RUN 10 completed (Tuesday, market open). NAV $989.76 vs. SPY-benchmark $995.62
+  (gap -$5.86 / -0.59%, widened from RUN 9's -$2.75). MP Materials' own written price stop
+  (close <$45) tripped for the first time in the bot's history — verified at $44.62 (a single
+  conflicting $45.70 read was discarded as a stale/cached artifact), mandatorily closed for a
+  realized LOSS of -$8.91, the bot's largest realized loss to date. All four desk agents (GEO,
+  RWD, MAC, FUN) returned an explicit, well-documented NO TRADE — the bot's 3rd fully quiet desk
+  day. BOAT remains open with its thesis-break trigger still tripped and its price still
+  unverifiable (5th consecutive run), unchanged from RUN 9; still awaiting Brendan's ruling.
+- newspaper_ready:
+  - The Iran/Hormuz war continued escalating rather than cooling: a tanker was attacked in the
+    Strait early Tuesday, Houthi militants in Yemen declared a new maritime blockade against
+    Saudi Arabia, and a floated 10-day ceasefire proposal has NOT been agreed. Oil stayed
+    elevated (Brent ~$88-90/bbl). (confidence: high, multi-source dated 2026-07-21)
+  - The fictitious trading desk's first-ever price-stop loss: a rare-earth-miner paper position
+    (MP Materials) was closed at a loss after grinding down through its own written stop over
+    several weeks, even though the original thesis (a China export-control listing judged a
+    symbolic overreaction, backstopped by Pentagon support) was never actually refuted by any
+    news. The transferable lesson the desk logged: a price stop exists precisely to catch a
+    "story might still be true" position the market is nonetheless voting against — a real,
+    continuing decline over several sessions is itself worth escalating, not dismissing as
+    routine noise each time. (confidence: high; fictitious paper position, not investment
+    advice, but the underlying research-methodology lesson may be worth a glance regardless.)
+  - Broader equity markets diverged from the war headlines today: chip stocks rallied (Nvidia
+    +2% on a stake in Nebius) and the S&P 500/Nasdaq both rose on tech-earnings optimism ahead
+    of a wave of megacap reports this week, even as Brent crude stayed near multi-month highs.
+    (confidence: high, multi-source dated 2026-07-21)
+- questions_for_brendan: no new item this run. Two items already sitting in the Brain from prior
+  runs remain open and unanswered — not re-escalating, just noting they're still pending: (1)
+  `q-20260720-trading-boat-rule-collision` (BOAT's unexecuted mandatory close, unchanged this
+  run), (2) `q-20260715-trading-branch-history` (confirming nothing was lost in the RUN 7→8
+  branch reconciliation). Full detail in `trading-notebook/recaps/2026-07-21.md`.
+- proposed_durable_knowledge: none this run beyond the dated market/geopolitical data captured
+  above (the price-stop-vs-thesis-break research lesson is domain-internal methodology, not a
+  cross-domain fact).
+- predictions: (1) HDSN — fictitious paper position now in its 2nd consecutive real decline
+  (down ~10% from entry), not yet at its own stop (<$5.60 x2 sessions); if the decline continues
+  into the 2026-07-29 Q2 print the position likely tests its stop; horizon: ~1 week; confidence:
+  medium. (2) FRO — thesis expects continued elevated Hormuz/tanker economics absent a verified
+  ceasefire or UKMTO downgrade; today's price recovery (to $37.43 from $36.49) is read as noise
+  within that continuing thesis, not a reversal; horizon: 2-4 weeks; confidence: medium-high.
+  Both are fictitious paper-portfolio predictions, not real financial advice.
+- run_status: success
+
 ## 2026-07-20 — trading-robot run summary <!-- triaged 2026-07-20 -->
 - headline: RUN 9 completed (Monday, market open, first run in 5 calendar days). NAV $994.17
   vs. SPY-benchmark $996.92 (gap -$2.75 / -0.28%, narrowed from RUN 8's -$4.24). One fill: Long
