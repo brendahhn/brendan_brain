@@ -10,9 +10,15 @@ import argparse, os, re, shutil, sys, datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from brainlib import ROOT, iter_artifacts, today, SENSITIVE, is_active_watch
 
-BUDGETS = {"most_important": 150, "investing": 1000, "fantasy_football": 500, "health": 500,
-           "jobs": 300, "news": 400, "concierge": 300, "open_research": 500,
+# Budgets + order redesigned per Brendan 2026-07-21 (D63): top-3 headlines first, investing
+# condensed with a portfolio table, jobs as real listings, health in plain defensible English,
+# footy shrunk (being retired), new challenge desk / tea / gym-oura sections.
+BUDGETS = {"top_headlines": 120, "most_important": 150, "investing": 450, "jobs": 300,
+           "health": 400, "challenge_desk": 220, "tea_business": 220, "gym_oura": 160,
+           "fantasy_football": 140, "news": 300, "concierge": 250, "open_research": 400,
            "questions_and_system": 200}
+# Sections the editor always fills by hand (never auto-collected) — emit a prompt, never drop.
+EDITORIAL_SECTIONS = ("top_headlines", "most_important", "challenge_desk")
 # robots whose missing output is NEWS (SCHEDULE_PLAN gate): section ← expected outbox
 GATED_INPUTS = {"trading-robot": "investing", "jobs-robot": "jobs",
                 "footybot": "fantasy_football", "health-robot": "health"}
@@ -56,6 +62,23 @@ def scrub_medical(summary, rel, section, sens):
                 f"bridge rule 3 / PUBLICATION_POLICY). Editor: write a generic, non-medical "
                 f"line by hand if this belongs in the paper, or drop it. Nothing auto-quoted.")
     return summary
+
+
+def collect_challenge_signals(date):
+    """Challenge desk (D63): surface stale projects and stale open tasks so the editor can
+    push back. Read-only heuristics; the editor writes the actual challenge prose."""
+    sigs = []
+    try:
+        cutoff = (datetime.date.fromisoformat(date) - datetime.timedelta(days=10)).isoformat()
+        for rel, fm, _ in iter_artifacts():
+            at, st = fm.get("artifact_type"), str(fm.get("status", ""))
+            upd = str(fm.get("updated_at") or fm.get("created_at") or "")
+            if at == "task" and st in ("active", "open", "in_progress") and upd and upd < cutoff:
+                sigs.append((fm.get("id"), f"stale task: {fm.get('title','?')}",
+                             f"open since {upd}, untouched ≥10 days", rel))
+    except Exception:
+        pass
+    return sigs
 
 
 def collect(date):
@@ -108,6 +131,8 @@ def collect(date):
                                        f"queue/inbox/{fn}"))
     # input gate (SCHEDULE_PLAN): a robot with no fresh block is NEWS, not silence; a robot
     # whose only block is yesterday's is STALE, not current (Chief Skeptic M4)
+    for aid, title, why, rel in collect_challenge_signals(date):
+        items["challenge_desk"].append((aid, title, why, rel))
     from check_inputs import input_status
     for name, fresh, last, state in input_status(date):
         if name not in GATED_INPUTS:
@@ -164,22 +189,36 @@ status: draft
 publisher_verdict: pending   # set to `approved` after the Publisher checklist
 checklist_notes: ""
 ---
-# 🗞️ Brendan's Daily — {a.date} (DRAFT)
+# 🗞️ Brendan's Daily — {datetime.date.fromisoformat(a.date).strftime('%A, %B %-d, %Y')} (DRAFT)
 
-> Editor: trim to budgets, drop empty sections, check coverage_ledger.md for repeats,
-> re-verify time-sensitive claims, then complete the Publisher checklist.
+> _Morning edition. Evening runs (after 8pm PT) build the NEXT morning's paper, so an
+> edition dated tomorrow is normal — it's the paper you'll read when you wake up._
+>
+> Editor per PUBLICATION_POLICY §Section rules (Brendan 2026-07-21): top-3 real headlines
+> first; investing = trades + why + portfolio table + all-time vs SPY (no bot play-by-play);
+> jobs = actual listings with apply links + why-fit; health in plain, defensible English;
+> footy small; fill the challenge desk. Trim to budgets, then the Publisher checklist.
 """]
-    order = ["most_important", "health", "fantasy_football", "investing", "jobs", "news",
+    order = ["top_headlines", "most_important", "investing", "jobs", "health",
+             "challenge_desk", "tea_business", "gym_oura", "fantasy_football", "news",
              "concierge", "open_research", "questions_and_system"]
+    PROMPTS = {
+        "top_headlines": "_(editor: 3 one-line headlines — the biggest world/market news "
+                         "from the robots' [FACT] items, most important first)_\n",
+        "most_important": "_(editor selects 1-3 items from below and summarizes here)_\n",
+        "challenge_desk": "_(editor: 1-3 honest pushbacks — stale projects, todos being "
+                          "avoided, contradictions between stated priorities and behavior; "
+                          "see CHALLENGE_DESK sources below)_\n",
+    }
     empty = []
     for sec in order:
         got = items.get(sec, [])
-        if not got and sec != "most_important":
+        if not got and sec not in EDITORIAL_SECTIONS:
             empty.append(sec)
             continue
         lines.append(f"\n## {sec.replace('_', ' ').title()}  (budget ~{BUDGETS[sec]}w)\n")
-        if sec == "most_important":
-            lines.append("_(editor selects 1-3 items from below and summarizes here)_\n")
+        if sec in PROMPTS:
+            lines.append(PROMPTS[sec])
         for aid, title, summary, rel in got:
             lines.append(f"### {title}\n<sub>source: [`{aid}`]({rel})</sub>\n\n{summary}\n")
     if empty:

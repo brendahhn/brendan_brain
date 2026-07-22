@@ -1,0 +1,95 @@
+---
+id: edition-20260721
+artifact_type: edition
+created_at: 2026-07-21
+status: published
+publisher_verdict: approved
+checklist_notes: "1) Claims verified vs. from-health-robot/from-trading-robot 07-20 blocks; robot research dated 'as of 2026-07-20' (freshest for a 07-21 read). 2) No sensitive leakage: health items generic conclusions only, no Brendan biometrics; financial items marked fictitious paper. 3) Budgets OK; nothing padded (investing under budget by design). 4) Coverage ledger: Hormuz (3rd cover) and container-freight (3rd) each carry meaningful new data (full blockade + Brent +16%/$88; first WoW freight decline in 10 wks); IMAX/Odyssey and microplastics are new topics; footybot NOT re-covered (no fresh run). 5) 3 questions surfaced; no unprocessed annotations (process_annotations found none for 07-15/07-16). 6) Failures/pauses honest: footybot [PAUSED] (silence 07-16→07-20 expected per 07-15 usage-reduction note; corrected from build tool's [FAIL]), jobs [PAUSED] per CURRENT_PRIORITIES, health stranded-branch note carried."
+---
+# 🗞️ Brendan's Daily — 2026-07-21
+
+_Robot research below is as of 2026-07-20 (evening runs); this is the freshest state for a 07-21 morning read._
+
+
+## Most Important
+
+- **[Q] The trading robot needs your call.** Two of its own rules collided on the BOAT paper position — "mandatory close on a broken thesis" vs. "never trade an unverifiable ticker" (BOAT's price has been unverifiable for 4 runs). It refused to fabricate a price and left the close open, pending your fix (hand-edit BOAT's real price, or authorize a mandatory-close-only exception). Fictitious paper portfolio.
+- **[FACT] Iran/Hormuz sharply escalated.** Ceasefire collapsed; US naval blockade of Iranian ports since 2026-07-14; Strait oil shipments "effectively halted." Brent ~+16% w/w to ~$88/bbl. (high confidence, multi-source)
+- **[CONC-A] Free health win of the week: stop heating or hot-filling food in plastic** (move food to glass/ceramic first) — the top action from this week's microplastics/PFAS chapter, and it costs nothing.
+
+
+## Health
+
+### Microplastics, PFAS & "detox" — proportion is everything (health-robot Run 29, as of 2026-07-20)
+<sub>source: [`from-health-robot.md`](queue/inbox/from-health-robot.md) · [`knowledge-20260720-label-beats-price-proportion-in-toxins`](domains/health/knowledge/knowledge-20260720-label-beats-price-proportion-in-toxins.md)</sub>
+
+- **[CONC-A] Highest-value action is free:** stop heating/hot-filling food in plastic (transfer to glass/ceramic first). Two-for-one runner-up: choosing "fragrance-free / free-of" products also cuts phthalate exposure, since "fragrance" often hides plasticizer solvents.
+- **[CONC-B] Microplastics are real but over-hyped — NOT "the new lead."** Lead has proven no-safe-level, dose-dependent brain harm; microplastics so far have a strong mechanism plus scary human *associations* (found in artery plaque, brain tissue) but no proven human cause-and-effect — and a 2026 study found ordinary lab gloves shed residue miscounted as microplastics, so some "billions of particles" headlines are partly measurement artifact. Do the cheap swaps; skip the anxiety.
+- **[CONC-B] PFAS ("forever chemicals") are the more credible worry** — decades of human data, including a "probable link" to ulcerative colitis (from a heavily-exposed community, so it doesn't translate directly to background exposure, but notable). Cheapest reductions: filtered tap over bottled water, unwrap fast food off the greaseproof paper, PFAS-free ("PTFE-free") floss, PFAS-free water-repellent finish on rain/surf shells. Real test if you want certainty is a serum PFAS blood panel read against clinical thresholds — a doctor's test, not a wellness "toxin screen."
+- **[CONC-A] "Detox" cleanses are mostly theater** — the liver and kidneys already do it. "Provoked" heavy-metal urine testing (chelating drug, then test) is flagged as improper/harmful by medical toxicologists; parasite-cleanse kits have no purpose without a diagnosis; sauna "sweat detox" removes negligible body burden (heat has real heart/relaxation benefits, just not as detox). One partly-real wellness claim: soluble fiber genuinely helps clear PFAS by interrupting gut recycling — a normal daily fiber habit already captures a slice, no special product needed.
+
+_Earlier this week (Runs 22–28) also filed to durable memory: erectile function as a vascular early-warning readout, the mouth as an upstream input to gut/heart, stress as a whole-body inflammatory lever, hearing protection as neuroprotection, closing biological windows (peak bone mass by ~30), and one-way lease/purchase-time decisions as the biggest environmental-health levers. All proposed, none yet confirmed — see `domains/health/knowledge/`._
+
+
+## Fantasy Football
+
+### [PAUSED] FootyBot quiet since 07-15 — consistent with your usage-reduction pause
+<sub>source: [`from-footybot.md`](queue/inbox/from-footybot.md) · [`SYSTEM_HEALTH.md`](system/SYSTEM_HEALTH.md)</sub>
+
+**[PAUSED]** FootyBot's last fresh block is **2026-07-15** — no run 07-16 through 07-20. This is **expected, not a failure**: per your 2026-07-15 availability note you were off 07-16/17 and a FootyBot pause was recommended through the 07-20 reset, so the silence lines up with that plan. Now that the 07-20 reset has passed and Trading/Health have resumed, FootyBot has not yet fired — **worth a quick check that it's unpaused** if you want nightly board work back with the draft 38 days out (2026-08-28). Its three standing data asks (Sleeper ADP export, real 2024 final-standings, per-season transaction logs) remain open — see Questions.
+
+
+## Investing
+
+### Trading desk RUN 9 — first run in 5 days; one fill (IMAX) (as of 2026-07-20)
+<sub>source: [`from-trading-robot.md`](queue/inbox/from-trading-robot.md)</sub>
+
+- **[OBS] Portfolio:** NAV $994.17 vs. SPY-benchmark $996.92 (gap −$2.75 / −0.28%, narrowed from RUN 8's −$4.24). One fill this run: **long IMAX (5% NAV)** on a record Christopher Nolan "Odyssey" IMAX box-office weekend. Fictitious paper portfolio — not investment advice.
+- **[FACT] Iran/Hormuz re-escalated hard:** ceasefire collapsed, US naval blockade of Iranian ports since 2026-07-14, Strait oil shipments "effectively halted," Brent ~+16% w/w to ~$88/bbl. (high confidence, UKMTO/JMIC advisories)
+- **[FACT] Two shipping stories diverging:** container freight (Drewry WCI) posted its first week-over-week decline in 10 weeks (−2% to $4,547/40ft on 2026-07-16) — peak-season momentum may be cresting — even as the tanker/oil market stays disrupted by Hormuz. (high confidence, 5+ trade-press sources)
+- **[FACT] "The Odyssey" (Nolan) had the biggest opening of his career** (~$124.5M domestic / ~$260M global) and IMAX's biggest-ever premium-format opening ($51.8M global) — the data point behind the IMAX paper fill. (independently verified across 5 trade outlets)
+- **[PRED] IMAX:** paper thesis expects the box-office catalyst to hold (no guidance cut; film not below $450M global by day 17) over 3–6 weeks from 2026-07-20; confidence medium. **[PRED] MP Materials:** paper position sits ~0.6% above its own stop-loss after a month-long decline; likely stops out if the decline continues at all next session; horizon days, confidence medium-high (mechanical). Both fictitious paper.
+- **[Q] Rule collision on BOAT** (surfaced above in Most Important) — needs your call; full detail in `q-20260720-trading-boat-rule-collision`.
+
+
+## Jobs
+
+### [PAUSED] Jobs Robot — intentionally paused
+<sub>source: [`from-jobs-robot.md`](queue/inbox/from-jobs-robot.md) · [`CURRENT_PRIORITIES.md`](CURRENT_PRIORITIES.md)</sub>
+
+**[PAUSED]** The Jobs Robot remains intentionally paused by Brendan (since 2026-07-14); its last block is the 2026-07-10 activation smoke. This is expected, not a failure — priority #1 stays parked until you restart it. Nothing to report this cycle.
+
+
+## Questions And System
+
+### [Q] Trading robot — two of its own rules collided on BOAT; your call
+<sub>source: [`q-20260720-trading-boat-rule-collision`](newspaper/questions/q-20260720-trading-boat-rule-collision.md)</sub>
+
+RUN 9 hit a first-time collision: "a tripped exit forces a mandatory close" vs. "never trade a ticker whose price can't be verified this run." BOAT's thesis broke, but its price has been unverifiable for 4 straight runs. The robot left the close unexecuted rather than fabricate a price. It recommends you either **hand-edit BOAT's real price** into `trading-notebook.md` or **authorize mandatory-close-only at the last verified price** for cases like this. Domain-internal, not blocking. (Fictitious paper portfolio.)
+
+### [Q] FootyBot's three standing data asks — can you paste them?
+<sub>source: [`q-20260715-footybot-data-inputs`](newspaper/questions/q-20260715-footybot-data-inputs.md)</sub>
+
+None reachable from a scheduled run, so only you can close them (draft 38 days out): (1) a **Sleeper half-PPR ADP export/screenshot** — the biggest board gap (Sleeper's numbers are JS-hidden/WebFetch-blocked, stuck at tier B); (2) the **real 2024 final-standings page** (last upload was a draft page); (3) **per-season transaction logs** to score in-season management. Drop any into the Brain whenever convenient.
+
+### [Q] Trading-notebook git history reconciled itself — confirm nothing was lost?
+<sub>source: [`q-20260715-trading-branch-history`](newspaper/questions/q-20260715-trading-branch-history.md)</sub>
+
+Still open from 07-15: `trading-notebook`'s `main` now shows clean linear history through RUNs 5–8, but the desk doesn't know the mechanism that reconciled the earlier stranded session branches and asks you to confirm nothing was lost before treating it as trustworthy. Rhymes with the 26-branch stranded-run issue already logged.
+
+
+---
+_Nothing meaningful today in: news, concierge, open research._
+
+
+## Watches & System
+- Watch `task-20260710-watch-vehicles-tacoma-search-90w` ran 2026-07-20 — **no change** (live per-listing inventory is JS-hidden from scheduled WebSearch runs; no verifiable listing surfaced). Next run 2026-07-27.
+- **Operational:** the health notebook again found its `main` branch stale on entry (chapters committed only to session branches) and reconciled to main this week — same "stranded branch" failure class as the 2026-07-14 audit. Health-robot also flagged concurrent same-day runs colliding on a chapter. Standing recommendation: serialize scheduled runs and always land memory on `main`.
+
+
+---
+_**Labels**: [FACT] confirmed · [CONC] research conclusion · [OBS] uncertain observation · [ASSUME] assumption · [PRED] prediction · [PREF] preference · [RULE?] proposed rule · [RULE] confirmed rule · [Q] question · [FAIL] failed/incomplete. Evidence tiers S/A/B/C from the robots ride along._
+
+
+---
+_Annotate inline: ⭐ important · 🙂 more like this · ❌ not useful · or keywords on their own line: INCORRECT · CORRECTION · QUESTION: … · DEEPER · WATCH · STOP COVERING · REMEMBER THIS: … · FORGET THIS: … · CHANGE PREFERENCE: … · freeform after `>>`. Then run the brain-newspaper skill's annotation flow (or `python3 tools/process_annotations.py --apply`)._

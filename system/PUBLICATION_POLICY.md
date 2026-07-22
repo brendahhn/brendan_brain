@@ -45,3 +45,33 @@ personal preference · `[RULE?]` proposed rule awaiting approval · `[RULE]` con
 `[Q]` question for Brendan · `[FAIL]` failed or incomplete research (reported, never hidden).
 Robot evidence tiers (S/A/B/C/Speculative) ride along inside items. Never dress an [OBS] as
 a [FACT]; never publish a [CONC] without its source link.
+
+## Section rules (Brendan 2026-07-21, D63) — every edition follows these
+
+The generator produces the skeleton; the editor pass MUST rewrite raw robot blocks into
+these shapes. A section is NOT "a summary of what the bot did" — it's what Brendan needs.
+
+- **Top Headlines** (top of paper): exactly 3 one-line headlines, biggest world/market news
+  first, drawn from the robots' highest-confidence [FACT] items. One line each, no preamble.
+- **Most Important**: 1–3 items that actually need Brendan's attention or action today.
+- **Investing**: condensed. Show (a) trades made since last edition + one-line WHY + the
+  industry, (b) are we +/− today, (c) all-time running vs the SPY benchmark, (d) a compact
+  current portfolio table (ticker · side · P/L · one-line status). NO run-by-run play-by-play,
+  no BOAT-style rule-lawyering in the paper. Fictitious paper portfolio label stays.
+- **Jobs**: actual listings — title · company · one-line why-it-fits · **apply link**
+  (hyperlinked). Not a description of the jobs robot. If the robot is paused/no listings,
+  say so in one line, nothing more.
+- **Health**: plain, defensible English — the kind you'd use if someone at work made a
+  health claim and you wanted to correct or defend it without sounding either like a nerd
+  or like you don't know what you're talking about. Give the claim, the verdict, and the
+  one-sentence reason. No jargon, no dose numbers (privacy), no wall of caveats.
+- **Challenge Desk**: 1–3 honest pushbacks — stale projects, todos being avoided,
+  contradictions between what Brendan says matters and what he's actually doing. Direct,
+  not preachy. (Generator pre-lists stale tasks as raw signals.)
+- **Tea Business**: reorder flags (≤4 orders), order/revenue notes, platform/deadline items.
+- **Gym / Oura**: short week read of training + sleep/recovery trend when data exists;
+  if Oura wasn't pulled, say it in one line (and note the auto-pull build item).
+- **Fantasy Football**: small while FootyBot is retired/paused — one line unless a real run.
+
+Hyperlinks: any job, product, article, or ticker the editor references should be a real
+clickable Markdown link when a verified URL exists (verified-links rule D43 applies).
