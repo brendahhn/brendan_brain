@@ -1,5 +1,5 @@
 ---
-id: edition-20260721
+id: edition-20260721-v1
 artifact_type: edition
 created_at: 2026-07-21
 status: published

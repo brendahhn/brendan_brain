@@ -34,9 +34,8 @@ edition-20260712	newspaper/editions/2026-07-12.md	edition		published	personal			
 edition-20260713	newspaper/editions/2026-07-13.md	edition		published	personal				2026-07-13
 edition-20260715	newspaper/editions/2026-07-15.md	edition		published	personal				2026-07-15
 edition-20260716	newspaper/editions/2026-07-16.md	edition		published	personal				2026-07-16
-edition-20260721	newspaper/editions/2026-07-21-v1-superseded.md	edition		published	personal				2026-07-21
 edition-20260721	newspaper/editions/2026-07-21.md	edition		published	personal				2026-07-21
-edition-20260721	newspaper/drafts/2026-07-21.md	edition		draft	personal				2026-07-21
+edition-20260721-v1	newspaper/editions/2026-07-21-v1-superseded.md	edition		published	personal				2026-07-21
 edition-20260722	newspaper/editions/2026-07-22.md	edition		published	personal				2026-07-22
 health-food-guidance	domains/health/FOOD_GUIDANCE.md	knowledge	health		personal	health,food,guidance,kitchen-bridge		Sanitized food guidance for the Kitchen desk (bridge source)	2026-07-11
 kitchen-equipment	domains/concierge/kitchen/EQUIPMENT.md	live_state	concierge		personal	kitchen,equipment		Kitchen equipment — live state	2026-07-11
