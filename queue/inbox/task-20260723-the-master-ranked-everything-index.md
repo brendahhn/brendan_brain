@@ -1,0 +1,35 @@
+---
+id: task-20260723-the-master-ranked-everything-index
+title: The Master Ranked 'everything' index + Protocol Master v3
+artifact_type: task
+domain: health
+sensitivity: health
+status: inbox
+created_at: 2026-07-23
+urgency: normal
+depth: deep
+effort_budget: until_strong
+publication_destination: none
+recurrence: none
+requires_brendan_answer: false
+origin_repository: brendan_brain
+dedupe_key: health/the-master-ranked-everything-index
+---
+
+## Request
+
+On top of previous outputs I want outputs like Brendan_Protocol_Master_v2.docx. Make me a tier list of the most important things to implement — a priority list, and rankings should be sorted within tiers too. And rank EVERYTHING that matters: everything I should buy ranked by importance, questions I should answer ranked by importance, food changes ranked by importance, tests I should do ranked by importance, etc.
+
+## Constraints
+
+Synthesis deliverable — pull from the other queued tasks as they complete. Produce category-specific rankings (buys / questions / food changes / tests / habits), each sorted within tiers, plus a cross-category 'do this first' index. Protocol Master v3 format/altitude.
+
+## Assumptions
+
+(none yet)
+
+## Questions
+
+(none yet)
+
+## Research Log

@@ -21,3 +21,9 @@ Format: `- YYYY-MM-DD | signal (⭐/🙂/❌/correction/comment) | topic | sourc
 - PROPOSAL (2026-07-08, explicit CHANGE PREFERENCE on '[OBS] SYNTHETIC-TEST story F (tide pool hours)'): CHANGE PREFERENCE: shorter news section on weekdays — awaiting Brendan's confirmation wording in the next edition.
 
 (none yet)
+
+- 2026-07-23 | explicit | Operating mode — run exploratory/agentic, go down rabbit holes | brendan-chat 2026-07-23 | "send you off down rabbit holes and explore almost like an agent"; "apply every lens everywhere when running low on topics"; "dive down any rabbit holes you see fit". Standard: don't only hit specifics — a shallow pass is a redo.
+- 2026-07-23 | explicit | Operating mode — always question me; question all suggestions, even old ones | brendan-chat 2026-07-23 | "always question me, all suggestions and some may be old, question me!"; "ask a lot of questions".
+- 2026-07-23 | explicit | Cadence — weekly research rhythm, solid answer by Monday | brendan-chat 2026-07-23 | "toss you some questions/ideas, you research them over the week to get me a solid answer by Monday; still explore other rabbit holes in the meantime."
+- 2026-07-23 | explicit | When low on topics — reflect on old notes/chapters, stress-test old chapters + ideas, and Brendan sends X likes | brendan-chat 2026-07-23 | "refer back to old notes"; "if bored stress test old chapters and ideas"; "when low on content I'll send my X likes to review how I think." Also: stress-test finished work with another AI.
+- 2026-07-23 | explicit | Output format — wants big ranked protocol-style docs (Brendan_Protocol_Master_v2 lineage) + tier lists sorted within tiers | brendan-chat 2026-07-23 | "on top of previous outputs I want outputs like Brendan_Protocol_Master_v2.docx"; "tier list... rankings sorted within tiers too."

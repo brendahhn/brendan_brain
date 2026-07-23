@@ -1,0 +1,35 @@
+---
+id: task-20260723-moneyball-my-personal-migraine-med
+title: Moneyball my personal migraine med
+artifact_type: task
+domain: health
+sensitivity: health
+status: inbox
+created_at: 2026-07-23
+urgency: normal
+depth: deep
+effort_budget: 1_pass
+publication_destination: none
+recurrence: none
+requires_brendan_answer: true
+origin_repository: brendan_brain
+dedupe_key: health/moneyball-my-personal-migraine-med
+---
+
+## Request
+
+My personal migraine med — moneyball it.
+
+## Constraints
+
+Reverse-engineer the mechanism of Brendan's specific migraine med and find cheap, low-risk, mechanism-matched levers (like the UC Moneyball Map §15). Need the med name/dose. Respect the existing note that his migraine doc flagged creatine for dehydration/headache risk.
+
+## Assumptions
+
+(none yet)
+
+## Questions
+
+- Which migraine med (name + dose) do you take?
+
+## Research Log
