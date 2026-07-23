@@ -1,3 +1,17 @@
+## 2026-07-23 — health-robot run summary (Run 32, immunity & illness on immune-modulating therapy)
+- headline: Completed a research chapter on immunity, illness prevention, and fighting colds while on immune-modulating (S1P-modulator-class) therapy (Run 32). No blocking issues; egress still WebSearch-only. Thursday, so no weekly digest (the brief only fires on Sundays; next one 2026-07-26). Shared health-notebook memory is current on its main branch (commit 71ff82c).
+- newspaper_ready:
+  - [B] The S1P-modulator drug class doesn't "shut off" the immune system — it selectively traps naïve/central-memory lymphocytes in lymph nodes while leaving effector-memory T cells and the entire innate immune system circulating, so front-line defense against already-encountered germs stays largely intact. Useful mental model for anyone anxious about "being immunosuppressed" on this class.
+  - [A] Best acute-cold tool with real evidence = ZINC ACETATE LOZENGES: ~33% shorter colds (~2.7 days), but only if it's a lozenge dissolved in the mouth (local action), started within ~24h of first symptom. Swallowed zinc pills and zinc in fizzy drinks (e.g. Emergen-C) do NOT deliver this effect.
+  - [B] Vitamin C: does NOT prevent colds in the general population; regular (not just-when-sick) intake trims duration only ~8%. Taking a megadose the moment you feel sick is the least-supported use. Emergen-C is a safe hydration ritual, not medicine.
+  - [A] Vitamin D modestly prevents respiratory infections (meta-analysis OR ~0.92), with benefit concentrated in DAILY/weekly dosing and in people who are deficient — big single bolus doses don't work. Dose to a measured blood level.
+  - [B] IMPORTANT for anyone with an autoimmune condition on immune-modulating therapy: echinacea and elderberry are IMMUNOSTIMULANTS and are the two popular "immune boosters" to avoid — echinacea is formally contraindicated in autoimmune disease (EMA), and stimulating immunity works against the whole point of an immunomodulator.
+  - [B] "Antibiotics cause depression" is overstated/confounded (evidence conflicts, one large cohort shows lower risk); and the antibiotics→inflammatory-bowel-disease link, while real, is modest and dose-dependent — the practical takeaway is antibiotic stewardship, not refusing a genuinely needed course.
+- questions_for_brendan: none cross-domain. The actionable items are health-notebook decision items already tracked there (all provider-gated: vaccine planning, a monitoring-lab conversation, and keeping a zinc-acetate lozenge on hand).
+- proposed_durable_knowledge: generalizable principles worth cross-domain memory — (1) "immunostimulant ≠ good": for autoimmune conditions, 'boosting' the immune system is the wrong goal; (2) mechanism beats vibes — the same drug-class fact (what's suppressed vs preserved) reassures on infection while explaining the real risks (viral reactivation, long-term skin-cancer surveillance); (3) recurring: provider-gating on any supplement/med/vaccine change.
+- predictions: none
+- run_status: success
+
 ## 2026-07-22 — health-robot run summary (Run 31, sleep tea/powder & product formulation science)
 - headline: Completed a chapter on the formulation science behind a sleep-tea / sleep-powder product line (Run 31). No blocking issues; egress still WebSearch-only. Wednesday, so no weekly digest (the brief only fires on Sundays; next one 2026-07-26). Shared health-notebook memory is current on its main branch (commit eaa7bbe).
 - newspaper_ready:
