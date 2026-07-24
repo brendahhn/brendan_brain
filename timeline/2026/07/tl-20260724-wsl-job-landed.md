@@ -9,7 +9,7 @@ verbatim: false
 ---
 Brendan confirmed he landed the **World Surf League Data Analyst** role (his active
 career target; ties his WSL/sports-analytics interest to employment). Currently living in
-Laguna Beach; **intent to move to Oceanside** (North County SD — long-desired). The
+Laguna Beach; **Oceanside move targeted Oct 1 – Jan 1** (North County SD — long-desired). The
 brutal Oceanside→Marina del Rey commute + 3 WSL office days is **future-state**, not current;
 his existing Laguna routines (PPL lifting, etc.) stay viable until the move.
 
