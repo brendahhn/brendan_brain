@@ -1,5 +1,52 @@
 
 
+## 2026-07-24 — trading-robot run summary
+- headline: RUN 11 completed (Friday, market open). NAV $1,000.28 vs. SPY-benchmark $1,003.53
+  (gap -$3.25 / -0.32%, narrowed sharply from RUN 10's -$5.86). BOAT's confirmed thesis-break
+  (Drewry World Container Index down 2 consecutive weeks) was mandatorily closed — its price
+  verified fresh for the first time in 6 runs, closing for a surprise realized GAIN of +$2.14
+  despite the broken thesis. Three new positions filled: Long LMT (Lockheed Martin, GEO — Q2
+  beat+raise plus a new $10.53B SOCOM contract), Short TLT (20+Yr Treasury ETF, MAC — oil-driven
+  yield spike, half-sized on BENCHED-LIGHT), Long ELV (Elevance Health, FUN — earnings selloff
+  plus a CEO/Chairman insider cluster-buy). RWD returned a thorough NO TRADE. Applied Brendan's
+  2026-07-21 ruling on the BOAT Step2/Step3 rule collision (mandatory close always wins, stop
+  escalating stuck-quote questions) — marking that question applied below.
+- newspaper_ready:
+  - The Iran/Hormuz war continued escalating with no ceasefire in sight: Trump told reporters
+    "they need more of the same" and declined to negotiate, telling Axios he was "considering a
+    massive attack"; fresh Houthi attacks on Saudi tankers and a new Red Sea blockade sent Brent
+    above $100/bbl; UKMTO's regional threat level remains SEVERE. (confidence: high, multi-source
+    dated 2026-07-23/24)
+  - The 10-year Treasury yield closed at 4.71% on 2026-07-23 — a 4th consecutive up session and
+    the highest level since January 2025 — as the oil shock pushes "higher for longer" rate
+    expectations into bond prices; the Fed's Schmid has explicitly warned against calling the oil
+    shock transitory even after a cooler June CPI. (confidence: high, multi-source dated)
+  - The fictitious trading desk's freight-rate thesis (BOAT) broke cleanly on the data (Drewry
+    World Container Index down 2 straight weeks) but the position's own share price rose over the
+    same window — a research-methodology lesson that an index-based thesis expressed through a
+    basket ETF can diverge from the traded instrument's own price in the short run. (confidence:
+    high; fictitious paper position, not investment advice, but the underlying lesson may be
+    worth a glance regardless.)
+  - Christopher Nolan's "The Odyssey" continued a record box-office run into its first week,
+    with IMAX shares up ~12-14% this week on the strength and IMAX reaffirming its $1.4B FY26
+    guidance track. (confidence: high, multi-source dated 2026-07-23; fictitious paper position)
+- questions_for_brendan: no new item this run. `q-20260720-trading-boat-rule-collision` was
+  found ANSWERED (your 2026-07-21 reply) and applied this run — marked applied below, not
+  re-escalating. `q-20260715-trading-branch-history` remains open/unanswered from a prior run,
+  not urgent, still just sitting there if you want to close it out.
+- proposed_durable_knowledge: none this run beyond the dated market/geopolitical data captured
+  above (the index-vs-ETF-price divergence lesson is domain-internal trading methodology, not a
+  cross-domain fact).
+- predictions: (1) LMT — fictitious paper thesis expects the Q2 beat/SOCOM-contract momentum to
+  hold over 2-4 weeks from 2026-07-24 absent a government-funding lapse or contract scope-cut;
+  confidence: medium. (2) TLT (short) — fictitious paper thesis expects yields to stay elevated
+  through the 2026-07-28/29 FOMC absent a ceasefire/de-escalation or dovish surprise; horizon
+  1-3 weeks; confidence: medium. (3) ELV — fictitious paper thesis expects the stock to hold
+  above the insider buy-cluster floor (~$366) into Q3 Medicaid-rate commentary; horizon 3-6
+  weeks; confidence: medium. All are fictitious paper-portfolio predictions, not real financial
+  advice.
+- run_status: success
+
 ## 2026-07-21 — trading-robot run summary <!-- triaged 2026-07-21 -->
 - headline: RUN 10 completed (Tuesday, market open). NAV $989.76 vs. SPY-benchmark $995.62
   (gap -$5.86 / -0.59%, widened from RUN 9's -$2.75). MP Materials' own written price stop

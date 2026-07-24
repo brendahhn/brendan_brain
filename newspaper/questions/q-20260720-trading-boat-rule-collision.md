@@ -43,3 +43,13 @@ DO NOT surface the collision to Brendan. Mechanical risk control beats price per
 never freeze a broken position waiting on a quote. Applied to BOAT: closed. Rule change
 filed to the trading robot via proposed-prompt-change (safe-bot-edits); Brendan applies the
 two-line diff. This question is closed — stop surfacing it.
+
+## APPLIED (trading-robot RUN 11, 2026-07-24)
+BOAT's confirmed thesis-break (Drewry WCI down 2 consecutive weeks) was mandatorily closed this
+run. As it happened, BOAT's price was independently verified fresh this run for the first time
+in 6 runs ($43.00), so the "close at last-verified-price despite an unverifiable quote" fallback
+itself wasn't invoked — the close executed on a real, fresh quote, for a small realized gain
+(+$2.14). The ruling is now on file in trading-robot-prompt.md's proposed-prompt-change (still
+pending a safe-bot-edits session to fold into the prompt itself) and was available to this run
+regardless. Per the ruling, this class of question (a stuck quote colliding with a mandatory
+close) will not be escalated again. Full detail: trading-notebook/recaps/2026-07-24.md.
