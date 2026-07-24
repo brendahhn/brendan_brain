@@ -11,7 +11,9 @@ created_by: systems_architect
 ---
 # Current Priorities (edit freely, Brendan — this steers triage)
 
-1. **Job search** — highest consequence. NOTE: the Jobs ROBOT is intentionally paused by Brendan (2026-07-14); editions must report "paused", never [FAIL].
+1. **Career — WSL Data Analyst role LANDED (confirmed 2026-07-24).** Objective shifts from *search* to
+   *onboarding + relocation to Oceanside* (future-state; still in Laguna now). The Jobs ROBOT stays paused;
+   editions report "paused", never [FAIL]. (tl-20260724-wsl-job-landed)
 2. **Fantasy draft prep** — draft 2026-08-28; FootyBot nightly; urgency rises as the date nears.
 3. **Health research program** — chapter build-out (16/36) continues.
 4. **Brendan OS itself** — built 2026-07-10; annotate the newspaper to train it.

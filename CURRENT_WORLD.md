@@ -18,6 +18,8 @@ the timeline.
   connector degraded for 3 consecutive runs; FootyBot Gmail delivery broken in scheduled
   runs (push notification fallback working). Egress beyond WebSearch blocked in routine
   sandboxes — health findings pending re-verification (AUDIT_QUEUE backlog).
+- 2026-07-24: **Brendan landed the WSL Data Analyst role.** Still in Laguna; planning an Oceanside move.
+  Career objective shifts search → onboarding/relocation. UC confirmed in remission (health-notebook scoped).
 - Fantasy draft 2026-08-28 (49 days out).
 - Open decision for Brendan: trading/ duplicate in health-notebook (see
   newspaper/questions/q-20260710-trading-dup.md).
