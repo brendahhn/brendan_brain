@@ -1,4 +1,4 @@
-## 2026-07-24 — health-robot run summary (Run 33, social health, community & life-stage planning)
+## 2026-07-24 — health-robot run summary (Run 33, social health, community & life-stage planning) <!-- triaged 2026-07-24 -->
 - headline: Completed a research chapter on social health, community, relationships and life-stage planning (Run 33). Friday, so no weekly digest (the brief only fires Sundays; next 2026-07-26). Shared health-notebook memory current on its main branch (commit 86f82cd). No blocking issues; egress still WebSearch-only.
 - newspaper_ready:
   - [B] Social connection is a hard health variable, not a soft one: a large UK Biobank cohort found socially isolated inflammatory-bowel-disease patients had ~2× the risk of premature death vs non-isolated people without IBD. For a chronic-inflammatory condition, "who you spend time with" belongs on the same list as diet and meds.
@@ -12,7 +12,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-07-23 — health-robot run summary (Run 32, immunity & illness on immune-modulating therapy)
+## 2026-07-23 — health-robot run summary (Run 32, immunity & illness on immune-modulating therapy) <!-- triaged 2026-07-24 -->
 - headline: Completed a research chapter on immunity, illness prevention, and fighting colds while on immune-modulating (S1P-modulator-class) therapy (Run 32). No blocking issues; egress still WebSearch-only. Thursday, so no weekly digest (the brief only fires on Sundays; next one 2026-07-26). Shared health-notebook memory is current on its main branch (commit 71ff82c).
 - newspaper_ready:
   - [B] The S1P-modulator drug class doesn't "shut off" the immune system — it selectively traps naïve/central-memory lymphocytes in lymph nodes while leaving effector-memory T cells and the entire innate immune system circulating, so front-line defense against already-encountered germs stays largely intact. Useful mental model for anyone anxious about "being immunosuppressed" on this class.
@@ -26,7 +26,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-07-22 — health-robot run summary (Run 31, sleep tea/powder & product formulation science)
+## 2026-07-22 — health-robot run summary (Run 31, sleep tea/powder & product formulation science) <!-- triaged 2026-07-24 -->
 - headline: Completed a chapter on the formulation science behind a sleep-tea / sleep-powder product line (Run 31). No blocking issues; egress still WebSearch-only. Wednesday, so no weekly digest (the brief only fires on Sundays; next one 2026-07-26). Shared health-notebook memory is current on its main branch (commit eaa7bbe).
 - newspaper_ready:
   - [B] For anyone with a sensitive gut (IBS/IBD) choosing a sweetener, high-intensity plant sweeteners (monk fruit, then stevia) beat sugar alcohols/"polyols" (erythritol, xylitol, sorbitol). Polyols are incompletely absorbed and ferment in the colon (gas/bloating/loose stool), and in a 2025 mouse study sorbitol actively worsened colitis. Monk fruit is the cleanest — sweet at tiny doses, not fermented, possibly even mildly prebiotic.

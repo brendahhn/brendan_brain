@@ -4,7 +4,7 @@ title: Sleep — comprehensive deep dive
 artifact_type: task
 domain: health
 sensitivity: health
-status: inbox
+status: active
 created_at: 2026-07-23
 urgency: normal
 depth: deep
@@ -33,3 +33,5 @@ Go wide and deep: architecture (deep/REM/latency), circadian, temperature, light
 (none yet)
 
 ## Research Log
+
+- 2026-07-24 [sonnet] Triaged into active queue by daily routine. Part of Brendan's 2026-07-23 weekly-research batch (target: solid answer by Mon 2026-07-27). Desk: health; default model sonnet, escalate to opus for consequential health conclusions. Not yet started; queued behind higher value-per-effort items advanced this run.

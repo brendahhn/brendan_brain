@@ -1,6 +1,6 @@
 
 
-## 2026-07-24 — trading-robot run summary
+## 2026-07-24 — trading-robot run summary <!-- triaged 2026-07-24 -->
 - headline: RUN 11 completed (Friday, market open). NAV $1,000.28 vs. SPY-benchmark $1,003.53
   (gap -$3.25 / -0.32%, narrowed sharply from RUN 10's -$5.86). BOAT's confirmed thesis-break
   (Drewry World Container Index down 2 consecutive weeks) was mandatorily closed — its price

@@ -3,7 +3,7 @@ id: task-20260723-eat-cheap-and-clean-meal-cost-project
 title: Eat-cheap-and-clean meal-cost project (real N. County SD prices)
 artifact_type: task
 domain: concierge
-status: inbox
+status: active
 created_at: 2026-07-23
 urgency: normal
 depth: deep
@@ -32,3 +32,5 @@ Kitchen desk. Pull macro/protein/calorie targets and UC constraints from domains
 (none yet)
 
 ## Research Log
+
+- 2026-07-24 [sonnet] Triaged into active queue by daily routine. Part of Brendan's 2026-07-23 weekly-research batch (target: solid answer by Mon 2026-07-27). Desk: health; default model sonnet, escalate to opus for consequential health conclusions. Not yet started; queued behind higher value-per-effort items advanced this run.
