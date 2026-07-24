@@ -1,6 +1,46 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-07-24 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 114 artifacts validate 0 errors.
+  Ran on pinned branch `claude/adoring-mendel-0k047y`; operational commits landed on `main` per
+  the CLAUDE.md standing rule (pull-rebase + push HEAD:main, ls-remote verified). 121 artifacts
+  after this run.
+- **[FAIL] The Brain skipped its own runs 07-23 and 07-24** — no editions published either day
+  (last edition was 07-22). Surfaced in the 07-25 Challenge Desk. Consequence: three real health
+  chapters (Runs 31/32/33) and Brendan's whole 07-23 research batch only reached him now.
+- **Big new input: Brendan's 07-23 weekly-research batch — 19 task artifacts** landed in
+  queue/inbox (health-heavy; his new "toss questions, solid answer by Monday" operating mode,
+  PROPOSED_RULES 07-23). Triaged all 19: **3 completed this run** via sonnet research subagents
+  (oral-ritual/xylitol+tea → rooibos default + gum-only xylitol w/ UC caveat; cyclic-sigh
+  technique → Stanford RCT; rec-league sport → **tennis**, BJJ provider-gated on immune therapy).
+  **15 moved to queue/active** with a weekly-research staffing note (Monday target; the
+  master-ranked-index is a synthesis blocked on the others). Capacity reality flagged in-edition:
+  all 19 solid-by-Monday is not realistic; highest-value first, synthesis trails.
+- Triaged 4 fresh outbox blocks: trading RUN 11 (07-24) + health Runs 31/32/33 (07-22/23/24).
+  Filed **3 investing predictions** (LMT/SOCOM, TLT-short/yields, ELV/insider-floor) and **3
+  health knowledge proposals** (product-dose≠personal-dose [Run 31], immunostimulant≠good-on-
+  immunomodulator [Run 32], connection-is-infrastructure [Run 33]; confidence medium, NOT
+  self-confirmed). Blocks marked `<!-- triaged 2026-07-24 -->`.
+- Trading desk: NAV crossed back above $1,000 ($1,000.28 vs SPY $1,003.53, gap −0.32%); BOAT
+  closed for a surprise +$2.14 gain; Brendan's 07-21 BOAT ruling applied, q-20260720 now
+  answered/closed (not re-surfaced). Hormuz Brent >$100; 10yr yield 4.71% (highest since Jan '25).
+- Watch `task-20260723-watch-route-daily-oura-stats` fired (first run) → **BLOCKED: no Oura data
+  source wired into the Brain** (no connector/export). Recorded, marked run (next 07-31), and
+  filed as a [Q] for Brendan; will report BLOCKED rather than fabricate numbers. Tacoma watch not
+  due (next 07-27).
+- **FootyBot [FAIL]/stall — 9 days silent** (no run since 07-15; 07-20 unpause window long past;
+  draft 34 days out). Reported honestly in edition + here; nothing fabricated. **Jobs [PAUSED]**
+  per standing rule — silent since its 07-21 run (4 days); the CURRENT_PRIORITIES "paused" vs
+  ran-07-21 contradiction is still open (flagged for Brendan, NOT self-edited).
+- Predictions: none newly past horizon (boat 07-15 and mp-materials-stop 07-24 both already scored
+  to outcomes/). No unprocessed annotations (07-08, 07-11 both processed; last published edition
+  07-22 had none). No rule promotions (nothing crosses the ≥3-signal/≥2-day threshold).
+- Known degradations carried: Gmail connector degraded (Jobs Robot; question filed); Oura not
+  connected (new); commerce-site egress blocked; routine-sandbox egress WebSearch-only.
+- Published edition 2026-07-25; QUEUE + BRAIN_MAP regenerated (121 artifacts, 0 warnings/errors);
+  commits pushed to main + pinned branch, verified.
+
 ## 2026-07-21 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 85→93 artifacts validate 0 errors,
   QUEUE 0 warnings. Ran on pinned branch `claude/adoring-mendel-oee4lq`; operational commits
