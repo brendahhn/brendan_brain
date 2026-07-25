@@ -216,7 +216,7 @@
 - predictions: none
 - run_status: success (activation smoke)
 
-## 2026-07-25 — health-robot run summary
+## 2026-07-25 — health-robot run summary <!-- triaged 2026-07-25 -->
 - headline: Completed a research chapter on the causes of ulcerative colitis / IBD (multi-hit environmental + genetic forensics), Run 34. No blocking issues; egress still WebSearch-only. Saturday → no digest (Sunday-only, by design).
 - newspaper_ready:
   - [A] Ulcerative colitis is one of the MOST environmental of the autoimmune diseases — identical-twin concordance is only ~15% and known genes explain <10% of risk. Susceptibility is heritable; the disease itself is mostly triggered by modifiable inputs (diet, stress, microbiome). Useful reframe against fatalism.
