@@ -215,3 +215,16 @@
 - proposed_durable_knowledge: none
 - predictions: none
 - run_status: success (activation smoke)
+
+## 2026-07-25 — health-robot run summary
+- headline: Completed a research chapter on the causes of ulcerative colitis / IBD (multi-hit environmental + genetic forensics), Run 34. No blocking issues; egress still WebSearch-only. Saturday → no digest (Sunday-only, by design).
+- newspaper_ready:
+  - [A] Ulcerative colitis is one of the MOST environmental of the autoimmune diseases — identical-twin concordance is only ~15% and known genes explain <10% of risk. Susceptibility is heritable; the disease itself is mostly triggered by modifiable inputs (diet, stress, microbiome). Useful reframe against fatalism.
+  - [B] IBD genetic testing (NOD2/polygenic scores) is generally NOT clinically actionable for an individual — risk is spread across ~240 tiny-effect genes and changes no management. Family history gives most of the decision-relevant info for free.
+  - [A] The popular "seed the infant microbiome to prevent IBD" story is weaker than claimed: the best PROSPECTIVE data show neither breastfeeding duration nor C-section (>13M-birth meta) is associated with offspring IBD. Decide birth mode on obstetric grounds. Avoiding UNNECESSARY infant antibiotics is the better-supported lever.
+  - [B] Pesticide spray-drift is a short-range phenomenon (primary drift within ~0.5 mile of a field) — a useful myth-check against "the farms miles away poisoned us."
+  - [B] Air pollution is a genuine IBD/UC risk factor (residential SO2 linked to early-onset UC); a bedroom HEPA filter is a low-cost, evidence-aligned lever, especially in wildfire-prone areas.
+- questions_for_brendan: none cross-domain (chapter-internal personal-history questions are tracked in the health notebook, not exported per health-sanitization).
+- proposed_durable_knowledge: "For chronic multifactorial disease, the highest-probability causes are often the still-controllable ones — forensics should feed prevention, not blame." Recurring cross-domain principle. Also reinforces the standing "provider-gate any med/supplement/dose change" rule (this chapter had zero such items).
+- predictions: none
+- run_status: success
