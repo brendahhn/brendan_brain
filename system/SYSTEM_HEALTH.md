@@ -1,6 +1,36 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-07-25 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 124 artifacts validate 0 errors.
+  Ran on pinned branch `claude/adoring-mendel-aa6un2`; operational commits landed on `main` per
+  the CLAUDE.md standing rule (pull-rebase + push HEAD:main, ls-remote verified). 128 artifacts after.
+- **Cadence recovered:** editions ran 07-25 and 07-26 (this run), so the 07-23/24 skip did NOT
+  repeat. Both robots posted fresh real blocks today — trading RUN 12 and health Run 34.
+- Triaged 2 fresh outbox blocks (trading 07-25, health 07-25). NOTE: the health 07-25 block was
+  appended mid-file (line 219), not at the top — nearly missed on a first heading scan; caught via
+  the build tool and verified genuinely in-file before triaging (not fabricated). Filed **2 investing
+  predictions** (CMG/Chipotle foot-traffic → 07-29 print; FRO+TLT-short hold absent confirmed Iran
+  de-escalation) and **1 health knowledge proposal** (forensics-should-feed-prevention, from Run 34
+  UC-causes; confidence medium, NOT self-confirmed). Blocks marked `<!-- triaged 2026-07-25 -->`.
+- **[FAIL] FootyBot — 11 days silent** (no run since 07-15; 07-20 unpause window long past; draft 33
+  days out). Reported honestly in edition + here; nothing fabricated. **Jobs [PAUSED]** per standing
+  rule — silent since its 07-21 run (5 days); the CURRENT_PRIORITIES "paused" vs ran-07-21
+  contradiction is still open (flagged for Brendan, NOT self-edited).
+- **Capacity — lead actionable item:** Brendan's 07-23 batch of **15 deep/until_strong health tasks**
+  remains **unstarted in queue/active**, ~1 day to the "solid by Monday 07-27" target. Not advanced
+  this run: one scheduled routine cannot do 15 deep synthesis reports (Master Index depends on the
+  rest), and shallow-fabrication is barred. Staffing verdict logged to CAPACITY_LEDGER; escalated to
+  Brendan in-edition + notification (name top 3-4, or extend). Health-robot ran a chapter (Run 34),
+  not the batch.
+- Watches: 0 due (tacoma next 07-27; Oura BLOCKED, next 07-31). Predictions: none newly past horizon
+  (boat 07-15 + mp-materials-stop 07-24 both already scored). No unprocessed annotations (07-08, 07-11
+  processed). No rule promotions (nothing crosses ≥3-signal/≥2-day; proposed-only).
+- Known degradations carried: Gmail connector degraded (Jobs Robot; question open); Oura not
+  connected; commerce-site egress blocked; routine-sandbox egress WebSearch-only.
+- Published edition 2026-07-26; QUEUE + BRAIN_MAP regenerated (128 artifacts, 0 warnings/errors);
+  commits pushed to main + pinned branch, verified.
+
 ## 2026-07-24 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 114 artifacts validate 0 errors.
   Ran on pinned branch `claude/adoring-mendel-0k047y`; operational commits landed on `main` per
