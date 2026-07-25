@@ -1,5 +1,57 @@
 
 
+## 2026-07-25 — trading-robot run summary
+- headline: RUN 12 completed (Saturday, market closed). NAV $1,007.75 vs. SPY-benchmark $992.15
+  (gap +$15.61 / +1.57%) — the fictitious desk's FIRST-EVER run finishing ahead of its SPY
+  buy-and-hold benchmark, a full swing from RUN 11's -$3.25. All 6 open positions verified fresh
+  this run, including HDSN (Hudson Technologies) breaking a 6-run unverifiable-quote streak. No
+  fills (market closed) but one new pitch — Long CMG (Chipotle), a Placer.ai foot-traffic
+  divergence thesis ahead of its 2026-07-29 earnings — was independently verified and queued to
+  PENDING_ORDERS for the next open-market run. Two existing positions (FRO, TLT-short) were
+  downgraded to WOBBLING on a single-session oil selloff tied to unconfirmed Pakistan/China
+  Iran-mediation reports; neither position's exit condition tripped (both require a confirmed
+  de-escalation, not a report). GEO, MAC (9th consecutive BENCHED-LIGHT run), and FUN all
+  returned explicit, well-documented NO TRADE.
+- newspaper_ready:
+  - Oil sold off sharply (Brent -2.29% to $98.38, WTI -4.67% to $87.88, the biggest one-day drop
+    in about a month) on unconfirmed reports that Pakistan, backed by China, is pushing to
+    revive US-Iran talks — but the underlying war has not de-escalated: the US struck Iran for a
+    13th consecutive night the same day, a full naval blockade of Iranian ports has been in
+    effect since 2026-07-14, and UKMTO's regional threat level remains SEVERE with no downgrade.
+    (confidence: high, multi-source dated 2026-07-24/25)
+  - The Fed's rate-cut odds have drifted hawkish, not dovish, into next week's FOMC meeting
+    (2026-07-28/29): CME FedWatch shows roughly 63.5% odds of a hold and ~36.5% odds of a HIKE,
+    with a cut essentially unpriced; the dollar is at a 3-week high and credit spreads remain
+    historically tight, both consistent with a "no imminent easing" read. (confidence: high,
+    multi-source dated 2026-07-23/24)
+  - A fictitious paper trading thesis (Long Chipotle, via a real-world-data lens) found a
+    genuine Placer.ai foot-traffic divergence: Chipotle's Q2 2026 visits ran +4.7% YoY while
+    McDonald's fell -4.5% YoY over the same stretch, a gap Placer.ai ties to customer income mix
+    (Chipotle skews higher-income, less exposed to the pressure hitting lower-income consumers).
+    (confidence: high, independently verified via the primary source; fictitious paper position,
+    not investment advice, but the underlying consumer-spending divergence data point may be
+    worth a glance regardless.)
+  - Congress passed a stopgap continuing resolution 2026-07-21 funding the federal government
+    through December 4, averting a pre-midterm shutdown that would have frozen new DoD contract
+    obligations — resolves a funding-lapse watch item the desk had been tracking against a
+    fictitious defense-sector paper position (Lockheed Martin). (confidence: high, multi-source
+    dated 2026-07-21)
+- questions_for_brendan: none new for the Brain this run. `q-20260715-trading-branch-history`
+  remains open/unanswered from a prior run — not urgent, still just sitting there if you want to
+  close it out. Not a Brain question, but flagged for your awareness in this run's own recap: if
+  a real, confirmed Iran ceasefire lands over the weekend, two paper positions (FRO, TLT-short)
+  would need a hard look at the next run regardless of price movement — the desk correctly did
+  not treat today's unconfirmed mediation reports as a trigger.
+- proposed_durable_knowledge: none this run beyond the dated market/geopolitical data captured
+  above.
+- predictions: (1) CMG (Chipotle) — fictitious paper thesis expects the foot-traffic-vs-sentiment
+  gap to resolve favorably at the 2026-07-29 Q2 print (comps roughly flat or better); horizon
+  days, exits within 5 trading days of the print either way; confidence: medium. (2) FRO/TLT —
+  fictitious paper thesis on both positions holds absent a CONFIRMED Iran ceasefire or UKMTO
+  downgrade (today's oil selloff alone was judged insufficient); horizon 1-3 weeks; confidence:
+  medium. All are fictitious paper-portfolio predictions, not real financial advice.
+- run_status: success
+
 ## 2026-07-24 — trading-robot run summary <!-- triaged 2026-07-24 -->
 - headline: RUN 11 completed (Friday, market open). NAV $1,000.28 vs. SPY-benchmark $1,003.53
   (gap -$3.25 / -0.32%, narrowed sharply from RUN 10's -$5.86). BOAT's confirmed thesis-break
