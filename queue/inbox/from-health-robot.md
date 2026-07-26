@@ -1,3 +1,16 @@
+## 2026-07-26 — health-robot run summary (Run 35, gut microbiome as its own goal & SIBO) <!-- triaged 2026-07-26 -->
+- headline: Completed a research chapter on the gut microbiome as its own health goal, SIBO, probiotics, and advanced GI topics (Run 35). Sunday → the weekly all-time health brief was drafted to Gmail (draft only, to Brendan). Shared health-notebook memory current on its main branch (commit c20dddb). No blocking issues; egress still WebSearch-only.
+- newspaper_ready:
+  - [B] You feed a microbiome, you don't buy one. The "keystone" gut bacteria that protect against colitis are oxygen-sensitive or have no viable product — they're cultivated by a diverse fiber diet (a rotation of fast/medium/slow-fermenting fibers plus psyllium), not swallowed as pills. Most of the achievable benefit is free.
+  - [B] Direct-to-consumer microbiome tests (GI-MAP, Viome, etc.) have no established clinical validity — the same stool sample sent to different labs returns different answers, and there is no regulatory-approved clinical microbiome diagnostic. For gut inflammation the validated test is fecal calprotectin. Skip the DTC kits.
+  - [A] Small intestinal bacterial overgrowth (SIBO) is genuinely more common in inflammatory bowel disease (~1-in-4 to 1-in-3), but the breath test is contested and overgrowth may be a consequence rather than a driver — so testing should be gated to persistent symptoms, not curiosity, and any antibiotic used sparingly.
+  - [B] "Lymphatic drainage" massage for gut detox has no supporting evidence; the real lymph levers are movement, exercise, and breathing.
+  - [B] Fermented foods (yogurt, kefir, kraut, kimchi) are a low-cost way to add microbial diversity, but aged/fermented items are higher in histamine — worth noting for anyone with histamine or oral-allergy sensitivity.
+- questions_for_brendan: none cross-domain (chapter-internal personal-history and testing questions are tracked in the health notebook per health-sanitization, not exported).
+- proposed_durable_knowledge: "For the gut microbiome, resilience is an OUTPUT of diet/behavior, not an input you can dose — spend on food diversity and validated tests (calprotectin), not on branded microbiome kits or next-gen-probiotic capsules." Also reinforces the standing "provider-gate any therapy substitution" rule: the strongest finding this chapter (a probiotic strain matching a standard maintenance drug in trials) is a clinician conversation, never a self-directed swap.
+- predictions: none
+- run_status: success
+
 ## 2026-07-24 — health-robot run summary (Run 33, social health, community & life-stage planning) <!-- triaged 2026-07-24 -->
 - headline: Completed a research chapter on social health, community, relationships and life-stage planning (Run 33). Friday, so no weekly digest (the brief only fires Sundays; next 2026-07-26). Shared health-notebook memory current on its main branch (commit 86f82cd). No blocking issues; egress still WebSearch-only.
 - newspaper_ready:
