@@ -1,6 +1,35 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-07-26 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 128 artifacts validate 0 errors.
+  Ran on pinned branch `claude/adoring-mendel-m8knlq`; operational commits land on `main` per the
+  CLAUDE.md standing rule (pull-rebase + push HEAD:main, ls-remote verified). 130 artifacts after.
+- **Cadence healthy:** both robots posted fresh real blocks today — trading RUN 13 and health Run 35.
+  Published edition 2026-07-27 (Monday morning paper) from the 07-26 robot content; [STALE] gates
+  cleared per the standing evening-build rule.
+- Triaged the fresh trading 07-26 block (RUN 13): no predictions/knowledge/cross-domain questions
+  to file (CMG long was cancelled pre-fill; HDSN add-on unchanged thesis) — marked triaged.
+- **Data-integrity catch:** the health-robot 07-26 block arrived in commit ee8c45f already carrying
+  `<!-- triaged 2026-07-26 -->` (self-marked by the robot's own sync), but its
+  `proposed_durable_knowledge` had **never been filed** as an artifact. Filed it now as
+  **knowledge-20260726-microbiome-resilience-is-an-output** (medium confidence, NOT self-confirmed).
+  Standing rec: robots should NOT self-mark their outbox blocks triaged — that silently skips the
+  Brain's filing step. Worth a prompt note to the health-robot if it recurs.
+- Watches: `run_watches.py due` = 0 due (tacoma next 07-27, oura next 07-31). Predictions: none past
+  horizon to score (boat scored 07-15, mp-materials scored 07-21; both have outcomes on file).
+- **Pauses/failures reported honestly:** Jobs [PAUSED] (silent since 07-21, 6d; paused-vs-ran-07-21
+  contradiction still open — Brendan's word needed). FootyBot [FAIL] — 12 days dark (07-15→07-27),
+  well past the 07-20 unpause window; a genuine stall on a rising-urgency item (draft 32d out).
+- Publisher pass caught + corrected a date-framing error: edition read Monday 07-27, so the
+  health-batch and aftershave "Monday" targets are TODAY for the reader, not "tomorrow."
+- Actionable backlog surfaced to Brendan: 15-task health batch (targeted solid-by-today, unstarted,
+  not realistic in a day → asked for a 3–4 pick) and the aftershave task (blocked 4 days on Brendan
+  pasting prior product convos; internal target today, hard deadline 08-01). No unprocessed
+  annotations on 07-26. No rule promotions (nothing crosses the ≥3-signal/≥2-day threshold).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot (4 runs); routine-sandbox
+  egress WebSearch-only.
+
 ## 2026-07-25 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 124 artifacts validate 0 errors.
   Ran on pinned branch `claude/adoring-mendel-aa6un2`; operational commits landed on `main` per

@@ -40,3 +40,11 @@
 | health/hydration-electrolytes | 2026-07-22 | 1 | [CONC-A] "more not better"; drink-to-thirst + pale-straw urine; moderate sodium; potassium gap |
 | fantasy/footybot-silence | 2026-07-22 | 2 | [FAIL] no run since 07-15; pause window (through 07-20) has passed — needs unpause check; 37d to draft |
 | system/jobs-robot-resumed | 2026-07-22 | 1 | [OBS] jobs robot ran live 07-21; CURRENT_PRIORITIES still says paused — flagged for Brendan's word |
+| investing/fomc-rate-path | 2026-07-27 | 2 | [FACT] FOMC 07-28/29 imminent; hike odds ~12%→35% w/w; 10yr ~4.70% highest since Jan2025 |
+| investing/iran-hormuz-oil | 2026-07-27 | 5 | UPDATE: US Navy fired on blockade-running merchant vessel 07-25; 10-day ceasefire unagreed; UKMTO SEVERE |
+| investing/cyclospora-fastcasual | 2026-07-27 | 1 | [FACT] Cyclospora outbreak (Taco Bell lettuce supplier) dents Chipotle/Cava/Panera/Subway traffic |
+| investing/paper-desk-benchmark | 2026-07-27 | 1 | [FACT/PRED] RUN13 NAV $1007.75 vs SPY-bench $992.15 (+1.57%) held; Reviewer cancelled CMG long on food-safety miss; HDSN add-on queued |
+| health/gut-microbiome-sibo | 2026-07-27 | 1 | [CONC] Run35: resilience is an output not a dose; skip DTC microbiome kits (use calprotectin); SIBO gated to symptoms |
+| system/jobs-robot-paused | 2026-07-27 | 2 | [PAUSED] silent since 07-21 (6d); paused-vs-ran-07-21 contradiction still open |
+| fantasy/footybot-silence | 2026-07-27 | 3 | [FAIL] 12 days dark (07-15→07-27); draft 32d out; genuine stall |
+| concierge/aftershave-by-august | 2026-07-27 | 1 | [Q] blocked on Brendan pasting prior product convos since 07-23; internal target today, hard deadline 08-01 |
