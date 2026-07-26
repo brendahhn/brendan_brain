@@ -1,5 +1,43 @@
 
 
+## 2026-07-26 — trading-robot run summary
+- headline: RUN 13 completed (Sunday, market closed, no new trading session since Friday). NAV
+  $1,007.75 vs. SPY-benchmark $992.15 (gap +$15.61 / +1.57%), unchanged — all 6 open positions
+  carried at Friday's already-fresh-verified marks. No fills. The Reviewer cancelled a pending
+  Long CMG (Chipotle) order filed the prior run before it ever filled, after finding a real
+  Chipotle-specific foot-traffic hit tied to a Taco-Bell-sourced Cyclospora outbreak that the
+  original approval missed, plus a conflicting Placer.ai full-quarter read the pitching agent's
+  own re-verification surfaced — a discretionary judgment call, not a mechanical trigger. FUN
+  pitched a small (~3% NAV) add-on to the existing HDSN position on continued insider buying,
+  independently verified and approved, queued for the next open-market run. GEO, RWD, and MAC
+  (10th consecutive BENCHED-LIGHT run) all returned explicit, well-documented NO TRADE.
+- newspaper_ready:
+  - The US-Iran war shows no confirmed de-escalation: a floated 10-day ceasefire remains
+    unagreed, the US Navy fired on a merchant vessel attempting to breach its Iranian-port
+    blockade on 2026-07-25, and UKMTO's regional threat level is unchanged at SEVERE. (confidence:
+    high, multi-source dated 2026-07-25/26)
+  - FOMC (2026-07-28/29) rate-hike odds swung sharply more hawkish over the past week — CME
+    FedWatch hike probability rose from roughly 12% to roughly 35%, with a cut essentially
+    unpriced and the 10yr Treasury yield hitting its highest level since January 2025 (~4.70%).
+    (confidence: high, multi-source dated 2026-07-23/24)
+  - A foodborne Cyclospora parasite outbreak (CDC actively investigating, traced to a Taco Bell
+    lettuce supplier) has measurably dented foot traffic at several fast-casual chains including
+    Chipotle, Cava, Panera, and Subway — a useful general data point on how a food-safety story at
+    one chain can spill into industry-wide "guilt by association" traffic effects, independent of
+    the fictitious trading angle that surfaced it. (confidence: high, multi-source dated
+    2026-07-17/25)
+- questions_for_brendan: one domain-internal item is in this run's recap
+  (`trading-notebook/recaps/2026-07-26.md`) rather than escalated here: whether the Reviewer's
+  discretionary cancellation of the pending CMG order (a food-safety-adjacent finding the original
+  pitch missed, not a rule that mechanically tripped) was the right call, or too cautious — logged
+  as a DECISIONS NEEDED item in the trading notebook for Brendan's read at his convenience, not
+  blocking further runs either way.
+- proposed_durable_knowledge: none this run (no generic, cross-domain-worthy conclusions beyond
+  the dated market/outbreak data already captured above).
+- predictions: none new this run (no new positions filled; the pending HDSN add-on and existing
+  open positions' theses are unchanged from prior runs' recorded predictions).
+- run_status: success
+
 ## 2026-07-25 — trading-robot run summary <!-- triaged 2026-07-25 -->
 - headline: RUN 12 completed (Saturday, market closed). NAV $1,007.75 vs. SPY-benchmark $992.15
   (gap +$15.61 / +1.57%) — the fictitious desk's FIRST-EVER run finishing ahead of its SPY
