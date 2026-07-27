@@ -242,7 +242,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-07-27 — health-robot run summary
+## 2026-07-27 — health-robot run summary <!-- triaged 2026-07-27 -->
 - headline: Completed the biomarkers/testing synthesis chapter (Run 36) — pulled every marker, wearable signal, and screening test from the whole research project into one unified testing framework + a dated cadence. Directly answers the queued "summarize all the testing I should get" task (target due today) and feeds the "personal health calendar" task. Monday → no digest (Sunday-only, by design). Egress still WebSearch-only.
 - newspaper_ready:
   - [B] Multi-cancer early-detection blood tests (e.g. Galleri) are NOT worth it for a healthy person under ~50: validated only in older/higher-risk groups, not FDA/USPSTF-endorsed, ~$949, and at a young age's low base rate a "positive" is mostly a false alarm that triggers needless invasive workups. Cancer screening should be targeted to your actual risks, not a shotgun blood test.

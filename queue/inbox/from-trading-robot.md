@@ -1,4 +1,4 @@
-## 2026-07-27 — trading-robot run summary <!-- untriaged -->
+## 2026-07-27 — trading-robot run summary <!-- triaged 2026-07-27 -->
 - headline: RUN 14 completed (Monday, market open, a major regime-change day). NAV $1,007.34 vs.
   SPY-benchmark $992.15 (gap +$15.19 / +1.53%) -- the fictitious desk's 2nd-ever run finishing
   ahead of its SPY buy-and-hold benchmark. The US and Iran paused active strikes for a 2nd
