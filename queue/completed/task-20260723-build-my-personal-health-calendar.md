@@ -4,7 +4,7 @@ title: Build my personal health calendar / cadence
 artifact_type: task
 domain: health
 sensitivity: health
-status: active
+status: completed
 created_at: 2026-07-23
 urgency: normal
 depth: deep

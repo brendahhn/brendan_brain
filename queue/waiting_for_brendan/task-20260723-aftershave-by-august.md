@@ -3,7 +3,7 @@ id: task-20260723-aftershave-by-august
 title: Aftershave by August
 artifact_type: task
 domain: concierge
-status: active
+status: waiting_for_brendan
 created_at: 2026-07-23
 urgency: high
 depth: standard
@@ -35,3 +35,4 @@ Purchases desk. Fragrance-free / low-irritation bias (mast-cell trigger caution 
 ## Research Log
 
 - 2026-07-24 [sonnet] Triaged into active queue by daily routine. Part of Brendan's 2026-07-23 weekly-research batch (target: solid answer by Mon 2026-07-27). Desk: health; default model sonnet, escalate to opus for consequential health conclusions. Not yet started; queued behind higher value-per-effort items advanced this run.
+- 2026-07-27 [opus / daily-routine] Moved active → waiting_for_brendan. Task is `requires_brendan_answer: true` and its own constraint blocks finalizing until Brendan pastes the prior product-search conversations; that ask has been open since 07-23 and surfaced in the 07-25/26/27 editions with no reply. Honest state is "blocked on Brendan," not "in progress." Hard deadline 08-01 still 5 days out; re-surfaced in Questions. Reversible — moves back to active the moment he pastes.

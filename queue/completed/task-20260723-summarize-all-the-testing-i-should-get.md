@@ -4,7 +4,7 @@ title: Summarize all the testing I should get done
 artifact_type: task
 domain: health
 sensitivity: health
-status: active
+status: completed
 created_at: 2026-07-23
 urgency: normal
 depth: standard
