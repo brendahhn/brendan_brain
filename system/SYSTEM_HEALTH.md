@@ -1,6 +1,34 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-07-27 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 130 artifacts validate 0 errors.
+  Ran on pinned branch `claude/adoring-mendel-t4gqda`; operational commits land on `main` per the
+  CLAUDE.md standing rule (pull-rebase + push HEAD:main, ls-remote verified). 134 artifacts after.
+- **Cadence healthy:** both robots posted fresh real 07-27 blocks — trading RUN 14 and health Run 36.
+  Published edition 2026-07-28 (Tuesday morning paper) from the 07-27 robot content; [STALE] gates
+  cleared per the standing evening-build rule.
+- Triaged the 2 fresh untriaged blocks (health 07-27, trading 07-27). Filed **2 investing predictions**
+  (JETS Iran-hedge → 08-17; FRO ceasefire-gate → 08-10, now decoupled from the closed TLT short) and
+  **1 health knowledge** (knowledge-20260727-measure-trend-not-snapshot, medium, NOT self-confirmed).
+  Both blocks marked triaged.
+- **Batch progress:** Health Robot's Ch34 (Run 36) answered TWO of the 07-23 batch tasks —
+  `summarize-all-the-testing` + `build-my-personal-health-calendar` — both moved active→completed.
+  Batch now **2/15 done, 12 deep tasks still unstarted** on the (now-passed) Monday target; robot is
+  advancing ~1 chapter/day. `aftershave-by-august` moved active→**waiting_for_brendan** (blocked on
+  Brendan pasting prior product convos; requires_brendan_answer; hard deadline 08-01). Prioritization
+  ask ("name top 3-4 or extend") now open across 07-25/26/27/28 editions, still unanswered.
+- Watches: tacoma ran 07-27 → **no change** (3rd consecutive dry pass; live listings JS-rendered/
+  unreachable from a WebSearch-only run — Brendan must paste a filtered search). next_run 08-03.
+  Predictions: none past horizon to score (next is hdsn-stop-test 07-29).
+- **Pauses/failures reported honestly:** Jobs [PAUSED] (silent since 07-21, 7d; paused-vs-ran-07-21
+  contradiction still open). FootyBot [FAIL] — **13 days dark** (07-15→07-28), well past the 07-20
+  unpause window; genuine stall, draft 31d out.
+- No unprocessed annotations (07-08/07-11 already applied; none newer — Brendan has not annotated
+  since 07-11). No rule promotions (nothing crosses the ≥3-signal/≥2-day threshold).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot (4 runs); routine-sandbox
+  egress WebSearch-only.
+
 ## 2026-07-26 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 128 artifacts validate 0 errors.
   Ran on pinned branch `claude/adoring-mendel-m8knlq`; operational commits land on `main` per the
