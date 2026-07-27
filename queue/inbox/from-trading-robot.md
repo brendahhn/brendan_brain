@@ -1,3 +1,59 @@
+## 2026-07-27 — trading-robot run summary <!-- untriaged -->
+- headline: RUN 14 completed (Monday, market open, a major regime-change day). NAV $1,007.34 vs.
+  SPY-benchmark $992.15 (gap +$15.19 / +1.53%) -- the fictitious desk's 2nd-ever run finishing
+  ahead of its SPY buy-and-hold benchmark. The US and Iran paused active strikes for a 2nd
+  consecutive day and oil fell >3%/day for a 2nd straight session, which mechanically tripped a
+  short Treasury-ETF paper position's (TLT) own written exit condition -- mandatory close, small
+  realized LOSS -$0.22 (the exit condition working exactly as designed: a fast reversal caught
+  within 3 days instead of a much bigger loss). A separate oil-tanker paper position (FRO) faces
+  its most serious cross-current yet but its own stricter exit condition (a formal ceasefire
+  announcement or a UKMTO threat downgrade) was not met, so it stays open; the desk caught and
+  discarded a same-day price claim for that position that traced to a stale April 2026 analyst
+  note mistaken for fresh news. One new position filled: Long JETS (an airline-sector ETF,
+  explicitly structured as a "photo-negative" hedge-like offset to the FRO position, both
+  expressing the same Iran/oil catalyst in opposite directions). A pending add-on to an existing
+  refrigerant-sector paper position (HDSN) also filled after fresh re-verification found its
+  insider-buying thesis unchanged. A defense-sector paper position (LMT) is now facing real
+  "peace dividend" selling pressure on the de-escalation news, one of its own named risks
+  becoming live rather than hypothetical.
+- newspaper_ready:
+  - The US and Iran have paused active strikes for a 2nd consecutive day as of today, with
+    diplomatic talks underway -- but this is a "pause"/"hiatus," not a signed ceasefire: Iran
+    explicitly denied media reports Monday that it had agreed to a 10-day ceasefire, and UKMTO's
+    maritime threat level for the Strait of Hormuz remains SEVERE, with a fresh tanker/military
+    incident logged as recently as 2026-07-25. Netanyahu is due to meet Trump in Washington
+    2026-07-28, explicitly framed around "possible military action against Iran" -- the
+    trajectory is genuinely unresolved. (confidence: high, multi-source dated 2026-07-26/27:
+    NPR, Washington Post, CNBC, Fox)
+  - Oil crashed on the pause news: Brent fell roughly 5.8-8.2% and WTI roughly 5.5-7.7% today
+    (2026-07-27), a 2nd consecutive >3%/day decline after Friday's initial selloff -- Brent is
+    now well under $92/bbl, down from over $100 just last week. (confidence: high, multi-source
+    dated 2026-07-27: Rigzone, TradingEconomics, Fortune)
+  - A useful research-methodology note surfaced this run: a same-day "stock down today" claim
+    citing an analyst-rating cut turned out, on independent checking, to trace to a rating action
+    from three months earlier (April 2026) -- a reminder that a dated-sounding headline still
+    needs its actual date verified, not just its source count. (confidence: high; domain-internal
+    finding, logged for its general applicability to any research process that leans on search
+    aggregators.)
+- questions_for_brendan: none new this run. `q-20260715-trading-branch-history` remains
+  open/unanswered from a prior run -- not urgent, still just sitting there if you want to close
+  it out. Not a Brain question, but flagged for awareness in this run's own recap
+  (`trading-notebook/recaps/2026-07-27.md`): two paper positions (FRO, LMT) are now exposed to
+  the same Iran-de-escalation event in opposite ways from the new JETS position -- intentional,
+  not a conflict, but worth knowing if you're skimming the book.
+- proposed_durable_knowledge: none this run beyond the dated market/geopolitical data captured
+  above (the stale-analyst-note research lesson is domain-internal methodology, not a
+  cross-domain fact).
+- predictions: (1) FRO -- fictitious paper thesis expects the position to stay open absent a
+  formal ceasefire announcement or a UKMTO threat-level downgrade specifically (a strikes pause
+  alone was judged insufficient this run); horizon: days, next real signal is either of those two
+  events or a confirmed price print; confidence: medium. (2) JETS -- fictitious paper thesis
+  expects continued strength if the strike pause holds and oil stays lower, reversing if Iran/
+  Israel/US re-escalate around or after Tuesday's Netanyahu-Trump meeting; horizon: days to ~2-3
+  weeks; confidence: medium (explicitly a fast-moving, reversible catalyst). Both are fictitious
+  paper-portfolio predictions, not real financial advice.
+- run_status: success
+
 
 
 ## 2026-07-26 — trading-robot run summary <!-- triaged 2026-07-26 -->
