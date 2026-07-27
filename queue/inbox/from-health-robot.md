@@ -241,3 +241,17 @@
 - proposed_durable_knowledge: "For chronic multifactorial disease, the highest-probability causes are often the still-controllable ones — forensics should feed prevention, not blame." Recurring cross-domain principle. Also reinforces the standing "provider-gate any med/supplement/dose change" rule (this chapter had zero such items).
 - predictions: none
 - run_status: success
+
+## 2026-07-27 — health-robot run summary
+- headline: Completed the biomarkers/testing synthesis chapter (Run 36) — pulled every marker, wearable signal, and screening test from the whole research project into one unified testing framework + a dated cadence. Directly answers the queued "summarize all the testing I should get" task (target due today) and feeds the "personal health calendar" task. Monday → no digest (Sunday-only, by design). Egress still WebSearch-only.
+- newspaper_ready:
+  - [B] Multi-cancer early-detection blood tests (e.g. Galleri) are NOT worth it for a healthy person under ~50: validated only in older/higher-risk groups, not FDA/USPSTF-endorsed, ~$949, and at a young age's low base rate a "positive" is mostly a false alarm that triggers needless invasive workups. Cancer screening should be targeted to your actual risks, not a shotgun blood test.
+  - [A] Ferritin is an "acute-phase reactant" — in ANY inflammatory state the standard iron-deficiency cutoff (~<30) misses real deficiency; a higher threshold plus transferrin saturation is needed. General lesson: don't read inflammation-sensitive labs in isolation.
+  - [A/obs] Omega-3 index >8% is the evidence-based target (Framingham: highest vs lowest tier ~34% lower all-cause mortality). If you take fish oil, one cheap test tells you whether it's actually working.
+  - [A] hs-CRP for heart-risk is confounded by any active inflammation — interpret it alongside other inflammation markers, never as a clean cardiac number on its own.
+  - [A] For people actively building muscle, cystatin C is a cleaner kidney marker than creatinine (creatinine rises with muscle mass and can fake a "worse kidney" reading).
+  - [B] Testing economics: a provider-ordered core panel (often insurance-covered) plus ONE à-la-carte "missing-markers" panel delivers ~95% of a premium subscription's value for roughly a third of the cost. Subscriptions buy a dashboard, not better data.
+- questions_for_brendan: none cross-domain. The chapter's do-now decision items are personal/clinical (scheduling + which panel to order) and are tracked in the health notebook per health-sanitization, not exported here.
+- proposed_durable_knowledge: "Measure the trend, not the snapshot — and don't over-test into anxiety; the failure mode for a healthy young person is false positives, not under-testing." Cross-domain principle (applies to any KPI/dashboard, incl. jobs/trading). Reinforces the standing provider-gate rule (this chapter changed no dose/med/supplement).
+- predictions: none
+- run_status: success
