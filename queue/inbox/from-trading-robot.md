@@ -1,3 +1,60 @@
+## 2026-07-28 — trading-robot run summary
+- headline: RUN 15 completed (Tuesday, market open). NAV $1,008.30 vs. SPY-benchmark $992.36
+  (gap +$15.94 / +1.61%) -- the fictitious desk's 3rd-ever run finishing ahead of its SPY
+  buy-and-hold benchmark. One fill: Long SHW (Sherwin-Williams, FUN, 8% NAV) on a same-day Q2
+  2026 beat-and-raise plus a fresh 8% price increase announced this morning. GEO, RWD, and MAC
+  (12th consecutive NO TRADE beyond forced closes, still BENCHED-LIGHT) all returned explicit,
+  well-documented NO TRADE. A defense-sector paper position (LMT) recovered back to a healthy
+  status after yesterday's "peace dividend" selling pressure did not continue today. An
+  entertainment-sector paper position (IMAX) strengthened further as its underlying box-office
+  catalyst cleared its own written checkpoint with room to spare. A same-run source conflict on
+  the Strait of Hormuz's official threat level (different searches showed different ratings) was
+  independently resolved against primary-source-adjacent advisories, finding no de-escalation --
+  a useful research-methodology catch, logged below. Two positions (ELV, JETS) had genuinely
+  unverifiable quotes this run and were carried at last-known prices without trading, per
+  standing policy.
+- newspaper_ready:
+  - There is still no formal, confirmed US-Iran ceasefire as of today -- only a fragile 2-day
+    strike pause, which Iran's Foreign Ministry explicitly denies is a signed deal. A
+    Netanyahu-Trump White House meeting occurred today, reportedly centered on "possible military
+    action against Iran," but produced no public readout per multiple outlets. (confidence: high,
+    multi-source dated 2026-07-27/28: CNN, CNBC, Washington Post, France24, Axios, Fox)
+  - Oil kept falling for a 3rd consecutive session (Brent roughly $86-89/bbl, WTI roughly
+    $82-85/bbl) -- continuing, not reversing, the sharp de-escalation-driven selloff from the
+    prior two sessions. (confidence: high, multi-source dated 2026-07-27/28)
+  - A research-methodology note worth flagging generally: this run hit a genuine same-topic
+    source conflict where different web searches reported a maritime security agency's official
+    threat rating as three different levels for "today." Tracing the claim back to the agency's
+    own numbered advisory updates (rather than trusting aggregator snippets) resolved it cleanly
+    -- the rating had not actually changed; stale/differently-dated snapshots were being surfaced
+    as if current. General lesson: when a rated/leveled claim (a threat level, a credit rating, a
+    guidance range) matters for a decision, trace it to the issuing body's own dated releases,
+    not just a source count. (confidence: high; domain-internal finding, logged for its general
+    applicability.)
+  - The FOMC's rate decision lands tomorrow (2026-07-29), not today -- markets were pricing
+    roughly 65% odds of a hold / 35% odds of a hike as of today, still meaningfully more hawkish
+    than a week ago even after oil's sharp pullback, a genuine cross-current the fictitious desk
+    explicitly declined to trade ahead of. (confidence: high, multi-source dated 2026-07-28)
+- questions_for_brendan: none new this run. `q-20260715-trading-branch-history` remains
+  open/unanswered from a prior run -- not urgent, still just sitting there if you want to close
+  it out. Not a Brain question, but flagged for awareness in this run's own recap
+  (`trading-notebook/recaps/2026-07-28.md`): two paper positions (ELV, JETS) are currently
+  carried at stale prices after genuinely conflicting/unavailable search results -- not a
+  blocking issue, just something that will resolve itself with a fresh quote next run.
+- proposed_durable_knowledge: none this run beyond the dated market/geopolitical data captured
+  above (the threat-level-source-verification lesson is domain-internal research methodology,
+  not a cross-domain fact, though the general principle -- trace rated/leveled claims to the
+  issuing body's own dated releases -- may be broadly useful).
+- predictions: (1) SHW -- fictitious paper thesis expects post-earnings-announcement drift to
+  continue over 3-6 weeks from 2026-07-28, provided no guidance walk-back before the next print;
+  confidence: medium. (2) FRO -- fictitious paper thesis expects the position to stay open absent
+  a formal ceasefire announcement or a confirmed UKMTO threat-level downgrade specifically (today's
+  strike pause and falling oil alone were judged insufficient, consistent with the desk's standing
+  read); horizon: days, next real signal is either of those two events or Wednesday's FOMC
+  outcome bleeding into risk sentiment; confidence: medium. Both are fictitious paper-portfolio
+  predictions, not real financial advice.
+- run_status: success
+
 ## 2026-07-27 — trading-robot run summary <!-- triaged 2026-07-27 -->
 - headline: RUN 14 completed (Monday, market open, a major regime-change day). NAV $1,007.34 vs.
   SPY-benchmark $992.15 (gap +$15.19 / +1.53%) -- the fictitious desk's 2nd-ever run finishing
