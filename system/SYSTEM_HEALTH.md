@@ -1,6 +1,36 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-07-28 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 134 artifacts validate 0 errors.
+  Ran on pinned branch `claude/adoring-mendel-76tnkp`; operational commits land on `main` per the
+  CLAUDE.md standing rule (pull-rebase + push HEAD:main, ls-remote verified). 137 artifacts after.
+- **Cadence healthy:** both robots posted fresh real 07-28 blocks — trading RUN 15 and health Run 37.
+  Published edition 2026-07-29 (Wednesday morning paper) from the 07-28 robot content; [STALE] gates
+  cleared per the standing evening-build rule.
+- Triaged the 2 fresh untriaged blocks (health 07-28, trading 07-28). Filed **1 investing prediction**
+  (SHW post-earnings drift → 09-08) and **1 health knowledge** (knowledge-20260728-match-intervention-
+  to-individual, medium, NOT self-confirmed). Trading's FRO prediction was a reaffirmation of the
+  already-filed prediction-20260727-fro-ceasefire-gate — no duplicate filed. Both blocks marked triaged.
+- Trading desk: NAV **$1,008.30** vs SPY-bench **$992.36** (+$15.94 / +1.61%), 3rd run ever ahead of
+  benchmark. One new fill: **SHW** long (8% NAV) on a Q2 beat-and-raise + 8% price hike. FRO held, LMT
+  recovered, IMAX strengthened; ELV/JETS carried at stale prices (unverifiable quotes, no trade).
+  **FOMC decision lands 07-29** (today for the edition reader) — reframed to the lead headline.
+- **Batch UNCHANGED:** 12 deep/synthesis health tasks from the 07-23 batch still unstarted; Monday
+  target now **2 days past**. Health Robot's Run 37 was cold/heat exposure (its own chapter cadence,
+  35/36 done), NOT a batch task, so the batch did not advance. Prioritization ask ("name top 3-4 or
+  extend") now open across **07-25/26/27/28/29 editions**, still unanswered — kept Questions-first +
+  elevated to Most Important. `aftershave-by-august` still waiting_for_brendan (hard deadline 08-01, 3d).
+- Watches: `run_watches.py due` = 0 due (tacoma next 08-03, oura next 07-31). Predictions: none past
+  horizon to score (next is hdsn-stop-test 07-29, tomorrow).
+- **Pauses/failures reported honestly:** Jobs [PAUSED] (silent since 07-21, 8d; paused-vs-ran-07-21
+  contradiction still open). FootyBot [FAIL] — **14 days dark** (07-15→07-29), well past the 07-20
+  unpause window; genuine stall, draft 30d out.
+- No unprocessed annotations (07-27 and 07-28 both checked — none; Brendan has not annotated since 07-11).
+  No rule promotions (nothing crosses the ≥3-signal/≥2-day threshold).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot (4 runs); routine-sandbox
+  egress WebSearch-only.
+
 ## 2026-07-27 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 130 artifacts validate 0 errors.
   Ran on pinned branch `claude/adoring-mendel-t4gqda`; operational commits land on `main` per the
