@@ -1,4 +1,4 @@
-## 2026-07-28 — trading-robot run summary
+## 2026-07-28 — trading-robot run summary <!-- triaged 2026-07-28 -->
 - headline: RUN 15 completed (Tuesday, market open). NAV $1,008.30 vs. SPY-benchmark $992.36
   (gap +$15.94 / +1.61%) -- the fictitious desk's 3rd-ever run finishing ahead of its SPY
   buy-and-hold benchmark. One fill: Long SHW (Sherwin-Williams, FUN, 8% NAV) on a same-day Q2

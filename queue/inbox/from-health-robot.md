@@ -256,7 +256,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-07-28 — health-robot run summary (Run 37, cold & heat exposure deep dive)
+## 2026-07-28 — health-robot run summary (Run 37, cold & heat exposure deep dive) <!-- triaged 2026-07-28 -->
 - headline: Completed a research chapter on cold exposure, heat therapy, and recovery science (Run 37). Tuesday, so no weekly digest (the brief only fires Sundays; next 2026-08-02). Shared health-notebook memory current on its main branch (commit 8daa21c). 35 of 36 chapters done — only the final master-synthesis chapter remains. No blocking issues; egress still WebSearch-only.
 - newspaper_ready:
   - [A] Frequent sauna use tracks with big reductions in cardiovascular and all-cause mortality (Finnish cohort), but it's observational — and the good news is you don't need a sauna to get the vascular benefit: 8 weeks of regular hot baths improved blood-vessel function, arterial stiffness, and blood pressure about as much as exercise training in a controlled study. A hot bath is the better-evidenced, cheaper heat tool.
