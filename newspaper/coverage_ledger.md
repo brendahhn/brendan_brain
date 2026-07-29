@@ -48,3 +48,12 @@
 | system/jobs-robot-paused | 2026-07-27 | 2 | [PAUSED] silent since 07-21 (6d); paused-vs-ran-07-21 contradiction still open |
 | fantasy/footybot-silence | 2026-07-27 | 3 | [FAIL] 12 days dark (07-15→07-27); draft 32d out; genuine stall |
 | concierge/aftershave-by-august | 2026-07-27 | 1 | [Q] blocked on Brendan pasting prior product convos since 07-23; internal target today, hard deadline 08-01 |
+| investing/iran-us-strikes-resumed | 2026-07-30 | 1 | [FACT] Iran fired ballistic missiles at US forces in Jordan 07-28 (intercepted, no casualties) a day after Trump said strikes halted; multi-source |
+| investing/oil-contained | 2026-07-30 | 1 | [FACT] despite the 07-28 attack Brent ~$89.53 flat; markets read intercepted strike as contained |
+| investing/fomc-rate-path | 2026-07-30 | 3 | [FACT] FOMC decided 07-29 2pm ET; desk run predated print — only going-in odds ~65% hold/~32% hike, core CPI ~3.1%; outcome not in inputs |
+| investing/paper-desk-benchmark | 2026-07-30 | 2 | [FACT/PRED] RUN16 NAV $1019.45 vs SPY-bench $994.27 (+2.53%, widest lead); JETS closed +$6.63 on binary Iran-strike exit; HDSN earnings imminent |
+| health/master-synthesis-phase1-done | 2026-07-30 | 1 | [CONC] Run38 Ch36 = FINAL chapter; all 36 done, Phase 1 complete; capstone: convergence>accumulation, behavior>bottle, remove-before-add, protect irreversibles, decision-literacy |
+| system/jobs-robot-paused | 2026-07-30 | 3 | [PAUSED] silent since 07-21 (9d); paused-vs-ran-07-21 contradiction still open |
+| fantasy/footybot-silence | 2026-07-30 | 4 | [FAIL] 15 days dark (07-15→07-30); draft 29d out; genuine stall |
+| concierge/aftershave-by-august | 2026-07-30 | 2 | [Q] still blocked on Brendan pasting prior product convos since 07-23; hard deadline 08-01 (2d) |
+| system/health-batch-prioritization | 2026-07-30 | 1 | [Q] 11 deep tasks stalled on Brendan naming top 3-4 or extending; Phase-1-complete removes the cadence excuse; open 5 editions |
