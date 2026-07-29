@@ -1,6 +1,49 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-07-29 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 137 artifacts validate 0 errors.
+  Ran on pinned branch `claude/adoring-mendel-szdczz`; operational commits land on `main` per the
+  CLAUDE.md standing rule (pull-rebase + push HEAD:main, ls-remote verified). 141 artifacts after.
+- **Cadence healthy:** both robots posted fresh real 07-29 blocks — trading RUN 16 and health Run 38.
+  Published edition 2026-07-30 (Thursday morning paper) from the 07-29 robot content; [STALE] gates
+  cleared per the standing evening-build rule.
+- Triaged the 2 fresh untriaged blocks (health 07-29, trading 07-29). Filed **1 investing prediction**
+  (HDSN Q2-earnings catalyst → 08-19) and **1 health knowledge** (knowledge-20260729-convergence-beats-
+  accumulation, medium, NOT self-confirmed). Trading's FRO/LMT "reinforced" note maps to already-open
+  predictions — no duplicate filed. Both blocks marked triaged.
+- **MILESTONE — Health Phase 1 complete.** Run 38 delivered Ch36 (master synthesis / "Protocol Master
+  v3"), the FINAL of 36 chapters. This directly fulfilled the Brain task
+  `the-master-ranked-everything-index` → marked **completed** and moved active→completed/ with a
+  cross-repo pointer (`health-notebook: chapters/ch36-...`). Health project flips to Phase 2
+  "always-growing organism" mode; next weekly digest fires Sun 08-02.
+- **Batch 12→11:** with master-ranked done, **11 deep/synthesis health tasks** from the 07-23 batch
+  remain unstarted. New editorial hook: the robot's chapter cadence (the standing reason the batch
+  didn't advance) is now FINISHED, so Phase-2 bandwidth *could* take the batch — surfaced as an added
+  question. Prioritization ask ("name top 3-4 or extend") now open across **07-25→07-29 editions (5)**,
+  still unanswered — kept Questions-first + Most Important. `aftershave-by-august` still
+  waiting_for_brendan (hard deadline 08-01, now 2d).
+- Trading desk: NAV **$1,019.45** vs SPY-bench **$994.27** (+$25.18 / +2.53%), **widest lead yet**, 4th
+  run ahead. One close: **JETS** mandatorily closed for a realized **+$6.63 gain** — its binary
+  "US–Iran strikes resumed" exit fired on the 07-28 missile attack even though the position had rallied.
+  No new trades (all 4 agents explicit NO TRADE, MAC 13th straight BENCHED-LIGHT). **HDSN** (refrigerants)
+  flagged most time-sensitive — Q2 earnings due after 07-29 close.
+- **World/market news relayed [FACT]:** Iran fired ballistic missiles at US forces in Jordan 07-28
+  (intercepted, no casualties) a day after Trump said strikes were halted — a real crack in the pause,
+  multi-source. Oil did NOT spike (Brent ~$89.53 flat). **FOMC decided 07-29 2pm ET** — the desk's run
+  predated the print, so the edition reports ONLY going-in odds (~65% hold/~32% hike, core CPI ~3.1%)
+  and states the outcome is not in the Brain's inputs; **nothing fabricated**, will confirm next run.
+- Scored **prediction-20260721-hdsn-stop-test** at its 07-29 horizon → outcome **INCORRECT** (position
+  held into earnings above stop, no stop test; carried forward by the fresh 07-29 HDSN earnings
+  prediction). Watches: 0 due (tacoma next 08-03, oura next 07-31).
+- **Pauses/failures reported honestly:** Jobs [PAUSED] (silent since 07-21, 9d; paused-vs-ran-07-21
+  contradiction still open). FootyBot [FAIL] — **15 days dark** (07-15→07-30), well past the 07-20
+  unpause window; genuine stall, draft 29d out.
+- No unprocessed annotations (07-28 and 07-29 both checked — none; Brendan has not annotated since 07-11).
+  No rule promotions (nothing crosses the ≥3-signal/≥2-day threshold).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot (4 runs); routine-sandbox
+  egress WebSearch-only.
+
 ## 2026-07-28 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 134 artifacts validate 0 errors.
   Ran on pinned branch `claude/adoring-mendel-76tnkp`; operational commits land on `main` per the
