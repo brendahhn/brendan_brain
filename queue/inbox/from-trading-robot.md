@@ -1,3 +1,64 @@
+## 2026-07-29 — trading-robot run summary
+- headline: RUN 16 completed (Wednesday, market open). NAV $1,019.45 vs. SPY-benchmark $994.27
+  (gap +$25.18 / +2.53%) -- the fictitious desk's 4th-ever run finishing ahead of its SPY
+  buy-and-hold benchmark, and its widest margin yet. One close: a paper airline-ETF position
+  (JETS, GEO, 8% NAV) was mandatorily closed for a realized GAIN (+$6.63) after a confirmed Iranian
+  ballistic-missile attack on US forces in Jordan (2026-07-28, intercepted, no casualties) tripped
+  its own written "US-Iran strikes resumed" exit condition -- fired exactly as worded even though
+  the position's own price had rallied the same day and oil stayed well off its reversal level.
+  No new trades: all four desk agents (GEO, RWD, MAC -- 13th consecutive NO TRADE, still
+  BENCHED-LIGHT -- and FUN) returned explicit, well-documented NO TRADE. Five other paper
+  positions (a Hormuz-tanker play, a defense contractor, a box-office-linked entertainment name, a
+  healthcare insurer, and an industrial-coatings maker) all had their theses independently
+  re-verified as intact or reinforced this run; a refrigerant-industry paper position remains the
+  book's most time-sensitive item, with its real-company Q2 earnings print confirmed not yet
+  released as of this run (due after today's close).
+- newspaper_ready:
+  - Iran's IRGC fired multiple ballistic missiles at US forces based in Jordan on 2026-07-28
+    (~5:45pm ET); all intercepted, no casualties reported. Confirmed via CENTCOM and independently
+    cross-corroborated by CNN, Bloomberg, Al Jazeera, CNBC, and the AP wire. This came roughly a
+    day after President Trump had said the US halted strikes on Iran -- a real crack in the
+    fragile pause, not a contained non-event. (confidence: high, multi-source dated 2026-07-28/29)
+  - Despite that attack, oil did not spike: Brent sat at ~$89.53/bbl today, essentially flat and
+    still well off the crisis highs -- markets appear to be reading the intercepted strike as
+    contained rather than a full re-escalation, at least for now. (confidence: high, dated
+    2026-07-29)
+  - Today's FOMC decision (2pm ET) was priced going in at roughly 63.5-70% odds of a hold vs.
+    29.5-36.5% odds of a 25bp hike -- notably a hike, not a cut, is the live alternative, reflecting
+    a July inflation print that reaccelerated (core CPI YoY ~3.1%, highest since February) even as
+    energy-driven geopolitical risk complicates the picture. (confidence: high, multi-source dated
+    2026-07-27/29)
+  - A research-methodology note worth repeating (same family as RUN 15's threat-level catch): this
+    run's first-pass price searches for three separate tickers each returned figures that turned
+    out to be identical, verbatim, to the previous run's own already-recorded data -- not fresh
+    reads at all, just a recycled cached snapshot. A second, more specifically-dated search round
+    caught it and found the real, different current figures. General lesson: a "current price"
+    search result that exactly matches a value you already have on file from yesterday is a
+    red flag, not a confirmation -- worth a second, more specific search before trusting it.
+    (confidence: high; domain-internal finding, logged for its general applicability.)
+- questions_for_brendan: none new for the Brain this run. `q-20260715-trading-branch-history`
+  remains open/unanswered from a prior run -- not urgent. One judgment call surfaced in this run's
+  own recap (`trading-notebook/recaps/2026-07-29.md`), not escalated here as a formal question:
+  whether an exit condition keyed to a binary "have strikes resumed" headline should require an
+  explicit sustained/material qualifier, given that this run's trigger fired on an intercepted,
+  quickly-contained incident. Not blocking -- flagged for your read, with a recommendation on file
+  in the trading-notebook itself (write future conditions of this shape with an explicit
+  materiality bar if that's not the intent).
+- proposed_durable_knowledge: none this run beyond the dated market/geopolitical data captured
+  above (the recycled-snapshot research-methodology catch is domain-internal, though the general
+  principle -- a "current" quote that exactly matches yesterday's recorded figure warrants a
+  second, more specific search before trusting it -- may be broadly useful across any domain that
+  relies on live web search for time-sensitive data).
+- predictions: (1) HDSN (fictitious paper position) -- thesis expects a close above $8.50, or a
+  >15% pop on the now-imminent Q2 2026 earnings print (due after today's close), within days to a
+  few weeks; confidence: medium, live catalyst arrives within 24 hours. (2) FRO/LMT (fictitious
+  paper positions) -- both theses expect continued elevated risk premia (tanker rates, defense
+  demand) absent a verified ceasefire/UKMTO downgrade for FRO or a funding lapse/contract
+  cancellation for LMT; yesterday's missile attack is read as reinforcing, not undermining, both;
+  horizon ~2-4 weeks; confidence: medium. All fictitious paper-portfolio predictions, not real
+  financial advice.
+- run_status: success
+
 ## 2026-07-28 — trading-robot run summary <!-- triaged 2026-07-28 -->
 - headline: RUN 15 completed (Tuesday, market open). NAV $1,008.30 vs. SPY-benchmark $992.36
   (gap +$15.94 / +1.61%) -- the fictitious desk's 3rd-ever run finishing ahead of its SPY
