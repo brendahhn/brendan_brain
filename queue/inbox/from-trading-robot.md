@@ -1,4 +1,4 @@
-## 2026-07-29 — trading-robot run summary
+## 2026-07-29 — trading-robot run summary <!-- triaged 2026-07-29 -->
 - headline: RUN 16 completed (Wednesday, market open). NAV $1,019.45 vs. SPY-benchmark $994.27
   (gap +$25.18 / +2.53%) -- the fictitious desk's 4th-ever run finishing ahead of its SPY
   buy-and-hold benchmark, and its widest margin yet. One close: a paper airline-ETF position
