@@ -1,3 +1,54 @@
+## 2026-07-30 — trading-robot run summary
+- headline: RUN 17 completed (Thursday, market open). NAV $1,021.44 vs. SPY-benchmark $985.70
+  (gap +$35.74 / +3.63%) -- the fictitious desk's 5th-ever run finishing ahead of its SPY
+  buy-and-hold benchmark, and a new widest-margin record. No trades: all four desk agents (GEO,
+  RWD, MAC -- 14th consecutive NO TRADE, still BENCHED-LIGHT -- and FUN) returned explicit,
+  well-documented NO TRADE after live research, and no exit triggers tripped on any of the 6 open
+  paper positions -- the bot's 4th fully quiet desk day. A box-office-linked entertainment paper
+  position had its best run yet (+21.8% unrealized); a defense-contractor paper position was
+  reinforced by a large new government contract; a healthcare-insurer paper position's price was
+  unreconcilable via web search for the 2nd time in 3 runs (flagged as a recurring, ticker-
+  specific data-quality pattern, not a trading concern); a refrigerant-industry paper position's
+  real-company Q2 earnings remain unreleased, and a desk agent's read that the release date had
+  slipped to next week was independently checked and corrected against last year's exact
+  precedent.
+- newspaper_ready:
+  - The Fed held its policy rate steady 2026-07-29 on a 9-3 vote, with three regional Fed
+    presidents (Cleveland, Minneapolis, Dallas) dissenting in favor of a hike -- the most FOMC
+    dissents since September 2016. The 30-year Treasury yield surged above 5.2%, its highest
+    level since 2007. (confidence: high, multi-source dated 2026-07-29/30)
+  - Oil spiked roughly 8% on 2026-07-29 on a fresh wave of US strikes on Iran, with additional US
+    strikes on Iran reported today (2026-07-30) and no confirmed ceasefire. (confidence: high,
+    multi-source dated)
+  - The S&P 500 fell about 1.5% on 2026-07-29 (the Fed/oil/yield-driven day) and was rebounding
+    roughly +0.6% today as of this run. (confidence: high, multi-source dated)
+  - The U.S. Department of War awarded Lockheed Martin up to $58.62 billion for a multiyear PAC-3
+    missile-interceptor production contract, announced 2026-07-29 -- confirmed via Lockheed
+    Martin's own official release plus independent wire/trade-press corroboration. (confidence:
+    high, multi-source dated; fictitious paper position, not investment advice)
+  - Christopher Nolan's "The Odyssey" has passed $700M worldwide box office after 12 days in
+    theaters, one of the year's biggest releases and a strong second-weekend hold. (confidence:
+    high, multi-source dated; fictitious paper position, not investment advice)
+- questions_for_brendan: none new for the Brain this run. One domain-internal item is in this
+  run's recap (`trading-notebook/recaps/2026-07-30.md`) rather than escalated here: a
+  healthcare-insurer paper position's price has been unreconcilable via WebSearch on 2 of the
+  last 3 runs with the identical conflicting-source spread both times -- not blocking anything
+  yet, flagged in case it keeps recurring.
+- proposed_durable_knowledge: none this run (no generic, cross-domain-worthy conclusions beyond
+  dated market/macro data already captured above).
+- predictions: (1) Hormuz/tanker theme (fictitious paper long) -- thesis expects continued
+  elevated oil and VLCC tanker rates absent a verified ceasefire or UKMTO threat-level downgrade;
+  today's fresh US strikes on Iran reinforce rather than undercut this; horizon ~1-2 weeks
+  remaining from 2026-07-30; confidence: medium. (2) Defense-industrial theme (fictitious paper
+  long) -- thesis expects continued strength on Pentagon restocking demand, reinforced by the
+  fresh $58.62B PAC-3 contract; re-evaluate/trim consideration if the position clears its own
+  written price checkpoint; horizon 1-2 weeks remaining; confidence: medium-high. (3)
+  Refrigerant-industry theme (fictitious paper long) -- thesis hinges on an unreleased real-company
+  Q2 earnings print, now expected imminently; take-profit or thesis-wrong triggers cannot be
+  assessed until it releases; confidence: low-medium pending the print. All are fictitious
+  paper-portfolio predictions, never real financial advice.
+- run_status: success
+
 ## 2026-07-29 — trading-robot run summary <!-- triaged 2026-07-29 -->
 - headline: RUN 16 completed (Wednesday, market open). NAV $1,019.45 vs. SPY-benchmark $994.27
   (gap +$25.18 / +2.53%) -- the fictitious desk's 4th-ever run finishing ahead of its SPY
