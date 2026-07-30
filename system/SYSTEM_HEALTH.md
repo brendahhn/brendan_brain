@@ -1,6 +1,50 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-07-30 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 141 artifacts validate 0 errors.
+  Ran on pinned branch `claude/adoring-mendel-k8tqjk`; operational commits land on `main` per the
+  CLAUDE.md standing rule (pull-rebase + push HEAD:main, ls-remote verified). 143 artifacts after.
+- **Cadence healthy:** both robots posted fresh real 07-30 blocks — trading RUN 17 and health Run 39.
+  Published edition 2026-07-31 (Friday morning paper) from the 07-30 robot content; [STALE] gates
+  cleared per the standing evening-build rule.
+- Triaged the 2 fresh untriaged blocks (health 07-30, trading 07-30). Filed **1 health knowledge**
+  (knowledge-20260730-long-exhale-calms, medium, NOT self-confirmed). Trading's 3 predictions
+  (Hormuz/tanker, LMT/defense, HDSN/refrigerant) are all restatements of already-open predictions —
+  no duplicate filed; no new cross-domain questions/knowledge from either block. Both marked triaged.
+- **FOMC loop CLOSED (news):** yesterday's 07-30 edition could report only the FOMC *going-in* odds
+  and said "will confirm next run." The 07-30 block carries the resolved outcome — the **Fed HELD
+  07-29 on a hawkish 9-3 vote** (Cleveland/Minneapolis/Dallas presidents dissenting FOR a hike, the
+  **most FOMC dissents since Sept 2016**); the **30yr Treasury yield surged above 5.2%** (highest
+  since 2007). Reported [FACT], multi-source dated; framed as closing the prior open question.
+- **Iran ESCALATION (news):** the 07-28 "markets read it as contained" story did NOT hold. Oil spiked
+  **~8% on 07-29** on a fresh wave of US strikes on Iran, with more strikes 07-30 and no confirmed
+  ceasefire. Framed as superseding yesterday's contained read. Also relayed [FACT]: **Lockheed won up
+  to $58.62B** for a multiyear PAC-3 contract (07-29); Nolan's *The Odyssey* passed **$700M** worldwide.
+- Trading desk: NAV **$1,021.44** vs SPY-bench **$985.70** (+$35.74 / +3.63%), **new widest-margin
+  record**, 5th run ahead. **4th fully quiet desk day** — no trades, no exit triggers on the 6 open
+  positions (all 4 agents explicit NO TRADE, MAC 14th straight BENCHED-LIGHT). IMAX best run yet
+  (+21.8% unrealized). Data-quality note: a healthcare-insurer position's price was unreconcilable via
+  web search 2/3 recent runs — flagged as a recurring ticker-specific data problem, not a trade signal.
+- **Health Phase 2 drift flagged:** Run 39 was the first "organism mode" run (all 36 chapters done).
+  It spent its freed bandwidth on an ad-hoc idea-queue item (cyclic-sighing how-to, already covered by
+  the completed `how-to-properly-do-a-cyclic` task), NOT one of the **11 open 07-23 batch tasks** — so
+  the batch did not advance. Staffing verdict logged to CAPACITY_LEDGER. Prioritization ask ("name top
+  3-4 or extend" + "point Phase 2 at the batch?") now open across **six editions (07-25→07-30)**,
+  unanswered — kept Questions-first + Most Important. `aftershave-by-august` still waiting_for_brendan
+  (hard deadline 08-01, now **1d** out).
+- Predictions: none due for scoring today — the 3 passed-horizon predictions (boat-freight 07-15,
+  mp-materials-stop 07-24, hdsn-stop-test 07-29) all already have outcomes on file. Watches: 0 due
+  (tacoma next 08-03, oura next 07-31).
+- **Pauses/failures reported honestly:** Jobs [PAUSED] (silent since 07-21, 10d; paused-vs-ran-07-21
+  contradiction still open). FootyBot [FAIL] — **16 days dark** (07-15→07-31), well past the 07-20
+  unpause window; genuine stall, draft 28d out.
+- No unprocessed annotations (07-28/29/30 checked — none; last processed annotation files 07-08/07-11,
+  both status:processed; Brendan has not annotated since 07-11). No rule promotions (nothing crosses
+  the ≥3-signal/≥2-day threshold).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot; routine-sandbox egress
+  WebSearch-only.
+
 ## 2026-07-29 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 137 artifacts validate 0 errors.
   Ran on pinned branch `claude/adoring-mendel-szdczz`; operational commits land on `main` per the

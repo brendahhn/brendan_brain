@@ -57,3 +57,12 @@
 | fantasy/footybot-silence | 2026-07-30 | 4 | [FAIL] 15 days dark (07-15→07-30); draft 29d out; genuine stall |
 | concierge/aftershave-by-august | 2026-07-30 | 2 | [Q] still blocked on Brendan pasting prior product convos since 07-23; hard deadline 08-01 (2d) |
 | system/health-batch-prioritization | 2026-07-30 | 1 | [Q] 11 deep tasks stalled on Brendan naming top 3-4 or extending; Phase-1-complete removes the cadence excuse; open 5 editions |
+| investing/fomc-rate-path | 2026-07-31 | 4 | [FACT] RESOLVED: Fed HELD 07-29 on hawkish 9-3 (3 presidents dissenting for a HIKE, most dissents since Sept 2016); 30yr yield >5.2% highest since 2007; closes 07-30's going-in-odds-only report |
+| investing/iran-us-strikes-resumed | 2026-07-31 | 2 | [FACT] ESCALATION: oil +~8% on 07-29 on fresh US strikes on Iran, more strikes 07-30, no ceasefire — supersedes 07-30 "contained ~$89.53" read |
+| investing/paper-desk-benchmark | 2026-07-31 | 3 | [FACT/PRED] RUN17 NAV $1021.44 vs SPY-bench $985.70 (+3.63%, new widest lead); 4th fully quiet day, no trades; MAC 14th straight NO TRADE; IMAX +21.8% (Odyssey $700M); ELV price unreconcilable 2/3 runs |
+| investing/lmt-pac3-contract | 2026-07-31 | 1 | [FACT] Lockheed won up to $58.62B multiyear PAC-3 interceptor contract (announced 07-29); reinforces LMT paper thesis |
+| health/breath-long-exhale-calms | 2026-07-31 | 1 | [CONC] Run39 organism-mode: cyclic sighing (2023 Stanford RCT beat box breathing/hyperventilation/mindfulness); long exhale=calm, fast inhale=alert; filed knowledge-20260730-long-exhale-calms |
+| system/jobs-robot-paused | 2026-07-31 | 4 | [PAUSED] silent since 07-21 (10d); paused-vs-ran-07-21 contradiction still open |
+| fantasy/footybot-silence | 2026-07-31 | 5 | [FAIL] 16 days dark (07-15→07-31); draft 28d out; genuine stall |
+| concierge/aftershave-by-august | 2026-07-31 | 3 | [Q] still blocked on Brendan pasting prior product convos since 07-23; hard deadline 08-01 (1d) |
+| system/health-batch-prioritization | 2026-07-31 | 2 | [Q] 11 deep tasks stalled; Phase-2 drift hook (robot spent Run39 on ad-hoc item not the batch); open six editions (07-25→07-30) |

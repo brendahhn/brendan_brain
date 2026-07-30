@@ -37,6 +37,13 @@ edition-20260716	newspaper/editions/2026-07-16.md	edition		published	personal			
 edition-20260721	newspaper/editions/2026-07-21.md	edition		published	personal				2026-07-21
 edition-20260721-v1	newspaper/editions/2026-07-21-v1-superseded.md	edition		published	personal				2026-07-21
 edition-20260722	newspaper/editions/2026-07-22.md	edition		published	personal				2026-07-22
+edition-20260725	newspaper/editions/2026-07-25.md	edition		published	personal				2026-07-25
+edition-20260726	newspaper/editions/2026-07-26.md	edition		published	personal				2026-07-26
+edition-20260727	newspaper/editions/2026-07-27.md	edition		published	personal				2026-07-27
+edition-20260728	newspaper/editions/2026-07-28.md	edition		published	personal				2026-07-28
+edition-20260729	newspaper/editions/2026-07-29.md	edition		published	personal				2026-07-29
+edition-20260730	newspaper/editions/2026-07-30.md	edition		published	personal				2026-07-30
+edition-20260731	newspaper/editions/2026-07-31.md	edition		published	personal				2026-07-31
 health-food-guidance	domains/health/FOOD_GUIDANCE.md	knowledge	health		personal	health,food,guidance,kitchen-bridge		Sanitized food guidance for the Kitchen desk (bridge source)	2026-07-11
 kitchen-equipment	domains/concierge/kitchen/EQUIPMENT.md	live_state	concierge		personal	kitchen,equipment		Kitchen equipment — live state	2026-07-11
 kitchen-profile	domains/concierge/kitchen/KITCHEN_PROFILE.md	knowledge	concierge		personal	kitchen,food,cooking,recipes,meals,pantry		Kitchen & Food desk — profile and knowledge	2026-07-11
@@ -57,12 +64,22 @@ knowledge-20260719-one-way-decisions-at-commit-time	domains/health/knowledge/kno
 knowledge-20260720-label-beats-price-proportion-in-toxins	domains/health/knowledge/knowledge-20260720-label-beats-price-proportion-in-toxins.md	knowledge	health		public	microplastics,pfas,detox,consumer-products,hype-check		For consumer products and "toxins," the label beats the price and proportion is everything	2026-07-20
 knowledge-20260721-hydration-more-not-better	domains/health/knowledge/knowledge-20260721-hydration-more-not-better.md	knowledge	health		public	hydration,electrolytes,sodium,hyponatremia,drink-to-thirst		For hydration, "more" is not better past adequacy — the risks are symmetric	2026-07-21
 knowledge-20260721-remote-unlocks-revops-trajectory	domains/jobs/knowledge/knowledge-20260721-remote-unlocks-revops-trajectory.md	knowledge	jobs		personal	revops,sales-operations,remote,salesforce,job-search-strategy		Remote searches unlock Brendan's RevOps trajectory roles that SD-local boards don't produce	2026-07-21
+knowledge-20260722-product-dose-not-personal-dose	domains/health/knowledge/knowledge-20260722-product-dose-not-personal-dose.md	knowledge	health		public	supplements,formulation,sweeteners,magnesium,clean-label,sleep-products		A product dose is not a personal dose — formulate conservative, tune individually	2026-07-22
+knowledge-20260723-immunostimulant-not-good-on-immunomodulator	domains/health/knowledge/knowledge-20260723-immunostimulant-not-good-on-immunomodulator.md	knowledge	health		public	immunity,autoimmune,immunomodulator,zinc,vitamin-d,echinacea,elderberry		On an immunomodulator, "boosting" immunity is the wrong goal — mechanism beats vibes	2026-07-23
+knowledge-20260724-connection-is-infrastructure	domains/health/knowledge/knowledge-20260724-connection-is-infrastructure.md	knowledge	health		public	social-health,longevity,loneliness,community,antifragile,life-stage-planning		Connection is infrastructure — treat recurring in-person social contact as a health input	2026-07-24
+knowledge-20260725-forensics-should-feed-prevention	domains/health/knowledge/knowledge-20260725-forensics-should-feed-prevention.md	knowledge	health		public	chronic-disease,ibd,ulcerative-colitis,causation,prevention,gene-environment		Forensics should feed prevention, not blame — for chronic multifactorial disease the highest-probability causes are the still-controllable ones	2026-07-25
+knowledge-20260726-microbiome-resilience-is-an-output	domains/health/knowledge/knowledge-20260726-microbiome-resilience-is-an-output.md	knowledge	health		public	microbiome,gut,probiotics,SIBO,fiber,testing,clean-label		Gut microbiome resilience is an output of diet/behavior, not an input you can dose	2026-07-26
+knowledge-20260727-measure-trend-not-snapshot	domains/health/knowledge/knowledge-20260727-measure-trend-not-snapshot.md	knowledge	health		public	testing,biomarkers,screening,false-positives,KPI,cross-domain		Measure the trend, not the snapshot — and don't over-test into anxiety	2026-07-27
+knowledge-20260728-match-intervention-to-individual	domains/health/knowledge/knowledge-20260728-match-intervention-to-individual.md	knowledge	health		public	cold-exposure,heat-therapy,recovery,individualization,cross-domain		Match the intervention to the individual, not to the trend	2026-07-28
+knowledge-20260729-convergence-beats-accumulation	domains/health/knowledge/knowledge-20260729-convergence-beats-accumulation.md	knowledge	health		public	systems,habits,prioritization,decision-making,cross-domain		Convergence beats accumulation — rank interventions by how many goals each serves	2026-07-29
+knowledge-20260730-long-exhale-calms	domains/health/knowledge/knowledge-20260730-long-exhale-calms.md	knowledge	health		public	stress,breathing,nervous-system,cross-domain,pre-performance		Long exhale = calm, fast inhale = alert — the breath is a free, portable nervous-system switch	2026-07-30
 op-20260710-postmerge-roundtrips	system/operations/op-20260710-postmerge-roundtrips.md	operation			personal				
 op-20260710-roundtrip-health	system/operations/op-20260710-roundtrip-health.md	operation			personal				
 op-20260710-skill-sync-v1-qa-fixes	system/operations/op-20260710-skill-sync-v1-qa-fixes.md	operation			personal				
 op-20260714-stranded-branch-recovery	system/operations/op-20260714-stranded-branch-recovery.md	operation			personal				
 outcome-20260715-boat-freight	outcomes/outcome-20260715-boat-freight.md	outcome	investing		financial				2026-07-15
 outcome-20260721-mp-materials-stop	outcomes/outcome-20260721-mp-materials-stop.md	outcome	investing		financial				2026-07-21
+outcome-20260729-hdsn-stop-test	outcomes/outcome-20260729-hdsn-stop-test.md	outcome	investing		financial				2026-07-29
 pantry-live	domains/concierge/kitchen/PANTRY.md	live_state	concierge		personal	kitchen,pantry,shopping,ingredients		Pantry & shopping — live state	2026-07-11
 prediction-20260712-hdsn-earnings	predictions/prediction-20260712-hdsn-earnings.md	prediction	investing		financial				2026-07-12
 prediction-20260712-hormuz-tanker-oil	predictions/prediction-20260712-hormuz-tanker-oil.md	prediction	investing		financial				2026-07-12
@@ -72,6 +89,15 @@ prediction-20260720-imax-odyssey	predictions/prediction-20260720-imax-odyssey.md
 prediction-20260720-mp-materials-stop	predictions/prediction-20260720-mp-materials-stop.md	prediction	investing		financial				2026-07-20
 prediction-20260721-fro-hormuz-freight	predictions/prediction-20260721-fro-hormuz-freight.md	prediction	investing		financial				2026-07-21
 prediction-20260721-hdsn-stop-test	predictions/prediction-20260721-hdsn-stop-test.md	prediction	investing		financial				2026-07-21
+prediction-20260724-elv-insider-floor	predictions/prediction-20260724-elv-insider-floor.md	prediction	investing		financial				2026-07-24
+prediction-20260724-lmt-socom	predictions/prediction-20260724-lmt-socom.md	prediction	investing		financial				2026-07-24
+prediction-20260724-tlt-short-yields	predictions/prediction-20260724-tlt-short-yields.md	prediction	investing		financial				2026-07-24
+prediction-20260725-cmg-foot-traffic	predictions/prediction-20260725-cmg-foot-traffic.md	prediction	investing		financial				2026-07-25
+prediction-20260725-fro-tlt-iran	predictions/prediction-20260725-fro-tlt-iran.md	prediction	investing		financial				2026-07-25
+prediction-20260727-fro-ceasefire-gate	predictions/prediction-20260727-fro-ceasefire-gate.md	prediction	investing		financial				2026-07-27
+prediction-20260727-jets-iran-hedge	predictions/prediction-20260727-jets-iran-hedge.md	prediction	investing		financial				2026-07-27
+prediction-20260728-shw-earnings-drift	predictions/prediction-20260728-shw-earnings-drift.md	prediction	investing		financial				2026-07-28
+prediction-20260729-hdsn-q2-earnings	predictions/prediction-20260729-hdsn-q2-earnings.md	prediction	investing		financial				2026-07-29
 profile-brendan	BRENDAN_PROFILE.md	knowledge	general		personal				2026-07-10
 q-20260710-tacoma-budget	newspaper/questions/q-20260710-tacoma-budget.md	question	vehicles	answered	personal			Tacoma search: budget ceiling and transmission preference?	2026-07-10
 q-20260710-trading-dup	newspaper/questions/q-20260710-trading-dup.md	question	investing	answered	personal			Retire the frozen trading/ copy inside health-notebook?	2026-07-10
@@ -94,3 +120,26 @@ task-20260711-martial-arts-selection-muay-thai-pads	queue/completed/task-2026071
 task-20260711-menu-research-beef-pot-pie-strawberry	queue/completed/task-20260711-menu-research-beef-pot-pie-strawberry.md	task	concierge	published	personal			Menu research: beef pot pie, strawberry Brazilian lemonade, strawberry cream puffs	2026-07-11
 task-20260714-replace-shopify-before-25-mo-billing	queue/completed/task-20260714-replace-shopify-before-25-mo-billing.md	task	tea-business	published	personal			Replace Shopify before ~$25/mo billing starts in August	2026-07-14
 task-20260714-tea-input-sourcing-scan-better-cheaper	queue/waiting_for_brendan/task-20260714-tea-input-sourcing-scan-better-cheaper.md	task	tea-business	waiting_for_brendan	personal			Tea input sourcing scan — better/cheaper suppliers for all components	2026-07-14
+task-20260723-aftershave-by-august	queue/waiting_for_brendan/task-20260723-aftershave-by-august.md	task	concierge	waiting_for_brendan	personal			Aftershave by August	2026-07-23
+task-20260723-build-my-personal-health-calendar	queue/completed/task-20260723-build-my-personal-health-calendar.md	task	health	completed	health			Build my personal health calendar / cadence	2026-07-23
+task-20260723-bulking-food-philosophy-easy-clean	queue/active/task-20260723-bulking-food-philosophy-easy-clean.md	task	health	active	health			Bulking food philosophy + easy clean calories	2026-07-23
+task-20260723-deodorant-that-lasts-is-antiperspirant	queue/active/task-20260723-deodorant-that-lasts-is-antiperspirant.md	task	concierge	active	personal			Deodorant that lasts + is antiperspirant bad? + chapstick	2026-07-23
+task-20260723-eat-cheap-and-clean-meal-cost-project	queue/active/task-20260723-eat-cheap-and-clean-meal-cost-project.md	task	concierge	active	personal			Eat-cheap-and-clean meal-cost project (real N. County SD prices)	2026-07-23
+task-20260723-how-to-properly-do-a-cyclic	queue/completed/task-20260723-how-to-properly-do-a-cyclic.md	task	health	completed	health			How to properly do a cyclic / physiological sigh	2026-07-23
+task-20260723-moneyball-my-personal-migraine-med	queue/active/task-20260723-moneyball-my-personal-migraine-med.md	task	health	active	health			Moneyball my personal migraine med	2026-07-23
+task-20260723-movement-experiments-nordic-style-back	queue/active/task-20260723-movement-experiments-nordic-style-back.md	task	health	active	health			Movement experiments: Nordic-style back ext, kettlebells, surf power	2026-07-23
+task-20260723-nerva-gut-directed-hypnotherapy-deep	queue/active/task-20260723-nerva-gut-directed-hypnotherapy-deep.md	task	health	active	health			Nerva (gut-directed hypnotherapy) deep-dive	2026-07-23
+task-20260723-oral-morning-ritual-quick-qs-xylitol	queue/completed/task-20260723-oral-morning-ritual-quick-qs-xylitol.md	task	health	completed	health			Oral & morning-ritual quick Qs: xylitol + best hot tea	2026-07-23
+task-20260723-read-summarize-the-cmgh-journal-article	queue/active/task-20260723-read-summarize-the-cmgh-journal-article.md	task	health	active	health			Read & summarize the CMGH journal article	2026-07-23
+task-20260723-reverse-cold-sores-dog-cat-food	queue/active/task-20260723-reverse-cold-sores-dog-cat-food.md	task	health	active	health			Reverse cold sores + dog/cat/food allergies?	2026-07-23
+task-20260723-sleep-comprehensive-deep-dive	queue/active/task-20260723-sleep-comprehensive-deep-dive.md	task	health	active	health			Sleep — comprehensive deep dive	2026-07-23
+task-20260723-stress-nervous-system-real-time-toolkit	queue/active/task-20260723-stress-nervous-system-real-time-toolkit.md	task	health	active	health			Stress & nervous-system real-time toolkit	2026-07-23
+task-20260723-summarize-all-the-testing-i-should-get	queue/completed/task-20260723-summarize-all-the-testing-i-should-get.md	task	health	completed	health			Summarize all the testing I should get done	2026-07-23
+task-20260723-support-an-easy-labor-delivery-for-ella	queue/active/task-20260723-support-an-easy-labor-delivery-for-ella.md	task	health	active	private			Support an easy labor & delivery for Ella	2026-07-23
+task-20260723-the-master-ranked-everything-index	queue/completed/task-20260723-the-master-ranked-everything-index.md	task	health	completed	health			The Master Ranked 'everything' index + Protocol Master v3	2026-07-23
+task-20260723-watch-route-daily-oura-stats	queue/watches/task-20260723-watch-route-daily-oura-stats.md	watch	health	watching	health			Watch: route daily Oura stats	2026-07-23
+task-20260723-which-rec-league-sport-should-i-play	queue/completed/task-20260723-which-rec-league-sport-should-i-play.md	task	health	completed	health			Which rec-league sport should I play?	2026-07-23
+tl-20260723-sober-weekend	timeline/2026/07/2026-07-23-sober-weekend.md	timeline	health		health				2026-07-23
+tl-20260724-personal-os-notes-loss	timeline/2026/07/2026-07-24-personal-os-notes-loss.md	timeline	general		personal	personal-os,data-loss,tea,infrastructure	personal-os,supabase		2026-07-24
+tl-20260724-personal-os-notes-mostly-recovered	timeline/2026/07/2026-07-24-personal-os-notes-mostly-recovered.md	timeline	general		personal	personal-os,data-loss,recovery	personal-os,supabase		2026-07-24
+tl-20260724-personal-os-second-loss-never-deployed	timeline/2026/07/2026-07-24-personal-os-second-loss-never-deployed.md	timeline	general		personal	personal-os,data-loss,deployment,process-failure	personal-os,vercel		2026-07-24

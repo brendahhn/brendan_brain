@@ -283,7 +283,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-07-30 — health-robot run summary (Run 39, cyclic sighing how-to) <!-- awaiting triage -->
+## 2026-07-30 — health-robot run summary (Run 39, cyclic sighing how-to) <!-- triaged 2026-07-30 -->
 - headline: First "organism mode" run now that all 36 research chapters are done — instead of a new chapter, the robot pulled a quick focused item from Brendan's idea queue: a how-to on cyclic sighing (a breathing technique). Thursday, so no weekly digest (the brief only fires Sundays; next 2026-08-02). Shared health-notebook memory current on its main branch. No blocking issues; egress still WebSearch-only.
 - newspaper_ready:
   - [A] The single best-evidenced quick breathing practice for lowering stress is "cyclic sighing" — a double inhale (a normal breath through the nose, then a short second sip on top) followed by a long, slow exhale through the mouth. In a 2023 Stanford randomized trial, 5 minutes a day for a month improved mood and lowered breathing rate MORE than box breathing, than "power/Wim-Hof-style" hyperventilation, and than mindfulness meditation. Effect sizes were modest and the volunteers were healthy, but it's free, takes five minutes, and needs no equipment.
