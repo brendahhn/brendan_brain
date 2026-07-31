@@ -1,6 +1,48 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-07-31 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 143 artifacts validate 0 errors.
+  Ran on pinned branch `claude/adoring-mendel-q4iiu7`; operational commits land on `main` per the
+  CLAUDE.md standing rule (pull-rebase + push HEAD:main, ls-remote verified). 147 artifacts after.
+- **Cadence healthy:** both robots posted fresh real 07-31 blocks — trading RUN 18 and health (the
+  antiperspirant/deodorant answer). Published edition 2026-08-01 (Saturday morning paper) from the
+  07-31 robot content; build tool's blanket [STALE] gates cleared per the standing evening-build rule.
+- Triaged the 2 fresh untriaged blocks (health 07-31, trading 07-31). Filed **2 investing predictions**
+  (QSR/RBI foot-traffic → 08-06; ETN/Eaton AI-datacenter electrification drift → 08-21) and **1 health
+  knowledge** (knowledge-20260731-antiperspirant-vs-deodorant, medium, NOT self-confirmed). Both marked triaged.
+- **GOOD NEWS — health batch finally advanced by the robot.** The Health Robot's Phase-2 bandwidth
+  landed on an actual open 07-23 batch task (`deodorant-that-lasts-is-antiperspirant`) for the first
+  time since chapters ended, and **answered its core** (antiperspirant safe at ~0.012% dermal dose; no
+  breast-cancer link OR 0.96; Alzheimer's worry = wrong exposure route; "natural" deo fails by design →
+  use a real antiperspirant at night; chapstick = fragrance-free + mineral SPF). Task **stays active**
+  for a product-naming pass (asked for a *specific* deodorant + balm; run gave criteria, no branded pick
+  — not fabricating brands). Staffing verdict logged to CAPACITY_LEDGER. This softens the two-edition
+  "Phase-2 drift" worry but doesn't replace the prioritization decision.
+- Trading desk: NAV **$1,019.45** vs SPY-bench **$998.04** (**+$21.41 / +2.14%**), **6th run ahead** but
+  lead **narrowed from RUN 17's record +$35.74** — honest read: the book didn't lose (NAV −$1.99); the
+  **benchmark rallied +$12.34**. Two **new paper longs**: **QSR** (restaurant foot-traffic, hard time-stop
+  at Aug-6 print) and **ETN** (earnings beat + 2nd guidance raise on AI-datacenter power). No exit triggers
+  on the 6 prior. **ELV** price finally reconciled (was unverifiable 2/3 runs — resolves the prior data-note).
+  **Data-hygiene [OBS]:** desk caught+discarded **2 AI-data-contamination errors** (fake SHW earnings-miss vs
+  verified beat-raise; hallucinated refrigerant "already released") by cross-checking primary sources.
+- **Quiet world-news day (news):** the 07-31 trading block carried NO fresh macro — FOMC (held 07-29) and
+  Iran strikes both resolved/covered in the 07-30+07-31 editions, no new developments. Reported honestly
+  in Top Headlines rather than re-run yesterday's items or fabricate news.
+- Predictions: none due for scoring — the 3 passed-horizon predictions (boat-freight 07-15, mp-materials-
+  stop 07-24, hdsn-stop-test 07-29) all already have outcomes on file; next horizon hdsn-earnings 08-02.
+  Watches: oura fired 07-31 → **still BLOCKED** (no Oura connector wired; reported blocked, not fabricated;
+  next 08-07). Tacoma next 08-03.
+- **Pauses/failures reported honestly:** Jobs [PAUSED] (silent since 07-21, **11d**; paused-vs-ran-07-21
+  contradiction still open). FootyBot [FAIL] — **17 days dark** (07-15→08-01), well past the 07-20 unpause
+  window; genuine stall, draft 27d out. Prioritization ask ("name top 3-4 or extend" + "point Phase 2 at
+  the batch?") now open across **seven editions (07-25→07-31)**, unanswered — kept Questions-first + Most Important.
+- No unprocessed annotations (07-29/30/31 checked — none; last processed annotation files 07-08/07-11,
+  both status:processed; Brendan has not annotated since 07-11). No rule promotions (nothing crosses the
+  ≥3-signal/≥2-day threshold).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot; Oura not connected;
+  routine-sandbox egress WebSearch-only.
+
 ## 2026-07-30 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 141 artifacts validate 0 errors.
   Ran on pinned branch `claude/adoring-mendel-k8tqjk`; operational commits land on `main` per the

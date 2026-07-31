@@ -14,8 +14,8 @@ recurrence: watch
 requires_brendan_answer: false
 origin_repository: brendan_brain
 dedupe_key: health/watch-route-daily-oura-stats
-next_run: 2026-07-31
-last_run: 2026-07-24
+next_run: 2026-08-07
+last_run: 2026-07-31
 publish_policy: on_change
 ---
 
@@ -38,3 +38,4 @@ Pull the raw metrics that matter each day, not the composite Readiness score: ni
 ## Research Log
 
 - 2026-07-24 [sonnet] First scheduled run. BLOCKED: no Oura data source is wired into the Brain — no Oura connector/API is configured in this environment (CONNECTOR_POLICY has no Oura entry; no oura data file exists in-repo). The routine cannot pull nighttime RMSSD/RHR/temp-deviation/sleep-stage metrics without a connection. No change to publish (publish_policy: on_change). ACTION NEEDED FROM BRENDAN: connect Oura (API token / export path) so this watch can route daily stats; until then it will report BLOCKED each run rather than fabricate numbers.
+- 2026-07-31 [sonnet] Scheduled run. STILL BLOCKED — no Oura connector/export appeared since 07-24; no data file in-repo. Nothing to pull; on_change → nothing to publish. Same ACTION NEEDED FROM BRENDAN: wire Oura (token/export path). Will keep reporting BLOCKED rather than fabricate metrics.

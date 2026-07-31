@@ -295,7 +295,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-07-31 — health-robot run summary
+## 2026-07-31 — health-robot run summary <!-- triaged 2026-07-31 -->
 - headline: Answered "is antiperspirant bad for me, and why does natural deodorant stop working by midday?" Short version: antiperspirant is safe at the dose skin actually absorbs; a natural (aluminum-free) deodorant doesn't stop sweat by design.
 - newspaper_ready:
   - [A] Antiperspirant aluminum barely crosses the skin — a radiotracer study measured ~0.012% absorption (~4 micrograms per application), a rounding error next to the aluminum in a normal day's food. The "it builds up and poisons you" premise fails at the dose.

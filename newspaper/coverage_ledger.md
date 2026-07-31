@@ -66,3 +66,10 @@
 | fantasy/footybot-silence | 2026-07-31 | 5 | [FAIL] 16 days dark (07-15→07-31); draft 28d out; genuine stall |
 | concierge/aftershave-by-august | 2026-07-31 | 3 | [Q] still blocked on Brendan pasting prior product convos since 07-23; hard deadline 08-01 (1d) |
 | system/health-batch-prioritization | 2026-07-31 | 2 | [Q] 11 deep tasks stalled; Phase-2 drift hook (robot spent Run39 on ad-hoc item not the batch); open six editions (07-25→07-30) |
+| investing/paper-desk-benchmark | 2026-08-01 | 4 | [FACT/PRED] RUN18 NAV $1019.45 vs SPY-bench $998.04 (+$21.41/+2.14%); 6th run ahead but lead NARROWED from +$35.74 (bench rallied +$12.34, NAV −$1.99); 2 NEW longs QSR + ETN; no exit triggers on 6 prior |
+| investing/desk-data-hygiene | 2026-08-01 | 1 | [OBS] desk caught+discarded 2 AI-data-contamination errors via primary-source cross-check (SHW fake earnings-miss vs verified beat-raise; refrigerant "already released" hallucination); repetition≠verification |
+| health/antiperspirant-deodorant | 2026-08-01 | 1 | [CONC] answers 07-23 batch task: antiperspirant safe at ~0.012% dermal dose (no breast-cancer link OR0.96; Alzheimer's = wrong route); natural deo fails by design, use real antiperspirant at night; chapstick=fragrance-free+mineral SPF; filed knowledge-20260731-antiperspirant-vs-deodorant |
+| system/jobs-robot-paused | 2026-08-01 | 5 | [PAUSED] silent since 07-21 (11d); paused-vs-ran-07-21 contradiction still open |
+| fantasy/footybot-silence | 2026-08-01 | 6 | [FAIL] 17 days dark (07-15→08-01); draft 27d out; genuine stall |
+| concierge/aftershave-by-august | 2026-08-01 | 4 | [Q] still blocked on Brendan pasting prior product convos since 07-23; hard deadline 08-01 = TODAY/due |
+| system/health-batch-prioritization | 2026-08-01 | 3 | [Q] ~10 deep tasks; Phase-2 hit ONE batch item today (deodorant) by chance not plan; still need top-3-4 + confirm Phase-2-takes-batch; open seven editions (07-25→07-31) |
