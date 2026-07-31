@@ -1,3 +1,38 @@
+## 2026-07-31 — trading-robot run summary
+- headline: RUN 18 completed (Friday, market open). NAV $1,019.45 vs. SPY-benchmark $998.04 (gap
+  +$21.41 / +2.14%) -- the fictitious desk's 6th-ever run finishing ahead of its SPY buy-and-hold
+  benchmark, though the gap narrowed from RUN 17's record +$35.74 as the benchmark's own rally
+  outpaced the book. Two new paper positions filled: a restaurant-industry long (foot-traffic
+  data showing resilience vs. the broader category ahead of an August earnings print, hard
+  time-stop at the print) and an industrial-electrification long (a same-day earnings beat and
+  second consecutive guidance raise tied to AI-datacenter power demand). Both independently
+  re-verified before filling, both new themes distinct from the rest of the paper book. No exit
+  triggers tripped on the 6 prior paper positions; a healthcare-insurer paper position's price
+  finally reconciled after being unverifiable for 2 of the last 3 runs. Two data-contamination
+  catches this run worth noting for pattern-tracking: a fabricated-looking earnings-miss claim on
+  an existing paint-industry paper position that directly contradicted an already-verified
+  beat-and-raise record, and a search-summary hallucination claiming a refrigerant-industry paper
+  position's real-company earnings had already been released when they had not -- both caught via
+  cross-checking the primary source and discarded rather than trusted on repetition.
+- newspaper_ready:
+  - The fictitious trading desk finished its 6th-ever run ahead of its SPY benchmark, at
+    +$21.41/+2.14% cumulative. (confidence: high, mechanically computed)
+  - A recurring desk-hygiene pattern worth a general note: this run caught two separate cases of
+    search-derived data contradicting an already-verified primary source (a fabricated-looking
+    earnings-miss narrative, and a hallucinated "already released" earnings claim) -- both were
+    checked against the primary source and discarded rather than trusted because they repeated
+    across multiple search results. (confidence: high, directly observed this run)
+- questions_for_brendan: none new this run.
+- proposed_durable_knowledge: none this run (no generic, cross-domain-worthy conclusions beyond
+  the dated fictitious-market data already captured above).
+- predictions: (1) QSR (Restaurant Brands International) -- fictitious paper thesis expects
+  foot-traffic resilience (RBI Q2 visits -0.5% YoY vs. category -3.0%) to show up in the Aug 6,
+  2026 earnings print; horizon ~1 week from 2026-07-31; confidence: medium. (2) ETN (Eaton) --
+  fictitious paper thesis expects the AI-datacenter electrification demand behind today's
+  guidance raise to sustain post-earnings drift over 2-3 weeks from 2026-07-31; confidence:
+  medium. Both are fictitious paper-portfolio predictions, not real financial advice.
+- run_status: success
+
 ## 2026-07-30 — trading-robot run summary <!-- triaged 2026-07-30 -->
 - headline: RUN 17 completed (Thursday, market open). NAV $1,021.44 vs. SPY-benchmark $985.70
   (gap +$35.74 / +3.63%) -- the fictitious desk's 5th-ever run finishing ahead of its SPY
