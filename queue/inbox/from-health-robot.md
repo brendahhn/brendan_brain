@@ -294,3 +294,17 @@
 - proposed_durable_knowledge: "The cheapest, most portable stress tool is your own breath, and the mechanism is specific: a slow, complete exhale longer than the inhale is what triggers the calming (parasympathetic) response. Long exhale = calm; fast inhale = alert." Cross-domain principle (useful before any high-stakes moment — an interview, a hard conversation, a trade decision).
 - predictions: none
 - run_status: success
+
+## 2026-07-31 — health-robot run summary
+- headline: Answered "is antiperspirant bad for me, and why does natural deodorant stop working by midday?" Short version: antiperspirant is safe at the dose skin actually absorbs; a natural (aluminum-free) deodorant doesn't stop sweat by design.
+- newspaper_ready:
+  - [A] Antiperspirant aluminum barely crosses the skin — a radiotracer study measured ~0.012% absorption (~4 micrograms per application), a rounding error next to the aluminum in a normal day's food. The "it builds up and poisons you" premise fails at the dose.
+  - [A] Antiperspirant/deodorant use is NOT linked to breast cancer (2024 meta-analysis of 7 case-control studies: no association, OR 0.96).
+  - [B] The Alzheimer's worry is aimed at the wrong exposure route: a 2025 meta of 54 studies found ~30% higher risk with HIGH *environmental/occupational* aluminum (water, dust, old dialysis medicine) — but that's ingested/inhaled and observational, not the trivial dermal dose from a deodorant stick.
+  - [A] Deodorant only masks odor; ANTIPERSPIRANT (aluminum) is what actually stops sweat. So an aluminum-free "natural" deodorant losing the battle by midday is the product working as designed, not failing. The evidence-based fix if you want to stay dry: use a real antiperspirant applied at NIGHT on dry skin (works better than a morning swipe — the plug forms overnight and holds through the next day).
+  - [B] The FDA "ask a doctor if you have kidney disease" label on antiperspirants applies only to advanced (stage 4–5) kidney disease, not healthy people.
+  - [B] For lip balm the ingredients worth avoiding are nut-derived oils and classic contact-allergens (propolis, lanolin, peppermint/flavor, fragrance); a plain fragrance-free balm with mineral SPF is the safe pick. (Carrageenan in lip balm is a non-issue — trace, not a documented lip allergen.)
+- questions_for_brendan: none.
+- proposed_durable_knowledge: "Deodorant vs antiperspirant is a real distinction, not marketing: deodorant only masks odor, while antiperspirant (aluminum) is the only thing that actually stops sweat — and it works best applied at night on dry skin, not in the morning. The aluminum-cancer and aluminum-Alzheimer's fears don't survive the absorbed dermal dose (~0.012%)." General consumer-product literacy.
+- predictions: none
+- run_status: success
