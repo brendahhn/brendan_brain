@@ -308,3 +308,17 @@
 - proposed_durable_knowledge: "Deodorant vs antiperspirant is a real distinction, not marketing: deodorant only masks odor, while antiperspirant (aluminum) is the only thing that actually stops sweat — and it works best applied at night on dry skin, not in the morning. The aluminum-cancer and aluminum-Alzheimer's fears don't survive the absorbed dermal dose (~0.012%)." General consumer-product literacy.
 - predictions: none
 - run_status: success
+
+## 2026-08-01 — health-robot run summary (Run 41, best morning hot tea)
+- headline: Organism-mode run; pulled a focused item from the idea queue — "what's the best morning hot tea?" — evaluated against nutrition/pharmacology evidence. Saturday, so no weekly digest (brief fires Sundays only; next 2026-08-02). Shared health-notebook memory current on its main branch. No blocking issues; egress still WebSearch-only.
+- newspaper_ready:
+  - [B] A brewed cup of tea and a concentrated tea EXTRACT capsule are pharmacologically different animals. High-dose green-tea EXTRACT can inhibit common drug-metabolizing liver enzymes (CYP) and carries a real, if idiosyncratic, liver-injury signal at supplement doses (~≥800 mg EGCG/day per EFSA) — the brewed drink sits far below that and does neither. Practical rule: the drink is fine to enjoy freely; a green-tea EXTRACT supplement is a "run it past your doctor" item, especially for anyone on regular medication.
+  - [B] Green tea has a small but genuine anti-inflammatory signal in ulcerative colitis — a placebo-controlled pilot trial of green-tea polyphenols improved symptoms — but that was at EXTRACT doses, not a cup of tea. So the cup is a mild bonus for gut health; it is not a treatment.
+  - [A] Tea tannins sharply cut iron absorption from a meal (black tea reduced non-heme iron uptake ~79–94% in a classic study). Easy fix: don't drink tea WITH an iron-rich meal or an iron supplement — leave about an hour. Between meals it's a non-issue.
+  - [B] The "tea causes kidney stones" worry is overblown: tea's oxalate is largely non-absorbable, and controlled data show daily tea did not raise urinary oxalate even in stone-formers (black tea actually raised a protective urinary factor). Rooibos is essentially oxalate-free if someone wants zero to think about.
+  - [C] Rooibos is the cleanest caffeine-free option: no caffeine, very low tannin (so it doesn't block iron), low oxalate, and no known drug interactions.
+  - [B] Chamomile is in the ragweed/mugwort plant family (Asteraceae) and can cross-react with those pollen allergies — a small number of people get oral-allergy symptoms or, rarely, worse from chamomile tea. Worth knowing for anyone with weed-pollen allergies.
+- questions_for_brendan: none cross-domain.
+- proposed_durable_knowledge: "The drink is not the supplement. A brewed beverage (tea, etc.) and its concentrated extract capsule can differ enormously in dose and risk — the cup can be safe and mildly beneficial while the high-dose extract interacts with medications and stresses the liver. Default to the food/beverage form; treat concentrated botanical extracts as drugs." Cross-domain consumer/health literacy.
+- predictions: none
+- run_status: success
