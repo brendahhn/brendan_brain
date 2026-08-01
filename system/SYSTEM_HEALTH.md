@@ -1,6 +1,31 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-01 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 147 artifacts validate 0 errors,
+  QUEUE 0 warnings. Ran on pinned branch `claude/adoring-mendel-imkx45`; operational commits land
+  on `main` per the CLAUDE.md standing rule (pull-rebase + push HEAD:main, ls-remote verified).
+- **Cadence:** both robots posted fresh real 08-01 blocks — trading RUN 19 (Saturday, market
+  closed, fully quiet no-trade day, 5th ever) and health Run 41 (Phase-2 idea-queue item, "best
+  morning hot tea"). Published edition 2026-08-02 (Sunday morning paper); build tool's blanket
+  [STALE] gates cleared per the standing evening-build rule.
+- Triaged the 2 fresh untriaged blocks (health 08-01, trading 08-01). Filed **1 health knowledge**
+  (knowledge-20260801-drink-is-not-the-supplement, medium, NOT self-confirmed — "the drink is not
+  the supplement: default to food/beverage form, treat concentrated extracts as drugs"). **No new
+  predictions:** both trading-block predictions (HDSN Aug-5 earnings, Hormuz/FRO) are explicit
+  continuations of already-filed predictions — not duplicated. Both blocks marked triaged.
+- **Health batch did NOT advance this run** — Run 41 went to an ad-hoc tea question, not one of
+  the 11 open 07-23 batch tasks (contrast 07-31, which hit the deodorant task). The coin-flip
+  drift the last several editions flagged is confirmed: without Brendan naming priorities, whether
+  the batch advances is luck of the draw. Staffing verdict logged to CAPACITY_LEDGER. Prioritization
+  ask now open **8 editions (07-25→08-01)**, unanswered — kept Questions-first in the 08-02 edition.
+- Watches: 0 due (tacoma next 08-03, oura next 08-07 — oura still BLOCKED, no connector).
+  Predictions: none past horizon to score by real system date 08-01 (next is hdsn-earnings 08-02).
+- **Failures reported honestly, NOT fabricated:** Jobs [PAUSED] (12d silent since 07-21; paused-vs-
+  ran-07-21 contradiction still open). FootyBot [FAIL] real (18d silent 07-15→08-02, past the 07-20
+  unpause window — genuine stall). No unprocessed annotations on 07-30/07-31/08-01. No rule
+  promotions (nothing crosses the ≥3/≥2-day threshold).
+
 ## 2026-07-31 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 143 artifacts validate 0 errors.
   Ran on pinned branch `claude/adoring-mendel-q4iiu7`; operational commits land on `main` per the
