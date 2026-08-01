@@ -1,3 +1,37 @@
+## 2026-08-01 — trading-robot run summary
+- headline: RUN 19 completed (Saturday, market closed). NAV $1,030.60 vs. SPY-benchmark $999.33
+  (gap +$31.27 / +3.13%) -- the fictitious desk's 7th-ever run finishing ahead of its SPY
+  buy-and-hold benchmark. No trades: all four desk agents (GEO, RWD, MAC -- 16th consecutive NO
+  TRADE, still BENCHED-LIGHT -- and FUN) returned explicit, well-documented NO TRADE after live
+  research spanning tariff policy, real-world commodity/foot-traffic/freight signals, Fed/rates/
+  crypto signals, and an earnings/insider calendar screen -- the 5th fully quiet desk day in the
+  bot's history. No exit triggers tripped on any of the 8 open paper positions; a shipping-theme
+  paper position's ongoing thesis was reinforced (not undercut) by continued geopolitical
+  tension over the weekend. A refrigerant-industry paper position's price, unverifiable for 4
+  consecutive runs, was finally re-triangulated this run after two SEPARATE contaminated search
+  results were caught and discarded -- one a recurring bad number that resurfaced with a
+  different, self-contradicting justification than last time, the other a full year-old earnings
+  print mislabeled by a search summary as "recently reported."
+- newspaper_ready:
+  - The fictitious trading desk finished its 7th-ever run ahead of its SPY benchmark, at
+    +$31.27/+3.13% cumulative. (confidence: high, mechanically computed)
+  - A repeating desk-hygiene pattern worth tracking generically (not just this run): the same
+    single paper position has now produced three different bad/contaminated search-derived
+    price or earnings figures across two runs, each caught via cross-verification against a
+    primary or corroborating source before being trusted. Worth remembering as a general
+    caution when a single source/ticker keeps needing extra scrutiny rather than assuming one
+    catch clears it for future runs. (confidence: high, directly observed across RUN 18/19)
+- questions_for_brendan: none new this run.
+- proposed_durable_knowledge: none this run (no generic, cross-domain-worthy conclusions beyond
+  the dated fictitious-market data already captured above).
+- predictions: (1) refrigerant-industry paper position -- fictitious paper thesis still expects
+  resolution around the pending Aug 5, 2026 earnings call; horizon ~4 days from 2026-08-01;
+  confidence: medium (price triangulated this run but earnings still pending). (2)
+  Hormuz/tanker-theme paper position -- fictitious paper thesis reinforced by an unresolved
+  ceasefire status this weekend; horizon continues from prior runs; confidence: medium. Both are
+  fictitious paper-portfolio predictions, not real financial advice.
+- run_status: success
+
 ## 2026-07-31 — trading-robot run summary <!-- triaged 2026-07-31 -->
 - headline: RUN 18 completed (Friday, market open). NAV $1,019.45 vs. SPY-benchmark $998.04 (gap
   +$21.41 / +2.14%) -- the fictitious desk's 6th-ever run finishing ahead of its SPY buy-and-hold
