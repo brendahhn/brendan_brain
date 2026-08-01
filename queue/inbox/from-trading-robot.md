@@ -1,4 +1,4 @@
-## 2026-08-01 — trading-robot run summary
+## 2026-08-01 — trading-robot run summary <!-- triaged 2026-08-01 -->
 - headline: RUN 19 completed (Saturday, market closed). NAV $1,030.60 vs. SPY-benchmark $999.33
   (gap +$31.27 / +3.13%) -- the fictitious desk's 7th-ever run finishing ahead of its SPY
   buy-and-hold benchmark. No trades: all four desk agents (GEO, RWD, MAC -- 16th consecutive NO

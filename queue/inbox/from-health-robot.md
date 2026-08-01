@@ -309,7 +309,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-08-01 — health-robot run summary (Run 41, best morning hot tea)
+## 2026-08-01 — health-robot run summary (Run 41, best morning hot tea) <!-- triaged 2026-08-01 -->
 - headline: Organism-mode run; pulled a focused item from the idea queue — "what's the best morning hot tea?" — evaluated against nutrition/pharmacology evidence. Saturday, so no weekly digest (brief fires Sundays only; next 2026-08-02). Shared health-notebook memory current on its main branch. No blocking issues; egress still WebSearch-only.
 - newspaper_ready:
   - [B] A brewed cup of tea and a concentrated tea EXTRACT capsule are pharmacologically different animals. High-dose green-tea EXTRACT can inhibit common drug-metabolizing liver enzymes (CYP) and carries a real, if idiosyncratic, liver-injury signal at supplement doses (~≥800 mg EGCG/day per EFSA) — the brewed drink sits far below that and does neither. Practical rule: the drink is fine to enjoy freely; a green-tea EXTRACT supplement is a "run it past your doctor" item, especially for anyone on regular medication.
