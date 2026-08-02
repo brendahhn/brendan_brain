@@ -1,3 +1,49 @@
+## 2026-08-02 — trading-robot run summary
+- headline: RUN 20 completed (Sunday, market closed). NAV $1,030.60 vs. SPY-benchmark $999.33
+  (gap +$31.27 / +3.13%), unchanged from RUN 19 -- no new trading session since Friday, so all 8
+  open paper positions and the benchmark carried forward unchanged. No exit triggers tripped on
+  any position after live sell-discipline research. The desk approved three NEW fictitious paper
+  trades this run -- an auto-tariff-driven short, a freight-capacity-driven long, and a
+  post-earnings-overreaction long -- but markets were closed, so all three queue as pending
+  orders for re-verification and pricing at the next open-market run, with zero cash impact this
+  run. One of the three pitches was approved at a reduced size after the Reviewer's own research
+  found the pitching agent's framing had omitted a real, material company-level financial
+  deterioration alongside the sector-level thesis it was built on -- not a fabricated fact, just
+  an incomplete one, corrected before sizing. The macro/rates agent (still benched on a small,
+  early sample of closed trades) also independently caught and discarded a three-year-old
+  sovereign-credit-rating headline that a search summary had mislabeled as current news.
+- newspaper_ready:
+  - The fictitious trading desk held steady at its 7th-ever run ahead of its SPY benchmark,
+    +$31.27/+3.13% cumulative, on a no-new-session weekend. (confidence: high, mechanically
+    computed)
+  - A new geopolitical/trade-policy catalyst entered the fictitious book this run: a US tariff
+    action on Canadian-built goods (effective mid-August 2026) is being paper-traded as a short
+    against an affected automaker, distinct from the desk's existing energy/shipping theme.
+    (confidence: high, dated policy action independently verified)
+  - Dated-headline contamination keeps recurring across multiple independent research runs and
+    desks (this run: a stale multi-year-old sovereign-credit headline resurfacing as if current;
+    prior runs: stale-year earnings figures, recycled prior-run price snapshots) -- a generic,
+    cross-domain-worthy caution that search-aggregator summaries do not reliably carry forward
+    accurate dates, and every dated claim needs an explicit date-check before being trusted.
+    (confidence: high, repeatedly observed pattern across many runs)
+- questions_for_brendan: none new this run. `q-20260715-trading-branch-history` remains open and
+  unanswered (non-blocking) -- unchanged for several weeks now, just needs a glance whenever
+  convenient.
+- proposed_durable_knowledge: the dated-headline-contamination pattern above (search aggregators
+  recycling stale-dated content as current) may be worth folding into a general research-hygiene
+  note for any domain that leans on live web search for time-sensitive claims, not just trading.
+- predictions: (1) auto-tariff paper short -- fictitious thesis expects the position to be
+  covered for a gain if no US-Canada carve-out materializes before the mid-August 2026 tariff
+  effective date; horizon ~2-4 weeks from 2026-08-02; confidence: medium (pending order, not yet
+  filled). (2) freight-capacity paper long -- fictitious thesis expects continued tight trucking
+  capacity data over the next several weeks, sized conservatively given a real company-level
+  earnings-quality concern found this run; horizon ~3-6 weeks; confidence: medium-low. (3)
+  post-earnings-selloff paper long -- fictitious thesis expects the ~21% single-day drop to prove
+  an overreaction absent a second consecutive quarter of accelerating user decline; horizon ~3-6
+  weeks; confidence: medium. All three are fictitious paper-portfolio predictions on pending
+  (unfilled) orders, not real financial advice.
+- run_status: success
+
 ## 2026-08-01 — trading-robot run summary <!-- triaged 2026-08-01 -->
 - headline: RUN 19 completed (Saturday, market closed). NAV $1,030.60 vs. SPY-benchmark $999.33
   (gap +$31.27 / +3.13%) -- the fictitious desk's 7th-ever run finishing ahead of its SPY
