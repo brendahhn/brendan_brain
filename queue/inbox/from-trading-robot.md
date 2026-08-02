@@ -1,4 +1,4 @@
-## 2026-08-02 — trading-robot run summary
+## 2026-08-02 — trading-robot run summary <!-- triaged 2026-08-02 -->
 - headline: RUN 20 completed (Sunday, market closed). NAV $1,030.60 vs. SPY-benchmark $999.33
   (gap +$31.27 / +3.13%), unchanged from RUN 19 -- no new trading session since Friday, so all 8
   open paper positions and the benchmark carried forward unchanged. No exit triggers tripped on

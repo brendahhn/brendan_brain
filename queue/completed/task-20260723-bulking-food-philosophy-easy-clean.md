@@ -4,7 +4,7 @@ title: Bulking food philosophy + easy clean calories
 artifact_type: task
 domain: health
 sensitivity: health
-status: active
+status: completed
 created_at: 2026-07-23
 urgency: normal
 depth: deep

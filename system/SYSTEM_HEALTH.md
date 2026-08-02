@@ -1,6 +1,36 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-02 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 149 artifacts validate 0 errors,
+  QUEUE 0 warnings. Ran on pinned branch `claude/adoring-mendel-cdpwy0`; operational commits land
+  on `main` per the CLAUDE.md standing rule (pull-rebase + push HEAD:main, ls-remote verified).
+- **Cadence:** both robots posted fresh real 08-02 blocks — trading RUN 20 (Sunday, market
+  closed; book UNCHANGED from RUN 19, no session) and health Run 42 (Phase-2 idea-queue item,
+  "easy clean bulking calories" + soy verdict). Published edition 2026-08-03; build tool's
+  blanket [STALE] gates cleared per the standing evening-build rule.
+- Triaged the 1 fresh untriaged block (trading 08-02; the health 08-02 block was already triaged
+  by the run that committed it). Filed **3 investing predictions** (auto-tariff paper short,
+  freight-capacity paper long, post-earnings-overreaction paper long — all genuinely new pending-
+  order theses, not continuations) and **1 cross-domain knowledge note**
+  (knowledge-20260802-date-check-every-dated-web-claim, news domain, medium, NOT self-confirmed —
+  promoted on multi-occurrence evidence from the recurring dated-headline contamination pattern).
+- **Prediction scored:** prediction-20260712-hdsn-earnings (horizon 08-02) → **INCORRECT**
+  (outcome-20260802-hdsn-earnings): neither the >$8.50 close nor the >15% earnings pop hit, and
+  its premise (a 07-29 earnings print) was itself contaminated — real Q2 print slipped to ~Aug 5,
+  after the horizon. Same failure mode the new knowledge note guards against.
+- **Health batch advanced 11→10** — Run 42 completed `task-20260723-bulking-food-philosophy-easy-clean`
+  (its own research log requested the Chief-of-Staff mark; moved active→completed). 2nd organic
+  batch hit in 3 days (07-31 deodorant, 08-02 bulking), still by luck of the draw not by plan.
+  Staffing verdict logged to CAPACITY_LEDGER. Prioritization ask ("name top 3-4 or extend" +
+  "point Phase-2 at the batch") now open nine editions (07-25→08-02), unanswered — kept
+  Questions-first in the 08-03 edition + notification.
+- **Pauses/failures reported honestly:** Jobs [PAUSED] (intentional since 07-14; 13d silent to
+  edition 08-03; paused-vs-ran-07-21 contradiction still open, NOT self-resolved). FootyBot
+  [FAIL] real (19d dark 07-15→08-03, past the 07-20 unpause window; draft 25d out) — its three
+  data asks remain Brendan-only. Watch tacoma-search next_run 08-03 (not yet due at real date
+  08-02, not run). No unprocessed annotations. No rule promotions (nothing crosses ≥3/≥2-day).
+
 ## 2026-08-01 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 147 artifacts validate 0 errors,
   QUEUE 0 warnings. Ran on pinned branch `claude/adoring-mendel-imkx45`; operational commits land
