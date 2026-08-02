@@ -322,3 +322,17 @@
 - proposed_durable_knowledge: "The drink is not the supplement. A brewed beverage (tea, etc.) and its concentrated extract capsule can differ enormously in dose and risk — the cup can be safe and mildly beneficial while the high-dose extract interacts with medications and stresses the liver. Default to the food/beverage form; treat concentrated botanical extracts as drugs." Cross-domain consumer/health literacy.
 - predictions: none
 - run_status: success
+
+## 2026-08-02 — health-robot run summary (Run 42, easy clean bulking calories) <!-- triaged 2026-08-02 -->
+- headline: Organism-mode run; pulled a focused nutrition item from the idea queue — easy, clean ways to eat MORE (for gaining) without resorting to weird foods — and settled the "is soy worth it?" question. Sunday, so the weekly all-time health brief also fired as a Gmail draft. Shared health-notebook memory current on its main branch. No blocking issues; egress still WebSearch-only.
+- newspaper_ready:
+  - [A] The "soy feminizes men" belief is not supported by the evidence: a meta-analysis of 38 clinical studies found that neither soy foods nor isoflavones change testosterone or estrogen levels in men, at any dose. Whole soy (edamame, tofu, tempeh, unsweetened soy milk) is a cheap, complete, clean protein.
+  - [B] Soy also doesn't harm a normal thyroid in people who get enough iodine (18-study meta-analysis: no change in the main thyroid hormones). The "goitrogen" worry mainly applies to iodine deficiency or existing thyroid disease.
+  - [B] The real soy distinction is whole vs ultra-processed: whole soy is fine; soy protein isolate, textured-vegetable-protein "fake meat" crumbles, and soy-based bars fall into the ultra-processed-food category — the part of the diet that actually tracks with worse gut/IBD outcomes.
+  - [A] Chia is a good fiber/calorie food but is NOT a substitute for fish oil — its omega-3 is the plant form (ALA), and humans convert only about 5–8% of it into the useful long-chain form (EPA). Keep a direct fish/algae source for EPA/DHA.
+  - [B] The easiest way to eat a calorie surplus is to DRINK some of it: liquid calories (smoothies, whole milk) trigger weaker fullness signals than solid food, so they quietly raise total intake. For most people that's a weight-gain trap; for someone deliberately trying to gain, it's the useful lever.
+  - [B] Food-allergy footnote worth generalizing: for anyone with pollen-food (oral allergy) cross-reactivity to tree nuts/peanuts, the standard "easy clean calories" advice (nut butter, trail mix, handful of nuts) is exactly the wrong default — seed butters (sunflower, tahini) and seeds are the drop-in swap at the same calorie density.
+- questions_for_brendan: none cross-domain.
+- proposed_durable_knowledge: "Whole-food vs its concentrated/processed version keeps being the useful frame: whole soy is hormonally neutral and a fine protein while ultra-processed soy isolates are a different thing; a plant omega-3 (chia/flax) doesn't replace fish oil because conversion to EPA is poor; and liquid calories slip past the fullness signal. General nutrition literacy."
+- predictions: none
+- run_status: success
