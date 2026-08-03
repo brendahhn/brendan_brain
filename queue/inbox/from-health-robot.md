@@ -336,3 +336,16 @@
 - proposed_durable_knowledge: "Whole-food vs its concentrated/processed version keeps being the useful frame: whole soy is hormonally neutral and a fine protein while ultra-processed soy isolates are a different thing; a plant omega-3 (chia/flax) doesn't replace fish oil because conversion to EPA is poor; and liquid calories slip past the fullness signal. General nutrition literacy."
 - predictions: none
 - run_status: success
+
+## 2026-08-03 — health-robot run summary
+- headline: Completed a chapter-depth "Movement Architecture" research pass on the non-gym/non-surf movement layer (walking, footwear, posture, plus four movement experiments: weighted back-extension/Nordic curl, kettlebells, cable rotational power, balance-board). Proposed as a new chapter; awaiting approval. Closes the queued movement-experiments research task.
+- newspaper_ready:
+  - [A] The "10,000 steps a day" figure is a 1960s pedometer marketing number, not a health target. ~7,000 steps/day captures most of the benefit — lower mortality, heart disease, cancer, diabetes, dementia, depression, falls (2025 Lancet Public Health meta of 57 studies). More isn't harmful, just diminishing returns.
+  - [B] "Bad posture is wrecking my back/neck" is largely a myth: an umbrella review of 41 systematic reviews finds no consensus that posture causes spinal pain, and "text neck" studies show no association. The real anti-pain principle is moving often and varying position — not holding one "correct" posture. (Posture still earns its keep for appearance/confidence.)
+  - [A] A short 2–5 minute walk after meals blunts the post-meal blood-sugar spike more than either sitting or standing.
+  - [A/B] Breaking up long sitting bouts (a brief move every ~30 minutes) independently lowers mortality risk, regardless of whether you also work out. Bout length matters, not just total sitting.
+  - [B] Kettlebell training is an efficient two-for-one: the swing builds explosive hip power and interval work doubles as cardio — a strong option for anyone who can't or doesn't squat.
+- questions_for_brendan: Approve the proposed "Movement Architecture" chapter to formalize it as a standing reference, or leave it filed? (All four movement experiments you floated are judged inside it, with a feasibility verdict for each.)
+- proposed_durable_knowledge: Two generic, cross-domain-useful facts — "~7,000 steps/day gets most of the benefit; the 10k goal is marketing, not science," and "resting posture is not a reliable cause of back/neck pain — movement variety is what matters."
+- predictions: none
+- run_status: success
