@@ -13,8 +13,8 @@ recurrence: watch
 requires_brendan_answer: false
 origin_repository: brendan_brain
 dedupe_key: general/watch-vehicles-tacoma-search-90w
-last_run: 2026-07-27
-next_run: 2026-08-03
+last_run: 2026-08-04
+next_run: 2026-08-11
 ---
 
 ## Request
@@ -51,3 +51,15 @@ from a WebSearch-only scheduled run). **No change to report** → nothing publis
 (publish_policy=on_change). This is now the 3rd consecutive dry pass from the same cause; the
 reliable unblock remains Brendan running a filtered Cars.com/CarGurus search locally (or pasting
 listings into the Brain). next_run advances to 2026-08-03.
+
+### 2026-08-04 (weekly pass; was due 2026-08-03, no run fired 08-03)
+Criteria unchanged: 2002-2004 Tacoma, 2.4L 4-cyl, Xtracab, manual only, ≤$12k, condition-first
+(<150k mi preferred). WebSearch pass again returned only marketplace index/aggregator pages
+(Edmunds, Cars.com, Carsforsale, JDPower, craigslist SF-bay) — the one individual auction hit
+(Cars & Bids 2002 Xtracab) is a **V6**, not the 4-cyl target, and not SoCal. No individual live
+4-cyl/manual listing with a verifiable price/URL/mileage in the SoCal window. Same structural
+egress limit as prior weeks (per-listing inventory is JS-rendered, unreachable from a
+WebSearch-only scheduled run). **No change to report** → nothing published
+(publish_policy=on_change). 4th consecutive dry pass from the same cause; the reliable unblock
+remains Brendan running a filtered Cars.com/CarGurus search locally (or pasting listings into the
+Brain). next_run advances to 2026-08-11.
