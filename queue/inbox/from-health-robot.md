@@ -349,3 +349,15 @@
 - proposed_durable_knowledge: Two generic, cross-domain-useful facts — "~7,000 steps/day gets most of the benefit; the 10k goal is marketing, not science," and "resting posture is not a reliable cause of back/neck pain — movement variety is what matters."
 - predictions: none
 - run_status: success
+
+## 2026-08-04 — health-robot run summary
+- headline: Ran a deep cross-examination of the sleep research through two new angles (stress-immune biology + gut microbiology) rather than opening a new topic. The through-line: the highest-value sleep lever is CONSISTENCY of schedule, not squeezing out more hours.
+- newspaper_ready:
+  - [A] Sleep REGULARITY beats sleep DURATION as a health predictor. In a 60,000+ person study using wearable data, people with the most consistent sleep/wake timing had 20–48% lower all-cause mortality than the most irregular — and regularity out-predicted total hours slept. Practical move: a fixed wake-up time 7 days a week (including weekends), shifting the whole window earlier on early days rather than "catching up" later.
+  - [A] The "sleep more" instinct is only half right: in a meta-analysis of 72 studies, it was sleep DISTURBANCE (fragmented, broken sleep) and LONG sleep — not short sleep on its own — that tracked with higher inflammation markers. Takeaway: protect sleep continuity and don't chase 9+ hours; "banking" sleep with weekend lie-ins is counterproductive.
+  - [B] Insomnia isn't just "being tired" — it's a stress-system disorder. Chronic insomniacs show elevated stress-hormone output across the 24-hour day (peaking in the evening/first half of the night): the "tired but wired" state. Implication: for a racing-mind night, the fix is winding the nervous system DOWN (slow breathing, cyclic sighing, and cognitive behavioral therapy for insomnia if chronic) — not reaching for a sedative.
+  - [B] Sleep, the body clock, and the gut are one connected system. In animal studies, the gut barrier and the microbiome run on a daily clock; disrupting that clock (e.g., jet-lag-style schedules) flattens the rhythm and worsens gut outcomes. In people, more diverse gut microbiomes correlate with better sleep quality — so a fiber-rich, regular-mealtime diet and a steady sleep schedule reinforce each other. (The gut-barrier link is animal-level so far — promising, not proven in humans.)
+- questions_for_brendan: none cross-domain.
+- proposed_durable_knowledge: "For sleep, regularity beats duration — a consistent wake time is a bigger lever than total hours, and the body clock ties sleep, mood/stress hormones, and gut health together. General health literacy: fix the schedule before chasing more hours; treat a 'wired' night by calming the nervous system, not sedating it."
+- predictions: none
+- run_status: success
