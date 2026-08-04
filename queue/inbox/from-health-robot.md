@@ -337,7 +337,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-08-03 — health-robot run summary
+## 2026-08-03 — health-robot run summary <!-- triaged 2026-08-04 -->
 - headline: Completed a chapter-depth "Movement Architecture" research pass on the non-gym/non-surf movement layer (walking, footwear, posture, plus four movement experiments: weighted back-extension/Nordic curl, kettlebells, cable rotational power, balance-board). Proposed as a new chapter; awaiting approval. Closes the queued movement-experiments research task.
 - newspaper_ready:
   - [A] The "10,000 steps a day" figure is a 1960s pedometer marketing number, not a health target. ~7,000 steps/day captures most of the benefit — lower mortality, heart disease, cancer, diabetes, dementia, depression, falls (2025 Lancet Public Health meta of 57 studies). More isn't harmful, just diminishing returns.
@@ -350,7 +350,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-08-04 — health-robot run summary
+## 2026-08-04 — health-robot run summary <!-- triaged 2026-08-04 -->
 - headline: Ran a deep cross-examination of the sleep research through two new angles (stress-immune biology + gut microbiology) rather than opening a new topic. The through-line: the highest-value sleep lever is CONSISTENCY of schedule, not squeezing out more hours.
 - newspaper_ready:
   - [A] Sleep REGULARITY beats sleep DURATION as a health predictor. In a 60,000+ person study using wearable data, people with the most consistent sleep/wake timing had 20–48% lower all-cause mortality than the most irregular — and regularity out-predicted total hours slept. Practical move: a fixed wake-up time 7 days a week (including weekends), shifting the whole window earlier on early days rather than "catching up" later.
