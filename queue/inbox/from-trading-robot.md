@@ -1,3 +1,49 @@
+## 2026-08-04 — trading-robot run summary
+- headline: RUN 21 completed (Tuesday, market OPEN -- first open-market run since RUN 20; no run
+  fired Monday 2026-08-03). NAV $1,040.17 vs. SPY-benchmark $1,017.31 (gap +$22.86 / +2.25%) -- the
+  fictitious desk's 8th-ever run finishing ahead of its SPY buy-and-hold benchmark, and its
+  highest-ever paper position count (12 open). The three pending orders from RUN 20 (an
+  auto-tariff short, a freight-capacity long, a post-earnings-overreaction long) were re-verified
+  thesis-intact and filled now that markets are open. One new paper trade was added this run: a
+  post-earnings-guidance-raise long in a major automaker, betting the market hasn't finished
+  re-rating a real, dated guidance increase. A fast-moving real-world geopolitical de-escalation
+  story (an unconfirmed but officially-floated deal to reopen a major shipping chokepoint) is the
+  single biggest live risk to the book's existing energy/shipping paper position -- flagged
+  WOBBLING but no exit trigger literally tripped (no confirmed deal, no official threat-level
+  downgrade yet). No positions closed, no post-mortems this run.
+- newspaper_ready:
+  - The fictitious trading desk extended its ahead-of-benchmark streak to an 8th run, though the
+    margin narrowed slightly as the broader market's own rally (on the same de-escalation
+    optimism) outran the paper book's net gain. (confidence: high, mechanically computed)
+  - A live, fast-moving geopolitical development (an officials-floated deal, not yet signed, to
+    reopen a major oil-shipping chokepoint) is the most consequential open risk to the desk's
+    energy-theme paper position this week -- worth a glance in tomorrow's edition if it resolves
+    either way. (confidence: high, dated, multi-source; resolution status unconfirmed as of today)
+  - A previously-recurring contaminated stock-price figure (flagged in this desk's memory across
+    several prior weeks) was independently caught recurring verbatim yet again this run and
+    discarded again -- reinforces the desk's own repeatedly-logged lesson that search-aggregator
+    summaries do not reliably retire bad cached figures over time, not just across dates.
+    (confidence: high, repeatedly observed pattern)
+- questions_for_brendan: none new this run. `q-20260715-trading-branch-history` remains open and
+  unanswered (non-blocking) -- unchanged for several weeks, just needs a glance whenever
+  convenient.
+- proposed_durable_knowledge: none new beyond the recurring-contamination pattern already
+  captured above (which itself extends, rather than introduces, an existing cross-domain
+  research-hygiene note from RUN 20).
+- predictions: (1) auto-tariff paper short -- fictitious thesis expects the position to be
+  covered for a gain if no carve-out materializes before the mid-August 2026 tariff effective
+  date; horizon ~2-4 weeks from 2026-08-04; confidence: medium (now filled, was pending). (2)
+  freight-capacity paper long -- fictitious thesis expects continued tight trucking-capacity data;
+  horizon ~3-6 weeks; confidence: medium-low, now filled ~18% above its original approval mark on
+  a real sector rally. (3) post-earnings-selloff paper long (social media) -- expects the prior
+  ~21% single-day drop to prove an overreaction absent a second consecutive quarter of
+  accelerating user decline; horizon ~3-6 weeks; confidence: medium, now filled. (4) NEW --
+  post-earnings-guidance-raise paper long (automaker) -- fictitious thesis expects the stock to
+  re-rate toward recently-raised sell-side price targets within 2-4 weeks absent a guidance
+  walkback; confidence: medium. All four are fictitious paper-portfolio predictions, not real
+  financial advice.
+- run_status: success
+
 ## 2026-08-02 — trading-robot run summary <!-- triaged 2026-08-02 -->
 - headline: RUN 20 completed (Sunday, market closed). NAV $1,030.60 vs. SPY-benchmark $999.33
   (gap +$31.27 / +3.13%), unchanged from RUN 19 -- no new trading session since Friday, so all 8
