@@ -1,6 +1,53 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-04 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 155 artifacts validate 0 errors,
+  QUEUE 0 warnings. Ran on pinned branch `claude/adoring-mendel-b0ajv7`; operational commits land
+  on `main` per the CLAUDE.md standing rule (pull-rebase + push HEAD:main, ls-remote verified).
+  161 artifacts after this run.
+- **Cadence:** trading posted a fresh real 08-04 block (RUN 21, first open-market run since Sunday;
+  no run fired Monday 08-03). Health posted **two** fresh real blocks (08-03 Movement Architecture,
+  08-04 sleep cross-examination) — the file is NOT strictly chronological (both were appended
+  mid-file, easy to miss on a first heading scan; caught by a full-file heading grep and triaged).
+  Jobs [PAUSED], FootyBot [FAIL]. Published edition 2026-08-04.
+- Triaged **3 fresh untriaged blocks** (trading 08-04, health 08-03, health 08-04). Filed **1
+  investing prediction** (automaker guidance-raise paper long → ~09-01; the block's other 3
+  predictions are the now-FILLED versions of the 08-02 pending-order predictions, already on file —
+  not duplicated), **3 health knowledge notes** (knowledge-20260803-7000-steps-not-10000,
+  knowledge-20260803-posture-not-cause-of-back-pain, knowledge-20260804-sleep-regularity-beats-duration;
+  all medium, NOT self-confirmed), and **1 new question** (q-20260803-health-movement-architecture-chapter
+  — approve Ch37?). All 3 blocks marked triaged.
+- **Health batch advanced 10→9** — the 08-03 run completed `task-20260723-movement-experiments-nordic-style-back`
+  (proposed Ch37, findings F559–F570, per-part feasibility verdicts, intensity ≤3–7/10); moved
+  active→completed on the robot's explicit recommendation. The 08-04 run ADVANCED (did not close)
+  `task-20260723-sleep-comprehensive-deep-dive` via a stress+gut cross-examination — logged, stays
+  active (until_strong) pending the full ranked protocol deliverable. 3rd organic batch hit in a
+  week (07-31 deodorant, 08-02 bulking, 08-03 movement). Staffing verdict logged to CAPACITY_LEDGER.
+  Prioritization ask ("name top 3-4 or extend" + "point Phase-2 at the batch") now open **10 days**
+  (since 07-25), unanswered — kept Questions-first + Most Important in the 08-04 edition + notification.
+- **Trading desk:** NAV **$1,040.17** vs SPY-bench **$1,017.31** (**+$22.86 / +2.25%**), **8th run
+  ahead** but lead narrowed (broad market rallied on the same chokepoint-reopening optimism); **12
+  open positions (record)**. 3 Sunday pending orders FILLED at the open (auto-tariff short, freight
+  long ~18% above mark, social-media post-earnings long ~21% drop) + 1 NEW automaker guidance-raise
+  long. Top live risk: an officials-floated (unsigned) deal to reopen a major oil chokepoint vs the
+  energy/shipping position — flagged WOBBLING, no exit trigger tripped. **[OBS] data-hygiene:** desk
+  caught the SAME recurring contaminated price figure and discarded it again.
+- Watches: **tacoma-search ran** (was due 08-03) → **4th consecutive dry pass** — only aggregator/
+  index pages, the one individual auction hit was a V6 not the 4-cyl target; no live SoCal
+  4-cyl/manual listing reachable from a WebSearch-only scheduled run. next_run 08-11. Oura next 08-07.
+- Predictions: none past horizon to score by real date 08-04 (all ≤08-04 already have outcomes; next
+  is cmg-foot-traffic 08-05).
+- **Pauses/failures reported honestly:** Jobs [PAUSED] (intentional since 07-14; 14d silent since its
+  07-21 run; paused-vs-ran-07-21 contradiction still open, NOT self-resolved; Gmail reauth + WSL
+  status still waiting). FootyBot [FAIL] real (**20 days dark** 07-15→08-04, past the 07-20 unpause
+  window; draft 24d out) — its three data asks remain Brendan-only. **Publisher pass CAUGHT + corrected**
+  the mechanical draft wrongly emitting Jobs as [FAIL]; fixed to [PAUSED] per CURRENT_PRIORITIES.
+- No unprocessed annotations (08-01/02/03 checked — none; last annotation files 07-08/07-11, long
+  since processed). No rule promotions (nothing crosses the ≥3-signal/≥2-day threshold).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot; Oura not connected;
+  routine-sandbox egress WebSearch-only.
+
 ## 2026-08-02 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 149 artifacts validate 0 errors,
   QUEUE 0 warnings. Ran on pinned branch `claude/adoring-mendel-cdpwy0`; operational commits land
