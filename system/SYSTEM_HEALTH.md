@@ -1,6 +1,51 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-05 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 161 artifacts validate 0 errors,
+  QUEUE 0 warnings. Ran on pinned branch `claude/adoring-mendel-fwmpqu`; operational commits land
+  on `main` per the CLAUDE.md standing rule (pull-rebase + push HEAD:main, ls-remote verified).
+  165 artifacts after this run.
+- **Cadence:** both robots posted fresh real 08-05 blocks — trading RUN 22 (Wednesday, market OPEN)
+  and health ("eat with the seasons"). Published edition **2026-08-06** (tomorrow's morning paper);
+  build tool's blanket [STALE] evening-build gates dropped per the standing rule (08-05 IS this run's
+  fresh content). Note: no 08-05 edition exists (the prior run published 08-04, not 08-05) — a
+  pre-existing one-day cadence gap, not re-fabricated here; today's fresh content went into 08-06.
+- Triaged **2 fresh untriaged blocks** (trading 08-05, health 08-05). Filed **1 investing prediction**
+  (prediction-20260805-petfood-earnings-drift — post-earnings-beat-and-raise paper long in a
+  fresh/refrigerated pet-food name → ~09-02, medium) and **1 health knowledge note**
+  (knowledge-20260805-eat-seasonally-weak-literal-claim, medium, NOT self-confirmed). Trading's other
+  items (chokepoint risk, weekday/date research-hygiene) extend already-captured notes — not duplicated.
+  Both blocks marked triaged.
+- **Prediction SCORED:** prediction-20260725-cmg-foot-traffic (horizon 08-05) → **unresolved**
+  (outcome-20260805-cmg-foot-traffic): the paper CMG long was **cancelled before it ever filled**
+  (07-26 RUN 13, Cyclospora food-safety hit to Chipotle traffic), and the desk **never reported
+  verified 07-29 comps** — recorded unresolved rather than forced correct/incorrect or fabricated.
+- **Health batch UNCHANGED at 9** — the 08-05 health run was an ad-hoc idea-queue item ("eat with
+  the seasons"), NOT one of the 9 open 07-23 batch tasks, so the batch did not advance. Staffing
+  verdict: a single scheduled routine still cannot do 9 deep syntheses in a day and shallow health
+  conclusions are barred. Prioritization ask ("name top 3-4 or extend" + "point Phase-2 at the batch")
+  now open **11 days** (since 07-25), unanswered — kept Questions-first + Most Important in the 08-06
+  edition + notification.
+- **Trading desk:** NAV **$1,051.50** vs SPY-bench **$1,035.65** (**+$15.85 / +1.53%**), **9th run
+  ahead** but lead narrowed (broad market rally outran the book); **12 open positions (record)**. 1 NEW
+  paper long (fresh/refrigerated pet-food, post-earnings beat-and-raise). **[OBS] heavy stale-quote
+  day** — 6 of 11 pre-existing positions carried at last verified mark (no clean fresh quote after 2-3
+  search rounds); per-position P/L table withheld as not honestly printable this run. **[OBS]
+  data-hygiene:** desk caught + discarded a pitch whose cited earnings date didn't match its own
+  weekday. Top live risk unchanged: unsigned oil-chokepoint reopening deal vs the energy position
+  (WOBBLING, no trigger).
+- Watches: 0 due (tacoma next 08-11 after 4 dry passes; oura next 08-07, still BLOCKED no connector).
+- **Pauses/failures reported honestly:** Jobs [PAUSED] (intentional since 07-14; Gmail reauth + WSL
+  interview follow-up still Brendan-only). FootyBot [FAIL] real (**22 days dark** 07-15→08-06, past the
+  07-20 unpause window; draft 08-28 now **22d out**) — its three data asks remain Brendan-only.
+  **Dropped the build tool's blanket [STALE] gates + corrected its auto-[FAIL] on Jobs to [PAUSED]**
+  per CURRENT_PRIORITIES.
+- No unprocessed annotations (08-02/03/04 checked via process_annotations — none; Brendan hasn't
+  annotated since 07-11). No rule promotions (no new signals cross the ≥3/≥2-day threshold).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot; Oura not connected;
+  routine-sandbox egress WebSearch-only.
+
 ## 2026-08-04 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 155 artifacts validate 0 errors,
   QUEUE 0 warnings. Ran on pinned branch `claude/adoring-mendel-b0ajv7`; operational commits land
