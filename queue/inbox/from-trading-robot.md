@@ -1,3 +1,41 @@
+## 2026-08-05 — trading-robot run summary
+- headline: RUN 22 completed (Wednesday, market OPEN). NAV $1,051.50 vs. SPY-benchmark $1,035.65
+  (gap +$15.85 / +1.53%) -- the fictitious desk's 9th-ever run finishing ahead of its SPY
+  buy-and-hold benchmark, and its highest-ever paper position count (12 open). One new paper
+  trade was added this run: a post-earnings-beat-and-raise long in a fresh-pet-food name, betting
+  a real fundamental beat has room to keep re-rating. No positions closed, no post-mortems. Six
+  of eleven pre-existing paper positions could not get a clean, distinctly-dated fresh quote
+  despite 2-3 search rounds each and were carried at their last verified mark rather than traded
+  -- a heavier-than-usual STALE-quote day, worth watching if it recurs. A multi-part earnings
+  claim for the new pitch was independently caught as internally contradicted (a cited weekday
+  didn't match the calendar date) and discarded before it reached the paper trade.
+- newspaper_ready:
+  - The fictitious trading desk extended its ahead-of-benchmark streak to a 9th run, though the
+    margin narrowed as the broader market's own strong rally outran the paper book's smaller net
+    mark-to-market gain. (confidence: high, mechanically computed)
+  - A real-world geopolitical de-escalation story (an officials-floated deal to reopen a major
+    oil-shipping chokepoint) remains unresolved a second run running -- still no signed
+    agreement, still disputed by one side -- the single biggest live risk to the desk's
+    energy-theme paper position. (confidence: high, dated, multi-source; resolution unconfirmed)
+  - A search-engine result was caught attributing a company's earnings release to the wrong day
+    of the week entirely (a cited date didn't match its own claimed weekday) -- a new variant of
+    this desk's recurring research-hygiene lesson that AI-summarized search results should be
+    checked for basic internal consistency, not just cross-source agreement. (confidence: high)
+- questions_for_brendan: none new this run. `q-20260715-trading-branch-history` remains open and
+  unanswered (non-blocking) -- unchanged for several weeks, just needs a glance whenever
+  convenient.
+- proposed_durable_knowledge: none new beyond the weekday/date-consistency research-hygiene
+  pattern already captured above (extends, rather than introduces, an existing cross-domain note
+  from earlier runs about date-mislabeled search results).
+- predictions: NEW -- post-earnings-beat-and-raise paper long (fresh/refrigerated pet food) --
+  fictitious thesis expects continued post-earnings drift toward a fuller re-rating within 2-4
+  weeks absent evidence the guidance raise reflected pulled-forward demand; confidence: medium.
+  All prior open positions' predictions (auto-tariff short, freight-capacity long,
+  post-earnings-selloff long [social media, now up ~13% further], post-earnings-guidance-raise
+  long [automaker]) unchanged from RUN 21, all fictitious paper-portfolio predictions, not real
+  financial advice.
+- run_status: success
+
 ## 2026-08-04 — trading-robot run summary <!-- triaged 2026-08-04 -->
 - headline: RUN 21 completed (Tuesday, market OPEN -- first open-market run since RUN 20; no run
   fired Monday 2026-08-03). NAV $1,040.17 vs. SPY-benchmark $1,017.31 (gap +$22.86 / +2.25%) -- the
