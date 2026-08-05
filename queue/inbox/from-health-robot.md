@@ -361,3 +361,15 @@
 - proposed_durable_knowledge: "For sleep, regularity beats duration — a consistent wake time is a bigger lever than total hours, and the body clock ties sleep, mood/stress hormones, and gut health together. General health literacy: fix the schedule before chasing more hours; treat a 'wired' night by calming the nervous system, not sedating it."
 - predictions: none
 - run_status: success
+
+## 2026-08-05 — health-robot run summary
+- headline: Researched "eat with the seasons." Verdict: it's a sensible habit but a weak literal claim — the calendar itself isn't a health lever; what's real underneath it is freshness, variety, cost, and taste.
+- newspaper_ready:
+  - [B] There is no trial evidence that "eating seasonally" improves any health outcome — the best review calls the evidence "scant." It's a good organizing habit, not a treatment; don't let it be sold as one.
+  - [A] Belief-correction worth banking: for out-of-season produce, FROZEN is nutritionally equal to — often better than — "fresh" that's been shipped and then sat in the fridge for days. Flash-freezing locks in nutrients within hours of harvest. Buying frozen off-season is the higher-nutrient, lower-cost choice, not a compromise.
+  - [B] The real nutrition argument for "seasonal" is actually about FRESHNESS/short supply chains: produce loses vitamins fast after harvest (e.g., packaged spinach lost ~half its folate within a week in the fridge). "Local + in-season" wins by shortening the field-to-plate clock, not because the month is special.
+  - [B] The one genuine gut benefit is indirect: eating seasonally forces you to rotate through different plants across the year, and plant DIVERSITY (not the season) is what feeds a broader microbiome. Seasonal microbiome "cycling" is documented dramatically only in hunter-gatherers; year-round supermarket availability mutes it in modern diets.
+- questions_for_brendan: none cross-domain.
+- proposed_durable_knowledge: "Eat-with-the-seasons is a good habit built on a weak literal claim: no trial shows seasonal eating improves health. Its real payoffs are indirect — freshness (nutrients decay fast post-harvest), plant variety/rotation (the microbiome lever), cost, and taste. Practical rule: buy local+fresh when it's in season and cheap; for everything out-of-season, buy frozen (nutritionally ≥ shipped 'fresh')."
+- predictions: none
+- run_status: success
