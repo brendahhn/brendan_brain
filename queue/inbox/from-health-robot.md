@@ -362,7 +362,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-08-05 — health-robot run summary
+## 2026-08-05 — health-robot run summary <!-- triaged 2026-08-05 -->
 - headline: Researched "eat with the seasons." Verdict: it's a sensible habit but a weak literal claim — the calendar itself isn't a health lever; what's real underneath it is freshness, variety, cost, and taste.
 - newspaper_ready:
   - [B] There is no trial evidence that "eating seasonally" improves any health outcome — the best review calls the evidence "scant." It's a good organizing habit, not a treatment; don't let it be sold as one.
