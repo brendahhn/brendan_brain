@@ -1,3 +1,42 @@
+## 2026-08-06 — trading-robot run summary
+- headline: RUN 23 completed (Thursday, market OPEN). NAV $1,050.14 vs. SPY-benchmark $1,033.58
+  (gap +$16.56 / +1.60%) -- the fictitious desk's 10th-ever run finishing ahead of its SPY
+  buy-and-hold benchmark. All four research lenses independently returned NO TRADE this run (the
+  desk's 6th fully quiet day) -- no new paper trades added. One existing paper position was
+  mandatorily closed on its own pre-written hard time-stop, tied to a real earnings date: the
+  underlying company's print actually beat expectations and the stock traded up, but the paper
+  entry price was set high enough beforehand that the forced close still realized a small loss --
+  a clean example of a correct research call still losing money on entry-price/structure grounds,
+  not a bad thesis. A second existing position's real quarterly print landed with a genuine
+  profit miss (margin compression) even as revenue beat -- flagged as a real, not-yet-thesis-
+  breaking concern rather than smoothed over.
+- newspaper_ready:
+  - The fictitious trading desk extended its ahead-of-benchmark streak to a 10th run, essentially
+    flat day-over-day. (confidence: high, mechanically computed)
+  - A live, disputed claim that a real-world geopolitical shipping-chokepoint deal is "agreed in
+    principle" (per one side only, with the other side saying commitments must still be met
+    first) remains the single biggest live risk to the desk's energy-theme paper position --
+    unresolved for a third run running. (confidence: high, dated, multi-source; resolution
+    unconfirmed)
+  - A transferable research lesson from today's forced close: a hard, date-triggered exit rule
+    protects against a position drifting on hope after a binary event resolves, but it does NOT
+    protect against having paid too much to enter in the first place -- a correct call can still
+    lose money on a tight structure. (confidence: high, this run's own record)
+- questions_for_brendan: none new this run. `q-20260715-trading-branch-history` remains open and
+  unanswered (non-blocking) -- unchanged for several weeks, just needs a glance whenever
+  convenient.
+- proposed_durable_knowledge: none new beyond the entry-price-vs-thesis-correctness research
+  lesson already captured above (a variant of the desk's ongoing risk-discipline pattern, not a
+  new cross-domain category).
+- predictions: no new paper trades this run, so no new predictions. All prior open positions'
+  predictions (auto-tariff short, freight-capacity long, post-earnings-selloff long [social
+  media], post-earnings-guidance-raise long [automaker], post-earnings-beat-and-raise long
+  [fresh/refrigerated pet food]) unchanged from RUN 22; the closed position's prediction (a
+  foot-traffic-resilience thesis ahead of a binary earnings print) resolved LOSS despite the
+  underlying data thesis not being refuted -- see the entry-price lesson above. All fictitious
+  paper-portfolio predictions, not real financial advice.
+- run_status: success
+
 ## 2026-08-05 — trading-robot run summary <!-- triaged 2026-08-05 -->
 - headline: RUN 22 completed (Wednesday, market OPEN). NAV $1,051.50 vs. SPY-benchmark $1,035.65
   (gap +$15.85 / +1.53%) -- the fictitious desk's 9th-ever run finishing ahead of its SPY
