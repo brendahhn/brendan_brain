@@ -3,7 +3,7 @@ id: task-20260723-eat-cheap-and-clean-meal-cost-project
 title: Eat-cheap-and-clean meal-cost project (real N. County SD prices)
 artifact_type: task
 domain: concierge
-status: active
+status: completed
 created_at: 2026-07-23
 urgency: normal
 depth: deep
@@ -34,3 +34,4 @@ Kitchen desk. Pull macro/protein/calorie targets and UC constraints from domains
 ## Research Log
 
 - 2026-07-24 [sonnet] Triaged into active queue by daily routine. Part of Brendan's 2026-07-23 weekly-research batch (target: solid answer by Mon 2026-07-27). Desk: health; default model sonnet, escalate to opus for consequential health conclusions. Not yet started; queued behind higher value-per-effort items advanced this run.
+- 2026-08-06 [health-robot] COMPLETED. Delivered as a full chapter-depth reference in the health repo (proposed Ch38, `chapters/ch38-eat-cheap-and-clean-cost-per-day-system.md`): cost-per-gram-protein ladder, 5-store North-County-SD strategy, clean-sauce library (Indian/Asian/Mexican + the soy question resolved — whole soy is fine, coconut aminos is the soy-free swap), a 7×breakfast/lunch/dinner + snacks meal library, and 3 costed goal-hit day-templates (~$85–100/week for a clean high-protein high-fiber week). Prices flagged verified-vs-estimate per the "no made-up prices" constraint (grocery prices drift weekly → template to calibrate on first shops). Sanitized summary + newspaper-ready items exported to the Brain inbox 2026-08-06. Detail (macro/UC specifics) stays in the health repo per the privacy wall. Moved active → completed.
