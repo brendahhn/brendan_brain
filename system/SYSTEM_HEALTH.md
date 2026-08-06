@@ -1,6 +1,53 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-06 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 165 artifacts validate 0 errors,
+  QUEUE 0 warnings. Ran on pinned branch `claude/adoring-mendel-k0y33d`; operational commits land
+  on `main` per the CLAUDE.md standing rule (pull-rebase + push HEAD:main, ls-remote verified).
+  169 artifacts after this run.
+- **Cadence:** both robots posted fresh real 08-06 blocks — trading RUN 23 (Thursday, market OPEN)
+  and health ("cost-per-day eating" project). Published edition **2026-08-07** (tomorrow's morning
+  paper); build tool's blanket [STALE] evening-build gates dropped per the standing rule (08-06 IS
+  this run's fresh content). (Pre-existing one-day cadence gap unchanged: no 08-05 edition exists.)
+- Triaged **2 fresh untriaged blocks** (trading 08-06, health 08-06). Filed **1 health knowledge note**
+  (knowledge-20260806-cheap-and-clean-same-grocery-list, medium, NOT self-confirmed) and **1 new
+  question** (q-20260806-cost-per-day-eating-chapter — formalize as chapter?). Trading 08-06 had
+  **no new predictions/knowledge/questions** (all explicitly continuations; the entry-price-vs-thesis
+  lesson is a variant of the existing risk-discipline pattern, not a new category) — marked triaged.
+- **Prediction SCORED:** prediction-20260731-qsr-foot-traffic (horizon 08-06) → **correct**
+  (outcome-20260806-qsr-foot-traffic): RBI's Q2 print beat and the stock traded up (desk-reported,
+  relayed not independently verified), so the foot-traffic-resilience thesis-as-written held — BUT
+  the paper position still closed at a **small realized loss** on its hard time-stop because the
+  entry price was set too high. Scored correct-on-thesis with the P&L loss recorded in full; not
+  smoothed into a clean win. Next horizon: hormuz-tanker-oil 08-09.
+- **Health batch advanced 9→8** — the 08-06 run completed `task-20260723-eat-cheap-and-clean-meal-cost-project`
+  (the robot itself moved active→completed in commit 2c5aad6; verified in queue/completed/, no
+  duplicate left in active). 4th organic batch close in ~a week (07-31 deodorant-answered, 08-02
+  bulking, 08-03 movement, 08-06 eat-cheap). The batch is now advancing ~1 close/few-days on its
+  own, so the long-open "name top 3-4 or extend" prioritization ask (open since 07-25, **13 editions**)
+  is genuinely LESS pressing than framed the last two weeks — reframed in-edition: the live asks are
+  now the **two concrete chapter-approval yes/nos** (Ch37 Movement 08-03; cost-per-day-eating 08-06).
+  Also added a Challenge-Desk pushback: 8 until-strong tasks is still oversized for weekly throughput.
+- **Trading desk:** NAV **$1,050.14** vs SPY-bench **$1,033.58** (**+$16.56 / +1.60%**), **10th run
+  ahead**, essentially flat day-over-day. **6th fully quiet NO-TRADE day** (all 4 lenses NO TRADE).
+  One close (QSR, above). **[OBS]** second holding's Q2 print showed margin compression (profit miss
+  on revenue beat) — flagged real concern, not thesis-breaking. Top live risk unchanged: unsigned
+  oil-chokepoint reopening deal vs the energy position (disputed 3rd run, no trigger). **No
+  per-position P/L table printed** — NO-TRADE day with no fresh quotes; not fabricated.
+- Watches: **0 due** (tacoma next 08-11 after 4 dry passes; oura next 08-07, still BLOCKED no
+  connector). Challenge-Desk flagged the oura watch re-firing weekly into a dead connector since
+  07-24 — proposed wiring it or pausing rather than logging BLOCKED weekly.
+- **Pauses/failures reported honestly:** Jobs [PAUSED] (intentional since 07-14; Gmail reauth + WSL
+  interview follow-up still Brendan-only; build tool's auto-[FAIL] corrected to [PAUSED] again).
+  FootyBot [FAIL] real (**23 days dark** 07-15→08-07, past the 07-20 unpause window; draft 08-28 now
+  **21d out**, urgency rising — elevated to Most Important). Its three data asks remain Brendan-only.
+- No unprocessed annotations (08-04/08-06 checked via process_annotations — none; 08-05 edition
+  doesn't exist; Brendan hasn't annotated since 07-11). No rule promotions (no new signals cross the
+  ≥3/≥2-day threshold).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot; Oura not connected;
+  routine-sandbox egress WebSearch-only.
+
 ## 2026-08-05 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 161 artifacts validate 0 errors,
   QUEUE 0 warnings. Ran on pinned branch `claude/adoring-mendel-fwmpqu`; operational commits land

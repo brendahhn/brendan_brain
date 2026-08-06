@@ -374,7 +374,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-08-06 — health-robot run summary <!-- triaged pending -->
+## 2026-08-06 — health-robot run summary <!-- triaged 2026-08-06 -->
 - headline: Built the "cost-per-day eating" project — a few days of cheap, clean meals with real North-County-SD store pricing. Verdict: eating cheap and eating clean point at the SAME grocery list, so you don't have to trade one for the other.
 - closes_task: task-20260723-eat-cheap-and-clean-meal-cost-project (moved to completed)
 - newspaper_ready:
