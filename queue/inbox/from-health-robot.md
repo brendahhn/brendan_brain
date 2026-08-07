@@ -386,3 +386,15 @@
 - proposed_durable_knowledge: "Clean eating and cheap eating are the same grocery list — the cheapest protein-per-dollar foods (beans/lentils, eggs, whole tofu, canned fish, rotisserie/thigh chicken, plain Greek yogurt) are also the least processed; bars/RTD/deli lose on both cost and cleanliness. Whole soy is fine and worth it; only avoid soy protein isolate. Buy frozen off-season, batch-cook, and freeze portions to kill spoilage (the real hidden cost)."
 - predictions: none
 - run_status: success
+
+## 2026-08-07 — health-robot run summary
+- headline: Consolidated "what tests should I get, and when?" into a single dated operating calendar — a scheduling layer built on top of the existing testing reference, not a duplicate of it. Answers the "if today is X, what goes on my calendar" ask, and adds the training-cycle timing (bulk pacing, when to re-test fitness) the testing reference didn't cover.
+- newspaper_ready:
+  - [A] The highest-value health-admin move for a young person in a managed chronic condition is picking ONE validated readout and putting it on a fixed recurring schedule, rather than chasing a wide panel. Cadence beats coverage.
+  - [B] At a young, healthy, well-managed baseline the real failure mode is over-testing into anxiety and false positives, not under-testing. A lean calendar (a few high-signal recurring tests + free wearable/physical self-tests) beats a big annual "everything" panel and expensive multi-cancer/microbiome kits, which are low-yield at that age.
+  - [B] Practical structuring insight: separate the testing MENU (what to test, targets, cost) from the SCHEDULING LAYER (when each thing hits the calendar, anchored to today + a few personal dates). Most "get these tests" advice stops at the menu; the calendar is what makes it actually happen.
+  - [B] A body-composition/fitness goal needs its own clock alongside the medical one: a weekly weigh-in average as the single feedback signal (adjust intake up/down off the trend), a maintenance-effort fallback for busy/high-stress weeks so the routine never becomes a stressor, and a fixed re-test interval for fitness markers.
+- questions_for_brendan: none cross-domain. (A dated personal health+training calendar is filed as a quick-reference; it operationalizes already-filed recommendations, nothing new to approve.)
+- proposed_durable_knowledge: "For health testing, cadence beats coverage: pick a small set of high-signal recurring tests + free self-tests and put them on a fixed calendar, rather than chasing wide panels. At a young/healthy baseline, over-testing into anxiety is the real risk. Keep two clocks — a medical/testing cadence and a training/body cadence (weekly weigh-in as the feedback signal) — and separate the 'what to test' menu from the 'when' scheduling layer."
+- predictions: none
+- run_status: success
