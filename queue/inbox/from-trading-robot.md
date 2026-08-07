@@ -862,7 +862,7 @@
 - predictions: none
 - run_status: success (activation smoke)
 
-## 2026-08-07 — trading-robot run summary
+## 2026-08-07 — trading-robot run summary <!-- triaged 2026-08-07 -->
 - headline: RUN 24, market open, weak July jobs report (payrolls -23,000 vs ~+80-95K consensus).
   All 4 desk agents NO TRADE (7th quiet desk day). HDSN (fictitious paper position) mandatorily
   closed for a realized loss of -$13.36 (largest single loss in the bot's history) on its own

@@ -1,6 +1,39 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-07 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date (HEAD == origin/main), 0 unfinished ops, 169→172
+  artifacts validate 0 errors, QUEUE 0 warnings. Pinned branch `claude/adoring-mendel-5xcrje`;
+  operational commit lands on `main` per the CLAUDE.md standing rule.
+- **Cadence:** trading (RUN 24) and health both posted fresh real 08-07 blocks. FootyBot + Jobs
+  produced nothing (statuses below). Published edition **2026-08-08**; dropped the build tool's
+  blanket [STALE]/[FAIL] gates on the 08-07 blocks (evening build; 08-07 IS this run's fresh
+  content) and corrected the Jobs auto-[FAIL] → [PAUSED].
+- Triaged **2 fresh untriaged blocks** (trading 08-07, health 08-07). Filed **1 health knowledge
+  note** (knowledge-20260807-cadence-beats-coverage-testing, medium, NOT self-confirmed). No new
+  questions (both blocks explicitly had none cross-domain; trading's process note surfaced
+  in-edition as awareness, not a decision). Both marked `<!-- triaged 2026-08-07 -->`.
+- **Prediction SCORED (early):** prediction-20260729-hdsn-q2-earnings (nominal horizon 08-19) →
+  **incorrect** (outcome-20260807-hdsn-q2-earnings). Its binary catalyst — HDSN Q2 earnings —
+  printed a real ~30% EPS miss, tripping the paper position's written stop; closed for a realized
+  **−$13.36** (largest single loss in bot history). Thesis (close >$8.50 or pop >15%) falsified;
+  scored now because the catalyst fully resolved, not smoothed. Next horizon: hormuz-tanker-oil 08-09.
+- **Trading desk:** NAV **$1,047.14** vs SPY-bench **$1,033.12** (**+$14.02 / +1.36%**), **11th run
+  ahead**. **7th fully quiet NO-TRADE day.** One forced close (HDSN, above). No per-position P&L
+  table (NO-TRADE, no fresh quotes) — not fabricated. FRO/tanker thesis still open. Desk flagged a
+  process note: HDSN exit fired 1 day late from paraphrasing its own rule (AND vs. filed OR) —
+  generalizable "verify original rule text" lesson, surfaced in-edition for cross-routine awareness.
+- Watches: oura watch **due 08-07 → STILL BLOCKED** (3rd consecutive; repo-wide search found no
+  Oura connector/token/export). Logged + marked (next 08-14). Reiterated Challenge-Desk push: wire
+  Oura or pause the watch. Tacoma next 08-11.
+- **Pauses/failures reported honestly:** Jobs **[PAUSED]** (intentional since 07-14). FootyBot
+  **[FAIL]** real — **23 days dark** (07-15→08-07), past the 07-20 unpause window; draft 08-28 now
+  **21d out**. Kept as Top Headline + Most Important; needs a Brendan check it's actually unpaused.
+- No unprocessed annotations (08-04/08-06/08-07 checked — none; Brendan hasn't annotated since 07-11).
+  No rule promotions (no new signals cross the ≥3/≥2-day threshold).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot; Oura not connected;
+  routine-sandbox egress WebSearch-only.
+
 ## 2026-08-06 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date, 0 unfinished ops, 165 artifacts validate 0 errors,
   QUEUE 0 warnings. Ran on pinned branch `claude/adoring-mendel-k0y33d`; operational commits land

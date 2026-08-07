@@ -44,6 +44,13 @@ edition-20260728	newspaper/editions/2026-07-28.md	edition		published	personal			
 edition-20260729	newspaper/editions/2026-07-29.md	edition		published	personal				2026-07-29
 edition-20260730	newspaper/editions/2026-07-30.md	edition		published	personal				2026-07-30
 edition-20260731	newspaper/editions/2026-07-31.md	edition		published	personal				2026-07-31
+edition-20260801	newspaper/editions/2026-08-01.md	edition		published	personal				2026-08-01
+edition-20260802	newspaper/editions/2026-08-02.md	edition		published	personal				2026-08-02
+edition-20260803	newspaper/editions/2026-08-03.md	edition		published	personal				2026-08-03
+edition-20260804	newspaper/editions/2026-08-04.md	edition		published	personal				2026-08-04
+edition-20260806	newspaper/editions/2026-08-06.md	edition		published	personal				2026-08-06
+edition-20260807	newspaper/editions/2026-08-07.md	edition		published	personal				2026-08-07
+edition-20260808	newspaper/editions/2026-08-08.md	edition		published	personal				2026-08-08
 health-food-guidance	domains/health/FOOD_GUIDANCE.md	knowledge	health		personal	health,food,guidance,kitchen-bridge		Sanitized food guidance for the Kitchen desk (bridge source)	2026-07-11
 kitchen-equipment	domains/concierge/kitchen/EQUIPMENT.md	live_state	concierge		personal	kitchen,equipment		Kitchen equipment — live state	2026-07-11
 kitchen-profile	domains/concierge/kitchen/KITCHEN_PROFILE.md	knowledge	concierge		personal	kitchen,food,cooking,recipes,meals,pantry		Kitchen & Food desk — profile and knowledge	2026-07-11
@@ -73,6 +80,15 @@ knowledge-20260727-measure-trend-not-snapshot	domains/health/knowledge/knowledge
 knowledge-20260728-match-intervention-to-individual	domains/health/knowledge/knowledge-20260728-match-intervention-to-individual.md	knowledge	health		public	cold-exposure,heat-therapy,recovery,individualization,cross-domain		Match the intervention to the individual, not to the trend	2026-07-28
 knowledge-20260729-convergence-beats-accumulation	domains/health/knowledge/knowledge-20260729-convergence-beats-accumulation.md	knowledge	health		public	systems,habits,prioritization,decision-making,cross-domain		Convergence beats accumulation — rank interventions by how many goals each serves	2026-07-29
 knowledge-20260730-long-exhale-calms	domains/health/knowledge/knowledge-20260730-long-exhale-calms.md	knowledge	health		public	stress,breathing,nervous-system,cross-domain,pre-performance		Long exhale = calm, fast inhale = alert — the breath is a free, portable nervous-system switch	2026-07-30
+knowledge-20260731-antiperspirant-vs-deodorant	domains/health/knowledge/knowledge-20260731-antiperspirant-vs-deodorant.md	knowledge	health		public	personal-care,consumer-product-literacy,aluminum,cross-domain		Deodorant masks odor, antiperspirant (aluminum) stops sweat — and the aluminum-cancer/Alzheimer's fears don't survive the absorbed dose	2026-07-31
+knowledge-20260801-drink-is-not-the-supplement	domains/health/knowledge/knowledge-20260801-drink-is-not-the-supplement.md	knowledge	health		public	tea,green-tea,supplements,extracts,drug-interactions,consumer-products,hype-check		The drink is not the supplement — default to the food/beverage form, treat concentrated extracts as drugs	2026-08-01
+knowledge-20260802-date-check-every-dated-web-claim	domains/news/knowledge/knowledge-20260802-date-check-every-dated-web-claim.md	knowledge	news		public	research-hygiene,web-search,dated-claims,epistemics,cross-domain		Date-check every dated claim from web search — aggregator summaries recycle stale content as current	2026-08-02
+knowledge-20260803-7000-steps-not-10000	domains/health/knowledge/knowledge-20260803-7000-steps-not-10000.md	knowledge	health		public	movement,walking,steps,longevity,health-literacy,cross-domain		~7,000 steps/day captures most of the benefit — the 10,000 goal is 1960s marketing, not science	2026-08-03
+knowledge-20260803-posture-not-cause-of-back-pain	domains/health/knowledge/knowledge-20260803-posture-not-cause-of-back-pain.md	knowledge	health		public	movement,posture,back-pain,health-literacy,cross-domain		Bad posture" is not a reliable cause of back/neck pain — movement variety is the real lever	2026-08-03
+knowledge-20260804-sleep-regularity-beats-duration	domains/health/knowledge/knowledge-20260804-sleep-regularity-beats-duration.md	knowledge	health		public	sleep,circadian,regularity,stress,gut,health-literacy,cross-domain		For sleep, regularity beats duration — a consistent wake time is a bigger lever than total hours	2026-08-04
+knowledge-20260805-eat-seasonally-weak-literal-claim	domains/health/knowledge/knowledge-20260805-eat-seasonally-weak-literal-claim.md	knowledge	health		public	nutrition,produce,frozen-vs-fresh,microbiome,plant-diversity,health-literacy		Eat with the seasons" is a good habit on a weak literal claim — the real levers are freshness, plant variety, cost, and taste	2026-08-05
+knowledge-20260806-cheap-and-clean-same-grocery-list	domains/health/knowledge/knowledge-20260806-cheap-and-clean-same-grocery-list.md	knowledge	health		public	nutrition,protein,budget,meal-planning,frozen-vs-fresh,soy,food-waste		Clean eating and cheap eating are the same grocery list — and spoilage, not price, is the hidden cost	2026-08-06
+knowledge-20260807-cadence-beats-coverage-testing	domains/health/knowledge/knowledge-20260807-cadence-beats-coverage-testing.md	knowledge	health		public	testing,screening,biomarkers,wearables,body-composition,scheduling,over-testing		Health testing — cadence beats coverage; keep two clocks and separate the menu from the calendar	2026-08-07
 op-20260710-postmerge-roundtrips	system/operations/op-20260710-postmerge-roundtrips.md	operation			personal				
 op-20260710-roundtrip-health	system/operations/op-20260710-roundtrip-health.md	operation			personal				
 op-20260710-skill-sync-v1-qa-fixes	system/operations/op-20260710-skill-sync-v1-qa-fixes.md	operation			personal				
@@ -80,6 +96,10 @@ op-20260714-stranded-branch-recovery	system/operations/op-20260714-stranded-bran
 outcome-20260715-boat-freight	outcomes/outcome-20260715-boat-freight.md	outcome	investing		financial				2026-07-15
 outcome-20260721-mp-materials-stop	outcomes/outcome-20260721-mp-materials-stop.md	outcome	investing		financial				2026-07-21
 outcome-20260729-hdsn-stop-test	outcomes/outcome-20260729-hdsn-stop-test.md	outcome	investing		financial				2026-07-29
+outcome-20260802-hdsn-earnings	outcomes/outcome-20260802-hdsn-earnings.md	outcome	investing		financial				2026-08-02
+outcome-20260805-cmg-foot-traffic	outcomes/outcome-20260805-cmg-foot-traffic.md	outcome	investing		financial				2026-08-05
+outcome-20260806-qsr-foot-traffic	outcomes/outcome-20260806-qsr-foot-traffic.md	outcome	investing		financial				2026-08-06
+outcome-20260807-hdsn-q2-earnings	outcomes/outcome-20260807-hdsn-q2-earnings.md	outcome	investing		financial				2026-08-07
 pantry-live	domains/concierge/kitchen/PANTRY.md	live_state	concierge		personal	kitchen,pantry,shopping,ingredients		Pantry & shopping — live state	2026-07-11
 prediction-20260712-hdsn-earnings	predictions/prediction-20260712-hdsn-earnings.md	prediction	investing		financial				2026-07-12
 prediction-20260712-hormuz-tanker-oil	predictions/prediction-20260712-hormuz-tanker-oil.md	prediction	investing		financial				2026-07-12
@@ -98,6 +118,13 @@ prediction-20260727-fro-ceasefire-gate	predictions/prediction-20260727-fro-cease
 prediction-20260727-jets-iran-hedge	predictions/prediction-20260727-jets-iran-hedge.md	prediction	investing		financial				2026-07-27
 prediction-20260728-shw-earnings-drift	predictions/prediction-20260728-shw-earnings-drift.md	prediction	investing		financial				2026-07-28
 prediction-20260729-hdsn-q2-earnings	predictions/prediction-20260729-hdsn-q2-earnings.md	prediction	investing		financial				2026-07-29
+prediction-20260731-etn-electrification	predictions/prediction-20260731-etn-electrification.md	prediction	investing		financial				2026-07-31
+prediction-20260731-qsr-foot-traffic	predictions/prediction-20260731-qsr-foot-traffic.md	prediction	investing		financial				2026-07-31
+prediction-20260802-auto-tariff-short	predictions/prediction-20260802-auto-tariff-short.md	prediction	investing		financial				2026-08-02
+prediction-20260802-freight-capacity-long	predictions/prediction-20260802-freight-capacity-long.md	prediction	investing		financial				2026-08-02
+prediction-20260802-post-earnings-selloff-long	predictions/prediction-20260802-post-earnings-selloff-long.md	prediction	investing		financial				2026-08-02
+prediction-20260804-automaker-guidance-raise-long	predictions/prediction-20260804-automaker-guidance-raise-long.md	prediction	investing		financial				2026-08-04
+prediction-20260805-petfood-earnings-drift	predictions/prediction-20260805-petfood-earnings-drift.md	prediction	investing		financial				2026-08-05
 profile-brendan	BRENDAN_PROFILE.md	knowledge	general		personal				2026-07-10
 q-20260710-tacoma-budget	newspaper/questions/q-20260710-tacoma-budget.md	question	vehicles	answered	personal			Tacoma search: budget ceiling and transmission preference?	2026-07-10
 q-20260710-trading-dup	newspaper/questions/q-20260710-trading-dup.md	question	investing	answered	personal			Retire the frozen trading/ copy inside health-notebook?	2026-07-10
@@ -107,6 +134,8 @@ q-20260715-trading-branch-history	newspaper/questions/q-20260715-trading-branch-
 q-20260720-trading-boat-rule-collision	newspaper/questions/q-20260720-trading-boat-rule-collision.md	question	investing	answered	financial	trading-notebook,operating-rules,risk-management		Trading robot — two of its own rules collided on BOAT; your call on how it resolves	2026-07-20
 q-20260721-jobs-gmail-connector-reauth	newspaper/questions/q-20260721-jobs-gmail-connector-reauth.md	question	jobs	open	personal	gmail-connector,application-tracking,infrastructure		Jobs Robot — Gmail connector degraded 4 runs; can you reconnect it?	2026-07-21
 q-20260721-jobs-wsl-interview-status	newspaper/questions/q-20260721-jobs-wsl-interview-status.md	question	jobs	open	personal	wsl,warm-channel,interview-loop,follow-up		Jobs Robot — how did the WSL interview calls go? (~3 weeks silent)	2026-07-21
+q-20260803-health-movement-architecture-chapter	newspaper/questions/q-20260803-health-movement-architecture-chapter.md	question	health	open	personal	movement,walking,posture,kettlebells,chapter-approval		Health Robot — approve the proposed "Movement Architecture" chapter (Ch37)?	2026-08-03
+q-20260806-cost-per-day-eating-chapter	newspaper/questions/q-20260806-cost-per-day-eating-chapter.md	question	health	open	personal	nutrition,budget,meal-planning,chapter-approval		Health Robot — formalize the "cost-per-day eating" reference as a standing chapter, or leave it filed?	2026-08-06
 task-20260710-answer-brendan-s-question-obs-synthetic	queue/failed/task-20260710-answer-brendan-s-question-obs-synthetic.md	task	general	cancelled	personal			Answer Brendan's question: [OBS] SYNTHETIC-TEST story F (tide pool hours)	2026-07-10
 task-20260710-capture-durable-knowledge-obs-synthetic	queue/failed/task-20260710-capture-durable-knowledge-obs-synthetic.md	task	general	cancelled	personal			Capture durable knowledge: [OBS] SYNTHETIC-TEST story F (tide pool hours)	2026-07-10
 task-20260710-correction-check-conc-synthetic-test	queue/failed/task-20260710-correction-check-conc-synthetic-test.md	task	general	cancelled	personal			Correction check: [CONC] SYNTHETIC-TEST story C (ferry schedule)	2026-07-10
@@ -122,12 +151,12 @@ task-20260714-replace-shopify-before-25-mo-billing	queue/completed/task-20260714
 task-20260714-tea-input-sourcing-scan-better-cheaper	queue/waiting_for_brendan/task-20260714-tea-input-sourcing-scan-better-cheaper.md	task	tea-business	waiting_for_brendan	personal			Tea input sourcing scan — better/cheaper suppliers for all components	2026-07-14
 task-20260723-aftershave-by-august	queue/waiting_for_brendan/task-20260723-aftershave-by-august.md	task	concierge	waiting_for_brendan	personal			Aftershave by August	2026-07-23
 task-20260723-build-my-personal-health-calendar	queue/completed/task-20260723-build-my-personal-health-calendar.md	task	health	completed	health			Build my personal health calendar / cadence	2026-07-23
-task-20260723-bulking-food-philosophy-easy-clean	queue/active/task-20260723-bulking-food-philosophy-easy-clean.md	task	health	active	health			Bulking food philosophy + easy clean calories	2026-07-23
+task-20260723-bulking-food-philosophy-easy-clean	queue/completed/task-20260723-bulking-food-philosophy-easy-clean.md	task	health	completed	health			Bulking food philosophy + easy clean calories	2026-07-23
 task-20260723-deodorant-that-lasts-is-antiperspirant	queue/active/task-20260723-deodorant-that-lasts-is-antiperspirant.md	task	concierge	active	personal			Deodorant that lasts + is antiperspirant bad? + chapstick	2026-07-23
-task-20260723-eat-cheap-and-clean-meal-cost-project	queue/active/task-20260723-eat-cheap-and-clean-meal-cost-project.md	task	concierge	active	personal			Eat-cheap-and-clean meal-cost project (real N. County SD prices)	2026-07-23
+task-20260723-eat-cheap-and-clean-meal-cost-project	queue/completed/task-20260723-eat-cheap-and-clean-meal-cost-project.md	task	concierge	completed	personal			Eat-cheap-and-clean meal-cost project (real N. County SD prices)	2026-07-23
 task-20260723-how-to-properly-do-a-cyclic	queue/completed/task-20260723-how-to-properly-do-a-cyclic.md	task	health	completed	health			How to properly do a cyclic / physiological sigh	2026-07-23
 task-20260723-moneyball-my-personal-migraine-med	queue/active/task-20260723-moneyball-my-personal-migraine-med.md	task	health	active	health			Moneyball my personal migraine med	2026-07-23
-task-20260723-movement-experiments-nordic-style-back	queue/active/task-20260723-movement-experiments-nordic-style-back.md	task	health	active	health			Movement experiments: Nordic-style back ext, kettlebells, surf power	2026-07-23
+task-20260723-movement-experiments-nordic-style-back	queue/completed/task-20260723-movement-experiments-nordic-style-back.md	task	health	completed	health			Movement experiments: Nordic-style back ext, kettlebells, surf power	2026-07-23
 task-20260723-nerva-gut-directed-hypnotherapy-deep	queue/active/task-20260723-nerva-gut-directed-hypnotherapy-deep.md	task	health	active	health			Nerva (gut-directed hypnotherapy) deep-dive	2026-07-23
 task-20260723-oral-morning-ritual-quick-qs-xylitol	queue/completed/task-20260723-oral-morning-ritual-quick-qs-xylitol.md	task	health	completed	health			Oral & morning-ritual quick Qs: xylitol + best hot tea	2026-07-23
 task-20260723-read-summarize-the-cmgh-journal-article	queue/active/task-20260723-read-summarize-the-cmgh-journal-article.md	task	health	active	health			Read & summarize the CMGH journal article	2026-07-23

@@ -387,7 +387,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-08-07 — health-robot run summary
+## 2026-08-07 — health-robot run summary <!-- triaged 2026-08-07 -->
 - headline: Consolidated "what tests should I get, and when?" into a single dated operating calendar — a scheduling layer built on top of the existing testing reference, not a duplicate of it. Answers the "if today is X, what goes on my calendar" ask, and adds the training-cycle timing (bulk pacing, when to re-test fitness) the testing reference didn't cover.
 - newspaper_ready:
   - [A] The highest-value health-admin move for a young person in a managed chronic condition is picking ONE validated readout and putting it on a fixed recurring schedule, rather than chasing a wide panel. Cadence beats coverage.
