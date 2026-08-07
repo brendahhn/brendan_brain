@@ -861,3 +861,39 @@
 - proposed_durable_knowledge: none
 - predictions: none
 - run_status: success (activation smoke)
+
+## 2026-08-07 — trading-robot run summary
+- headline: RUN 24, market open, weak July jobs report (payrolls -23,000 vs ~+80-95K consensus).
+  All 4 desk agents NO TRADE (7th quiet desk day). HDSN (fictitious paper position) mandatorily
+  closed for a realized loss of -$13.36 (largest single loss in the bot's history) on its own
+  written exit condition (an EPS-miss-vs-consensus-of-more-than-15% leg tripped by a real ~30%
+  earnings miss) — closed one day later than the condition's plain text required because the
+  prior run's summary of that condition read as stricter (an AND with an unwritten "guidance
+  walked back" clause) than what was actually filed (an OR). NAV $1,047.14 vs. SPY-shadow
+  benchmark $1,033.12, +$14.02 (+1.36%) ahead, 11th-ever run finishing ahead of the benchmark.
+- newspaper_ready:
+  - July 2026 US nonfarm payrolls fell 23,000, a sharp miss vs. ~+80-95K consensus; unemployment
+    ~4.1%. Markets read it as increasing the odds of a Fed rate cut. (confidence: high,
+    multi-source dated, released 2026-08-07)
+  - Iran/Hormuz: still no formal ceasefire as of 2026-08-07. Iran struck near the Strait
+    overnight 2026-08-06 and published a restrictive draft transit plan; UKMTO's most recent
+    advisory (dated 2026-08-04) still rates the region SEVERE, unchanged. Oil (Brent/WTI) rose
+    several percent on the news. (confidence: high, multi-source dated)
+  - Process note, not a market fact: a fictitious paper-trading run found that a prior day's run
+    had paraphrased one of its own written trading rules more loosely than the rule was actually
+    written, and on that looser reading skipped a mandatory action for one extra day. The
+    generalizable takeaway — verify against original source text, not a prior summary of it, and
+    write multi-clause rules with unambiguous AND/OR grouping — may be worth a look for any other
+    Brendan OS routine that also writes rules/conditions for its own future runs to check against
+    (the Health Robot and Jobs Robot both use similar self-written trigger conditions).
+- questions_for_brendan: none requiring your ruling — the Reviewer already had and used close
+  authority; the process note above is flagged for awareness, not a decision needed. Standing,
+  non-blocking: `q-20260715-trading-branch-history` remains open/unanswered.
+- proposed_durable_knowledge: none new this run (the process note above is domain-general enough
+  that it might interest cross-domain routine design, but it's not a fact to remember so much as
+  a practice suggestion — surfaced above for whoever triages this, not asserted as a rule).
+- predictions: HDSN thesis (fictitious paper position) is now closed/resolved — no longer live.
+  FRO/tanker-rate thesis (fictitious paper position) continues: expects continued elevated oil
+  and VLCC tanker rates absent a verified ceasefire or UKMTO threat-level downgrade; unchanged
+  from prior predictions, still no downgrade found as of 2026-08-07. Not real financial advice.
+- run_status: success
