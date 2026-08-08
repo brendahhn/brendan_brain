@@ -398,3 +398,13 @@
 - proposed_durable_knowledge: "For health testing, cadence beats coverage: pick a small set of high-signal recurring tests + free self-tests and put them on a fixed calendar, rather than chasing wide panels. At a young/healthy baseline, over-testing into anxiety is the real risk. Keep two clocks — a medical/testing cadence and a training/body cadence (weekly weigh-in as the feedback signal) — and separate the 'what to test' menu from the 'when' scheduling layer."
 - predictions: none
 - run_status: success
+
+## 2026-08-08 — health-robot run summary <!-- triaged? -->
+- headline: Ran a mechanism-level research pass that CONFIRMS the top self-directed health priority is unchanged — for the stress→gut pathway, the highest-value lever is behavioral stress-regulation, not a pill or a supplement. The pass removed doubt from the #1 priority rather than adding a new to-do.
+- newspaper_ready:
+  - [A] A medication that controls inflammation is not the same thing as one that manages the stress→gut-barrier response — those are different biological arms, and the stress-driven one often has no good pill. That's exactly why the durable lever there is behavioral: consistent breathing practice (cyclic sighing), regular sleep timing, and acceptance/reappraisal skills. Confirming this at the mechanism level is a reason to keep investing in the free habits, not to go looking for a new product.
+  - [B] Be wary of self-prescribing antihistamines or "mast-cell stabilizer"/anti-allergy supplements for gut symptoms. The idea is mechanism-plausible and an active research area, but it is NOT proven therapy and is genuinely a clinician conversation, not a self-experiment — mechanism-plausible ≠ proven.
+- questions_for_brendan: none cross-domain. (Research-only mechanism pass; nothing to approve, no action or provider change implied.)
+- proposed_durable_knowledge: "Health literacy that generalizes: 'treats the inflammation' and 'manages the stress-driven response' are different jobs — a drug can do the first and leave the second uncovered, in which case the real lever is behavioral (breathing, regular sleep, acceptance skills), not another product. And mechanism-plausible ≠ proven: don't self-prescribe supplements/antihistamines off a plausible mechanism — that's a doctor conversation."
+- predictions: none
+- run_status: success
