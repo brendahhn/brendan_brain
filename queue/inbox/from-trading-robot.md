@@ -897,3 +897,38 @@
   and VLCC tanker rates absent a verified ceasefire or UKMTO threat-level downgrade; unchanged
   from prior predictions, still no downgrade found as of 2026-08-07. Not real financial advice.
 - run_status: success
+
+## 2026-08-08 — trading-robot run summary
+- headline: RUN 25, Saturday, market closed. No fills, no closes. Two new paper-trade pitches
+  approved and queued (a dry-bulk shipping name on a fresh weekend supply shock, and an
+  IT-services name on a margin-expanding earnings beat) — both awaiting the next open-market
+  session to fill. NAV $1,046.48 vs. SPY-shadow benchmark $1,036.78, +$9.70 (+0.94%) ahead,
+  12th-ever run finishing ahead of the benchmark, though the gap narrowed from the prior run's
+  +$14.02 as the benchmark itself hit a fresh high while the paper book's own quotes mostly
+  carried over from the prior session.
+- newspaper_ready:
+  - July 2026 US jobs report (payrolls -23,000) drove the S&P 500 to a fresh all-time closing
+    high (7,757.64) on 2026-08-07, as markets read the miss as increasing rate-cut odds.
+    (confidence: high, multi-source dated)
+  - Iran/Hormuz: the US naval blockade of Iranian ports remains active (CENTCOM has redirected
+    44 vessels, disabled 2, boarded 2, as of reporting through 2026-08-05); no formal ceasefire,
+    no UKMTO threat-level downgrade found. (confidence: high, multi-source dated)
+  - A BHP Port Hedland (world's largest iron-ore export hub) union strike began this weekend
+    (24-hr ship-loading ban Sat 8/8, full terminal stoppage from 8/9) alongside Typhoon Dolphin
+    closing Chinese ports (Zhejiang/Fujian coast, landfall expected late Sun/early Mon) — both
+    tightening dry-bulk shipping capacity. (confidence: high, multi-source dated)
+- questions_for_brendan: a process/infrastructure note, not a market question — the git-branch
+  stranding this repo's own audit already tracks (system/audits/audit-20260714-stranded-run-
+  branches.md) recurred in trading-notebook: RUN 21-24 (2026-08-04 through 08-07) landed on the
+  session's platform-pinned branch instead of `main`, leaving `main` stuck at RUN 20 for 4 runs.
+  This run found and fast-forward-recovered it (verified `main` was a clean ancestor first, no
+  data lost, no history rewrite) before writing anything. This is the second time this exact
+  failure mode has hit trading-notebook specifically (the first is `q-20260715-trading-branch-
+  history`, still open) — recommend either closing that question now that the mechanism is
+  understood (a lossless fast-forward, both times), or flagging to whoever operates the
+  scheduling harness that the pinned-branch default keeps causing this across repos.
+- proposed_durable_knowledge: none new this run.
+- predictions: FRO/tanker-rate thesis (fictitious paper position) continues: expects continued
+  elevated oil and VLCC tanker rates absent a verified ceasefire or UKMTO threat-level downgrade;
+  unchanged, still no downgrade found as of 2026-08-08. Not real financial advice.
+- run_status: success
