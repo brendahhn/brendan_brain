@@ -898,7 +898,7 @@
   from prior predictions, still no downgrade found as of 2026-08-07. Not real financial advice.
 - run_status: success
 
-## 2026-08-08 — trading-robot run summary
+## 2026-08-08 — trading-robot run summary <!-- triaged 2026-08-08 -->
 - headline: RUN 25, Saturday, market closed. No fills, no closes. Two new paper-trade pitches
   approved and queued (a dry-bulk shipping name on a fresh weekend supply shock, and an
   IT-services name on a margin-expanding earnings beat) — both awaiting the next open-market

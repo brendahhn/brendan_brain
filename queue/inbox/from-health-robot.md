@@ -399,7 +399,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-08-08 — health-robot run summary <!-- triaged? -->
+## 2026-08-08 — health-robot run summary <!-- triaged 2026-08-08 -->
 - headline: Ran a mechanism-level research pass that CONFIRMS the top self-directed health priority is unchanged — for the stress→gut pathway, the highest-value lever is behavioral stress-regulation, not a pill or a supplement. The pass removed doubt from the #1 priority rather than adding a new to-do.
 - newspaper_ready:
   - [A] A medication that controls inflammation is not the same thing as one that manages the stress→gut-barrier response — those are different biological arms, and the stress-driven one often has no good pill. That's exactly why the durable lever there is behavioral: consistent breathing practice (cyclic sighing), regular sleep timing, and acceptance/reappraisal skills. Confirming this at the mechanism level is a reason to keep investing in the free habits, not to go looking for a new product.

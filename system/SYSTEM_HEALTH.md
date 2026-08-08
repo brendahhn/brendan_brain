@@ -1,6 +1,50 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-08 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date (HEAD == origin/main), 0 unfinished ops, 172→174
+  artifacts validate 0 errors, QUEUE 0 warnings. Pinned branch `claude/adoring-mendel-nsdu9q`;
+  operational commit lands on `main` per the CLAUDE.md standing rule.
+- **Cadence:** trading (RUN 25, Sat market-closed) and health both posted fresh real 08-08 blocks.
+  FootyBot + Jobs produced nothing (statuses below). Published edition **2026-08-09**; dropped the
+  build tool's blanket [STALE]/[FAIL] gates on the 08-08 blocks (evening build; 08-08 IS this run's
+  fresh content) and corrected the Jobs auto-[FAIL] → [PAUSED].
+- Triaged **2 fresh untriaged blocks** (trading 08-08, health 08-08). Filed **1 health knowledge
+  note** (knowledge-20260808-drug-inflammation-vs-stress-lever, medium, NOT self-confirmed:
+  "controls inflammation ≠ manages the stress response — the stress arm's lever is behavioral; and
+  mechanism-plausible ≠ proven, don't self-prescribe off a plausible mechanism"). **No new
+  predictions** (trading's FRO/tanker item is an explicit continuation, not duplicated). **No new
+  question created** — instead **updated** the existing `q-20260715-trading-branch-history` with the
+  recurrence + a concrete Brendan decision. Both blocks marked `<!-- triaged 2026-08-08 -->`.
+- **Branch-stranding recurred (system):** the trading desk found RUNs 21–24 (08-04 → 08-07) again
+  committed to the session's platform-pinned branch instead of `main`, stranding `trading-notebook`
+  `main` at RUN 20 for 4 runs. RUN 25 caught it and **fast-forward-recovered** (verified clean
+  ancestor, no data lost, no history rewrite) — the **2nd** lossless recovery of this exact pattern.
+  Surfaced in-edition (Challenge Desk) and in the updated question: decision for Brendan is close the
+  question or fix the pinned-branch harness default so runs don't depend on the next run to reconcile.
+- **Predictions:** none due to score by real date 08-08 — all passed-horizon predictions already have
+  outcomes on file; next horizon is **hormuz-tanker-oil 08-09** (tomorrow).
+- **Trading desk (RUN 25):** NAV **$1,046.48** vs SPY-bench **$1,036.78** (**+$9.70 / +0.94%**),
+  **12th run ahead**. Saturday **market closed — no fills, no closes**. Lead **narrowed** from +$14.02
+  — not a paper loss (benchmark itself hit a fresh high while book quotes carried over). **2 new paper
+  pitches queued** for next open session (a dry-bulk shipping name on the weekend supply shock, an
+  IT-services name on a margin-expanding beat). FRO/tanker thesis still open. No per-position P&L table
+  (no fresh quotes) — not fabricated.
+- **World/market news relayed [FACT]:** weekend **dry-bulk shock** — BHP Port Hedland strike (24-hr
+  loading ban Sat 8/8, full stoppage from 8/9) + Typhoon Dolphin closing Chinese ports. S&P 500 hit a
+  fresh **all-time closing high 7,757.64 (08-07)** on the weak July payrolls (−23k). Iran/Hormuz
+  unchanged (blockade active through 08-05; no ceasefire, no UKMTO downgrade).
+- Watches: **0 due** (tacoma next 08-11; oura next 08-14, still BLOCKED — no Oura connector; standing
+  Challenge-Desk push to wire it or pause the watch, unchanged from yesterday).
+- **Pauses/failures reported honestly:** Jobs **[PAUSED]** (intentional since 07-14; Gmail reauth + WSL
+  status still Brendan-only). FootyBot **[FAIL]** real — **25 days dark** (07-15→08-09), past the 07-20
+  unpause window; draft 08-28 now **19d out**. Kept as Top Headline + Most Important; needs a Brendan
+  check it's actually unpaused.
+- No unprocessed annotations (08-08 and 08-07 checked via process_annotations — none; Brendan hasn't
+  annotated since 07-11). No rule promotions (no new signals cross the ≥3/≥2-day threshold).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot; Oura not connected;
+  routine-sandbox egress WebSearch-only.
+
 ## 2026-08-07 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date (HEAD == origin/main), 0 unfinished ops, 169→172
   artifacts validate 0 errors, QUEUE 0 warnings. Pinned branch `claude/adoring-mendel-5xcrje`;
