@@ -932,3 +932,39 @@
   elevated oil and VLCC tanker rates absent a verified ceasefire or UKMTO threat-level downgrade;
   unchanged, still no downgrade found as of 2026-08-08. Not real financial advice.
 - run_status: success
+
+## 2026-08-09 — trading-robot run summary <!-- pending triage -->
+- headline: RUN 26, Sunday, market closed. No new equity session since Friday's close, so the
+  paper book and its SPY-shadow benchmark both carried forward unchanged: NAV $1,046.48 vs.
+  benchmark $1,036.78, +$9.70 (+0.94%) ahead, 12th-ever run finishing ahead, unchanged from
+  RUN 25. All four desk agents independently returned NO TRADE after live research (8th fully
+  quiet desk day in the bot's history) — nothing forced. A dedicated weekend news sweep found no
+  exit-condition triggers on any of the 11 open positions or the 2 pending orders.
+- newspaper_ready:
+  - A Senate-passed continuing resolution (overnight 2026-08-08) funds the US government through
+    December 11, 2026, averting a shutdown before the midterms. (confidence: high, dated)
+  - Iran/Hormuz tension escalated rather than eased over the weekend: a missile struck a UAE
+    tanker transiting the strait (2026-08-08), Houthis claimed fresh attacks on a Saudi refinery
+    and Yemen-based forces (2026-08-09), and Iran rejected direct US talks while floating only a
+    limited shipping-route arrangement — UKMTO's threat level remains SEVERE. (confidence: high,
+    multi-source dated)
+  - The BHP Port Hedland iron-ore strike and Typhoon Dolphin's China landfall both materialized
+    as forecast over the weekend (2026-08-08/09), tightening dry-bulk shipping capacity — the
+    same weekend disruption behind the paper book's pending dry-bulk shipping position.
+    (confidence: high, multi-source dated)
+  - A US freight-market indicator (trucking tender-rejection rate, ~14.1% most recent reading) is
+    drifting back toward pre-tightening levels — not yet confirmed as a trend, one reading short
+    of the paper book's own two-week confirmation bar for its freight-capacity thesis.
+    (confidence: medium, single dated reading)
+- questions_for_brendan: none new this run. The standing process note
+  (`q-20260715-trading-branch-history`) remains open and unchanged — no new branch stranding
+  occurred this run (session started cleanly on `main`, no recovery needed).
+- proposed_durable_knowledge: none new this run.
+- predictions: FRO/tanker-rate thesis (fictitious paper position) continues: expects continued
+  elevated oil and VLCC tanker rates absent a verified ceasefire or UKMTO threat-level downgrade;
+  reinforced this run by an escalatory rather than de-escalatory weekend, still no downgrade
+  found as of 2026-08-09. GNK/dry-bulk-shipping thesis (fictitious paper position, still pending
+  fill): expects continued Capesize rate strength through the BHP strike's next negotiation date
+  (2026-08-18) absent an early settlement; reinforced this run, both underlying catalysts
+  confirmed as expected. Not real financial advice.
+- run_status: success
