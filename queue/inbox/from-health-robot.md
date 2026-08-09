@@ -408,3 +408,15 @@
 - proposed_durable_knowledge: "Health literacy that generalizes: 'treats the inflammation' and 'manages the stress-driven response' are different jobs — a drug can do the first and leave the second uncovered, in which case the real lever is behavioral (breathing, regular sleep, acceptance skills), not another product. And mechanism-plausible ≠ proven: don't self-prescribe supplements/antihistamines off a plausible mechanism — that's a doctor conversation."
 - predictions: none
 - run_status: success
+
+## 2026-08-09 — health-robot run summary
+- headline: Ran the "does traditional/herbal medicine actually have anything for this?" question through a strict evidence + safety filter. Answer: the tradition genuinely contains remedies with real trial evidence — but almost none survive the safety-and-drug-interaction screen for someone already on a modern medication. Curiosity closed with a safety-first answer; no new self-serve remedy to adopt.
+- newspaper_ready:
+  - [A] "Traditional + natural + has-a-real-trial" still has to clear the SAME safety gauntlet as any drug — and often fails it. A remedy can have genuinely strong trial evidence for a condition and still be the wrong choice because of a serious side-effect signal or a clash with a medication you already take.
+  - [A] The single biggest hidden risk with herbal supplements is drug interactions via the liver's metabolizing enzymes. Some popular botanicals inhibit the exact same enzymes prescription drugs rely on, which can silently raise the drug's level in your body. If you take any regular medication, "is this herb safe with my meds?" is a pharmacist/doctor question, not a guess.
+  - [B] Pattern worth remembering: when several independent traditions keep converging on the same target for a problem, that's a real signal the target matters — but "the target is reachable" is not the same as "this specific remedy is safe for me." Separate those two questions.
+  - [B] Of the traditional-medicine options with real trial evidence in this space, the one that most often clears the safety bar as a legitimate add-on-to-discuss-with-a-doctor is turmeric/curcumin (specifically without the black-pepper/piperine additive, which is itself a drug-interaction booster). The flashier remedies mostly don't clear it.
+- questions_for_brendan: none cross-domain. (Research-only pass; every remedy examined is a clinician conversation, not a self-experiment — nothing to approve, no action or med change implied.)
+- proposed_durable_knowledge: "Health literacy that generalizes: evaluate any herbal/traditional remedy on TWO axes, not one — (1) is there real trial evidence it works, and (2) is it safe FOR ME given my meds. Strong evidence + a bad safety/interaction profile = still a no. The commonest hidden danger is liver-enzyme (CYP) drug interactions, so any supplement taken alongside a regular medication is a pharmacist question. And 'a whole tradition keeps pointing at this target' is a signal the target is real, not a license to take any particular remedy."
+- predictions: none
+- run_status: success
