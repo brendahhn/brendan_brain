@@ -1,6 +1,53 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-09 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date (HEAD == origin/main), 0 unfinished ops, 174→177
+  artifacts validate 0 errors, QUEUE 0 warnings. Pinned branch `claude/adoring-mendel-fp4voh`;
+  operational commit landed on `main` (HEAD 85eec3f, **verified via `git ls-remote`**) per the
+  CLAUDE.md standing rule; pinned branch also pushed.
+- **Cadence:** trading (RUN 26, Sunday market-closed) and health both posted fresh real 08-09
+  blocks. FootyBot + Jobs produced nothing (statuses below). Published edition **2026-08-10**;
+  folded the 08-09 blocks in as this evening-run's fresh content and corrected the Jobs
+  auto-[FAIL] → [PAUSED].
+- Triaged **2 fresh untriaged blocks** (trading 08-09 was marked `pending triage` by an earlier
+  session — completed it; health 08-09). Filed **1 health knowledge note**
+  (knowledge-20260809-two-axis-remedy-evaluation, medium, NOT self-confirmed: "judge any
+  herbal/traditional remedy on TWO axes — does it work AND is it safe for me given my meds; CYP
+  liver-enzyme drug interactions are the commonest hidden danger; turmeric/curcumin sans piperine
+  most often clears the bar"). **No new predictions** (trading's FRO + GNK items are explicit
+  continuations of existing theses, not duplicated). **No new questions** (both blocks had none
+  cross-domain; the standing `q-20260715-trading-branch-history` remains open, unchanged — trading
+  reports it started cleanly on `main` this run, no new stranding). Both marked `<!-- triaged 2026-08-09 -->`.
+- **Prediction SCORED:** prediction-20260712-hormuz-tanker-oil reached its **4-week horizon (08-09)**
+  → **CORRECT** (outcome-20260809). Its gating condition — elevated oil/VLCC rates absent a verified
+  ceasefire or UKMTO downgrade — held the full window, reinforced by this weekend's escalation.
+  Scored on the directional gate; exact rate levels weren't reported to the Brain, so the narrow
+  numeric leg is noted unverified (not fabricated). Next horizons: mp-materials 08-10, fro-ceasefire-gate 08-10.
+- **Trading desk (RUN 26):** NAV **$1,046.48** vs SPY-bench **$1,036.78** (**+$9.70 / +0.94%**),
+  **12th run ahead, unchanged from RUN 25** (no session since Friday). Sunday **market closed**; all
+  four desk agents returned **NO TRADE** (**8th fully quiet desk day**); no exit triggers on 11 open
+  + 2 pending. No per-position P&L (no fresh quotes) — not fabricated. **Clean git start on `main`
+  this run** — no branch-stranding recurrence (contrast the 2 prior lossless recoveries).
+- **World/market news relayed [FACT]:** Senate **CR passed overnight 08-08 funds US govt through
+  Dec 11, 2026** (pre-midterm shutdown averted). **Iran/Hormuz ESCALATED:** missile struck a UAE
+  tanker 08-08, Houthi Saudi-refinery claims 08-09, Iran rejected direct US talks; **UKMTO SEVERE**.
+  **Dry-bulk shock materialized as forecast** (BHP Port Hedland strike + Typhoon Dolphin, 08-08/09).
+  Trucking tender-rejection ~14.1% drifting back toward pre-tightening — **not yet a trend** (one
+  reading short of the desk's confirmation bar).
+- **Staffing:** 07-23 health batch **8 tasks open** (18 days old); today's health run was an
+  herbal-medicine pass, **not** a batch task, so no advance. Prioritization ask ("name top 3-4 or
+  extend") unanswered ~15 editions (since 07-25). A single scheduled Brain routine can't do 8 deep
+  syntheses; shallow health conclusions barred; no work fabricated.
+- Watches: **0 due** (tacoma next 08-11; oura next 08-14, still BLOCKED — no Oura connector).
+- **Pauses/failures reported honestly:** Jobs **[PAUSED]** (intentional since 07-14; Gmail reauth +
+  WSL follow-up still Brendan-only, both surfaced questions-first). FootyBot **[FAIL]** real — **26
+  days dark** (07-15→08-10), draft 08-28 now **18d out**; needs a Brendan check it's actually unpaused.
+- No unprocessed annotations (08-09/08/07 checked — none; Brendan hasn't annotated since 07-11).
+  No rule promotions (no new signals cross the ≥3/≥2-day threshold).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot; Oura not connected;
+  routine-sandbox egress WebSearch-only.
+
 ## 2026-08-08 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date (HEAD == origin/main), 0 unfinished ops, 172→174
   artifacts validate 0 errors, QUEUE 0 warnings. Pinned branch `claude/adoring-mendel-nsdu9q`;
