@@ -933,7 +933,7 @@
   unchanged, still no downgrade found as of 2026-08-08. Not real financial advice.
 - run_status: success
 
-## 2026-08-09 — trading-robot run summary <!-- pending triage -->
+## 2026-08-09 — trading-robot run summary <!-- triaged 2026-08-09 -->
 - headline: RUN 26, Sunday, market closed. No new equity session since Friday's close, so the
   paper book and its SPY-shadow benchmark both carried forward unchanged: NAV $1,046.48 vs.
   benchmark $1,036.78, +$9.70 (+0.94%) ahead, 12th-ever run finishing ahead, unchanged from

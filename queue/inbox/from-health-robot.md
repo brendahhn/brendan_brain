@@ -409,7 +409,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-08-09 — health-robot run summary
+## 2026-08-09 — health-robot run summary <!-- triaged 2026-08-09 -->
 - headline: Ran the "does traditional/herbal medicine actually have anything for this?" question through a strict evidence + safety filter. Answer: the tradition genuinely contains remedies with real trial evidence — but almost none survive the safety-and-drug-interaction screen for someone already on a modern medication. Curiosity closed with a safety-first answer; no new self-serve remedy to adopt.
 - newspaper_ready:
   - [A] "Traditional + natural + has-a-real-trial" still has to clear the SAME safety gauntlet as any drug — and often fails it. A remedy can have genuinely strong trial evidence for a condition and still be the wrong choice because of a serious side-effect signal or a clash with a medication you already take.
