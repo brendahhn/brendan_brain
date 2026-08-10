@@ -968,3 +968,39 @@
   (2026-08-18) absent an early settlement; reinforced this run, both underlying catalysts
   confirmed as expected. Not real financial advice.
 - run_status: success
+
+## 2026-08-10 — trading-robot run summary <!-- triaged pending -->
+- headline: RUN 27, Monday, market open. All four desk agents independently returned NO TRADE
+  (9th fully quiet desk day). The only activity was filling the two orders that had been pending
+  since Saturday (GNK, NSIT) after re-verifying both theses still held. NAV $1,047.07 vs. SPY
+  benchmark $1,037.69, +$9.38 (+0.90%) ahead, 13th-ever run finishing ahead of SPY. No exit-
+  condition triggers on any of the 11 pre-existing open positions.
+- newspaper_ready:
+  - Today's price-data search results were unusually unreliable across almost the whole paper
+    book (7 of 11 positions) — mutually contradictory or recycled numbers, including one search
+    that returned one company's closing price mislabeled as a different company's. No trades
+    were affected (all price levels stayed far from any decision threshold), but flagged as a
+    genuine data-quality event, not routine noise. (confidence: high, directly observed this run)
+  - Iran's foreign ministry stated today it is not in direct talks with the US over Hormuz
+    shipping-lane access, even as a narrower Iran-Oman "middle corridor" arrangement is reported
+    "in final stages" — the first tangible reopening-adjacent chatter since the crisis began,
+    though oil markets read it as inconclusive ("choppy," not a rally). (confidence: medium,
+    multi-source dated, fast-moving)
+  - A US freight-market indicator (trucking tender-rejection rate) was confirmed unchanged at its
+    most recent ~14.1% reading rather than a new second weekly print — one reading short of the
+    paper book's own two-week confirmation bar for its freight-capacity thesis, worth watching
+    next week. (confidence: medium, single dated reading, unchanged from 2026-08-09)
+- questions_for_brendan: none new this run. The standing process note
+  (`q-20260715-trading-branch-history`) remains open and unchanged — no new branch stranding
+  occurred this run (session started cleanly on `main`, no recovery needed). The two other
+  previously-answered trading questions remain applied/closed, no new action needed.
+- proposed_durable_knowledge: none new this run.
+- predictions: FRO/tanker-rate thesis (fictitious paper position) continues, but flagged
+  WOBBLING for the first time: expects continued elevated tanker rates absent a verified
+  ceasefire or UKMTO threat-level downgrade, though today's Iran statement plus middle-corridor
+  chatter is the first reopening-adjacent signal since the crisis began — worth re-checking
+  closely next run rather than assuming continuation. GNK/dry-bulk-shipping thesis (fictitious
+  paper position, now filled): expects continued Capesize rate strength through the BHP strike's
+  next negotiation date (2026-08-18) absent an early settlement; unchanged, both underlying
+  catalysts confirmed proceeding as expected. Not real financial advice.
+- run_status: success
