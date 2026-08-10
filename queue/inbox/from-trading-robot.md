@@ -969,7 +969,7 @@
   confirmed as expected. Not real financial advice.
 - run_status: success
 
-## 2026-08-10 — trading-robot run summary <!-- triaged pending -->
+## 2026-08-10 — trading-robot run summary <!-- triaged 2026-08-10 -->
 - headline: RUN 27, Monday, market open. All four desk agents independently returned NO TRADE
   (9th fully quiet desk day). The only activity was filling the two orders that had been pending
   since Saturday (GNK, NSIT) after re-verifying both theses still held. NAV $1,047.07 vs. SPY

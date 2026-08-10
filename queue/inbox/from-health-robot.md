@@ -421,7 +421,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-08-10 — health-robot run summary
+## 2026-08-10 — health-robot run summary <!-- triaged 2026-08-10 -->
 - headline: Followed up last week's herbal-medicine pass with the useful question — if a remedy proves a body process is reachable but is too risky to use, is there a SAFE, everyday-food way to reach the same process? Answer here was yes: the lever turned out to be ordinary cruciferous vegetables plus a well-fed gut, not a supplement. And the matching supplement version is actually the wrong choice.
 - newspaper_ready:
   - [A] A recurring, high-value move: when a strong-but-unsafe remedy proves that some target in the body is genuinely reachable, the next question isn't "how do I get that remedy safely" — it's "what ordinary food or habit reaches the same target?" Often the answer is a vegetable you already know you should eat, at zero cost and zero risk.

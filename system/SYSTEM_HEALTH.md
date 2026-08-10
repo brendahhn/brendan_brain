@@ -1,6 +1,56 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-10 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date (HEAD == origin/main @ c04a5ad), 0 unfinished ops,
+  177→181 artifacts validate 0 errors, QUEUE 0 warnings. Pinned branch `claude/adoring-mendel-vtq1xu`;
+  operational commit lands on `main` per the CLAUDE.md standing rule (verify via `git ls-remote`).
+- **Cadence:** trading (RUN 27, Monday market-open) and health both posted fresh real 08-10 blocks.
+  FootyBot + Jobs produced nothing (statuses below). Published edition **2026-08-11**; folded the
+  08-10 blocks in as this evening-run's fresh content (build's blanket [STALE] gate on them is a
+  false positive relative to a tomorrow-dated edition — they are today's runs). Corrected Jobs
+  auto-[FAIL] → [PAUSED].
+- Triaged **2 fresh untriaged blocks** (trading 08-10 marked `pending` by the robot — completed it;
+  health 08-10). Filed **1 health knowledge note** (knowledge-20260810-food-reaches-the-target-not-the-pill,
+  medium, NOT self-confirmed: "when a risky remedy proves a body target is reachable, find the FOOD
+  that reaches it — cruciferous veg + fed gut; same-compound-different-form trap = DIM/I3C capsule
+  nudges liver enzymes lowering med levels, food dose negligible"). **No new predictions** (trading's
+  FRO continuation is already tracked; GNK is robot-internal, same treatment as 08-09). **No new
+  questions** (both blocks none cross-domain; `q-20260715-trading-branch-history` remains open,
+  trading again started cleanly on `main`). Both marked `<!-- triaged 2026-08-10 -->`.
+- **2 predictions SCORED (both CORRECT at their 08-10 horizons):** prediction-20260727-fro-ceasefire-gate
+  → CORRECT (outcome-20260810-fro-ceasefire-gate): no formal ceasefire / no UKMTO downgrade by
+  horizon, position correctly stayed open; **desk flagged the successor FRO thesis WOBBLING for the
+  first time** on today's Iran middle-corridor chatter — carried as a live caveat, not a gate trip.
+  prediction-20260713-mp-materials → CORRECT (outcome-20260810-mp-materials): the "$65 or $45"
+  bracket resolved **to the $45 stop leg** ($44.62 on 07-21) inside the window — correct as a bracket
+  forecast but the bull thesis failed; cross-referenced to outcome-20260721-mp-materials-stop so the
+  single stop event isn't double-counted as two wins. Gate-based scores use the directional condition
+  (exact levels not reported to the Brain).
+- **Trading desk (RUN 27):** NAV **$1,047.07** vs SPY-bench **$1,037.69** (**+$9.38 / +0.90%**),
+  **13th run ahead**. Monday **market open**; all four desk agents **NO TRADE** (**9th fully quiet
+  desk day**); filled 2 pending orders (GNK, NSIT) after re-verifying theses; no exit triggers on 11
+  pre-existing open. **Data-quality event:** price-data unreliable across **7 of 11 positions**
+  (contradictory/recycled, one company's close mislabeled as another's) — no trades affected (levels
+  far from thresholds), logged as genuine not noise. Clean git start on `main` this run.
+- **World/market news relayed [FACT]:** **First reopening-adjacent Hormuz signal since the crisis
+  began** — Iran FM says NOT in direct US talks while an **Iran-Oman "middle corridor" arrangement is
+  reported "in final stages";** oil markets read it **inconclusive** ("choppy," not a rally); still
+  **no formal ceasefire, UKMTO SEVERE**. Trucking tender-rejection **~14.1% confirmed unchanged**
+  (not a new print) — still one reading short of the desk's 2-week bar.
+- **Staffing:** 07-23 health batch **8 tasks open** (19 days old); today's health run was a
+  food-vs-supplement pass, **not** a batch task, so no advance. Prioritization ask ("name top 3-4 or
+  extend") unanswered since 07-25. Single scheduled routine can't do 8 deep syntheses; shallow
+  health conclusions barred; nothing fabricated.
+- Watches: **0 due** (tacoma next 08-11; oura next 08-14, still BLOCKED — no Oura connector).
+- **Pauses/failures reported honestly:** Jobs **[PAUSED]** (intentional since 07-14; Gmail reauth +
+  WSL follow-up still Brendan-only, surfaced questions-first). FootyBot **[FAIL]** real — **27 days
+  dark** (07-15→08-11), draft 08-28 now **17d out**; needs a Brendan check it's actually unpaused.
+- No unprocessed annotations (08-10 edition had none; Brendan hasn't annotated since 07-11). No rule
+  promotions (no new signals cross the ≥3/≥2-day threshold).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot; Oura not connected;
+  routine-sandbox egress WebSearch-only.
+
 ## 2026-08-09 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date (HEAD == origin/main), 0 unfinished ops, 174→177
   artifacts validate 0 errors, QUEUE 0 warnings. Pinned branch `claude/adoring-mendel-fp4voh`;
