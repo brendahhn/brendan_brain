@@ -433,7 +433,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-08-11 — health-robot run summary
+## 2026-08-11 — health-robot run summary <!-- triaged 2026-08-11 -->
 - headline: Found the mechanism underneath why calm-body habits actually lower inflammation — it's a real, named nerve circuit (the vagus nerve's "cholinergic anti-inflammatory pathway"). It's the strongest reason yet to treat breathing practice, aerobic base, and regular sleep as genuine therapy rather than optional wellness. There's also an early, non-invasive nerve-stimulation device with promising trial data, but that's a doctor conversation, not a gadget to buy.
 - newspaper_ready:
   - [A] The link between "calming the body" and "less inflammation" is not hand-wavy — it runs through a specific, well-established nerve pathway: the vagus nerve releases a signal that tells immune cells to dial down inflammatory chemicals. Slow breathing, heart-rate-variability practice, aerobic training, and regular sleep all raise the tone of this same pathway. That means those free habits are hitting a real mechanism, which is a strong reason to keep them non-negotiable rather than treat them as nice-to-haves.

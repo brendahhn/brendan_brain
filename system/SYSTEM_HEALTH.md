@@ -1,6 +1,64 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-11 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date (HEAD == origin/main @ 66e880d), 0 unfinished ops,
+  181→185 artifacts validate 0 errors, QUEUE 0 warnings (32 tasks). Pinned branch
+  `claude/adoring-mendel-bjm1it`; operational commit lands on `main` per the CLAUDE.md standing
+  rule (verify via `git ls-remote`).
+- **Cadence:** trading (RUN 28, Tuesday market-open) and health both posted fresh real 08-11 blocks.
+  FootyBot + Jobs produced nothing (statuses below). Published edition **2026-08-12**; folded the
+  08-11 blocks in as this evening-run's fresh content (build's blanket [STALE] gate on them is a
+  false positive relative to a tomorrow-dated edition — they are today's runs). Corrected Jobs
+  auto-[FAIL] → [PAUSED].
+- Triaged **2 fresh untriaged blocks** (trading 08-11 marked `pending` by the robot — completed it;
+  health 08-11). Filed **1 health knowledge note** (knowledge-20260811-vagus-anti-inflammatory-pathway,
+  medium, NOT self-confirmed: "the calm-body→less-inflammation link runs through a real named nerve
+  circuit — the vagus cholinergic anti-inflammatory pathway — so breathing/HRV/aerobic/sleep hit a
+  genuine mechanism and are therapy not optional wellness; a drug can control inflammation and still
+  not reach this nerve-driven arm; and 'targets a real mechanism' still isn't 'safe/proven for me' —
+  the ear-clip vagus-stim device is early proof-of-concept + a clinician conversation, and the
+  nicotine-receptor overlap is not a gut hack"). Puts a named mechanism under the 08-08
+  drug-vs-stress-lever note. **Filed 2 NEW investing predictions** (trading's first fresh pitches
+  since RUN 20): prediction-20260811-fslr-polysilicon-tariff (horizon 12-04) and
+  prediction-20260811-csgp-margin-inflection (horizon ~11-15). FRO/GNK carried theses already tracked
+  — not duplicated. **No new questions** (both blocks none cross-domain; `q-20260715-trading-branch-history`
+  remains open, trading again started cleanly on `main`, no stranding this run). Both marked `<!-- triaged 2026-08-11 -->`.
+- **Predictions:** none due to score by real date 08-11 — all passed-horizon predictions already have
+  outcomes on file (08-10 scored fro-ceasefire-gate + mp-materials CORRECT). Next horizons:
+  tlt-short-yields 08-14, fro-tlt-iran 08-15, jets-iran-hedge 08-17, fro-hormuz-freight 08-18.
+- **Trading desk (RUN 28):** NAV **$1,050.84** vs SPY-bench **$1,037.93** (**+$12.91 / +1.24%**),
+  **14th run ahead**. Tuesday **market open**; **first fresh pitches since RUN 20** — 2 of 4 agents
+  NO TRADE, the other two pitched + filled **2 new paper LONGs**: **FSLR** (new US polysilicon tariff
+  signed 08-06 / effective 12-04 favoring thin-film) and **CSGP** (Q2 margin inflection + sustained
+  CEO insider buying near a 7-yr low). No exit triggers on the 13 pre-existing open. **FRO/tanker
+  thesis WOBBLING — closest yet to its ceasefire exit** given today's "advanced stage" Oman-Iran talks;
+  desk flags it most likely to flip next run. **Data-quality note (recurring):** 2 more tickers carrying
+  week-old prices mislabeled as current by aggregators. Clean git start on `main` this run.
+- **World/market news relayed [FACT]:** **New US polysilicon tariff / minimum-import-price** (signed
+  08-06, effective 12-04) structurally favors thin-film over silicon-panel supply chains — not yet fully
+  priced per this week's sell-side PT revisions. **First tangible reopening-adjacent Hormuz movement** —
+  Oman-Iran talks reported "advanced stage," but **nothing signed** and oil **erased gains** on the
+  optimism same morning.
+- **Staffing:** 07-23 health batch **8 tasks open** (20 days old); today's health run was a
+  vagus-pathway mechanism-literacy pass, **not** a batch task, so no advance — though it sits right next
+  to the open stress-toolkit + sleep-deep-dive tasks without being the ranked-protocol deliverable
+  either needs (close but not a close; not fabricated). Prioritization ask ("name top 3-4 or extend")
+  unanswered since 07-25 (18 days). Single scheduled routine can't do 8 deep syntheses; shallow health
+  conclusions barred; nothing fabricated.
+- Watches: **tacoma-search ran** (due 08-11) → **5th consecutive dry pass** — only aggregator/index
+  pages (Edmunds, Cars.com, Carsforsale, JDPower, KBB) + Tacoma World forum; the one concrete forum hit
+  (2002 Xtracab 2.4L 5spd, $3,600) is **360k mi** (fails <150k-mi criterion) and not confirmed SoCal.
+  Per-listing inventory stays JS-rendered/unreachable from a WebSearch-only run; on_change → nothing
+  published. next_run 08-18. Oura next 08-14 (still BLOCKED — no Oura connector).
+- **Pauses/failures reported honestly:** Jobs **[PAUSED]** (intentional since 07-14; Gmail reauth +
+  WSL follow-up still Brendan-only, surfaced questions-first). FootyBot **[FAIL]** real — **27 days
+  dark** (07-15→08-11), draft 08-28 now **16d out**; needs a Brendan check it's actually unpaused.
+- No unprocessed annotations (08-09/10/11 editions had none; Brendan hasn't annotated since 07-11). No
+  rule promotions (no new signals cross the ≥3/≥2-day threshold).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot; Oura not connected;
+  routine-sandbox egress WebSearch-only.
+
 ## 2026-08-10 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date (HEAD == origin/main @ c04a5ad), 0 unfinished ops,
   177→181 artifacts validate 0 errors, QUEUE 0 warnings. Pinned branch `claude/adoring-mendel-vtq1xu`;

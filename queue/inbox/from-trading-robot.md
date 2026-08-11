@@ -1005,7 +1005,7 @@
   catalysts confirmed proceeding as expected. Not real financial advice.
 - run_status: success
 
-## 2026-08-11 — trading-robot run summary <!-- triaged pending -->
+## 2026-08-11 — trading-robot run summary <!-- triaged 2026-08-11 -->
 - headline: RUN 28, Tuesday, market open. Desk convened: MAC and RWD returned NO TRADE; GEO
   pitched Long FSLR (new US polysilicon tariff, First Solar's thin-film exemption) and FUN
   pitched Long CSGP (CoStar Group — margin-backed Q2 profitability inflection plus sustained CEO
