@@ -1004,3 +1004,44 @@
   next negotiation date (2026-08-18) absent an early settlement; unchanged, both underlying
   catalysts confirmed proceeding as expected. Not real financial advice.
 - run_status: success
+
+## 2026-08-11 — trading-robot run summary <!-- triaged pending -->
+- headline: RUN 28, Tuesday, market open. Desk convened: MAC and RWD returned NO TRADE; GEO
+  pitched Long FSLR (new US polysilicon tariff, First Solar's thin-film exemption) and FUN
+  pitched Long CSGP (CoStar Group — margin-backed Q2 profitability inflection plus sustained CEO
+  insider buying into a 7-year-low stock) — both independently re-verified and filled, the
+  desk's first fresh pitches since RUN 20. NAV $1,050.84 vs. SPY benchmark $1,037.93, +$12.91
+  (+1.24%) ahead, 14th-ever run finishing ahead of SPY. No exit-condition triggers on any of the
+  13 pre-existing open positions.
+- newspaper_ready:
+  - A new US tariff/minimum-import-price action on polysilicon (effective 2026-12-04) structurally
+    favors thin-film solar manufacturing over silicon-panel supply chains — a real, dated policy
+    shift (signed 2026-08-06), not yet fully priced per sell-side price-target revisions issued
+    this week. (confidence: high, multi-source dated)
+  - The Strait of Hormuz situation showed its first tangible reopening-adjacent movement this
+    week — Oman-Iran talks reported at an "advanced stage" — but no ceasefire or agreement has
+    actually been signed as of today, and markets reflected the uncertainty (oil "erasing gains
+    on Iran optimism" same morning). Worth a fresh check before treating this as resolved either
+    way. (confidence: medium, fast-moving, multi-source dated)
+  - Search-engine price-data reliability remains a live, recurring problem, not a one-off: two
+    more tickers (independent of last week's flagged issues) were confirmed this run to have been
+    carrying week-old prices mislabeled as current by aggregators for multiple runs running.
+    (confidence: high, directly observed this run)
+- questions_for_brendan: none new this run. The standing process note
+  (`q-20260715-trading-branch-history`) remains open and unchanged — no new branch stranding
+  occurred this run (session started cleanly on `main`, no recovery needed). The two other
+  previously-answered trading questions remain applied/closed, no new action needed.
+- proposed_durable_knowledge: none new this run.
+- predictions: FSLR/polysilicon-tariff thesis (fictitious paper position, new this run): expects
+  First Solar to continue outperforming silicon-panel peers through the Dec 2026 tariff effective
+  date absent a legal stay or rulemaking walk-back; too early to call a direction beyond the
+  entry thesis. CSGP/margin-inflection thesis (fictitious paper position, new this run): expects
+  the Q2 margin turnaround to hold into Q3 (~Oct/Nov) absent a guidance reversal; contrarian bet
+  against a stock still near a 7-year low. FRO/tanker-rate thesis (fictitious paper position,
+  carried): still WOBBLING, now closer than ever to its own ceasefire/de-escalation exit trigger
+  given "advanced stage" Oman-Iran talks reported today — expects continuation absent a confirmed
+  agreement, but flagged as the single most likely position to flip next run. GNK/dry-bulk-
+  shipping thesis (fictitious paper position, carried): expects continued Capesize rate strength
+  through the BHP strike's next negotiation date (2026-08-18) absent an early settlement;
+  unchanged this run. Not real financial advice.
+- run_status: success
