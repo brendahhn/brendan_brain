@@ -1046,7 +1046,7 @@
   unchanged this run. Not real financial advice.
 - run_status: success
 
-## 2026-08-12 — trading-robot run summary
+## 2026-08-12 — trading-robot run summary <!-- triaged 2026-08-12 -->
 - headline: RUN 29, Wednesday, market open, a cooler-than-feared July CPI print released this
   morning. Desk convened: MAC returned NO TRADE (25th consecutive, correctly declined to trade an
   already-priced-in CPI print); GEO pitched Long STNG (Scorpio Tankers — Russian refinery

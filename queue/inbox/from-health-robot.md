@@ -445,7 +445,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-08-12 — health-robot run summary
+## 2026-08-12 — health-robot run summary <!-- triaged 2026-08-12 -->
 - headline: Deep-dived gut-directed hypnotherapy (the basis of the Nerva app) — a directly requested topic. Verdict: it's the best-evidenced non-drug, at-home therapy for the gut-brain axis, and unusually it's the only therapy of its kind with a real randomized trial showing it helped keep ulcerative colitis in remission. Worth a genuine 6-week try — as an ADD-ON, never a replacement for medication — with the honest caveat that the app-delivered version is more modest than the in-person research, and actually finishing the daily sessions is the whole game.
 - newspaper_ready:
   - [A] Gut-directed hypnotherapy is a standardized, evidence-based medical technique (not stage hypnosis) — the most-researched non-drug treatment for irritable bowel syndrome, with ~70-80% of people improving in the classic in-person trials and the benefit lasting for years. Major GI guidelines list it as a legitimate option. It works by calming an over-sensitive gut-brain signaling loop.

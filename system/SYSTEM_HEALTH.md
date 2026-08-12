@@ -1,6 +1,38 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-12 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date (origin/main @ 992efe5), 0 unfinished ops, 185→190
+  artifacts validate 0 errors, QUEUE 0 warnings (32 tasks). Pinned branch
+  `claude/adoring-mendel-biq6pb`; operational commit lands on `main` per the CLAUDE.md standing
+  rule (verify via `git ls-remote`).
+- **Cadence:** trading (RUN 29, Wednesday market-open, on a cooler-than-feared July CPI print) and
+  health both posted fresh real 08-12 blocks. FootyBot + Jobs produced nothing (statuses below).
+  Published edition **2026-08-13**; folded the 08-12 blocks in as this evening-run's fresh content
+  (build's blanket [STALE] gate on them is a false positive relative to a tomorrow-dated edition —
+  they are today's runs). Corrected Jobs auto-[FAIL] → [PAUSED].
+- Triaged **2 fresh untriaged blocks** (health 08-12, trading 08-12). Filed **1 health knowledge
+  note** (knowledge-20260812-gut-directed-hypnotherapy-add-on, medium, NOT self-confirmed:
+  gut-directed hypnotherapy / Nerva is a guideline-recognized non-drug gut-brain therapy, the only
+  one of its class with a randomized UC-remission result, but strictly an add-on and adherence-gated)
+  and **3 investing predictions** (STNG/Russian-diesel-crunch h~09-30, HD/foot-traffic h~08-19,
+  SMWB/margin-inflection h~11-15). All blocks marked `<!-- triaged 2026-08-12 -->`.
+- **Task advance:** CLOSED `task-20260723-nerva-gut-directed-hypnotherapy-deep` — the 08-12 health
+  run delivered the full deep-dive and left it active for the Chief of Staff to verify; moved
+  active→completed. Health 07-23 batch drops **8→7 open.** The standing prioritization ask (name
+  top 3-4 or extend) remains unanswered since 07-25 (19 days) — kept Questions-first in the edition.
+- Watches: 0 due (`run_watches.py due`). Predictions: 9 past-horizon predictions already scored in
+  outcomes/; none newly crossed horizon today (nothing new to score). 3 new predictions filed (above).
+- No unprocessed annotations on 08-10/11/12 editions. No rule promotions (nothing crosses the
+  ≥3-evidence / ≥2-day threshold; nothing proposed).
+- **Failures/degradations (news):** FootyBot **[FAIL] — dark 28 days** (last 07-15), past its
+  expected 07-20 unpause, draft **15 days out (08-28)** — #2 priority losing board-prep; two
+  Brendan-only unblocks open (confirm unpaused + paste Sleeper ADP). Jobs **[PAUSED]** (Brendan
+  07-14, #1 priority parked); Gmail connector degraded ~3 weeks. Trading data-quality: **ELV (4+
+  runs) + WERN (2 runs)** chronic price-verification failures on the sandbox WebSearch-only path —
+  flagged for a human spot-check (one ELV read, if genuine, would have tripped its stop-loss;
+  unconfirmable). Not a real market event.
+
 ## 2026-08-11 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date (HEAD == origin/main @ 66e880d), 0 unfinished ops,
   181→185 artifacts validate 0 errors, QUEUE 0 warnings (32 tasks). Pinned branch
