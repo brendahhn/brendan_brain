@@ -1045,3 +1045,54 @@
   through the BHP strike's next negotiation date (2026-08-18) absent an early settlement;
   unchanged this run. Not real financial advice.
 - run_status: success
+
+## 2026-08-12 — trading-robot run summary
+- headline: RUN 29, Wednesday, market open, a cooler-than-feared July CPI print released this
+  morning. Desk convened: MAC returned NO TRADE (25th consecutive, correctly declined to trade an
+  already-priced-in CPI print); GEO pitched Long STNG (Scorpio Tankers — Russian refinery
+  throughput at a 24-year low on Ukraine's drone campaign, a diesel supply crunch distinct from
+  the book's existing FRO/Hormuz thesis), RWD pitched Long HD (Home Depot — Placer.ai foot-traffic
+  resilience into the Aug 18 print), FUN pitched Long SMWB (Similarweb — first-ever GAAP operating
+  profit, real margin expansion) — all three independently re-verified and filled, though HD's
+  price was materially CORRECTED by the Reviewer from RWD's originally-cited $386.84 to a verified
+  $354.48 (cross-checked against Home Depot's own market cap/shares outstanding). NAV $1,060.47
+  vs. SPY benchmark $1,039.68, +$20.79 (+2.00%) ahead, 15th-ever run finishing ahead of SPY. No
+  exit-condition triggers on any of the 15 pre-existing open positions; a genuinely better
+  mark-to-market day than the prior two runs (7 positions broke stale-price streaks).
+- newspaper_ready:
+  - Ukraine's sustained drone campaign against Russian oil refineries has pushed Russian refining
+    throughput to a 24-year low (~3.6M bbl/day in July, per Bloomberg/Moscow Times) and forced an
+    extension of Russia's diesel export ban — a real, dated supply-side shock to global diesel
+    markets, distinct from the Strait of Hormuz situation already being tracked. (confidence:
+    high, multi-source dated)
+  - Two portfolio tickers (ELV, WERN) now have chronic, worsening price-verification problems
+    across the sandbox's WebSearch-only data path — ELV for 4+ consecutive runs, WERN for 2
+    straight after its worst-yet contamination this run. One ELV read this run, if genuine, would
+    have tripped its stop-loss; could not be confirmed either way via dated news. This is a
+    sandbox data-quality limitation, not a real market event, but worth a human spot-check given
+    the pattern's persistence. (confidence: high, directly observed this run)
+  - A pitching agent's cited price for a new position (Home Depot) was off by ~9% from the
+    verified figure and was caught and corrected before the trade filled — the Reviewer
+    cross-checked market cap ÷ shares outstanding against the cited price and found the mismatch.
+    Illustrates the verification layer catching a real error, not just a contamination pattern
+    worth flagging on its own. (confidence: high, directly observed this run)
+- questions_for_brendan: none new this run. The standing process note
+  (`q-20260715-trading-branch-history`) remains open and unchanged — no new branch stranding
+  occurred this run (a stale local `main` ref resolved via a clean fast-forward, not real drift).
+  The two other previously-answered trading questions remain applied/closed, no new action
+  needed.
+- proposed_durable_knowledge: none new this run.
+- predictions: STNG/Russian-refinery-diesel-crunch thesis (fictitious paper position, new this
+  run): expects continued elevated product-tanker rates through Q3 2026 absent a Russia-Ukraine
+  ceasefire that halts refinery strikes; too early to call beyond the entry thesis. HD/foot-
+  traffic-resilience thesis (fictitious paper position, new this run): expects an in-line-or-
+  better Q2 print on 2026-08-18 given stabilized Placer.ai visit data; short, binary, closes
+  mechanically the day after regardless of outcome. SMWB/margin-inflection thesis (fictitious
+  paper position, new this run): expects the Q2 GAAP-profit inflection to hold into Q3 (~mid-
+  November) absent a reversal; small, high-beta position sized accordingly. FRO/tanker-rate
+  thesis (fictitious paper position, carried): still WOBBLING, unchanged — no ceasefire
+  confirmed, UKMTO still SEVERE as of its most recent advisory. LMT/defense thesis (fictitious
+  paper position, carried): reinforced this run by confirmation LMT won the $10.5B USSOCOM
+  GLSS II logistics IDIQ, directly countering an open cancellation-risk watch item. Not real
+  financial advice.
+- run_status: success
