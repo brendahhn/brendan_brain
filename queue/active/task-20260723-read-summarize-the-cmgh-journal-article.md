@@ -6,7 +6,7 @@ domain: health
 sensitivity: health
 status: active
 created_at: 2026-07-23
-urgency: normal
+urgency: low
 depth: standard
 effort_budget: 1_pass
 publication_destination: none

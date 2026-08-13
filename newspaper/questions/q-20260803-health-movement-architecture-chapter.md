@@ -4,7 +4,10 @@ title: Health Robot — approve the proposed "Movement Architecture" chapter (Ch
 artifact_type: question
 task_id: task-20260723-movement-experiments-nordic-style-back
 kind: material
-status: open
+status: resolved
+resolved_at: 2026-08-13
+resolved_by: chief-of-staff-default
+resolution: "APPROVED (CoS default, reversible). Research is already done and the verdicts are conservative/gated (kettlebells best single add; back-extensions a light-PT-gated yes). Formalizing a reference chapter is low-stakes and un-does easily. Health Robot may build Ch37. Brendan can veto or amend."
 asked_at: 2026-08-03
 created_at: 2026-08-03
 domain: health

@@ -6,14 +6,20 @@ sensitivity: personal
 confidence: medium
 derived_from: [audit-20260710-initial]
 created_at: 2026-07-10
-updated_at: 2026-07-14
+updated_at: 2026-08-13
 created_by: systems_architect
 ---
 # Current Priorities (edit freely, Brendan — this steers triage)
 
 1. **Job search** — highest consequence. NOTE: the Jobs ROBOT is intentionally paused by Brendan (2026-07-14); editions must report "paused", never [FAIL].
 2. **Fantasy draft prep** — draft 2026-08-28; FootyBot nightly; urgency rises as the date nears.
-3. **Health research program** — chapter build-out (16/36) continues.
+3. **Health research program** — chapter build-out (16/36) continues. **07-23 batch order set by
+   Chief of Staff 2026-08-13** (Brendan hadn't ranked it in ~19 days; this is a reversible default,
+   re-rank anytime): (1) **Ella labor & delivery support** — hard biological deadline, front of
+   queue; (2) **sleep deep-dive** — foundational, ties to the stress/mast-cell axis; (3) migraine-med
+   moneyball; (4) cold sores + pet-food; (5) deodorant/antiperspirant; (6) CMGH article (low-effort
+   filler, slot anytime). Two proposed chapters (Ch37 Movement Architecture, cost-per-day eating)
+   APPROVED by CoS default 2026-08-13 — build them; veto if you disagree.
 4. **Brendan OS itself** — built 2026-07-10; annotate the newspaper to train it.
 5. Paper trading, vehicles (Tacoma), surfing/WSL analytics — background interest level.
 

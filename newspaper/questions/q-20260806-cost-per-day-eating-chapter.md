@@ -4,7 +4,10 @@ title: Health Robot — formalize the "cost-per-day eating" reference as a stand
 artifact_type: question
 task_id: task-20260723-eat-cheap-and-clean-meal-cost-project
 kind: material
-status: open
+status: resolved
+resolved_at: 2026-08-13
+resolved_by: chief-of-staff-default
+resolution: "APPROVED (CoS default, reversible). The reference is already built on real local store pricing and the task is closed; formalizing it as a standing chapter just makes it findable. Low-stakes, easily reverted. Health Robot may formalize it. Brendan can veto."
 asked_at: 2026-08-06
 created_at: 2026-08-06
 domain: health
