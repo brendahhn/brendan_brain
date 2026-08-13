@@ -1097,7 +1097,7 @@
   financial advice.
 - run_status: success
 
-## 2026-08-13 — trading-robot run summary
+## 2026-08-13 — trading-robot run summary <!-- triaged 2026-08-13 -->
 - headline: RUN 30. All four desk agents (GEO, RWD, MAC, FUN) independently returned explicit NO
   TRADE — the bot's 10th fully quiet desk day. No exit-condition triggers on any of the 18
   open positions. NAV $1,054.85 vs. SPY benchmark $1,037.18, +$17.67 (+1.70%) ahead, 16th-ever

@@ -1,6 +1,42 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-13 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date (origin/main @ 6b77074), 0 unfinished ops, 190→193
+  artifacts validate 0 errors, QUEUE 0 warnings (32 tasks). Pinned branch
+  `claude/adoring-mendel-0j6v1n`; operational commit lands on `main` per the CLAUDE.md standing
+  rule (verify via `git ls-remote`).
+- **Cadence:** trading (RUN 30) and health both posted fresh real 08-13 blocks. FootyBot + Jobs
+  produced nothing (statuses below). Published edition **2026-08-14**; folded the 08-13 blocks in
+  as this evening-run's fresh content and removed the build tool's blanket [STALE] gate on them
+  (false positive relative to a tomorrow-dated edition — same call as 08-12). Corrected Jobs
+  auto-[FAIL] → [PAUSED].
+- Triaged **2 fresh blocks** (health 08-13, trading 08-13). Filed **2 knowledge notes**:
+  knowledge-20260813-body-before-story-acute-stress (health, medium, NOT self-confirmed:
+  body-before-story stress toolkit — physiological sigh beats other breathing+meditation in an
+  RCT, reframe-as-excitement real, mindset effect small ~0.2, plus EMDR + Wim-Hof corrections and
+  a rate-lowering-med cardiac caution) and knowledge-20260813-headline-label-is-not-self-verifying
+  (investing, medium — general verification-discipline lesson from the STLA finding; first note in
+  a new domains/investing/knowledge/ dir). **No new predictions** filed; instead updated two
+  carried theses in place: prediction-20260802-auto-tariff-short marked **BROKEN** (STLA
+  anti-stacking carve-out, 8 dated sources) and prediction-20260812-hd-foot-traffic noted the HD
+  CEO-medical-leave near-stop risk. Both 08-13 blocks marked `<!-- triaged 2026-08-13 -->`.
+- **Task advance:** CLOSED `task-20260723-stress-nervous-system-real-time-toolkit` — the 08-13
+  health run delivered the full requested toolkit; moved active→completed. Health 07-23 batch
+  **7→6 open.** Standing prioritization ask (name top 3-4 or extend) still unanswered since 07-25
+  (~19 days) — kept Questions-first in the edition.
+- Watches: 0 due. Predictions: all 9 past-horizon predictions already scored in outcomes/; none
+  newly crossed horizon today (nothing to score). No unprocessed annotations on 08-11/12/13. No
+  rule promotions (nothing crosses ≥3-evidence / ≥2-day threshold; nothing proposed).
+- **Failures/degradations (news):** FootyBot **[FAIL] — dark 29 days** (last 07-15), past its
+  expected 07-20 unpause, draft **14 days out (08-28)** — #2 priority losing board-prep; two
+  Brendan-only unblocks open (confirm unpaused + paste Sleeper half-PPR ADP). Jobs **[PAUSED]**
+  (Brendan 07-14, #1 priority parked); Gmail connector degraded ~3 weeks. Trading data-quality:
+  **ELV (5+ runs), WERN (2 runs, spread widening to two ~$10-apart clusters), NSIT (4 runs)**
+  chronic price-verification failures on the sandbox WebSearch-only path — flagged for a human
+  spot-check. Not a real market event. Also noted: prior 08-12/08-13 runs did not update
+  coverage_ledger.md (minor gap); appended 08-14 rows this run, did not backfill.
+
 ## 2026-08-12 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date (origin/main @ 992efe5), 0 unfinished ops, 185→190
   artifacts validate 0 errors, QUEUE 0 warnings (32 tasks). Pinned branch

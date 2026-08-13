@@ -4,7 +4,7 @@ title: Stress & nervous-system real-time toolkit
 artifact_type: task
 domain: health
 sensitivity: health
-status: active
+status: completed
 created_at: 2026-07-23
 urgency: normal
 depth: deep
@@ -36,3 +36,4 @@ Rank the tools by evidence and by fit for Brendan's #1 vulnerability (CRH -> mas
 
 - 2026-07-24 [sonnet] Triaged into active queue by daily routine. Part of Brendan's 2026-07-23 weekly-research batch (target: solid answer by Mon 2026-07-27). Desk: health; default model sonnet, escalate to opus for consequential health conclusions. Not yet started; queued behind higher value-per-effort items advanced this run.
 - 2026-08-13 [opus] Picked up by Health Robot (Run 53, Phase 2 B0). Delivering as a deep QUICK note in health-notebook `chapters/quick/` — a §4-style real-time stress/nervous-system toolkit: in-the-moment tools vs threshold-building practice, evidence-ranked, each with an exact protocol, ranked for fit to the CRH→mast-cell axis. Consolidates Brendan's raw notes. Verification: WebSearch-only sandbox (fetch blocked) — every finding needs a live-surfaced real PMID/DOI or it is cut. Result summary will be exported to the Brain inbox on run end (generic conclusions only, health-sanitized).
+- 2026-08-13 [opus] CLOSED by Chief of Staff (daily routine). Health Robot's 08-13 inbox block delivered the full toolkit (in-the-moment vs threshold-building, evidence-ranked, corrections on EMDR eye-movements and Wim-Hof power-breathing). Durable takeaway filed as knowledge-20260813-body-before-story-acute-stress; six newspaper_ready items fold into the 08-14 edition. Moved active→completed. Health 07-23 batch now 7→6 open.

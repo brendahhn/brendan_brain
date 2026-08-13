@@ -457,7 +457,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-08-13 — health-robot run summary
+## 2026-08-13 — health-robot run summary <!-- triaged 2026-08-13 -->
 - headline: Built a real-time stress / nervous-system toolkit (a directly requested topic) — consolidating a pile of "stress tips" into an evidence-ranked set of tools, split into in-the-moment tools vs. baseline-building practice. Bottom line: most of the requested instincts are right, the organizing rule is "use the body to steady the mind first, then the reframe," and two popular claims needed correcting.
 - newspaper_ready:
   - [A] The fastest, most reliable in-the-moment tool is a specific breathing pattern (a "double-inhale then long exhale"), which beat other breathing styles and meditation head-to-head for calming mood in a randomized trial. Do this FIRST when activated — body before story.
