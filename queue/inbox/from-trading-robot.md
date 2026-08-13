@@ -1096,3 +1096,57 @@
   GLSS II logistics IDIQ, directly countering an open cancellation-risk watch item. Not real
   financial advice.
 - run_status: success
+
+## 2026-08-13 — trading-robot run summary
+- headline: RUN 30. All four desk agents (GEO, RWD, MAC, FUN) independently returned explicit NO
+  TRADE — the bot's 10th fully quiet desk day. No exit-condition triggers on any of the 18
+  open positions. NAV $1,054.85 vs. SPY benchmark $1,037.18, +$17.67 (+1.70%) ahead, 16th-ever
+  run finishing ahead of SPY. The Reviewer independently confirmed a material finding on an open
+  short position (STLA/Stellantis): the tariff its thesis depends on very likely never applied to
+  the traded company in the first place, due to an anti-stacking carve-out in the original
+  proclamation text. Thesis status recorded BROKEN; not closed this run (stale price + a
+  discretionary, not mechanical, finding) but flagged for likely close next run.
+- newspaper_ready:
+  - A fictitious paper-trading short position built on a specific new tariff was found, on
+    independent re-verification, to likely rest on a mistaken premise — the tariff proclamation's
+    own text carves out the exact category of goods (passenger/commercial vehicles) the position
+    was betting would be newly hit, because those goods are already covered by an older, separate
+    tariff and the US doesn't stack the two. Confirmed across 8 independent, dated professional
+    trade-compliance sources. (confidence: high, multi-source dated, independently re-verified)
+  - Three portfolio tickers now have chronic, worsening price-verification problems in this
+    sandbox's WebSearch-only data path: ELV (5+ consecutive runs), WERN (2 straight, this run's
+    contamination measurably worse — two mutually irreconcilable price clusters ~$10 apart), and
+    NSIT (4 consecutive runs). This is a sandbox data-quality limitation, not a real market event,
+    but the pattern's persistence (especially WERN's widening spread) is worth a human spot-check.
+    (confidence: high, directly observed this run)
+  - A portfolio company's CEO announced a surprise temporary medical leave the day before this
+    run, and the stock dropped on the news to within under 1% of the position's own pre-earnings
+    stop-loss level, five days ahead of a binary earnings catalyst. Not yet a triggered exit, but
+    close enough to flag. (confidence: high, directly observed this run, company IR + CNBC
+    corroborated)
+- questions_for_brendan: none new this run requiring a ruling — the STLA anti-stacking finding
+  above is surfaced as information/a heads-up, not a question, since the Reviewer already has
+  standing close authority on this book and intends to act (close) next run absent new
+  contradicting information. The standing process note (`q-20260715-trading-branch-history`)
+  remains open and unchanged — no branch stranding occurred this run. The two other
+  previously-answered trading questions remain applied/closed.
+- proposed_durable_knowledge: a general research-process note (not domain-specific): when a
+  policy/tariff/regulatory thesis rests on a named category drawn from a proclamation's title or a
+  news summary, that label is not self-verifying — the specific instrument in question needs to be
+  checked against the actual covered legal text (HTS lines, carve-outs, anti-stacking clauses),
+  not just matched to the headline theme. This is a general verification-discipline lesson, useful
+  beyond the trading domain.
+- predictions: STLA/Stellantis-tariff-short thesis (fictitious paper position, carried, status
+  changed to BROKEN this run): the short's core catalyst — a new 50% Section 338 tariff newly
+  hitting Stellantis's Canadian-built vehicles on 2026-08-19 — now appears to have been mistaken
+  from the outset, per an anti-stacking carve-out independently confirmed across 8 sources;
+  expect this position to close next run regardless of price, likely for a small realized gain.
+  HD/foot-traffic-resilience thesis (fictitious paper position, carried): still on track for its
+  binary 2026-08-18 print, but a new, thesis-unrelated risk (CEO medical leave, announced
+  2026-08-12) has the position trading within under 1% of its own pre-earnings stop — a further
+  small move down could force a mechanical exit before the print even happens. RDDT/post-
+  earnings-overreaction thesis (fictitious paper position, carried): reinforced this run — checked
+  directly against the position's own written exit condition, US and global daily-active-user
+  counts are both still growing, not declining, despite "choppy" search-referral commentary from
+  the earnings call. Not real financial advice.
+- run_status: success
