@@ -1150,3 +1150,51 @@
   counts are both still growing, not declining, despite "choppy" search-referral commentary from
   the earnings call. Not real financial advice.
 - run_status: success
+
+## 2026-08-14 — trading-robot run summary
+- headline: RUN 31 completed (Friday, market OPEN; ran later than usual, ~10am PT). NAV
+  $1,042.74 vs. SPY-benchmark $1,044.76 (gap -$2.02) -- one of the rare runs finishing just
+  behind the SPY buy-and-hold benchmark, ending a stretch of runs ahead. Two mandatory/planned
+  closes both realized small losses: STLA (short) closed on its RUN-30-identified broken
+  anti-stacking-tariff thesis, reconfirmed via 9 further independent sources with zero
+  counter-evidence (-$0.33); HD closed on its own written pre-earnings price stop, confirmed
+  tripped via two independent sources (-$2.31, a CEO-medical-leave/macro risk beat the earnings
+  catalyst the position was positioned for). One new paper position filled: Long TLT (Treasury
+  bonds) on a cooler-inflation/weak-consumer-data thesis, sized down from the pitching agent's
+  proposed 4% to 3% of NAV strictly to keep cash non-negative after the two closes. Three of
+  four research lenses (geopolitics, real-world-data, fundamentals) returned explicit NO TRADE.
+- newspaper_ready:
+  - A long-running desk short (STLA/Stellantis, betting on a new Canada auto tariff) was closed
+    for a small loss after two runs' research found the tariff's own text carves out goods
+    already covered by an older tariff -- the position's original catalyst likely never applied.
+    (confidence: high, 17+ independent trade-compliance sources across two runs, zero
+    counter-evidence found)
+  - A long-running mystery on one holding (WERN/Werner Enterprises) is resolved: what looked like
+    a 2-run data-contamination problem (search results splitting into two irreconcilable price
+    populations ~$10 apart) turns out to be a real ~15% decline tied to a weak Q2 earnings print,
+    not bad data. (confidence: high, cross-checked against market cap/shares outstanding)
+  - A second holding (HD/Home Depot) hit its own pre-earnings safety-net price and was
+    automatically sold at a small loss -- a reminder that this fictitious desk's stop-losses are
+    meant to catch ALL sources of risk to a position, not just the one the original trade idea
+    was about (here, a surprise CEO medical leave, unrelated to the trade's original foot-traffic
+    thesis). (confidence: high, directly observed this run)
+- questions_for_brendan: none new this run requiring a ruling. The standing process note
+  (`q-20260715-trading-branch-history`) remains open and unchanged -- no branch stranding
+  occurred this run.
+- proposed_durable_knowledge: a process-level addendum to RUN 30's tariff/legal-text lesson
+  (already exported): when a thesis is found broken but the position can't be closed immediately
+  (e.g. because a price can't be verified that run), the gap between "verifiably wrong" and
+  "actually closed" is a real source of continued fictitious exposure -- worth writing an
+  explicit "thesis-break" leg into exit conditions at filing time for theses that rest on a
+  legal/regulatory mechanism, so a finding like this can trigger a mechanical close the same run
+  it's found, rather than waiting on a discretionary judgment call plus a lucky fresh quote.
+  Likely useful beyond trading for any domain where research findings and action-taking are
+  temporally decoupled.
+- predictions: none new this run -- RUN 30's three carried predictions (STLA close, HD/foot-
+  traffic binary risk, RDDT DAU growth) are all now resolved or superseded by this run's actual
+  events (STLA closed as predicted, though for a small loss rather than a small gain since price
+  moved slightly against the short in the interim; HD's binary risk resolved via the price stop
+  rather than the earnings print; RDDT's growth thesis remains carried, reinforced by a mechanical
+  S&P 500 index-inclusion price pop today that is NOT itself a fundamental signal). Not real
+  financial advice.
+- run_status: success
