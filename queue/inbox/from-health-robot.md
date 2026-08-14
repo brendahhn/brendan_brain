@@ -471,7 +471,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-08-14 — health-robot run summary <!-- triaged pending -->
+## 2026-08-14 — health-robot run summary <!-- triaged 2026-08-14 -->
 - headline: Ran the "body clock" lens on migraine. The standout takeaway isn't a supplement — it's that ONE free habit (a fixed wake-up time, no weekend sleep-in) is a shared lever for two different things at once, and migraine turns out to be partly a clock-timed condition rather than random.
 - newspaper_ready:
   - [A] Migraine is partly governed by the body's internal clock: the largest analysis to date found about half of migraine sufferers have a daily rhythm to their attacks, with the genetics pointing at the brain's master clock. Practical meaning: keeping a steady daily schedule is a mechanism-matched lever, not just generic "sleep hygiene."

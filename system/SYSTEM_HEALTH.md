@@ -1,6 +1,57 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-14 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date (origin/main @ 0d0305f), 0 unfinished ops, 193→197
+  artifacts validate 0 errors, QUEUE 0 warnings (32 tasks). Pinned branch
+  `claude/adoring-mendel-b97v91`; operational commit lands on `main` per the CLAUDE.md standing
+  rule (verify via `git ls-remote`).
+- **Cadence — asymmetric tonight:** health posted a fresh real 08-14 block (migraine "body-clock"
+  lens); **trading did NOT** — last trading block is 08-13 (already folded into the 08-14 edition),
+  so **no 08-14 trading run landed**. FootyBot + Jobs produced nothing (statuses below). Published
+  edition **2026-08-15**; folded the 08-14 health block in as this evening-run's fresh content and
+  removed the build tool's [STALE] gate on it (false positive for a tomorrow-dated evening build).
+  Corrected Jobs auto-[FAIL] → [PAUSED].
+- Triaged **1 fresh block** (health 08-14). Filed **1 knowledge note**
+  (knowledge-20260814-migraine-clock-timed-fixed-wake, health, medium, NOT self-confirmed: migraine
+  is partly clock-timed — ~half of sufferers show a daily attack rhythm, early-morning clustering,
+  rigid body clock; the highest-value free lever is a FIXED WAKE TIME, which doubles as a gut-rhythm
+  lever; melatonin runs low + has preventive evidence but is a prescriber call; caveat — no trial
+  isolates "regular schedule → fewer migraines," and the night-shift link is only a preprint) and
+  **1 new question** (q-20260814-migraine-med-name-dose — the "moneyball my migraine med" task stays
+  blocked until Brendan supplies the med name + dose). Health block had **no new predictions**. Block
+  marked `<!-- triaged 2026-08-14 -->`.
+- **Prediction SCORED:** prediction-20260724-tlt-short-yields reached its **08-14 horizon** →
+  **PARTIAL** (outcome-20260814-tlt-short-yields). The macro read was right — yields stayed
+  elevated/surged through the FOMC (Fed held 07-29 on a hawkish 9-3 vote; 30yr Treasury yield above
+  5.2%, highest since 2007) — but the paper position was **stopped out two days before the FOMC**
+  for a small −$0.22 loss when the de-escalation carve-out the thesis had written for itself (US-Iran
+  strikes pause → oil down >3%/day) tripped its exit. Correct thesis, position exited before it could
+  pay off → partial, not correct/incorrect. Scored on gate/directional evidence (exact TLT price not
+  synced). Next horizons: fro-tlt-iran 08-15, jets-iran-hedge 08-17.
+- **Task advance:** health 07-23 batch **unchanged at 6 open.** Tonight's health run was a migraine
+  body-clock pass — adjacent to `task-20260723-moneyball-my-personal-migraine-med` but does **not**
+  close it (that task is genuinely blocked on Brendan's med name + dose; filed the question). No
+  fabricated advance. Challenge Desk flags the disconnect: all six 07-23 tasks show "untouched ≥3
+  weeks" in the queue while the Health Robot runs nightly — the chapter output isn't being written
+  back to those task files; worth reconciling done-vs-parked-vs-rescope.
+- Watches: oura watch **due 08-14 → STILL BLOCKED (4th consecutive)** — re-verified no Oura
+  connector/token/export anywhere in-repo. on_change → nothing published. Logged + marked (next
+  08-21). **Recommendation hardened:** three weeks of dead re-fires; Chief-of-Staff will **default to
+  PAUSING the watch** at the next re-fire (08-21) absent a wired source, reversible on request —
+  surfaced as a decision point in the 08-15 Challenge Desk. Tacoma next 08-18 (not due).
+- **Failures/degradations (news):** **Trading [FAIL] — missed tonight's run** (no 08-14 block; last
+  08-13). Consequence: the STLA/Stellantis paper-short close the desk flagged for "next run regardless
+  of price" (thesis recorded BROKEN 08-13) is **still pending**, and exit checks on the 18 open paper
+  positions didn't run tonight. FootyBot **[FAIL] — dark 31 days** (last 07-15), past its expected
+  07-20 unpause, draft **13 days out (08-28)** — #2 priority losing board-prep; two Brendan-only
+  unblocks open (confirm unpaused + paste Sleeper half-PPR ADP). Jobs **[PAUSED]** (Brendan 07-14, #1
+  priority parked); Gmail connector degraded ~4 weeks.
+- No unprocessed annotations (08-12/13/14 editions checked — none; Brendan hasn't annotated since
+  07-11). No rule promotions (nothing crosses the ≥3-evidence / ≥2-day threshold; nothing proposed).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot; Oura not connected;
+  routine-sandbox egress WebSearch-only.
+
 ## 2026-08-13 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date (origin/main @ 6b77074), 0 unfinished ops, 190→193
   artifacts validate 0 errors, QUEUE 0 warnings (32 tasks). Pinned branch
