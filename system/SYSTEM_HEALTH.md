@@ -1,6 +1,58 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-15 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date (origin/main @ a9cb22b), 0 unfinished ops, 197→202
+  artifacts validate 0 errors, QUEUE 0 warnings (32 tasks). Pinned branch
+  `claude/adoring-mendel-n8thwu`; operational commit lands on `main` per the CLAUDE.md standing
+  rule (verify via `git ls-remote`).
+- **Cadence — trading RECOVERED, both runs landed.** The 08-14 edition had reported Trading
+  [FAIL] (missed 08-14). Both blocks are now in-inbox: trading **08-14 (RUN 31)** synced late
+  (17:25, after the 08-14 edition shipped) and **08-15 (RUN 32)**. RUN 31 executed the pending
+  STLA short-close (thesis broken 08-13) for −$0.33 and closed HD at its price stop; RUN 32 is
+  back **+$17.94/+1.72% ahead of SPY** (honestly attributed mostly to a mechanical Reddit index
+  pop). Health posted a fresh **08-15** block (cold sores/allergies, Run 55). Published edition
+  **2026-08-16**; removed the build tool's [STALE] gates on both 08-15 blocks (false positive for
+  an evening run building tomorrow's paper) and corrected Jobs auto-[FAIL] → [PAUSED].
+- Triaged **3 blocks**: trading 08-14 + 08-15 (both were genuinely Brain-untriaged) and completed
+  the real triage of health 08-15 (see anomaly below). Filed **2 knowledge notes**
+  (`knowledge-20260814-thesis-break-exit-leg`, investing, medium — pre-write a mechanical
+  "thesis-break" exit leg for legal/regulatory theses so a broken thesis closes the same run it's
+  found, from trading RUN 31's STLA limbo; `knowledge-20260815-cold-sores-suppress-not-cure`,
+  health, medium — HSV is lifelong-latent/suppress-only, best free lever is stress + lip SPF;
+  allergy "reversal" = desensitization, food OIT raises anaphylaxis ~3×), **1 question**
+  (`q-20260815-allergy-history-for-desensitization` — cold-sores task's personalized half blocked
+  on Brendan's allergy history). No new predictions in any block. NOT self-confirmed.
+- **ANOMALY (news): the Health Robot self-stamped its 08-15 inbox block `triaged`.** The
+  `<!-- triaged 2026-08-15 -->` marker was written by the robot in its own 04:59 commit (e723275),
+  confirmed via `git log -S` — the 08-14 block, by contrast, was Brain-triaged (945edce). The robot
+  cannot create the Brain-side artifacts triage produces (knowledge + question), so the marker
+  falsely implied triage that hadn't happened; neither artifact existed. Completed the real triage
+  tonight and surfaced it in the 08-16 Challenge Desk. **Recommendation (proposed, not edited —
+  fix is in health-notebook): robot stops stamping triage markers, OR the Brain switches to a
+  distinct `brain-triaged` marker so robot self-stamping can't cause silent drops.** The robot DID
+  correctly write the task research log this run (partly addresses the 08-14 reconciliation flag).
+- **Prediction SCORED:** `prediction-20260725-fro-tlt-iran` reached its **08-15 horizon** →
+  **PARTIAL** (`outcome-20260815-fro-tlt-iran`). FRO held as written (geopolitical gate never
+  tripped); the TLT-short did not — stopped out 07-27 on a de-escalation oil selloff, the exact
+  carve-out the "both hold absent a confirmed ceasefire/downgrade" thesis had ruled out. Consistent
+  with the sibling FRO/TLT outcomes. Next horizons: jets-iran-hedge 08-17, fro-hormuz-freight/
+  hd-foot-traffic/hdsn-q2 all 08-18/19.
+- **Task advance:** health 07-23 batch unchanged at 6 open. The 08-15 health run delivered the
+  cold-sores/allergies generic layer (batch item #4) — logged to the task, but it stays active
+  (`requires_brendan_answer: true`, blocked on allergy history). No fabricated advance.
+- Watches: **0 due** (Tacoma next 08-18, Oura next 08-21). Oura pause decision still pending at
+  its 08-21 re-fire — carried into the 08-16 Challenge Desk so it's not a surprise.
+- **Failures/degradations (news):** FootyBot **[FAIL] — dark 32 days** (last 07-15), past its
+  expected 07-20 unpause, draft **12 days out (08-28)** — #2 priority losing board-prep; two
+  Brendan-only unblocks open (confirm unpaused + paste Sleeper half-PPR ADP). Jobs **[PAUSED]**
+  (Brendan 07-14, #1 parked); Gmail connector degraded ~4 weeks. Trading NO LONGER failing
+  (recovered this cycle).
+- No unprocessed annotations (08-13/14/15 checked — none; Brendan hasn't annotated since 07-11).
+  No rule promotions (nothing crosses the ≥3-evidence / ≥2-day threshold; nothing proposed).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot; Oura not connected;
+  routine-sandbox egress WebSearch-only.
+
 ## 2026-08-14 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date (origin/main @ 0d0305f), 0 unfinished ops, 193→197
   artifacts validate 0 errors, QUEUE 0 warnings (32 tasks). Pinned branch

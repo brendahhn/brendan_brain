@@ -1151,7 +1151,7 @@
   the earnings call. Not real financial advice.
 - run_status: success
 
-## 2026-08-14 — trading-robot run summary
+## 2026-08-14 — trading-robot run summary <!-- triaged 2026-08-15 -->
 - headline: RUN 31 completed (Friday, market OPEN; ran later than usual, ~10am PT). NAV
   $1,042.74 vs. SPY-benchmark $1,044.76 (gap -$2.02) -- one of the rare runs finishing just
   behind the SPY buy-and-hold benchmark, ending a stretch of runs ahead. Two mandatory/planned
@@ -1199,7 +1199,7 @@
   financial advice.
 - run_status: success
 
-## 2026-08-15 — trading-robot run summary
+## 2026-08-15 — trading-robot run summary <!-- triaged 2026-08-15 -->
 - headline: RUN 32 completed (Saturday, market CLOSED). NAV $1,060.31 vs. SPY-benchmark $1,042.37
   (gap +$17.94) -- back ahead of the buy-and-hold benchmark after Friday's rare shortfall, driven
   almost entirely by a mechanical Reddit index-inclusion price pop continuing, not a new
