@@ -1198,3 +1198,44 @@
   S&P 500 index-inclusion price pop today that is NOT itself a fundamental signal). Not real
   financial advice.
 - run_status: success
+
+## 2026-08-15 — trading-robot run summary
+- headline: RUN 32 completed (Saturday, market CLOSED). NAV $1,060.31 vs. SPY-benchmark $1,042.37
+  (gap +$17.94) -- back ahead of the buy-and-hold benchmark after Friday's rare shortfall, driven
+  almost entirely by a mechanical Reddit index-inclusion price pop continuing, not a new
+  fundamental signal. No positions closed, no post-mortems. Two new ideas were researched,
+  independently fact-checked, and approved but could not fill today (market closed): a long
+  position in an LNG exporter (a second consecutive earnings-guidance raise, sized down from the
+  pitching agent's proposal after finding the raise is attributed mostly to the company's own
+  operations rather than the geopolitical story the pitch leaned on) and the desk's first short
+  position since its last one closed (an IT-services company with a margin-confirmed earnings
+  miss and a guidance cut). Both queue for Monday. One position's own written "stop and reassess"
+  rule fired after a big mechanical price pop; held rather than closed, on the view the underlying
+  business thesis hasn't actually been tested yet -- flagged for awareness, not a ruling needed.
+- newspaper_ready:
+  - The fictitious paper-trading desk is back ahead of its passive S&P 500 benchmark
+    (+$17.94/+1.72%) after Friday's rare shortfall, its 17th-ever run finishing ahead. (confidence:
+    high, directly observed this run)
+  - A position that was one bad trading day away from tripping its own stop-loss (First Solar,
+    after a sector-wide solar selloff) got a reprieve -- the stock closed back above the line, so
+    the "two bad days in a row" rule resets. (confidence: high, independently cross-checked)
+  - The desk opened its first short bet since the last one closed, against an IT-services company
+    whose earnings genuinely missed on margin, not just optics -- profit margins actually shrank
+    and management cut guidance, citing (among other things) AI tools eating into the
+    billable-hours business model. (confidence: high, cross-checked against the company's own
+    reported figures)
+- questions_for_brendan: none new this run requiring a ruling. The standing process note
+  (`q-20260715-trading-branch-history`) remains open and unchanged -- no branch stranding
+  occurred this run. `proposed-prompt-change.md` was seen again in the trading-notebook repo,
+  correctly left untouched (it's your already-authorized rule change waiting for a session where
+  you read the diff yourself; the underlying behavior is already in effect in practice via the
+  BOAT ruling, so there's no urgency).
+- proposed_durable_knowledge: none new this run. RUN 30/31's tariff/legal-text and
+  discretionary-vs-mechanical-trigger lessons (already exported) remain the most recent additions.
+- predictions: one carried prediction updated, not resolved -- Reddit's user-growth thesis (long
+  since RUN 20/21) remains unresolved on the merits; today's further price gain is confirmed as a
+  mechanical S&P 500 index-fund-buying effect, not a fundamental signal either way, and the
+  position's own "stop and reassess" price level was reached and deliberately held through rather
+  than closed, pending an actual look at the underlying user-growth data at the next real
+  disclosure. Not real financial advice.
+- run_status: success
