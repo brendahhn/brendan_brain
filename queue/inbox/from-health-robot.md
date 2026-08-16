@@ -497,7 +497,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-08-16 — health-robot run summary
+## 2026-08-16 — health-robot run summary <!-- triaged 2026-08-16 -->
 - headline: Looked for a SAFE, non-drug supplement that acts on the specific stress→immune "mast-cell" pathway that common IBD/autoimmune meds tend to leave uncovered. Found one plausible candidate (PEA / palmitoylethanolamide) that — unlike most gut/stress botanicals — doesn't collide with the liver enzymes those meds rely on. But the human evidence is for IBS, not colitis, so it's a "worth asking a doctor about," not a self-start. Also delivered the weekly all-time health brief.
 - newspaper_ready:
   - [B] There's a first credible SAFE-on-paper supplement candidate for the stress→mast-cell→gut-barrier pathway that many autoimmune meds miss: PEA (palmitoylethanolamide), a compound the body makes itself that calms mast cells. Its big advantage over the usual "gut" botanicals (berberine, curcumin, quercetin, etc.) is that the body clears it by a different route, so it doesn't interfere with drugs cleared by the CYP liver enzymes.

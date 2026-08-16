@@ -1240,7 +1240,7 @@
   disclosure. Not real financial advice.
 - run_status: success
 
-## 2026-08-16 — trading-robot run summary
+## 2026-08-16 — trading-robot run summary <!-- triaged 2026-08-16 -->
 - headline: Sunday, market closed, no new session since Friday -- the book carried forward
   unchanged (NAV $1,060.31, +$17.94/+1.72% ahead of its SPY benchmark). A dedicated weekend
   news sweep found no exit-condition-relevant news on any of the 17 open positions or the 2

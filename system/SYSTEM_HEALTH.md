@@ -1,6 +1,48 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-16 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date (origin/main @ b16a88e), 0 unfinished ops, 202
+  artifacts validate 0 errors, QUEUE 0 warnings (32 tasks). Pinned branch
+  `claude/adoring-mendel-2uxgnv`; operational commit lands on `main` per the CLAUDE.md standing
+  rule (verify via `git ls-remote`).
+- **Cadence — both nightly robots landed.** Fresh **08-16** blocks in-inbox for **trading**
+  (Sunday, market closed — book carried forward unchanged, NAV $1060.31/+$17.94/+1.72% ahead of
+  SPY, weekend sweep cleared 17 open + 2 pending, first-ever semiconductor bet TSM queued for Mon,
+  GEO/RWD/MAC NO TRADE, Genco takeover-bid walk-away) and **health** (Run — PEA candidate for the
+  stress→mast-cell→gut pathway). Both `run_status: success`. Published edition **2026-08-17**;
+  removed the build tool's [STALE] gates on both 08-16 blocks (false positive for an evening run
+  building tomorrow's paper) and corrected Jobs auto-[FAIL] → [PAUSED].
+- Triaged **2 blocks** (trading 08-16 + health 08-16). Filed **1 knowledge note**
+  (`knowledge-20260816-pea-cyp-safe-mast-cell-adjunct`, health, **confidence low** — PEA is the
+  first nutraceutical candidate for the stress→mast-cell→gut-barrier pathway that clears via
+  FAAH/NAAA instead of the CYP2C8/2C9/3A4 enzymes autoimmune meds use, so no interaction on paper;
+  BUT human evidence is IBS not UC + combination products = provider conversation, never a
+  self-start; PEA+luteolin combos are CYP2C9-gated and worse; free behavioral levers still outrank
+  it). Trading block had no new predictions/knowledge/questions. NOT self-confirmed.
+- **Predictions: none scored today.** All passed-horizon predictions (≤08-16) already have
+  outcomes (verified by prediction_id cross-check — boat-freight→07-15, mp-materials-stop→07-21,
+  the rest 08-02→08-15). Next horizons: **jets-iran-hedge 08-17**, fro-hormuz-freight 08-18,
+  hd-foot-traffic/hdsn-q2 08-19.
+- **Task advance:** health 07-23 batch unchanged at 6 open. Today's health run delivered the PEA
+  evidence layer (relates to the sleep/stress-gut axis) but is a weekly-brief/supplement scan, not
+  a batch-task closeout — no advance claimed, nothing fabricated.
+- Watches: **0 due** (Tacoma next 08-18, Oura next 08-21). Oura pause decision still pending at
+  its 08-21 re-fire — carried into the 08-17 Challenge Desk so it's not a surprise.
+- **Failures/degradations (news):** FootyBot **[FAIL] — dark 33 days** (last 07-15), past its
+  expected 07-20 unpause, draft **11 days out (08-28)** — #2 priority losing board-prep nightly;
+  two Brendan-only unblocks open (confirm unpaused + paste Sleeper half-PPR ADP). Jobs **[PAUSED]**
+  (Brendan 07-14, #1 parked); Gmail connector degraded ~4 weeks. Trading + health both healthy.
+- **Challenge Desk reframed:** the build tool flagged 6 health batch tasks as "stale ≥10 days,"
+  but those are active batch items blocked on Brendan's answers — misleading to publish as neglect.
+  Replaced with 2 honest items: (1) the **blocked-on-Brendan pileup** — 4 parked items (FootyBot
+  unpause+ADP, migraine med name+dose, allergy history) all gated on small Brendan-only info drops;
+  (2) the Oura watch pause decision due 08-21.
+- No unprocessed annotations (08-14/15/16 checked — none; Brendan hasn't annotated since 07-11).
+  No rule promotions (nothing crosses the ≥3-evidence / ≥2-day threshold; nothing proposed).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot; Oura not connected;
+  routine-sandbox egress WebSearch-only.
+
 ## 2026-08-15 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date (origin/main @ a9cb22b), 0 unfinished ops, 197→202
   artifacts validate 0 errors, QUEUE 0 warnings (32 tasks). Pinned branch
