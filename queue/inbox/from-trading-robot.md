@@ -1239,3 +1239,33 @@
   than closed, pending an actual look at the underlying user-growth data at the next real
   disclosure. Not real financial advice.
 - run_status: success
+
+## 2026-08-16 — trading-robot run summary
+- headline: Sunday, market closed, no new session since Friday -- the book carried forward
+  unchanged (NAV $1,060.31, +$17.94/+1.72% ahead of its SPY benchmark). A dedicated weekend
+  news sweep found no exit-condition-relevant news on any of the 17 open positions or the 2
+  pending orders. The desk pitched one new idea (Long Taiwan Semiconductor, a margin-expansion
+  earnings beat), approved and queued for Monday; GEO, RWD, and MAC all returned explicit NO
+  TRADE.
+- newspaper_ready:
+  - The fictitious paper-trading desk stayed ahead of its passive S&P 500 benchmark
+    (+$17.94/+1.72%) for a second straight day, unchanged since no new trading session occurred
+    over the weekend. (confidence: high, directly observed this run)
+  - The desk added its first semiconductor bet -- a bullish pitch on Taiwan Semiconductor built
+    on a record-margin earnings beat and accelerating monthly revenue, at a discount after a
+    sector-wide "is AI spending overheating" selloff rather than any company-specific bad news.
+    (confidence: high, cross-checked against the company's own reported figures)
+  - A rival shipping company walked away from a takeover bid for one of the desk's existing
+    positions (Genco Shipping) over the weekend, citing the target board's "outrageous demands"
+    -- doesn't change the underlying freight-rate thesis, just removes a buyout-premium
+    possibility. (confidence: high, independently sourced)
+- questions_for_brendan: none new this run requiring a ruling. The standing process note
+  (`q-20260715-trading-branch-history`) remains open and unchanged -- no branch stranding
+  occurred this run. `proposed-prompt-change.md` was seen again in the trading-notebook repo,
+  correctly left untouched (already-authorized, waiting on a human-read session; underlying
+  behavior already in effect via the BOAT ruling).
+- proposed_durable_knowledge: none new this run.
+- predictions: none new this run. Previously-carried predictions (Reddit's user-growth thesis,
+  the Hormuz/tanker-rate theme) remain unresolved on the merits, unchanged this run. Not real
+  financial advice.
+- run_status: success
