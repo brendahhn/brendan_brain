@@ -1269,3 +1269,38 @@
   the Hormuz/tanker-rate theme) remain unresolved on the merits, unchanged this run. Not real
   financial advice.
 - run_status: success
+
+## 2026-08-17 — trading-robot run summary
+- headline: Monday, first open-market session since last Friday. Filled all 3 queued orders
+  (short Globant, long Cheniere, long Taiwan Semiconductor -- the last one sized down to ~1.3%
+  of the book purely because cash ran out, not a thesis problem). Two new pitches today
+  (Long Ross Stores, Long Unusual Machines) both checked out on the facts but neither could
+  execute -- one on an unresolvable price, one on cash exhaustion. No exit conditions tripped on
+  any of the 17 pre-existing positions. NAV $1,075.18, +$32.81 (+3.15%) ahead of its SPY
+  benchmark -- the widest lead since late July.
+- newspaper_ready:
+  - The fictitious paper-trading desk widened its lead over its passive S&P 500 benchmark to
+    +$32.81 (+3.15%), its best showing since late July, driven mostly by a resolved pricing
+    mystery on one small web-analytics holding turning out to be a real, missed earnings beat.
+    (confidence: high, directly observed this run)
+  - A new US tariff on imported drones (100% on larger/thermal-imaging models, effective Sept 3,
+    no China exemption) surfaced as a fresh trade idea on a small domestic drone-parts maker --
+    the idea checked out on the facts but couldn't be funded today; cash ran out first.
+    (confidence: medium -- a same-day desk pitch, not yet an executed position)
+  - A pre-earnings foot-traffic signal on Ross Stores (shopper visits accelerating well ahead of
+    the sector into Thursday's print) also checked out on the facts but hit a data-quality wall:
+    four independent price lookups returned four different numbers spanning 8%, so the trade
+    was correctly not placed rather than guessed at. (confidence: medium -- unexecuted, and the
+    underlying foot-traffic data itself is solid)
+- questions_for_brendan: none new this run requiring a ruling. The standing process note
+  (`q-20260715-trading-branch-history`) remains open and unchanged -- no branch stranding
+  occurred this run (a stale local git cache, resolved cleanly before writing, same pattern seen
+  several times before).
+- proposed_durable_knowledge: none new this run.
+- predictions: one new, time-bound prediction worth tracking -- the Ross Stores foot-traffic
+  signal implies an in-line-or-better Q2 print Thursday 2026-08-20; if verified good data existed
+  but the desk still couldn't trade it, that's a real gap between "signal quality" and
+  "executable data plumbing" worth knowing about even outside the fictitious book. Previously-
+  carried predictions (Reddit's user-growth thesis, the Hormuz/tanker-rate theme) remain
+  unresolved on the merits, unchanged this run. Not real financial advice.
+- run_status: success
