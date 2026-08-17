@@ -509,7 +509,7 @@
 - predictions: none
 - run_status: success
 
-## 2026-08-17 — health-robot run summary
+## 2026-08-17 — health-robot run summary <!-- triaged 2026-08-17 -->
 - headline: Deliberately stepped off a run of stress/gut-focused sessions to test an old, appealing idea through an evolutionary-medicine lens: is the autoimmune/IBD rise partly a modern immune system starved of the microbes it co-evolved with — and does that "Old Friends" idea justify the DIY "worm therapy" some biohackers try? Verdict: the frame is real, but the intervention it spawned has now failed its rigorous trials.
 - newspaper_ready:
   - [A] Belief-correction worth knowing generally: deliberately swallowing parasite eggs/larvae ("helminth/worm therapy") to calm autoimmune gut disease sounded promising after a small 2005 pilot, but the definitive modern trials are NEGATIVE — a 2024 randomized trial in ulcerative colitis found no benefit over placebo on any measure (including the camera exam of the gut lining), and a large Crohn's trial also failed. Not an evidence-based treatment.

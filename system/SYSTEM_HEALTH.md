@@ -1,6 +1,52 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-17 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date (origin/main @ 72533fc), 0 unfinished ops, 204→208
+  artifacts validate 0 errors, QUEUE 0 warnings (32 tasks). Pinned branch
+  `claude/adoring-mendel-attsyu`; operational commit lands on `main` per the CLAUDE.md standing
+  rule (verify via `git ls-remote`).
+- **Cadence — both nightly robots landed.** Fresh **08-17** blocks in-inbox for **trading**
+  (Monday, first open session since Fri — NAV $1075.18/+$32.81/+3.15% ahead of SPY, widest lead
+  since late July; all 3 queued orders filled: short GLOB, long LNG, long TSM (the queued semi bet,
+  now EXECUTED, sized ~1.3% on cash); 2 new pitches ROST + Unusual Machines both checked-out-but-
+  unexecuted (ROST 4 price lookups spanned 8%; UMAC drone-tariff play cash-out); no exits on 17 open)
+  and **health** (helminth/"worm" therapy belief-correction). Both `run_status: success`. Published
+  edition **2026-08-18**; removed the build tool's [STALE] gates on both 08-17 blocks (false positive
+  for an evening run building tomorrow's paper) and corrected Jobs auto-[FAIL] → [PAUSED].
+- Triaged **2 blocks** (trading 08-17 + health 08-17). Filed **1 knowledge note**
+  (`knowledge-20260817-helminth-therapy-not-evidence-based`, health, **confidence medium** — DIY
+  worm therapy for IBD is NOT evidence-based: 2005 pilot never replicated, 2024 UC RCT (PROCTO) +
+  2017 Crohn's RCT (TRUST-II) both negative incl. endoscopic endpoints; risky on immunomodulators;
+  the valid residue of "Old Friends" is a diverse plant/fiber/fermented diet + early-life microbial
+  exposure — future-parenting lever, not adult treatment). NOT self-confirmed. **1 new prediction**
+  (`prediction-20260817-ross-foot-traffic`, investing, medium, horizon 08-21 — ROST prints in-line-
+  or-better Q2 on 08-20 per a solid foot-traffic signal; unexecuted, the trade hit a price-plumbing
+  wall not a thesis failure). Trading block had no new knowledge/questions.
+- **Prediction SCORED:** `prediction-20260727-jets-iran-hedge` reached its **08-17 horizon** →
+  **CORRECT** (`outcome-20260817-jets-iran-hedge`). Both conditional branches played out: JETS
+  strengthened during the strike pause, then the **07-28 Iranian missile attack** — the exact
+  re-escalation trigger the thesis named — tripped its "strikes resumed" exit, closing **07-29 for a
+  +$6.63 gain**. Resolved in ~2 days, well inside the stated 2-3-week horizon; scored now on the
+  artifact's 08-17 horizon for the record. Next horizon: fro-hormuz-freight 08-18.
+- **Task advance:** health 07-23 batch unchanged at 6 open. Today's health run was a belief-
+  correction / myth-busting pass (worm therapy), not a batch-task closeout — no advance claimed,
+  nothing fabricated.
+- Watches: **0 due** (`run_watches.py due`; Tacoma next 08-18, Oura next 08-21). Oura pause decision
+  now 3 days out at its 08-21 re-fire — carried into the 08-18 Challenge Desk so it's not a surprise.
+- **Failures/degradations (news):** FootyBot **[FAIL] — dark 34 days** (last 07-15), past its
+  expected 07-20 unpause, draft **10 days out (08-28)** — #2 priority losing board-prep nightly; two
+  Brendan-only unblocks open (confirm unpaused + paste Sleeper half-PPR ADP). Jobs **[PAUSED]**
+  (Brendan 07-14, #1 parked); Gmail connector degraded ~4 weeks. Trading + health both healthy.
+- **Challenge Desk kept as 2 honest items** (not the build tool's 6 mechanical stale-health-task
+  rows, which misrepresent active-but-blocked batch items as neglect): (1) the **blocked-on-Brendan
+  pileup** — FootyBot unpause+ADP, migraine med name+dose, allergy history, all gated on small
+  Brendan-only info drops, unchanged two days running; (2) the Oura watch pause decision due 08-21.
+- No unprocessed annotations (08-16/17 checked — none; Brendan hasn't annotated since 07-11).
+  No rule promotions (nothing crosses the ≥3-evidence / ≥2-day threshold; nothing proposed).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot; Oura not connected;
+  routine-sandbox egress WebSearch-only.
+
 ## 2026-08-16 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date (origin/main @ b16a88e), 0 unfinished ops, 202
   artifacts validate 0 errors, QUEUE 0 warnings (32 tasks). Pinned branch

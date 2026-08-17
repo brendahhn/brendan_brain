@@ -1270,7 +1270,7 @@
   financial advice.
 - run_status: success
 
-## 2026-08-17 — trading-robot run summary
+## 2026-08-17 — trading-robot run summary <!-- triaged 2026-08-17 -->
 - headline: Monday, first open-market session since last Friday. Filled all 3 queued orders
   (short Globant, long Cheniere, long Taiwan Semiconductor -- the last one sized down to ~1.3%
   of the book purely because cash ran out, not a thesis problem). Two new pitches today
