@@ -13,8 +13,8 @@ recurrence: watch
 requires_brendan_answer: false
 origin_repository: brendan_brain
 dedupe_key: general/watch-vehicles-tacoma-search-90w
-last_run: 2026-08-11
-next_run: 2026-08-18
+last_run: 2026-08-18
+next_run: 2026-08-25
 ---
 
 ## Request
@@ -76,3 +76,15 @@ weeks (per-listing inventory is JS-rendered, unreachable from a WebSearch-only s
 consecutive dry pass from the same cause; the reliable unblock remains Brendan running a filtered
 Cars.com/CarGurus search locally (or pasting listings into the Brain). next_run advances to
 2026-08-18.
+
+### 2026-08-18 (weekly pass; due today)
+Criteria unchanged: 2002-2004 Tacoma, 2.4L 4-cyl, Xtracab, manual only, ≤$12k, condition-first
+(<150k mi preferred). WebSearch pass again returned only marketplace index/aggregator pages
+(Edmunds, Cars.com, Carsforsale, Classic.com, craigslist LA search page) plus one Tacoma World
+forum thread — and that thread is a **2.7L** 4x4 manual, not the 2.4L target. No individual live
+SoCal 4-cyl/manual listing with a verifiable price/URL/mileage. Same structural egress limit as
+every prior week (per-listing inventory is JS-rendered, unreachable from a WebSearch-only scheduled
+run). **No change to report** → nothing published (publish_policy=on_change). This is now the **6th
+consecutive dry pass** from the same cause; the reliable unblock remains Brendan running a filtered
+Cars.com/CarGurus search locally (or pasting listings into the Brain). next_run advances to
+2026-08-25.

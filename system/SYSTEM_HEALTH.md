@@ -1,6 +1,68 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-18 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date (origin/main @ d95d8dc), 0 unfinished ops, 208→212
+  artifacts validate 0 errors, QUEUE 0 warnings (32 tasks). Pinned branch
+  `claude/adoring-mendel-4h7g1w`; operational commit lands on `main` per the CLAUDE.md standing rule
+  (verify via `git ls-remote`).
+- **Cadence — both nightly robots landed.** Fresh **08-18** blocks in-inbox for **trading** (Tue,
+  market open — NAV **$1,078.66 / +$41.21 / +3.97%** ahead of SPY, a **new best-ever lead**; one
+  forced close of the Treasury-bond position on its own written stop-loss (small loss) driven by the
+  Hormuz/rates shock not the trade's own thesis; **10th fully quiet NO-TRADE desk day**, all 4
+  researchers NO TRADE; yesterday's pending **ROST order CANCELLED** after 3 failed price lookups —
+  signal not disproven, unexecutable) and **health** (Run 58, labor & delivery evidence base). Both
+  `run_status: success`. Published edition **2026-08-19**; removed the build tool's [STALE] gates on
+  both 08-18 blocks (false positive for an evening run building tomorrow's paper) and corrected Jobs
+  auto-[FAIL] → [PAUSED].
+- **ANOMALY (news) — BOTH robots self-stamped `triaged` this run (08-15 anomaly recurring, now on
+  both).** The trading 08-18 (`d95d8dc`) and health 08-18 (`eece17b`) inbox blocks each carried a
+  `<!-- triaged 2026-08-18 -->` marker written by the **robot's own commit**, but the Brain-side
+  triage artifacts did not exist — a false "triaged" that would have caused a silent drop under the
+  skip-if-marked idempotency rule. Completed the **real triage** tonight. Recommendation unchanged
+  from 08-15 (fix lives in the robot repos, not edited here): robots stop stamping triage markers, OR
+  the Brain switches to a distinct `brain-triaged` marker so robot self-stamping can't mask undone
+  triage. Surfaced in the 08-19 Challenge Desk.
+- Triaged **2 blocks** (trading 08-18 + health 08-18). Filed **1 knowledge note**
+  (`knowledge-20260818-labor-delivery-easing-levers`, health, **confidence medium**, generic/sanitized
+  — the strongest evidence-based labor levers are behavioral/positional not supplements: continuous
+  one-to-one support (Cochrane, biggest effect from a doula), upright/mobile first-stage, prenatal
+  exercise; prep levers perineal massage / warm compress / water immersion; de-hyped EPO + raspberry-
+  leaf tea + dates; avoid routine CTG in low-risk labor). NOT self-confirmed. **1 question**
+  (`q-20260818-labor-support-personalization-context`, sensitivity **private** — the Ella labor task's
+  personalized axis needs 5 context answers). Trading block had **no new predictions/knowledge/questions**;
+  annotated `prediction-20260817-ross-foot-traffic` (trade cancelled → now an unaccompanied market
+  call, still scoreable vs Thu 08-20 print) and the Ella task Research Log (Brain-triage note).
+- **PRIVACY handled (rule #4):** the Ella labor task is `sensitivity: private`. Published only the
+  **generic, sanitized, evidence-tiered** research conclusions in the Health section (allowed:
+  "generic research conclusions only") with **no name, no personal tie, no assertion anyone specific
+  is pregnant**; the private personalization question is surfaced **obliquely** in Questions ("a
+  private task awaits your context, held in the Brain"), never the labor specifics or the 5 questions.
+- **Prediction SCORED:** `prediction-20260721-fro-hormuz-freight` reached its **08-18 horizon** →
+  **CORRECT** (`outcome-20260818-fro-hormuz-freight`). Gate held the full window (no ceasefire / no
+  UKMTO downgrade; tonight's fresh Strait escalation + the 60-day ceasefire deadline passing
+  unresolved reinforced it). Scored on the directional gate (exact FRO level not synced to the Brain,
+  noted not fabricated); consistent with its two sibling Hormuz outcomes. Next horizon:
+  hd-foot-traffic 08-19 (not yet due tonight); hdsn-q2 (nominal 08-19) already scored early 08-07.
+- **Task advance:** health 07-23 batch unchanged at 6 open. The 08-18 health run advanced the **Ella
+  labor task's generic axis** (delivered + logged) but it stays `active`/`requires_brendan_answer`
+  (blocked on the 5 context answers) — no close claimed, nothing fabricated.
+- Watches: **tacoma-search ran** (due 08-18) → **6th consecutive dry pass** — only aggregator/index
+  pages (Edmunds, Cars.com, Carsforsale, Classic.com, craigslist LA) + one Tacoma World forum thread
+  that is a **2.7L** (not the 2.4L target); no verifiable SoCal 4-cyl/manual listing. Per-listing
+  inventory stays JS-rendered/unreachable from a WebSearch-only run; on_change → nothing published.
+  Logged + marked (next 08-25). Oura next 08-21 (pause decision now 2 days out — carried into the
+  08-19 Challenge Desk).
+- **Failures/degradations (news):** FootyBot **[FAIL] — dark 35 days** (last 07-15), past its
+  expected 07-20 unpause, draft **9 days out (08-28)** — #2 priority losing board-prep nightly; two
+  Brendan-only unblocks open (confirm unpaused + paste Sleeper half-PPR ADP). Jobs **[PAUSED]**
+  (Brendan 07-14, #1 parked); Gmail connector degraded ~4 weeks. Trading + health both healthy on
+  content (the self-stamp anomaly is a process bug, not a content failure).
+- No unprocessed annotations (08-17/18 checked — none; Brendan hasn't annotated since 07-11).
+  No rule promotions (nothing crosses the ≥3-evidence / ≥2-day threshold; nothing proposed).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot; Oura not connected;
+  routine-sandbox egress WebSearch-only.
+
 ## 2026-08-17 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date (origin/main @ 72533fc), 0 unfinished ops, 204→208
   artifacts validate 0 errors, QUEUE 0 warnings (32 tasks). Pinned branch

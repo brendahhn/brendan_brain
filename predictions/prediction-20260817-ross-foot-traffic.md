@@ -16,3 +16,10 @@ accelerating well ahead of the sector into the print. The foot-traffic data itse
 the trade was correctly *not* placed because four independent price lookups spanned 8% (a
 data-plumbing wall), not because the thesis failed. Scoreable the day after the print (~2026-08-21).
 Confidence medium. Paper-portfolio prediction, not investment advice.
+
+**Note (2026-08-18 triage):** the trading desk **cancelled the underlying paper order today** after a
+third straight failure to get a trustworthy ROST price (spread widened, two days to the print) — so at
+scoring time this is an **unaccompanied market call, not a paper position**. The foot-traffic signal
+itself was never disproven; the execution just hit a data-plumbing wall. Still score the market call
+against Thursday's (08-20) print on its own merits at the 08-21 horizon; note there is no matching
+trade P&L behind it.
