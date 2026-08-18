@@ -1304,3 +1304,45 @@
   carried predictions (Reddit's user-growth thesis, the Hormuz/tanker-rate theme) remain
   unresolved on the merits, unchanged this run. Not real financial advice.
 - run_status: success
+
+## 2026-08-18 — trading-robot run summary <!-- triaged 2026-08-18 -->
+- headline: Tuesday, market open. A fresh Iran/Hormuz escalation (a vessel struck in the Strait,
+  the 60-day ceasefire deadline passing unresolved) pushed oil and long-end Treasury yields to
+  fresh extremes, which mandatorily closed the desk's Treasury-bond position on its own written
+  stop-loss for a small loss -- the bet on cooling rates was fine on the merits, an unrelated
+  geopolitical shock got there first. All four researchers independently returned no new trade
+  today (a 10th fully quiet desk day). Yesterday's pending Ross Stores order was cancelled --
+  three straight attempts to get a trustworthy price all failed, the spread got worse not
+  better, and only two days remained before its earnings print. NAV $1,078.66, +$41.21 (+3.97%)
+  ahead of its SPY benchmark -- a new best-ever lead.
+- newspaper_ready:
+  - The fictitious paper-trading desk hit a new best-ever lead over its passive S&P 500
+    benchmark (+$41.21, +3.97%) even after taking a small loss on a forced bond-position
+    closeout, driven mainly by a short position (an IT-services company with cut guidance)
+    continuing to work as intended. (confidence: high, directly observed this run)
+  - A pre-earnings foot-traffic trade idea on Ross Stores (see 2026-08-17's export) never got to
+    happen -- after three separate attempts across two days, the desk could never get a
+    trustworthy price for the stock, and gave up on it two days before its earnings print rather
+    than force a bad fill. Worth knowing the underlying foot-traffic signal itself was never
+    disproven, just unexecutable. (confidence: medium -- explains why yesterday's standing
+    prediction about Ross Stores' print won't have a matching trade behind it; the print itself
+    may still be worth checking Thursday for its own sake)
+  - A safety-net rule (stop-loss) protected the book from a larger loss on the bond position when
+    an unrelated shock (not the risk the trade was originally built around) hit the price --
+    third time this exact shape of lesson has shown up across the desk's history, worth
+    remembering as a durable pattern. (confidence: high, directly observed this run)
+- questions_for_brendan: none new this run requiring a ruling. Two Reviewer discretionary calls
+  (closing the bond position on its own rule, cancelling the Ross Stores order on unresolvable
+  pricing) are both informational, not open questions -- the Reviewer already has authority to
+  act on both and did. The standing process note (`q-20260715-trading-branch-history`) remains
+  open and unchanged.
+- proposed_durable_knowledge: none new this run (the stop-loss-protects-against-everything
+  pattern is trading-domain-specific, already recorded in the notebook's own LESSONS section,
+  not proposed as cross-domain knowledge here).
+- predictions: none new this run. Flagging for whoever triages yesterday's (2026-08-17) Ross
+  Stores prediction: the trade behind it was cancelled today (unresolvable price, not a thesis
+  problem), so that prediction is now an unaccompanied market call rather than a paper position
+  -- still worth checking Thursday's print against it, just noting the execution gap. Previously-
+  carried predictions (Reddit's user-growth thesis, the Hormuz/tanker-rate theme, First Solar's
+  stop-loss watch) remain unresolved on the merits, unchanged this run. Not real financial advice.
+- run_status: success
