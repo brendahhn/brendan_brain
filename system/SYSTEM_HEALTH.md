@@ -1,6 +1,67 @@
 # System Health
 (updated at the end of each Brendan OS session/run; failures are news — report them)
 
+## 2026-08-19 — daily routine (Opus, autonomous)
+- Bootstrap clean: pull-rebase up-to-date (origin/main @ f4eaced), 0 unfinished ops, 212→217
+  artifacts validate 0 errors, QUEUE 0 warnings (32 tasks). Pinned branch
+  `claude/adoring-mendel-juqml5`; operational commit lands on `main` per the CLAUDE.md standing rule
+  (verify via `git ls-remote`).
+- **Cadence — both nightly robots landed.** Fresh **08-19** blocks in-inbox for **trading** (Wed,
+  market open — broad chip-sector selloff; NAV **$1,067.90 / +$36.72 / +3.56%** ahead of SPY, **20th
+  run ahead** though the lead narrowed on a down day; First Solar stopped out on its written 2-day
+  price stop for a small loss — tariff thesis never disproven, 4th recurrence of the stop-catches-all-
+  risk lesson; TJX + Burlington opened, Burlington sized down on low cash; MP Materials researched-
+  clean but UNFUNDED) and **health** (Run 59, gut–heart axis / IBD cardiovascular risk). Both
+  `run_status: success`. Published edition **2026-08-20**; removed the build tool's [STALE] gates on
+  both 08-19 blocks (false positive for an evening run building tomorrow's paper) and corrected Jobs
+  auto-[FAIL] → [PAUSED].
+- **ANOMALY (news) — health robot self-stamped `triaged` AGAIN; trading did NOT this time.** The
+  health 08-19 block (`d6a2a11`) carried a `<!-- triaged 2026-08-19 -->` marker written by the
+  **robot's own commit**, with NO Brain-side triage artifacts existing (git show confirms the commit
+  only touched the inbox + the CMGH task) — a false "triaged" that would have caused a silent drop
+  under the skip-if-marked idempotency rule. Completed the **real triage** tonight. The trading 08-19
+  block arrived **UNMARKED** (I stamped it after triaging), so the pattern is now **health-robot-
+  specific**, correcting yesterday's "both robots" framing. Recommendation unchanged (fix lives in the
+  health-notebook repo, not edited here): robot stops stamping triage markers, OR the Brain switches to
+  a distinct `brain-triaged` marker. Surfaced in the 08-20 Challenge Desk.
+- Triaged **2 blocks** (health 08-19 + trading 08-19). Filed **1 knowledge note**
+  (`knowledge-20260819-ibd-cardiovascular-risk-activity-dependent`, health, **confidence medium**,
+  generic/sanitized — IBD's excess CV risk is activity-dependent: elevated in flares/active disease,
+  normalizes to the general population in remission (Kristensen 2013), so remission is itself CV
+  prevention; mechanism = gut-barrier→endotoxemia→vascular inflammation (Violi 2023); CANTOS as the
+  inflammation-causal anchor, not a prevention drug; de-hyped TMAO testing + gut-heart supplements).
+  NOT self-confirmed. **2 questions**: `q-20260819-ibd-as-cv-risk-enhancer` (optional/low-stakes —
+  back-pocket clinician note) and `q-20260819-cmgh-egress-unblock` (material — see below). Trading
+  block had **no new predictions/knowledge/questions** (all "none").
+- **CMGH task blocked ~24 days — escalated with a decidable unblock.** `task-20260723-read-summarize-
+  the-cmgh-journal-article` (target was 07-27) can't move: the article sits behind a URL the health-
+  robot sandbox can't fetch (egress-blocked, WebSearch-only) and the 2026 in-press article isn't yet
+  search-indexed. **Verified tonight the Brain routine's own sandbox is ALSO egress-blocked for
+  `cmghjournal.org`** (WebFetch → EGRESS_BLOCKED), so neither agent can fetch it — the robot correctly
+  refused to guess. Filed `q-20260819-cmgh-egress-unblock` and surfaced it as its own Challenge Desk +
+  Questions item: open web egress for the domain, OR paste the article title/text. Won't self-heal.
+- **Prediction SCORED:** `prediction-20260812-hd-foot-traffic` reached its **08-19 horizon** →
+  **UNRESOLVED** (`outcome-20260819-hd-foot-traffic`). The paper position was stopped out **08-14**
+  (−$2.31) on its pre-earnings price stop (surprise CEO medical leave + macro) four days before the
+  08-18 print, so the in-line-or-better earnings catalyst the bet was built around **was never
+  tested** — exactly the risk the prediction's own 08-13 update flagged. All other past-horizon
+  predictions already have outcomes on file. Next horizons: ross-foot-traffic 08-21, lmt-socom 08-21,
+  etn-electrification 08-21.
+- **Task advance:** health 07-23 batch unchanged at 6 open. Tonight's health run was a gut–heart-axis
+  chapter pass, not a batch-task closeout — no advance claimed, nothing fabricated. CMGH remains
+  `active`, honestly blocked (above).
+- Watches: **0 due** (`run_watches.py due`; Tacoma next 08-25, Oura next 08-21). Oura pause decision
+  now **1 day out** at its 08-21 re-fire — carried into the 08-20 Challenge Desk so it's not a surprise.
+- **Failures/degradations (news):** FootyBot **[FAIL] — dark 36 days** (last 07-15), past its
+  expected 07-20 unpause, draft **8 days out (08-28)** — #2 priority losing board-prep nightly; two
+  Brendan-only unblocks open (confirm unpaused + paste Sleeper half-PPR ADP). Jobs **[PAUSED]**
+  (Brendan 07-14, #1 parked); Gmail connector degraded ~4 weeks. Trading + health both healthy on
+  content (the self-stamp anomaly is a process bug, not a content failure).
+- No unprocessed annotations (08-18/19 checked — none; Brendan hasn't annotated since 07-11).
+  No rule promotions (nothing crosses the ≥3-evidence / ≥2-day threshold; nothing proposed).
+- Known degradations unchanged: Gmail connector degraded on Jobs Robot; Oura not connected;
+  routine-sandbox egress WebSearch-only (CMGH `cmghjournal.org` re-confirmed blocked this run).
+
 ## 2026-08-18 — daily routine (Opus, autonomous)
 - Bootstrap clean: pull-rebase up-to-date (origin/main @ d95d8dc), 0 unfinished ops, 208→212
   artifacts validate 0 errors, QUEUE 0 warnings (32 tasks). Pinned branch

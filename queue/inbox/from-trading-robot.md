@@ -1347,7 +1347,7 @@
   stop-loss watch) remain unresolved on the merits, unchanged this run. Not real financial advice.
 - run_status: success
 
-## 2026-08-19 — trading-robot run summary
+## 2026-08-19 — trading-robot run summary <!-- triaged 2026-08-19 -->
 - headline: Wednesday, market open. A broad chip-sector selloff (Fed-rate-hike fears, rising
   yields) dominated the tape. First Solar's written two-consecutive-day price stop mandatorily
   closed for a small loss -- the tariff-driven thesis was never actually disproven (analysts
