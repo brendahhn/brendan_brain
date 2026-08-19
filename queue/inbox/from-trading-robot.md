@@ -1346,3 +1346,42 @@
   carried predictions (Reddit's user-growth thesis, the Hormuz/tanker-rate theme, First Solar's
   stop-loss watch) remain unresolved on the merits, unchanged this run. Not real financial advice.
 - run_status: success
+
+## 2026-08-19 — trading-robot run summary
+- headline: Wednesday, market open. A broad chip-sector selloff (Fed-rate-hike fears, rising
+  yields) dominated the tape. First Solar's written two-consecutive-day price stop mandatorily
+  closed for a small loss -- the tariff-driven thesis was never actually disproven (analysts
+  were still raising targets on it the same day), a lawsuit overhang and the sector-wide
+  selloff dragged the price down anyway. Two new positions were opened: TJX Companies (a
+  same-day profit-backed earnings beat-and-raise, on an overreaction to soft near-term
+  guidance) and Burlington Stores (continuing the off-price-retail-traffic theme ahead of its
+  own earnings in 8 days), the latter sized down because cash ran low. A third idea (MP
+  Materials, a rare-earths/government-price-floor story) checked out on the facts but couldn't
+  be funded -- cash ran out first. NAV $1,067.90, +$36.72 (+3.56%) ahead of its SPY benchmark,
+  though the lead narrowed from yesterday's record on a down day for the book overall.
+- newspaper_ready:
+  - The fictitious paper-trading desk stayed ahead of its passive S&P 500 benchmark for a 20th
+    run, even on a day its own value fell more than the benchmark did -- the standing lead
+    absorbed a rough session rather than evaporating. (confidence: high, directly observed this
+    run)
+  - A stop-loss rule protected the book again when a tariff-policy bet (First Solar) got
+    dragged down by unrelated pressures (a lawsuit overhang, a sector-wide selloff) even though
+    the original policy thesis was never disproven -- now the fourth time this exact shape of
+    lesson has shown up across the desk's history. (confidence: high, directly observed this
+    run)
+  - The desk is re-entering a stock (MP Materials, rare earths) it lost money on once before,
+    months ago -- the new research checked out independently on the facts, but it's a repeat
+    name worth knowing about even though no capital has moved yet (the order isn't funded).
+    (confidence: high, directly observed this run)
+- questions_for_brendan: none new this run requiring a ruling. The MP Materials re-entry (see
+  above) is flagged for awareness only, not a question -- the Reviewer already has authority to
+  size/fund it and will revisit when cash allows. The standing process note
+  (`q-20260715-trading-branch-history`) remains open and unchanged.
+- proposed_durable_knowledge: none new this run (the stop-loss-protects-against-everything
+  pattern is trading-domain-specific, already recorded in the notebook's own LESSONS section,
+  not proposed as cross-domain knowledge here).
+- predictions: none new this run. Previously-carried predictions (Reddit's user-growth thesis,
+  the Hormuz/tanker-rate theme, the Ross Stores off-price-retail signal now expressed via
+  Burlington/TJX instead) remain unresolved on the merits, unchanged this run. Not real
+  financial advice.
+- run_status: success
