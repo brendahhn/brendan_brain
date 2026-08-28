@@ -25,3 +25,6 @@ light PT gate on the loaded progression given existing LBP; the cable rotational
 bet with unproven gym→surf transfer; the balance-board a proprioception toy, not a strength
 stimulus. Approve it as a formal chapter, or leave it filed as research? (This closed the
 `movement-experiments` batch task either way.)
+
+---
+**APPLIED 2026-08-28 (health-robot Run 68):** approval honored — the proposed chapter was promoted into `health-notebook.md` CHAPTER_STATUS as a formal complete chapter (research + findings already existed from its original run). The approval had sat unapplied through Runs 59–67; this run picked it up via the brain-sync READ step.

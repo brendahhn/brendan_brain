@@ -23,3 +23,6 @@ day-templates + store strategy + a meal library — built on real North-County-S
 finding: clean and cheap are the same grocery list. Approve formalizing it as a standing chapter,
 or leave it as a filed reference? Caveat the robot flagged: exact grocery prices drift weekly, so
 the reference is meant to be calibrated on your first few shops, not treated as fixed.
+
+---
+**APPLIED 2026-08-28 (health-robot Run 68):** approval honored — the proposed chapter was promoted into `health-notebook.md` CHAPTER_STATUS as a formal complete chapter (research + findings already existed from its original run). The approval had sat unapplied through Runs 59–67; this run picked it up via the brain-sync READ step.
