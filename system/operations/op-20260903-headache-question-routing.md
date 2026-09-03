@@ -43,3 +43,14 @@ this session actually pushed to.
   audit-20260714-stranded-run-branches.md, caught rather than repeated. Status stays `pushed`,
   NOT `verified`. Asked Brendan for the merge; flip to `verified` once ls-remote origin main
   on health-notebook shows the block.
+- 2026-09-03T11:20:00 SECOND message same day, operation extended (same op id — same routing,
+  same day, idempotent on the new artifact ids). brendan_brain: added timeline
+  `tl-20260903-headache-frequency-premise-challenge`, bumped
+  `task-20260723-moneyball-my-personal-migraine-med` urgency normal->high with a research-log
+  append, QUEUE.md regenerated. health-notebook: `### ADDENDUM` appended under the same
+  DUMP 2026-09-03 block, pushed 9d3648d, ls-remote verified on the session branch.
+  Substance of the extension: Brendan reports high headache frequency and an attack on a
+  no-surf day, which puts Ch14's load-bearing *episodic/well-controlled* premise in question —
+  flagged to the robot for adjudication, NOT resolved here and NOT registered as a finding.
+  health-notebook status stays `pushed`, still not on main (see prior entry).
+

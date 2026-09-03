@@ -6,7 +6,7 @@ domain: health
 sensitivity: health
 status: active
 created_at: 2026-07-23
-urgency: normal
+urgency: high
 depth: deep
 effort_budget: 1_pass
 publication_destination: none
@@ -53,3 +53,24 @@ Reverse-engineer the mechanism of Brendan's specific migraine med and find cheap
   itself part of the headache pattern. Task stays active / `requires_brendan_answer: true`.
   **Second ask now attached:** OQ30 (25-OH-D, ferritin, TSAT, CRP — never drawn) is no longer a
   baseline nicety; his literal question "am I nutrient deficient?" cannot be answered without it.
+- 2026-09-03 [opus, Claude Code session — SECOND message, same day] **URGENCY normal -> high.**
+  Brendan pushed back on the first answer: headaches are "way too often," and he had one **today with
+  no surf** — no exertion, heat, or sweat-sodium exposure. That is his own evidence against the
+  hydration framing being the main driver, and it re-centres this task from trigger-hunting onto
+  **prevention escalation**. Logged at
+  `timeline/2026/09/2026-09-03-headache-frequency-premise-challenge.md`.
+  ⚠️ **This task now carries a premise challenge, not just a missing input.** Ch14 (2026-07-06)
+  stress-tested the Haven plan as *episodic, well-controlled*, and that premise is load-bearing: it is
+  the stated reason CGRP mAbs/gepants were kept as chapter context and NOT registered as actionable.
+  If frequency has risen, that conclusion no longer follows from its own premise. The premise is not
+  disproven — it is **unverified and load-bearing**, which is the worse state.
+  **Two counts resolve it and neither exists:** headache days/month and acute-med days/month against
+  the ICHD-3 lines (triptan ≥10, acetaminophen ≥15 — F192). MOH is the specific thing worth ruling out
+  early, because there the rescue meds drive the frequency and escalating acutely makes it worse.
+  Live answer routed him to: get the two counts, book Stephanie against the existing Ch14 §7 queue
+  (melatonin 3 mg F196 still the #1 add) with a NEW fifth ask appended — *frequency is up, what is the
+  next preventive tier* — run the acute plan as written today (F189 NSAID ban restated, F190 no Tylenol
+  stacking), start a headache log, and draw OQ30. Red-flag criteria + the etrasimod macular-edema
+  visual caveat (F752) were stated to him.
+  **Still blocked on the same input as 2026-08-14:** migraine med NAME + DOSE. Now blocked on a second:
+  the frequency count. Both are Brendan-only answers; `requires_brendan_answer` stays true.
