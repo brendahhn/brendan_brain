@@ -1080,3 +1080,16 @@
 - proposed_durable_knowledge: none (metadata/citation cleanup only — no new generic health conclusion).
 - predictions: none
 - run_status: success (Tuesday — no weekly digest by design; the all-time brief is Sunday-only and self-healing.)
+
+
+## 2026-09-30 — health-robot run summary <!-- triaged pending -->
+- headline: Followed yesterday's stress→gut thread with a pointed question — the animal finding (blocking adrenaline prevents stress-colitis) tempts a "maybe a beta-blocker helps the gut" leap; does human evidence support it? Answer: no, the opposite. In people, beta-blocker use associates with MORE inflammatory-bowel-disease relapse, and the immune mechanism explains why. A tempting shortcut closed; nothing to start or stop.
+- newspaper_ready:
+  - [de-hype / important] The leap from "adrenaline drives stress-colitis in mice, and a beta-blocker reverses it" to "a beta-blocker might protect the gut" is CLOSED by human data: the one IBD dataset on beta-blockers found users had ~54% higher relapse risk (HR 1.54; Eur J Gastroenterol Hepatol 2018, DOI 10.1097/MEG.0000000000001016). Small/retrospective + confounding (people on beta-blockers differ), so read it as "no support for a gut benefit," not "beta-blockers cause flares."
+  - [mechanism] Why the human direction makes sense: beta-2 adrenergic signaling on immune cells is net anti-inflammatory (dampens TLR4/TNF), so blocking it removes an anti-inflammatory brake (Front Pharmacol 2018, PMC6277539). The mouse effect runs through a different (gut-lining) pathway; in a whole human body the immune brake appears to dominate.
+  - [don't-get-fooled] There IS a large literature where beta-blockers improve the gut barrier — but it's specific to liver cirrhosis (relieving portal-vein pressure) and does not transfer to inflammatory bowel disease. Flagged so it isn't mis-cited.
+  - [cross-domain / provider consideration] Beta-blockers (propranolol/metoprolol/timolol) are standard migraine-prevention drugs — so if a beta-blocker is ever weighed for migraine, the IBD-relapse signal is worth a joint GI + neurology conversation (a reason to also weigh the other preventives). Not a recommendation; provider-gated.
+- questions_for_brendan: none cross-domain.
+- proposed_durable_knowledge: "Generic verdict (stress→gut, pharmacology): the sympathetic/adrenergic limb of stress reaching the gut is real, but the intervention is NOT a beta-blocker. In people, beta-blocker use associates with higher IBD relapse (HR ~1.54; DOI 10.1097/MEG.0000000000001016), mechanistically expected because beta-2 adrenergic signaling is net anti-inflammatory on immune cells (PMC6277539) — blocking it releases an anti-inflammatory brake. Do NOT infer a beta-blocker gut benefit from animal stress-colitis data. The on-target lever for the sympathetic limb is behavioral down-regulation of sympathetic drive (slow breathing/HRV, sleep regularity), which lowers the input without blocking the beta-2 brake. Cross-domain caveat: beta-blockers are guideline migraine preventives, so this is a GI-plus-neurology consideration if one is ever weighed for headaches. The cirrhosis literature (beta-blockers improve gut barrier via portal hypertension) does NOT transfer to IBD."
+- predictions: none
+- run_status: success (Wednesday — no weekly digest by design; the all-time brief is Sunday-only and self-healing.)
