@@ -74,3 +74,10 @@ Reverse-engineer the mechanism of Brendan's specific migraine med and find cheap
   visual caveat (F752) were stated to him.
   **Still blocked on the same input as 2026-08-14:** migraine med NAME + DOSE. Now blocked on a second:
   the frequency count. Both are Brendan-only answers; `requires_brendan_answer` stays true.
+- 2026-10-06 [health-robot Run 107] ADVANCED the name-independent axis again (B1 audit): re-verified the
+  Ch14 acute/anti-nausea + dietary-trigger evidence due today — all CONFIRM. Pinned/corrected the generic
+  levers this task will draw on once the med name arrives: acetaminophen is a weak acute agent and gives no
+  proven add-on benefit stacked on a triptan (Cochrane CD008040); metoclopramide (not ondansetron) is the
+  migraine-specific anti-nausea agent (PMID 37291500, 2023 network MA); dietary histamine/tyramine evidence
+  stays weak; regular meals/sleep/hydration are the highest-yield levers (ICHD-3 "headache attributed to
+  fasting"). **Still blocked on med NAME + DOSE + frequency count; `requires_brendan_answer` stays true.**
